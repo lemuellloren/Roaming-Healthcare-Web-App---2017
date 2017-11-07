@@ -55,7 +55,7 @@ html{
 
 footer {
     background: @gray;
-    padding: 30px 0px;
+    padding: 30px 0 0 0;
     h6{
         font-size: @default-font-size - 2;
         font-weight: @font-light;
@@ -135,7 +135,64 @@ footer {
 }
 .main{
     background: @darkgray;
-    padding: 0 20px;
+    padding:20px;
+    .copyright{
+        text-align: center;
+        img{
+            width: 220px;
+        }
+        p{
+            color: @white;
+            font-size: @default-font-size - 6;
+            font-weight: @font-light;
+            margin: 0;
+        }
+    }
+    .url{
+        text-align: center;
+        line-height: 7px;
+        a{
+            color: @white;
+            font-size: @default-font-size - 6;
+            font-weight: @font-light;
+        }
+    }
+    .share-icons{   
+        text-align: center;
+        padding-top: 20px;
+        p{
+            color: @white;
+            font-size: @default-font-size - 4;
+            font-weight: @font-light;
+            margin: 0;
+        }
+        ul{
+         padding: 0;
+         list-style: none;
+         li{
+           display: inline-block;
+           width: auto;
+           margin-right: 5px;
+           a{
+            background: @white;
+            border-radius: 15px;
+            padding: 6px;
+            .soft-transition();
+            span{
+                width: 20px;
+                text-align: center;
+                color: @darkgray;
+            }
+            &:hover{
+                background: @orange;
+                span{
+
+                }
+            }
+        }
+    }
+}
+}
 }
 }
 

@@ -8967,7 +8967,7 @@ html {
 /* Site Menu, Site Footer, etc. */
 footer {
   background: #E4E4E4;
-  padding: 30px 0px;
+  padding: 30px 0 0 0;
 }
 footer h6 {
   font-size: 14px;
@@ -9073,7 +9073,61 @@ footer .contact-info ul li a:hover {
 }
 footer .main {
   background: #444444;
-  padding: 0 20px;
+  padding: 20px;
+}
+footer .main .copyright {
+  text-align: center;
+}
+footer .main .copyright img {
+  width: 220px;
+}
+footer .main .copyright p {
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 300;
+  margin: 0;
+}
+footer .main .url {
+  text-align: center;
+  line-height: 7px;
+}
+footer .main .url a {
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 300;
+}
+footer .main .share-icons {
+  text-align: center;
+  padding-top: 20px;
+}
+footer .main .share-icons p {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+}
+footer .main .share-icons ul {
+  padding: 0;
+  list-style: none;
+}
+footer .main .share-icons ul li {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+}
+footer .main .share-icons ul li a {
+  background: #FFF;
+  border-radius: 15px;
+  padding: 6px;
+  transition: all 0.4s ease;
+}
+footer .main .share-icons ul li a span {
+  width: 20px;
+  text-align: center;
+  color: #444444;
+}
+footer .main .share-icons ul li a:hover {
+  background: #FE7B00;
 }
 nav {
   position: fixed;
