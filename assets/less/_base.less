@@ -11,23 +11,140 @@
 @darkgray: #444444;
 @gray: #E4E4E4;
 @lightgray: #F0F0F0;
-
 @hvr-blue: #053C69;
 @hvr-orange: #C45F00;
 @main-font: 'Montserrat';
 
 
 // FRAMEWORK OVERRIDES
-
-body{
-	font-family: @main-font;
+body {
+    font-family: @main-font;
 }
 
 // SITE-WIDE STYLES & MIXINS
 .soft-transition() {
-	transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
+
+
+
+
 /* Global Button Area Styles */
+
+.btn-white() {
+    width: 109.1px;
+    height: 36.6px;
+    border-radius: 3px;
+    border: solid 1px @orange;
+    background-color: @white;
+    font-size: 14px;
+    text-align: center;
+    color: @orange;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out 0.1s;
+    &::before {
+        content: '';
+        color: @white;
+        background-color: @orange;
+        width: 0%;
+        height: 0%;
+        border-radius: 50%;
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        .soft-transition();
+    }
+    &:hover {
+        background-color: @orange;
+        color: @white;
+        &::before {
+            width: 150%;
+            height: 150%;
+            top: -25%;
+            left: -25%;
+            opacity: 0;
+        }
+    }
+}
+
+.btn-orange() {
+    width: 109.1px;
+    height: 36.6px;
+    border-radius: 3px;
+    border: 1px solid @orange;
+    background-color: @orange;
+    font-size: 14px;
+    text-align: center;
+    color: @white;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out 0.1s;
+    &::before {
+        content: '';
+        background-color: @hvr-orange;
+        width: 0%;
+        height: 0%;
+        border-radius: 50%;
+        color: @white;
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        .soft-transition();
+    }
+    &:hover {
+        background-color: @hvr-orange;
+        border: 1px solid @hvr-orange;
+
+        &::before {
+            width: 150%;
+            height: 150%;
+            top: -25%;
+            left: -25%;
+            opacity: 0;
+        }
+    }
+}
+
+.btn-blue() {
+    width: 110px;
+    height: 37px;
+    border-radius: 3px;
+    border: 1px solid @blue;
+    background-color: @blue;
+    font-size: 14px;
+    text-align: center;
+    color: @white;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out 0.1s;
+    &::before {
+        content: '';
+        background-color: @hvr-blue;
+        width: 0%;
+        height: 0%;
+        border-radius: 50%;
+        color: white;
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        .soft-transition();
+    }
+    &:hover {
+        background-color: @hvr-blue;
+        border: 1px solid @hvr-blue; 
+        &::before {
+            width: 150%;
+            height: 150%;
+            top: -25%;
+            left: -25%;
+            opacity: 0;
+        }
+    }
+}
 
 
 
@@ -35,4 +152,5 @@ body{
 /* Global End Button Area Styles */
 
 // GLOBAL PAGE SECTIONS
+
 /* Site Menu, Site Footer, etc. */
