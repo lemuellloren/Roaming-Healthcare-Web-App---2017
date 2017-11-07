@@ -12,11 +12,11 @@
 @gray: #E4E4E4;
 @lightgray: #F0F0F0;
 @main-font: 'Montserrat';
-
-
+@darkorange: #DC6A00;
+@default-font-size: 16px;
 // FRAMEWORK OVERRIDES
 
-body{
+html{
 	font-family: @main-font;
 }
 
@@ -60,8 +60,38 @@ nav{
     .uk-offcanvas-bar{
         width: 160px;
         background: @blue;
-        ul{
-            list-style: none;
+        .uk-close{
+            position: absolute;
+            right: 15px;
+            top: 13px;
+            font-size: @default-font-size + 8px;
+            color: @darkorange;
+            opacity: 1;
+            .soft-transition();
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+        .menulist{
+            padding-top:  50px;
+            text-align: center;
+            ul{
+                list-style: none;
+                padding: 0;
+                li{
+                    a{
+                        font-weight: 300;
+                        color: @white;
+                        font-size: @default-font-size;
+                        padding: 12px 20px;
+                        text-align: center;
+                        display: block;
+                    }
+                }
+                a.list-services-btn{
+                    margin-top: 15px;
+                }
+            }
         }
     }
 }

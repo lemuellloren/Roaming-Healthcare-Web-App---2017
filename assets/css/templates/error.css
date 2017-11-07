@@ -8960,7 +8960,7 @@ a.uk-thumbnail:focus {
     page-break-after: avoid;
   }
 }
-body {
+html {
   font-family: 'Montserrat';
 }
 /* Site Menu, Site Footer, etc. */
@@ -8987,8 +8987,36 @@ nav .uk-offcanvas-bar {
   width: 160px;
   background: #165C96;
 }
-nav .uk-offcanvas-bar ul {
+nav .uk-offcanvas-bar .uk-close {
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  font-size: 24px;
+  color: #DC6A00;
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+nav .uk-offcanvas-bar .uk-close:hover {
+  opacity: 0.8;
+}
+nav .uk-offcanvas-bar .menulist {
+  padding-top: 50px;
+  text-align: center;
+}
+nav .uk-offcanvas-bar .menulist ul {
   list-style: none;
+  padding: 0;
+}
+nav .uk-offcanvas-bar .menulist ul li a {
+  font-weight: 300;
+  color: #FFF;
+  font-size: 16px;
+  padding: 12px 20px;
+  text-align: center;
+  display: block;
+}
+nav .uk-offcanvas-bar .menulist ul a.list-services-btn {
+  margin-top: 15px;
 }
 .uk-grid {
   margin: 0;
