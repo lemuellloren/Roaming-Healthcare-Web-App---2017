@@ -4737,6 +4737,24 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/fonts\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/assets\/css\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/assets\/css\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
 	"\/assets\/css\/templates\/error.css": {
 		"aP": 1,
 		"bl": 0,
@@ -4769,23 +4787,27 @@
 		"oAP": "\/assets\/css\/templates\/home.css.map",
 		"oF": 0
 		},
-	"\/assets\/fonts\/fontawesome-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/fontawesome-webfont.ttf",
-		"oF": 0
+	"\/assets\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 2959,
+		"oA": 0,
+		"oAP": "\/assets\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
-	"\/assets\/fonts\/fontawesome-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/fontawesome-webfont.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/fontawesome-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/fontawesome-webfont.woff2",
-		"oF": 0
+	"\/assets\/images\/search-banner-bg.png": {
+		"ft": 32768,
+		"iS": 1651507,
+		"oA": 0,
+		"oAP": "\/assets\/images\/search-banner-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/js\/_base.js": {
 		"ft": 64,

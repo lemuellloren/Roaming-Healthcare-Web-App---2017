@@ -8964,6 +8964,11 @@ body {
   font-family: 'Montserrat';
 }
 /* Site Menu, Site Footer, etc. */
+nav {
+  position: fixed;
+  top: 0;
+  padding: 15px;
+}
 /* ========================================================================
    Component: Slideshow
  ========================================================================== */
