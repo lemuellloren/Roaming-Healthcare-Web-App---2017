@@ -4769,18 +4769,6 @@
 		"oAP": "\/assets\/css\/templates\/home.css.map",
 		"oF": 0
 		},
-	"\/assets\/fonts\/AdobeFnt16.lst": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/AdobeFnt16.lst",
-		"oF": 0
-		},
-	"\/assets\/fonts\/AdobeFnt18.lst": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/AdobeFnt18.lst",
-		"oF": 0
-		},
 	"\/assets\/fonts\/fontawesome-webfont.ttf": {
 		"ft": 8192,
 		"oA": 2,
@@ -4797,60 +4785,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome-webfont.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Lobster_1.3.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Lobster_1.3.otf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/MinionPro-Regular.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/MinionPro-Regular.otf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Myriad Condensed Web": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Myriad Condensed Web",
-		"oF": 0
-		},
-	"\/assets\/fonts\/MyriadPro-BoldCond.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/MyriadPro-BoldCond.otf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/MyriadPro-Cond.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/MyriadPro-Cond.otf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/MyriadPro-LightCond.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/MyriadPro-LightCond.otf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/MyriadPro-Regular.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/MyriadPro-Regular.otf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/MyriadPro-Semibold.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/MyriadPro-Semibold.otf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/MyriadPro-SemiboldCond.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/MyriadPro-SemiboldCond.otf",
 		"oF": 0
 		},
 	"\/assets\/js\/_base.js": {

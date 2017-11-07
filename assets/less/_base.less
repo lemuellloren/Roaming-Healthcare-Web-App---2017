@@ -1,40 +1,5 @@
 // GOOGLE FONTS
-@font-face {
-    font-family: lobster;
-    src: url(../fonts/Lobster_1.3.otf);
-}
-@font-face {
-    font-family: minionRegular;
-    src: url(../fonts/MinionPro-Regular.otf);
-}
-@font-face {
-    font-family: MyriadProBC;
-    src: url(../fonts/MyriadPro-BoldCond.otf);
-}
-@font-face {
-    font-family: MyriadProC;
-    src: url(../fonts/MyriadPro-Cond.otf);
-}
-@font-face {
-    font-family: MyriadProLightC;
-    src: url(../fonts/MyriadPro-LightCond.otf);
-}
-@font-face {
-    font-family: MyriadProReg;
-    src: url(../fonts/MyriadPro-Regular.otf);
-}
-@font-face {
-    font-family: MyriadProSemi;
-    src: url(../fonts/MyriadPro-Semibold.otf);
-}
-@font-face {
-    font-family: MyriadProSemiC;
-    src: url(../fonts/MyriadPro-SemiboldCond.otf);
-}
-@font-face {
-    font-family: Zapf;
-    src: url(../fonts/ZapfDingbats.ttf);
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
 // BASE FRAMEWORK
 @import '../bower_components/uikit/less/uikit.less';
 
@@ -46,14 +11,13 @@
 @gray: #A7A9AC;
 @black: #EFDFEF;
 @white: #FFF;
-@main-font: 'Roboto', Helvetica, Arial, sans-serif;
-@code-font: 'Source Code Pro', monospace;
+@main-font: 'Montserrat';
 
 
 // FRAMEWORK OVERRIDES
 
 body{
-	font-family: lobster;
+	font-family: @main-font;
 }
 
 // SITE-WIDE STYLES & MIXINS
