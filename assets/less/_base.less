@@ -14,8 +14,21 @@
 @hvr-blue: #053C69;
 @hvr-orange: #C45F00;
 @main-font: 'Montserrat';
-
-
+/* Media Queries Area */
+@width-320: ~"only screen and (min-width: 320px)";
+@width-360: ~"only screen and (min-width: 360px)";
+@width-480: ~"only screen and (min-width: 480px)";
+@width-640: ~"only screen and (min-width: 640px)";
+@width-690: ~"only screen and (min-width: 690px)";
+@width-768: ~"only screen and (min-width: 768px)";
+@width-768m: ~"screen and (max-width: 768px)";
+@width-960: ~"only screen and (min-width: 960px)";
+@width-1024: ~"only screen and (min-width: 1024px)";
+@width-1366: ~"only screen and (min-width: 1366px)"; 
+// MAX WIDTH AREA
+@width-320max: ~"only screen and (max-width: 320px)";
+@width-960max: ~"only screen and (max-width: 690px)";
+/* End Media Queries Area */
 // FRAMEWORK OVERRIDES
 body {
     font-family: @main-font;
@@ -30,6 +43,44 @@ body {
 
 
 /* Global Button Area Styles */
+
+.btn-transparent-blue() {
+    width: 109.1px;
+    height: 36.6px;
+    border-radius: 3px;
+    border: solid 1px @white;
+    background-color: @blue;
+    font-size: 14px;
+    text-align: center;
+    color: @white;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out 0.1s;
+    &::before {
+        content: '';
+        color: @white;
+        background-color: @orange;
+        width: 0%;
+        height: 0%;
+        border-radius: 50%;
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        .soft-transition();
+    }
+    &:hover {
+        background-color: @orange;
+        color: @white;
+        &::before {
+            width: 150%;
+            height: 150%;
+            top: -25%;
+            left: -25%;
+            opacity: 0;
+        }
+    }
+}
 
 .btn-white() {
     width: 109.1px;
@@ -147,9 +198,12 @@ body {
 }
 
 
-
-
 /* Global End Button Area Styles */
+
+/* Link Hover animations */
+
+
+/* End Link Hover animations */
 
 // GLOBAL PAGE SECTIONS
 
