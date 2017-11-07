@@ -1,0 +1,66 @@
+// GOOGLE FONTS
+@font-face {
+    font-family: lobster;
+    src: url(../fonts/Lobster_1.3.otf);
+}
+@font-face {
+    font-family: minionRegular;
+    src: url(../fonts/MinionPro-Regular.otf);
+}
+@font-face {
+    font-family: MyriadProBC;
+    src: url(../fonts/MyriadPro-BoldCond.otf);
+}
+@font-face {
+    font-family: MyriadProC;
+    src: url(../fonts/MyriadPro-Cond.otf);
+}
+@font-face {
+    font-family: MyriadProLightC;
+    src: url(../fonts/MyriadPro-LightCond.otf);
+}
+@font-face {
+    font-family: MyriadProReg;
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family: MyriadProSemi;
+    src: url(../fonts/MyriadPro-Semibold.otf);
+}
+@font-face {
+    font-family: MyriadProSemiC;
+    src: url(../fonts/MyriadPro-SemiboldCond.otf);
+}
+@font-face {
+    font-family: Zapf;
+    src: url(../fonts/ZapfDingbats.ttf);
+}
+// BASE FRAMEWORK
+@import '../bower_components/uikit/less/uikit.less';
+
+
+// GLOBAL VARIABLES
+@aqua: #ACCCCF;
+@darkaqua: #015962;
+@midaqua: mix(@aqua, @darkaqua, 50%);
+@gray: #A7A9AC;
+@black: #EFDFEF;
+@white: #FFF;
+@main-font: 'Roboto', Helvetica, Arial, sans-serif;
+@code-font: 'Source Code Pro', monospace;
+
+
+// FRAMEWORK OVERRIDES
+
+body{
+	font-family: lobster;
+}
+
+// SITE-WIDE STYLES & MIXINS
+.soft-transition() {
+	transition: all 0.4s ease;
+}
+
+
+// GLOBAL PAGE SECTIONS
+/* Site Menu, Site Footer, etc. */

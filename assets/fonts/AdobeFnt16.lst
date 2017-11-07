@@ -1,0 +1,218 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:\.DS_Store
+FileLength:6148
+FileModTime:1506612644
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Lobster1.3
+FamilyName:Lobster 1.3
+StyleName:Regular
+MenuName:Lobster 1.3
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Lobster 1.3
+WritingScript:Roman
+OutlineFileName:\Lobster_1.3.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:42564
+FileModTime:1370311750
+NameArray:0,Mac,4,Lobster 1.3
+NameArray:0,Win,1,Lobster 1.3
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:231312
+FileModTime:1278626832
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:\Myriad Condensed Web
+FileModTime:876372702
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-BoldCond
+FamilyName:Myriad Pro
+StyleName:Bold Condensed
+MenuName:Myriad Pro Cond
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:Myriad Pro Bold Condensed
+WritingScript:Roman
+OutlineFileName:\MyriadPro-BoldCond.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:96368
+FileModTime:1193839846
+DesignSize:110
+NameArray:0,Mac,18,Myriad Pro Bold Cond
+NameArray:0,Mac,4,Myriad Pro Bold Condensed
+NameArray:0,Win,1,Myriad Pro Cond
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Cond
+FamilyName:Myriad Pro
+StyleName:Condensed
+MenuName:Myriad Pro Cond
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Myriad Pro Condensed
+WritingScript:Roman
+OutlineFileName:\MyriadPro-Cond.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:93864
+FileModTime:1193839846
+DesignSize:110
+NameArray:0,Mac,18,Myriad Pro Cond
+NameArray:0,Mac,4,Myriad Pro Condensed
+NameArray:0,Win,1,Myriad Pro Cond
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-LightCond
+FamilyName:Myriad Pro
+StyleName:Light Condensed
+MenuName:Myriad Pro Light Cond
+StyleBits:0
+WeightClass:300
+WidthClass:3
+AngleClass:0
+FullName:Myriad Pro Light Condensed
+WritingScript:Roman
+OutlineFileName:\MyriadPro-LightCond.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:88744
+FileModTime:1193839848
+DesignSize:110
+NameArray:0,Mac,18,Myriad Pro Light Cond
+NameArray:0,Mac,4,Myriad Pro Light Condensed
+NameArray:0,Win,1,Myriad Pro Light Cond
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Regular
+FamilyName:Myriad Pro
+StyleName:Regular
+MenuName:Myriad Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Myriad Pro
+WritingScript:Roman
+OutlineFileName:\MyriadPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:95984
+FileModTime:1193839848
+DesignSize:110
+NameArray:0,Mac,4,Myriad Pro
+NameArray:0,Win,1,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Semibold
+FamilyName:Myriad Pro
+StyleName:Semibold
+MenuName:Myriad Pro Light
+StyleBits:2
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Myriad Pro Semibold
+WritingScript:Roman
+OutlineFileName:\MyriadPro-Semibold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:97332
+FileModTime:1193839848
+DesignSize:110
+NameArray:0,Mac,4,Myriad Pro Semibold
+NameArray:0,Win,1,Myriad Pro Light
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-SemiboldCond
+FamilyName:Myriad Pro
+StyleName:Semibold Condensed
+MenuName:Myriad Pro Light Cond
+StyleBits:2
+WeightClass:600
+WidthClass:3
+AngleClass:0
+FullName:Myriad Pro Semibold Condensed
+WritingScript:Roman
+OutlineFileName:\MyriadPro-SemiboldCond.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:94716
+FileModTime:1193839848
+DesignSize:110
+NameArray:0,Mac,18,Myriad Pro Semibold Cond
+NameArray:0,Mac,4,Myriad Pro Semibold Condensed
+NameArray:0,Win,1,Myriad Pro Light Cond
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
