@@ -8969,29 +8969,34 @@ nav {
   top: 0;
   width: 100%;
 }
+nav .mobile-menu {
+  background: #165C96;
+}
 nav .mobile-menu .logo {
-  padding: 15px 0 0 20px;
+  padding: 10px 0 10px 20px;
 }
 nav .mobile-menu .logo img {
   width: 186px;
 }
 nav .mobile-menu .menu {
   text-align: right;
-  padding: 15px 20px 0 0;
+  padding: 10px 20px 10px 0;
 }
 nav .mobile-menu .menu a span {
+  position: relative;
+  top: 2px;
   transition: all 0.4s ease;
   font-size: 26px;
   color: #FFF;
 }
 nav .mobile-menu .menu a:hover span {
-  color: #165C96;
+  color: #FE7B00;
 }
-nav .uk-offcanvas-bar {
+nav .mobile-menu .uk-offcanvas-bar {
   width: 160px;
   background: #165C96;
 }
-nav .uk-offcanvas-bar .uk-close {
+nav .mobile-menu .uk-offcanvas-bar .uk-close {
   position: absolute;
   right: 15px;
   top: 13px;
@@ -9000,27 +9005,60 @@ nav .uk-offcanvas-bar .uk-close {
   opacity: 1;
   transition: all 0.4s ease;
 }
-nav .uk-offcanvas-bar .uk-close:hover {
+nav .mobile-menu .uk-offcanvas-bar .uk-close:hover {
   opacity: 0.8;
 }
-nav .uk-offcanvas-bar .menulist {
+nav .mobile-menu .uk-offcanvas-bar .menulist {
   padding-top: 50px;
   text-align: center;
 }
-nav .uk-offcanvas-bar .menulist ul {
+nav .mobile-menu .uk-offcanvas-bar .menulist ul {
   list-style: none;
   padding: 0;
 }
-nav .uk-offcanvas-bar .menulist ul li a {
+nav .mobile-menu .uk-offcanvas-bar .menulist ul li a {
   font-weight: 300;
   color: #FFF;
   font-size: 16px;
   padding: 12px 20px;
   text-align: center;
   display: block;
+  transition: all 0.4s ease;
 }
-nav .uk-offcanvas-bar .menulist ul a.list-services-btn {
+nav .desktop-menu {
+  background: #165C96;
+}
+nav .desktop-menu .logo {
+  padding: 10px 0 10px 20px;
+}
+nav .desktop-menu .logo img {
+  width: 240px;
+}
+nav .desktop-menu .menulist {
+  text-align: right;
+  padding: 10px 20px 10px 0;
+}
+nav .desktop-menu .menulist ul {
+  width: auto;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+}
+nav .desktop-menu .menulist ul li {
+  display: inline-block;
+  width: auto;
+}
+nav .desktop-menu .menulist ul li a {
+  font-weight: 300;
+  color: #FFF;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+nav a.list-services-btn {
   margin-top: 15px;
+  display: inline-block;
+  width: auto;
 }
 .uk-grid {
   margin: 0;

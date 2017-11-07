@@ -4787,6 +4787,17 @@
 		"oAP": "\/assets\/css\/templates\/home.css.map",
 		"oF": 0
 		},
+	"\/assets\/images\/desktop-logo.png": {
+		"ft": 32768,
+		"iS": 16621,
+		"oA": 0,
+		"oAP": "\/assets\/images\/desktop-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 2959,

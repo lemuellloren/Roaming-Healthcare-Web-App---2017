@@ -34,66 +34,103 @@ nav{
     top: 0;
     width: 100%;
     .mobile-menu{
+        background: @blue;
         .logo{
-            padding: 15px 0 0 20px;
+            padding: 10px 0 10px 20px;
             img{
                 width: 186px;
             }
         }
         .menu{
             text-align: right;
-            padding: 15px 20px 0 0;
+            padding: 10px 20px 10px 0;
             a{
                 span{
+                    position: relative;
+                    top: 2px;
                     .soft-transition();
                     font-size: 26px;
                     color: @white;
                 }
                 &:hover{
                     span{
-                        color: @blue;
+                        color: @orange;
                     }
                 }
             }
             
         }
+        .uk-offcanvas-bar{
+            width: 160px;
+            background: @blue;
+            .uk-close{
+                position: absolute;
+                right: 15px;
+                top: 13px;
+                font-size: @default-font-size + 8px;
+                color: @darkorange;
+                opacity: 1;
+                .soft-transition();
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+            .menulist{
+                padding-top:  50px;
+                text-align: center;
+                ul{
+                    list-style: none;
+                    padding: 0;
+                    li{
+                        a{
+                            font-weight: 300;
+                            color: @white;
+                            font-size: @default-font-size;
+                            padding: 12px 20px;
+                            text-align: center;
+                            display: block;
+                            .soft-transition();
+                        }
+                    }
+                }
+            }
+        }
     }
-    .uk-offcanvas-bar{
-        width: 160px;
+    .desktop-menu{
         background: @blue;
-        .uk-close{
-            position: absolute;
-            right: 15px;
-            top: 13px;
-            font-size: @default-font-size + 8px;
-            color: @darkorange;
-            opacity: 1;
-            .soft-transition();
-            &:hover{
-                opacity: 0.8;
+        .logo{
+            padding: 10px 0 10px 20px;
+            img{
+                width: 240px;
             }
         }
         .menulist{
-            padding-top:  50px;
-            text-align: center;
+            text-align: right;
+            padding: 10px 20px 10px 0;
             ul{
+                width: auto;
+                display: inline-block;
                 list-style: none;
-                padding: 0;
+                margin: 0;
                 li{
+                    display: inline-block;
+                    width: auto;
                     a{
                         font-weight: 300;
                         color: @white;
                         font-size: @default-font-size;
-                        padding: 12px 20px;
                         text-align: center;
-                        display: block;
+                        .soft-transition();
                     }
-                }
-                a.list-services-btn{
-                    margin-top: 15px;
                 }
             }
         }
+    }
+
+    a.list-services-btn{
+        margin-top: 15px;
+        display: inline-block;
+        width: auto;
     }
 }
 
