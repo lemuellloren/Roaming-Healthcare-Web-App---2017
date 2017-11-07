@@ -36,7 +36,7 @@ nav{
     .mobile-menu{
         background: @blue;
         .logo{
-            padding: 10px 0 10px 20px;
+            padding: 15px 0 14px 20px;
             img{
                 width: 186px;
             }
@@ -47,7 +47,7 @@ nav{
             a{
                 span{
                     position: relative;
-                    top: 2px;
+                    top: 7px;
                     .soft-transition();
                     font-size: 26px;
                     color: @white;
@@ -83,55 +83,75 @@ nav{
                     padding: 0;
                     li{
                         a{
-                            font-weight: 300;
+                            font-weight: 200;
                             color: @white;
                             font-size: @default-font-size;
                             padding: 12px 20px;
                             text-align: center;
                             display: block;
+                            text-decoration: none;
                             .soft-transition();
+                            &:hover{
+
+                            }
                         }
                     }
+                }
+                a.list-services-btn{
+                    margin-top: 15px;
+                    display: inline-block;
+                    width: auto;
                 }
             }
         }
     }
     .desktop-menu{
         background: @blue;
-        .logo{
-            padding: 10px 0 10px 20px;
-            img{
-                width: 240px;
+        .uk-container{
+            margin: 0 auto;
+            .logo{
+                padding: 10px 0 10px 20px;
+                img{
+                    width: 240px;
+                }
             }
-        }
-        .menulist{
-            text-align: right;
-            padding: 10px 20px 10px 0;
-            ul{
-                width: auto;
-                display: inline-block;
-                list-style: none;
-                margin: 0;
-                li{
-                    display: inline-block;
+            .menulist{
+                text-align: right;
+                padding: 20px 20px 10px 0;
+                ul{
                     width: auto;
-                    a{
-                        font-weight: 300;
-                        color: @white;
-                        font-size: @default-font-size;
-                        text-align: center;
-                        .soft-transition();
+                    display: inline-block;
+                    list-style: none;
+                    margin: 0;
+                    li{
+                        display: inline-block;
+                        width: auto;
+                        a{
+                            font-weight: 200;
+                            color: @white;
+                            font-size: @default-font-size;
+                            text-align: center;
+                            .soft-transition();
+                            padding: 5px 0px;
+                            text-decoration: none;
+                            margin: 0 10px;
+                            &:hover{
+
+                            }
+                            &.active{
+                                border-bottom: solid 2px @white;
+                            }
+                        }
                     }
+                }
+                a.list-services-btn{
+
                 }
             }
         }
     }
 
-    a.list-services-btn{
-        margin-top: 15px;
-        display: inline-block;
-        width: auto;
-    }
+
 }
 
 .uk-grid{

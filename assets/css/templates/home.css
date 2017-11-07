@@ -8973,7 +8973,7 @@ nav .mobile-menu {
   background: #165C96;
 }
 nav .mobile-menu .logo {
-  padding: 10px 0 10px 20px;
+  padding: 15px 0 14px 20px;
 }
 nav .mobile-menu .logo img {
   width: 186px;
@@ -8984,7 +8984,7 @@ nav .mobile-menu .menu {
 }
 nav .mobile-menu .menu a span {
   position: relative;
-  top: 2px;
+  top: 7px;
   transition: all 0.4s ease;
   font-size: 26px;
   color: #FFF;
@@ -9017,48 +9017,58 @@ nav .mobile-menu .uk-offcanvas-bar .menulist ul {
   padding: 0;
 }
 nav .mobile-menu .uk-offcanvas-bar .menulist ul li a {
-  font-weight: 300;
+  font-weight: 200;
   color: #FFF;
   font-size: 16px;
   padding: 12px 20px;
   text-align: center;
   display: block;
+  text-decoration: none;
   transition: all 0.4s ease;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn {
+  margin-top: 15px;
+  display: inline-block;
+  width: auto;
 }
 nav .desktop-menu {
   background: #165C96;
 }
-nav .desktop-menu .logo {
+nav .desktop-menu .uk-container {
+  margin: 0 auto;
+}
+nav .desktop-menu .uk-container .logo {
   padding: 10px 0 10px 20px;
 }
-nav .desktop-menu .logo img {
+nav .desktop-menu .uk-container .logo img {
   width: 240px;
 }
-nav .desktop-menu .menulist {
+nav .desktop-menu .uk-container .menulist {
   text-align: right;
-  padding: 10px 20px 10px 0;
+  padding: 20px 20px 10px 0;
 }
-nav .desktop-menu .menulist ul {
+nav .desktop-menu .uk-container .menulist ul {
   width: auto;
   display: inline-block;
   list-style: none;
   margin: 0;
 }
-nav .desktop-menu .menulist ul li {
+nav .desktop-menu .uk-container .menulist ul li {
   display: inline-block;
   width: auto;
 }
-nav .desktop-menu .menulist ul li a {
-  font-weight: 300;
+nav .desktop-menu .uk-container .menulist ul li a {
+  font-weight: 200;
   color: #FFF;
   font-size: 16px;
   text-align: center;
   transition: all 0.4s ease;
+  padding: 5px 0px;
+  text-decoration: none;
+  margin: 0 10px;
 }
-nav a.list-services-btn {
-  margin-top: 15px;
-  display: inline-block;
-  width: auto;
+nav .desktop-menu .uk-container .menulist ul li a.active {
+  border-bottom: solid 2px #FFF;
 }
 .uk-grid {
   margin: 0;
