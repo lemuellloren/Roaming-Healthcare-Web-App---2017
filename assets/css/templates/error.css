@@ -8962,8 +8962,119 @@ a.uk-thumbnail:focus {
 }
 html {
   font-family: 'Montserrat';
+  background: #F0F0F0;
 }
 /* Site Menu, Site Footer, etc. */
+footer {
+  background: #E4E4E4;
+  padding: 30px 0px;
+}
+footer h6 {
+  font-size: 14px;
+  font-weight: 300;
+}
+footer .navigation {
+  padding: 0 20px;
+  margin-bottom: 35px;
+}
+footer .navigation ul {
+  list-style: none;
+  padding: 0px;
+}
+footer .navigation ul li {
+  margin-bottom: 5px;
+}
+footer .navigation ul li a {
+  color: #444444;
+  font-size: 12px;
+  transition: all 0.4s ease;
+  text-decoration: none;
+  font-weight: 300;
+}
+footer .navigation ul li a.subscribe {
+  color: #FE7B00;
+}
+footer .contact {
+  padding: 0 20px;
+}
+footer .contact form {
+  margin-bottom: 35px;
+}
+footer .contact form .field {
+  width: 100%;
+  height: auto;
+}
+footer .contact form .field input {
+  height: 30px;
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  transition: all 0.4s ease;
+}
+footer .contact form .field input:placeholder {
+  color: #BBBBBB;
+}
+footer .contact form .field input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+}
+footer .contact form .field textarea {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  transition: all 0.4s ease;
+  padding: 10px 10px;
+}
+footer .contact form .field textarea:placeholder {
+  color: #BBBBBB;
+}
+footer .contact form .field textarea:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+}
+footer .contact-info {
+  padding: 0 20px 40px 20px;
+}
+footer .contact-info p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+footer .contact-info ul {
+  padding: 0;
+  list-style: none;
+}
+footer .contact-info ul li {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+}
+footer .contact-info ul li a {
+  background: #444444;
+  border-radius: 15px;
+  padding: 6px;
+  transition: all 0.4s ease;
+}
+footer .contact-info ul li a span {
+  width: 20px;
+  text-align: center;
+  color: #FFF;
+}
+footer .contact-info ul li a:hover {
+  background: #FE7B00;
+}
+footer .main {
+  background: #444444;
+  padding: 0 20px;
+}
 nav {
   position: fixed;
   top: 0;

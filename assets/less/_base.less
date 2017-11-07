@@ -11,13 +11,19 @@
 @darkgray: #444444;
 @gray: #E4E4E4;
 @lightgray: #F0F0F0;
+@lighergray: #BBBBBB;
 @main-font: 'Montserrat';
 @darkorange: #DC6A00;
 @default-font-size: 16px;
+@font-regular: 400;
+@font-light: 300;
+@font-lighter: 200;
+
 // FRAMEWORK OVERRIDES
 
 html{
 	font-family: @main-font;
+    background: @lightgray;
 }
 
 // SITE-WIDE STYLES & MIXINS
@@ -25,9 +31,113 @@ html{
 	transition: all 0.4s ease;
 }
 
+.contact-field(){
+ width: 93%;
+ font-size: 12px;
+ padding: 5px 10px;
+ border: 0;
+ border-radius: 5px;
+ margin-bottom: 10px;
+ border: @white 1px solid;
+ .soft-transition();
+ &:placeholder{
+    color: @lighergray;
+}
+&:focus{
+    border-bottom: @orange 1px solid;
+    outline: inherit;
+}
+}
+
 
 // GLOBAL PAGE SECTIONS
 /* Site Menu, Site Footer, etc. */
+
+footer {
+    background: @gray;
+    padding: 30px 0px;
+    h6{
+        font-size: @default-font-size - 2;
+        font-weight: @font-light;
+    }
+    .navigation{
+        padding: 0 20px;
+        margin-bottom: 35px;
+        ul{
+            list-style: none;
+            padding: 0px;
+            li{
+                margin-bottom: 5px;
+                a{
+                    color: @darkgray;
+                    font-size: @default-font-size - 4;
+                    .soft-transition();
+                    text-decoration: none;
+                    font-weight: @font-light;
+                    &.subscribe{
+                        color: @orange;
+                    }
+                }
+            }
+        }
+    }
+    .contact{
+        padding: 0 20px;
+        form{
+            margin-bottom: 35px;
+            .field{
+                width: 100%;
+                height: auto;
+                input{
+                 height: 30px;
+                 .contact-field();
+             }
+             textarea{
+               .contact-field();
+               padding: 10px 10px;
+           }
+       }
+   }
+}
+.contact-info{
+    padding: 0 20px 40px 20px;
+    p{
+        font-size: @default-font-size - 2;
+        font-weight: @font-light;
+        line-height: 22px;
+    }
+    ul{
+        padding: 0;
+        list-style: none;
+        li{
+            display: inline-block;
+            width: auto;
+            margin-right: 5px;
+            a{
+                background: @darkgray;
+                border-radius: 15px;
+                padding: 6px;
+                .soft-transition();
+                span{
+                    width: 20px;
+                    text-align: center;
+                    color: @white;
+                }
+                &:hover{
+                    background: @orange;
+                    span{
+
+                    }
+                }
+            }
+        }
+    }
+}
+.main{
+    background: @darkgray;
+    padding: 0 20px;
+}
+}
 
 nav{
     position: fixed;
@@ -83,7 +193,7 @@ nav{
                     padding: 0;
                     li{
                         a{
-                            font-weight: 200;
+                            font-weight: @font-lighter;
                             color: @white;
                             font-size: @default-font-size;
                             padding: 12px 20px;
@@ -127,7 +237,7 @@ nav{
                         display: inline-block;
                         width: auto;
                         a{
-                            font-weight: 200;
+                            font-weight: @font-lighter;
                             color: @white;
                             font-size: @default-font-size;
                             text-align: center;
@@ -150,8 +260,6 @@ nav{
             }
         }
     }
-
-
 }
 
 .uk-grid{
