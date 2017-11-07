@@ -8967,20 +8967,24 @@ html {
 nav {
   position: fixed;
   top: 0;
-  padding: 15px 20px;
+  width: 100%;
 }
-nav .mobile .logo {
-  padding: 0;
+nav .mobile-menu .logo {
+  padding: 15px 0 0 20px;
 }
-nav .mobile .menu {
+nav .mobile-menu .logo img {
+  width: 186px;
+}
+nav .mobile-menu .menu {
   text-align: right;
+  padding: 15px 20px 0 0;
 }
-nav .mobile .menu a span {
+nav .mobile-menu .menu a span {
   transition: all 0.4s ease;
   font-size: 26px;
   color: #FFF;
 }
-nav .mobile .menu a:hover span {
+nav .mobile-menu .menu a:hover span {
   color: #165C96;
 }
 nav .uk-offcanvas-bar {
