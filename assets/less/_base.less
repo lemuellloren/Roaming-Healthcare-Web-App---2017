@@ -32,5 +32,40 @@ body{
 nav{
     position: fixed;
     top: 0;
-    padding: 15px;
+    padding: 15px 20px;
+    .mobile{
+        .logo{
+            padding: 0;
+            img{
+                // max-width: 186px;
+            }
+        }
+        .menu{
+            text-align: right;
+            a{
+                span{
+                    .soft-transition();
+                    font-size: 26px;
+                    color: @white;
+                }
+                &:hover{
+                    span{
+                        color: @blue;
+                    }
+                }
+            }
+            
+        }
+    }
+    .uk-offcanvas-bar{
+        width: 160px;
+        background: @blue;
+        ul{
+            list-style: none;
+        }
+    }
+}
+
+.uk-grid{
+    margin: 0;
 }

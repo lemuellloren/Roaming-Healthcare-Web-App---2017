@@ -8967,7 +8967,31 @@ body {
 nav {
   position: fixed;
   top: 0;
-  padding: 15px;
+  padding: 15px 20px;
+}
+nav .mobile .logo {
+  padding: 0;
+}
+nav .mobile .menu {
+  text-align: right;
+}
+nav .mobile .menu a span {
+  transition: all 0.4s ease;
+  font-size: 26px;
+  color: #FFF;
+}
+nav .mobile .menu a:hover span {
+  color: #165C96;
+}
+nav .uk-offcanvas-bar {
+  width: 160px;
+  background: #165C96;
+}
+nav .uk-offcanvas-bar ul {
+  list-style: none;
+}
+.uk-grid {
+  margin: 0;
 }
 /* ========================================================================
    Component: Slideshow
