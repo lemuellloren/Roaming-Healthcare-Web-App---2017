@@ -4789,12 +4789,12 @@
 		},
 	"\/assets\/images\/logo.png": {
 		"ft": 32768,
-		"iS": 2959,
+		"iS": 16621,
 		"oA": 0,
 		"oAP": "\/assets\/images\/logo.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -4803,6 +4803,17 @@
 		"iS": 1651507,
 		"oA": 0,
 		"oAP": "\/assets\/images\/search-banner-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/white-logo.png": {
+		"ft": 32768,
+		"iS": 13919,
+		"oA": 0,
+		"oAP": "\/assets\/images\/white-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
