@@ -73,6 +73,9 @@ h5 {
     transition: all 0.4s ease;
 }
 
+
+/* Contact Field Area Styles */
+
 .contact-field() {
     width: 93%;
     font-size: 12px;
@@ -91,6 +94,24 @@ h5 {
         box-shadow: 0 5px 20px -6px @orange;
     }
 }
+
+
+/* End Contact Field Area Styles */
+
+
+/* Orange Link Area Styles */
+
+.orange-link() {
+    color: @orange;
+    .soft-transition();
+    &:hover {
+        color: @hvr-orange;
+        text-decoration: none;
+    }
+}
+
+
+/* Orange Link Area Styles */
 
 
 /* Global Button Area Styles */
@@ -285,14 +306,25 @@ h5 {
 /* SITE FOOTER AREA STYLES */
 
 footer {
+    .uk-grid.footer-container {
+        @media @width-768 {
+            margin: 20px;
+        }
+        @media @width-1366 {
+            margin: 0 310px 0 310px;
+        }
+    }
     background: @gray;
-    padding: 30px 0 0 0;
+    padding: 37px 0 0 0;
     h6 {
         font-size: @default-font-size - 2;
         font-weight: @font-light;
     }
     .footer-navigation {
-        padding: 0 20px;
+        padding: 0 30px 0 30px;
+        @media @width-1366 {
+            padding: 0;
+        }
         margin-bottom: 35px;
         ul {
             list-style: none;
@@ -306,14 +338,18 @@ footer {
                     text-decoration: none;
                     font-weight: @font-light;
                     &.subscribe {
-                        color: @orange;
+                        .orange-link();
                     }
                 }
             }
         }
     }
     .footer-contact {
-        padding: 0 20px;
+        padding: 0 30px 0 30px;
+        @media @width-1366 {
+            padding: 0;
+            margin: 0 0 0 -100px;
+        }
         form {
             margin-bottom: 35px;
             .field {
@@ -322,10 +358,16 @@ footer {
                 input {
                     height: 30px;
                     .contact-field();
+                    &::placeholder {
+                        color: @lighergray;
+                    }
                 }
                 textarea {
                     .contact-field();
                     padding: 10px 10px;
+                    &::placeholder {
+                        color: @lighergray;
+                    }
                 }
             }
             .submit-btn {
@@ -335,7 +377,10 @@ footer {
         }
     }
     .footer-contact-info {
-        padding: 0 20px 40px 20px;
+        padding: 0 30px 40px 30px;
+        @media @width-1366 {
+            padding: 0;
+        }
         p {
             font-size: @default-font-size - 2;
             font-weight: @font-light;
@@ -344,6 +389,9 @@ footer {
         ul {
             padding: 0;
             list-style: none;
+            @media @width-768 {
+                line-height: 3;
+            }
             li {
                 display: inline-block;
                 width: auto;
@@ -429,6 +477,80 @@ footer {
         }
     }
 }
+
+
+/* FOOTER MODAL AREA STYLES */
+
+#subscribe-modal {
+    h3 {
+        font-size: 26px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 1;
+        color: @white;
+        margin: 36px;
+        @media @width-768 {
+            margin: 60px;
+        }
+    }
+        p {
+            margin-top: 30px;
+            font-size: 18px;
+            font-weight: @font-regular;
+            font-style: normal;
+            line-height: 1.67;
+            text-align: center;
+            font-family:@secodary-font;
+        }
+    .uk-close {
+        font-family: material !important;
+        font-size: 24px;
+        font-weight: 100;
+        text-align: center;
+        color: #c9c9c9;
+    }
+    .subs-modal-header {
+        margin-bottom: 15px;
+        margin: -20px -20px 15px -20px;
+        padding: 20px;
+        height: 130px !important;
+        background-image: linear-gradient(to top, @blue, #3382c4);
+    }
+   
+        @media @width-768 {
+            .subs-container {
+                margin: 32px;
+            } 
+        }
+    
+    .join-now-btn {
+        .btn-orange();
+        width: 100%;
+        height: 50px;
+        @media @width-768 {
+            width: 150px;
+            position: relative;
+            top: -4px;
+            left: 10px;
+        }
+    }
+    .subs-form {
+        margin: 30px 0 0 0px;
+        text-align: center;
+        input {
+            .contact-field();
+            width: 100%;
+            height: 50px;
+            border: solid 1px @gray;
+            @media @width-768 {
+                width: 50%;
+            }
+        }
+    }
+}
+
+
+/* END FOOTER MODAL AREA STYLES */
 
 
 /* END SITE FOOTER AREA STYLES */
@@ -556,9 +678,8 @@ nav {
     }
 }
 
-.uk-grid {
-    margin: 0;
-}
-
+// .uk-grid {
+//     margin: 0;
+// }
 
 /* END SITE MENU AREA STYLES */

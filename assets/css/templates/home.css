@@ -9028,6 +9028,10 @@ h4 {
 h5 {
   font-weight: 300;
 }
+/* Contact Field Area Styles */
+/* End Contact Field Area Styles */
+/* Orange Link Area Styles */
+/* Orange Link Area Styles */
 /* Global Button Area Styles */
 /* Global End Button Area Styles */
 /* Link Hover animations */
@@ -9036,15 +9040,30 @@ h5 {
 /* SITE FOOTER AREA STYLES */
 footer {
   background: #E4E4E4;
-  padding: 30px 0 0 0;
+  padding: 37px 0 0 0;
+}
+@media only screen and (min-width: 768px) {
+  footer .uk-grid.footer-container {
+    margin: 20px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  footer .uk-grid.footer-container {
+    margin: 0 310px 0 310px;
+  }
 }
 footer h6 {
   font-size: 14px;
   font-weight: 300;
 }
 footer .footer-navigation {
-  padding: 0 20px;
+  padding: 0 30px 0 30px;
   margin-bottom: 35px;
+}
+@media only screen and (min-width: 1366px) {
+  footer .footer-navigation {
+    padding: 0;
+  }
 }
 footer .footer-navigation ul {
   list-style: none;
@@ -9063,9 +9082,21 @@ footer .footer-navigation ul li a {
 }
 footer .footer-navigation ul li a.subscribe {
   color: #FE7B00;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+footer .footer-navigation ul li a.subscribe:hover {
+  color: #C45F00;
+  text-decoration: none;
 }
 footer .footer-contact {
-  padding: 0 20px;
+  padding: 0 30px 0 30px;
+}
+@media only screen and (min-width: 1366px) {
+  footer .footer-contact {
+    padding: 0;
+    margin: 0 0 0 -100px;
+  }
 }
 footer .footer-contact form {
   margin-bottom: 35px;
@@ -9095,6 +9126,18 @@ footer .footer-contact form .field input:focus {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+footer .footer-contact form .field input::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field input:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field input::-ms-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field input::placeholder {
+  color: #BBBBBB;
+}
 footer .footer-contact form .field textarea {
   width: 93%;
   font-size: 12px;
@@ -9115,6 +9158,18 @@ footer .footer-contact form .field textarea:focus {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+footer .footer-contact form .field textarea::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field textarea:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field textarea::-ms-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field textarea::placeholder {
+  color: #BBBBBB;
 }
 footer .footer-contact form .submit-btn {
   width: 109.1px;
@@ -9157,7 +9212,12 @@ footer .footer-contact form .submit-btn:hover::before {
   opacity: 0;
 }
 footer .footer-contact-info {
-  padding: 0 20px 40px 20px;
+  padding: 0 30px 40px 30px;
+}
+@media only screen and (min-width: 1366px) {
+  footer .footer-contact-info {
+    padding: 0;
+  }
 }
 footer .footer-contact-info p {
   font-size: 14px;
@@ -9167,6 +9227,11 @@ footer .footer-contact-info p {
 footer .footer-contact-info ul {
   padding: 0;
   list-style: none;
+}
+@media only screen and (min-width: 768px) {
+  footer .footer-contact-info ul {
+    line-height: 3;
+  }
 }
 footer .footer-contact-info ul li {
   display: inline-block;
@@ -9250,6 +9315,131 @@ footer .main-footer .share-icons ul li a span {
 footer .main-footer .share-icons ul li a:hover {
   background: #FE7B00;
 }
+/* FOOTER MODAL AREA STYLES */
+#subscribe-modal h3 {
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1;
+  color: #FFF;
+  margin: 36px;
+}
+@media only screen and (min-width: 768px) {
+  #subscribe-modal h3 {
+    margin: 60px;
+  }
+}
+#subscribe-modal p {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.67;
+  text-align: center;
+  font-family: 'Roboto';
+}
+#subscribe-modal .uk-close {
+  font-family: material !important;
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  color: #c9c9c9;
+}
+#subscribe-modal .subs-modal-header {
+  margin-bottom: 15px;
+  margin: -20px -20px 15px -20px;
+  padding: 20px;
+  height: 130px !important;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#165C96), to(#3382c4));
+  background-image: linear-gradient(to top, #165C96, #3382c4);
+}
+@media only screen and (min-width: 768px) {
+  #subscribe-modal .subs-container {
+    margin: 32px;
+  }
+}
+#subscribe-modal .join-now-btn {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 100%;
+  height: 50px;
+}
+#subscribe-modal .join-now-btn::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#subscribe-modal .join-now-btn:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#subscribe-modal .join-now-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+@media only screen and (min-width: 768px) {
+  #subscribe-modal .join-now-btn {
+    width: 150px;
+    position: relative;
+    top: -4px;
+    left: 10px;
+  }
+}
+#subscribe-modal .subs-form {
+  margin: 30px 0 0 0px;
+  text-align: center;
+}
+#subscribe-modal .subs-form input {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  width: 100%;
+  height: 50px;
+  border: solid 1px #E4E4E4;
+}
+#subscribe-modal .subs-form input:placeholder {
+  color: #BBBBBB;
+}
+#subscribe-modal .subs-form input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
+@media only screen and (min-width: 768px) {
+  #subscribe-modal .subs-form input {
+    width: 50%;
+  }
+}
+/* END FOOTER MODAL AREA STYLES */
 /* END SITE FOOTER AREA STYLES */
 /* SITE MENU AREA STYLES */
 nav {
@@ -9438,9 +9628,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   top: -25%;
   left: -25%;
   opacity: 0;
-}
-.uk-grid {
-  margin: 0;
 }
 /* END SITE MENU AREA STYLES */
 /* #hero, #about, #contact, etc. */
