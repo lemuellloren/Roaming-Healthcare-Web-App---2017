@@ -160,7 +160,8 @@ video {
   max-width: 100%;
   height: auto;
   /* 2 */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*
  * Preserve original dimensions
@@ -308,7 +309,8 @@ dd {
  */
 hr {
   /* 1 */
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   height: 0;
   /* 2 */
   margin: 15px 0;
@@ -661,13 +663,15 @@ iframe {
   -ms-flex: none;
   -webkit-box-flex: 0;
           flex: none;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
 }
 /* Even grid cell widths
  ========================================================================== */
 [class*='uk-grid-width'] > * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
 }
 .uk-grid-width-1-2 > * {
@@ -790,7 +794,8 @@ iframe {
 /* Sub-objects: `uk-width-*`
  ========================================================================== */
 [class*='uk-width'] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
 }
 /*
@@ -1450,7 +1455,8 @@ iframe {
  ========================================================================== */
 .uk-block {
   position: relative;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -1999,7 +2005,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  */
 .uk-navbar-nav > li > a {
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
   /* 1 */
   height: 40px;
@@ -2057,7 +2064,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-navbar-content,
 .uk-navbar-brand,
 .uk-navbar-toggle {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: block;
   height: 40px;
   padding: 0 15px;
@@ -2372,7 +2380,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   line-height: 20px;
   text-decoration: none;
   /* 1 */
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   /* 2 */
   text-align: center;
 }
@@ -2761,6 +2770,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 }
 .uk-thumbnav > * > * > img {
   opacity: 0.7;
+  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 /*
@@ -2958,7 +2968,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-form select,
 .uk-form textarea {
   /* 1 */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 2 */
   margin: 0;
   /* 3 */
@@ -3064,7 +3075,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  * Removes `box-shadow` for invalid controls in Firefox.
  */
 .uk-form :invalid {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*
  * Vertical alignment
@@ -3119,7 +3131,10 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   -webkit-transition: all 0.2s linear;
   -webkit-transition-property: border, background, color, box-shadow, padding;
   transition: all 0.2s linear;
+  -webkit-transition-property: border, background, color, padding, -webkit-box-shadow;
+  transition-property: border, background, color, padding, -webkit-box-shadow;
   transition-property: border, background, color, box-shadow, padding;
+  transition-property: border, background, color, box-shadow, padding, -webkit-box-shadow;
 }
 .uk-form select:focus,
 .uk-form textarea:focus,
@@ -3462,7 +3477,8 @@ select.uk-form-width-mini {
   text-transform: none;
   /* 7 */
   display: inline-block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0 12px;
   background: #eee;
   vertical-align: middle;
@@ -3733,7 +3749,8 @@ select.uk-form-width-mini {
 /* Modifier: `uk-icon-button`
  ========================================================================== */
 .uk-icon-button {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: inline-block;
   width: 35px;
   height: 35px;
@@ -5957,7 +5974,8 @@ select.uk-form-width-mini {
   background: transparent;
   /* 8 */
   display: inline-block;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   width: 20px;
   line-height: 20px;
   text-align: center;
@@ -6031,7 +6049,8 @@ a.uk-badge:hover {
 /* Modifier: `uk-badge-notification`;
  ========================================================================== */
 .uk-badge-notification {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   min-width: 18px;
   border-radius: 500px;
   font-size: 12px;
@@ -6142,7 +6161,8 @@ a.uk-badge:hover {
   /* 2 */
   max-width: 100%;
   /* 3 */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 3 */
   margin: 0;
   /* 4 */
@@ -6330,8 +6350,11 @@ a.uk-thumbnail:focus {
 .uk-overlay-grayscale,
 .uk-overlay-blur,
 [class*='uk-overlay-slide'] {
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition-property: opacity, -webkit-transform, -webkit-filter;
   transition-property: opacity, -webkit-transform, -webkit-filter;
   transition-property: opacity, transform, filter;
   transition-property: opacity, transform, filter, -webkit-transform, -webkit-filter;
@@ -6340,7 +6363,8 @@ a.uk-thumbnail:focus {
 .uk-overlay-active .uk-overlay-scale,
 .uk-overlay-active .uk-overlay-spin,
 .uk-overlay-active [class*='uk-overlay-slide'] {
-  transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
 }
 /*
  * Fade
@@ -6445,6 +6469,7 @@ a.uk-thumbnail:focus {
   background: rgba(0, 0, 0, 0.3);
   /* 3 */
   opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
   -webkit-transform: translate3d(0, 0, 0);
 }
@@ -6505,7 +6530,8 @@ a.uk-thumbnail:focus {
 .uk-overlay-area-content {
   /* 1 */
   display: inline-block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   vertical-align: middle;
   /* 2 */
@@ -6549,6 +6575,7 @@ a.uk-thumbnail:focus {
   color: #fff;
   /* 3 */
   opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
   -webkit-transform: translate3d(0, 0, 0);
 }
@@ -7293,7 +7320,8 @@ a.uk-thumbnail:focus {
   position: absolute;
   z-index: 970;
   /* 3 */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 4 */
   width: 200px;
 }
@@ -7495,6 +7523,7 @@ a.uk-thumbnail:focus {
   background: rgba(0, 0, 0, 0.6);
   /* 5 */
   opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
   /* 6 */
   -ms-touch-action: cross-slide-y pinch-zoom double-tap-zoom;
@@ -7528,7 +7557,8 @@ a.uk-thumbnail:focus {
   /* 1 */
   position: relative;
   /* 2 */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 50px auto;
   padding: 20px;
   width: 600px;
@@ -7540,6 +7570,7 @@ a.uk-thumbnail:focus {
   opacity: 0;
   -webkit-transform: translateY(-100px);
   transform: translateY(-100px);
+  -webkit-transition: opacity 0.3s linear, -webkit-transform 0.3s ease-out;
   transition: opacity 0.3s linear, -webkit-transform 0.3s ease-out;
   transition: opacity 0.3s linear, transform 0.3s ease-out;
   transition: opacity 0.3s linear, transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
@@ -7614,6 +7645,7 @@ a.uk-thumbnail:focus {
   padding: 0;
   width: 100%;
   max-width: 100%;
+  -webkit-transition: opacity 0.3s linear;
   transition: opacity 0.3s linear;
 }
 /*
@@ -7729,6 +7761,7 @@ a.uk-thumbnail:focus {
   /* 1 */
   position: fixed;
   /* 2 */
+  -webkit-transition: margin-left 0.3s ease-in-out;
   transition: margin-left 0.3s ease-in-out;
   /* 3 */
   margin-left: 0;
@@ -7760,6 +7793,7 @@ a.uk-thumbnail:focus {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   /* 4 */
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -7781,12 +7815,15 @@ a.uk-thumbnail:focus {
 /* Offcanvase modes
  ========================================================================== */
 .uk-offcanvas-bar[mode='none'] {
+  -webkit-transition: none;
   transition: none;
 }
 .uk-offcanvas-bar[mode='reveal'] {
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
   clip: rect(0, 0, 100vh, 0);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, clip 0.3s ease-in-out;
+  -webkit-transition: clip 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: clip 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, clip 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, clip 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -7799,6 +7836,7 @@ a.uk-thumbnail:focus {
 .uk-offcanvas-bar-flip[mode='reveal'] > * {
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -7964,7 +8002,8 @@ a.uk-thumbnail:focus {
 /* Container
  ========================================================================== */
 .uk-container {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 980px;
   padding: 0 25px;
 }
@@ -8108,7 +8147,8 @@ a.uk-thumbnail:focus {
  * More robust if padding and border are used
  */
 [class*='uk-height'] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*
  * Useful to extend the `html` and `body` element to the full height of the page.
@@ -8131,7 +8171,8 @@ a.uk-thumbnail:focus {
  */
 .uk-responsive-width,
 .uk-responsive-height {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*
  * Responsiveness: Sets a maximum width relative to the parent and auto scales the height
@@ -8303,7 +8344,8 @@ a.uk-thumbnail:focus {
  * Box with scrolling enabled
  */
 .uk-scrollable-box {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 170px;
   padding: 10px;
   border: 1px solid #ddd;
@@ -8925,7 +8967,8 @@ a.uk-thumbnail:focus {
   *:after {
     background: transparent !important;
     color: black !important;
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     text-shadow: none !important;
   }
   a,
@@ -8961,11 +9004,36 @@ a.uk-thumbnail:focus {
     page-break-after: avoid;
   }
 }
+/* Media Queries Area */
+/* End Media Queries Area */
 html {
   font-family: 'Montserrat';
   background: #F0F0F0;
 }
+h1 {
+  font-weight: 300;
+}
+h2 {
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+h3 {
+  font-weight: 300;
+  color: #165C96;
+}
+h4 {
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+h5 {
+  font-weight: 300;
+}
+/* Global Button Area Styles */
+/* Global End Button Area Styles */
+/* Link Hover animations */
+/* End Link Hover animations */
 /* Site Menu, Site Footer, etc. */
+/* SITE FOOTER AREA STYLES */
 footer {
   background: #E4E4E4;
   padding: 30px 0 0 0;
@@ -8988,6 +9056,7 @@ footer .navigation ul li {
 footer .navigation ul li a {
   color: #444444;
   font-size: 12px;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   text-decoration: none;
   font-weight: 300;
@@ -9014,6 +9083,7 @@ footer .contact form .field input {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .contact form .field input:placeholder {
@@ -9022,6 +9092,8 @@ footer .contact form .field input:placeholder {
 footer .contact form .field input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
 }
 footer .contact form .field textarea {
   width: 93%;
@@ -9031,6 +9103,7 @@ footer .contact form .field textarea {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   padding: 10px 10px;
 }
@@ -9040,6 +9113,48 @@ footer .contact form .field textarea:placeholder {
 footer .contact form .field textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
+footer .contact form .submit-btn {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  background-color: #E4E4E4;
+}
+footer .contact form .submit-btn::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+footer .contact form .submit-btn:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+footer .contact form .submit-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
 }
 footer .contact-info {
   padding: 0 20px 40px 20px;
@@ -9062,6 +9177,7 @@ footer .contact-info ul li a {
   background: #444444;
   border-radius: 15px;
   padding: 6px;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .contact-info ul li a span {
@@ -9123,6 +9239,7 @@ footer .main .share-icons ul li a {
   background: #FFF;
   border-radius: 15px;
   padding: 6px;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .main .share-icons ul li a span {
@@ -9133,6 +9250,8 @@ footer .main .share-icons ul li a span {
 footer .main .share-icons ul li a:hover {
   background: #FE7B00;
 }
+/* END SITE FOOTER AREA STYLES */
+/* SITE MENU AREA STYLES */
 nav {
   position: fixed;
   top: 0;
@@ -9154,6 +9273,7 @@ nav .mobile-menu .menu {
 nav .mobile-menu .menu a span {
   position: relative;
   top: 7px;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-size: 26px;
   color: #FFF;
@@ -9172,6 +9292,7 @@ nav .mobile-menu .uk-offcanvas-bar .uk-close {
   font-size: 24px;
   color: #DC6A00;
   opacity: 1;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .mobile-menu .uk-offcanvas-bar .uk-close:hover {
@@ -9193,12 +9314,49 @@ nav .mobile-menu .uk-offcanvas-bar .menulist ul li a {
   text-align: center;
   display: block;
   text-decoration: none;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn {
-  margin-top: 15px;
-  display: inline-block;
-  width: auto;
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FFF;
+  background-color: #165C96;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  padding: 8px;
+  text-decoration: none;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
 }
 nav .desktop-menu {
   background: #165C96;
@@ -9231,6 +9389,7 @@ nav .desktop-menu .uk-container .menulist ul li a {
   color: #FFF;
   font-size: 16px;
   text-align: center;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   padding: 5px 0px;
   text-decoration: none;
@@ -9239,9 +9398,51 @@ nav .desktop-menu .uk-container .menulist ul li a {
 nav .desktop-menu .uk-container .menulist ul li a.active {
   border-bottom: solid 2px #FFF;
 }
+nav .desktop-menu .uk-container .menulist a.list-services-btn {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FFF;
+  background-color: #165C96;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  padding: 8px;
+  text-decoration: none;
+}
+nav .desktop-menu .uk-container .menulist a.list-services-btn::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+nav .desktop-menu .uk-container .menulist a.list-services-btn:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
 .uk-grid {
   margin: 0;
 }
+/* END SITE MENU AREA STYLES */
 /* #hero, #about, #contact, etc. */
 section.search-banner {
   height: 90vh;
