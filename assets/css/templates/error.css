@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -9086,6 +9087,7 @@ footer .main .copyright p {
   font-size: 10px;
   font-weight: 300;
   margin: 0;
+  font-family: 'Roboto';
 }
 footer .main .url {
   text-align: center;
@@ -9095,6 +9097,7 @@ footer .main .url a {
   color: #FFF;
   font-size: 10px;
   font-weight: 300;
+  font-family: 'Roboto';
 }
 footer .main .share-icons {
   text-align: center;
@@ -9105,6 +9108,7 @@ footer .main .share-icons p {
   font-size: 12px;
   font-weight: 300;
   margin: 0;
+  font-family: 'Roboto';
 }
 footer .main .share-icons ul {
   padding: 0;
