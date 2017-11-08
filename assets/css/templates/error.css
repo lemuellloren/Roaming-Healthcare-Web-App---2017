@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -8960,10 +8961,287 @@ a.uk-thumbnail:focus {
     page-break-after: avoid;
   }
 }
-body {
+html {
   font-family: 'Montserrat';
+  background: #F0F0F0;
 }
 /* Site Menu, Site Footer, etc. */
+footer {
+  background: #E4E4E4;
+  padding: 30px 0 0 0;
+}
+footer h6 {
+  font-size: 14px;
+  font-weight: 300;
+}
+footer .navigation {
+  padding: 0 20px;
+  margin-bottom: 35px;
+}
+footer .navigation ul {
+  list-style: none;
+  padding: 0px;
+}
+footer .navigation ul li {
+  margin-bottom: 5px;
+}
+footer .navigation ul li a {
+  color: #444444;
+  font-size: 12px;
+  transition: all 0.4s ease;
+  text-decoration: none;
+  font-weight: 300;
+}
+footer .navigation ul li a.subscribe {
+  color: #FE7B00;
+}
+footer .contact {
+  padding: 0 20px;
+}
+footer .contact form {
+  margin-bottom: 35px;
+}
+footer .contact form .field {
+  width: 100%;
+  height: auto;
+}
+footer .contact form .field input {
+  height: 30px;
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  transition: all 0.4s ease;
+}
+footer .contact form .field input:placeholder {
+  color: #BBBBBB;
+}
+footer .contact form .field input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+}
+footer .contact form .field textarea {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  transition: all 0.4s ease;
+  padding: 10px 10px;
+}
+footer .contact form .field textarea:placeholder {
+  color: #BBBBBB;
+}
+footer .contact form .field textarea:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+}
+footer .contact-info {
+  padding: 0 20px 40px 20px;
+}
+footer .contact-info p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+footer .contact-info ul {
+  padding: 0;
+  list-style: none;
+}
+footer .contact-info ul li {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+}
+footer .contact-info ul li a {
+  background: #444444;
+  border-radius: 15px;
+  padding: 6px;
+  transition: all 0.4s ease;
+}
+footer .contact-info ul li a span {
+  width: 20px;
+  text-align: center;
+  color: #FFF;
+}
+footer .contact-info ul li a:hover {
+  background: #FE7B00;
+}
+footer .main {
+  background: #444444;
+  padding: 20px;
+}
+footer .main .copyright {
+  text-align: center;
+}
+footer .main .copyright img {
+  width: 220px;
+}
+footer .main .copyright p {
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 300;
+  margin: 0;
+  font-family: 'Roboto';
+}
+footer .main .url {
+  text-align: center;
+  line-height: 7px;
+}
+footer .main .url a {
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: 'Roboto';
+}
+footer .main .share-icons {
+  text-align: center;
+  padding-top: 20px;
+}
+footer .main .share-icons p {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  font-family: 'Roboto';
+}
+footer .main .share-icons ul {
+  padding: 0;
+  list-style: none;
+}
+footer .main .share-icons ul li {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+}
+footer .main .share-icons ul li a {
+  background: #FFF;
+  border-radius: 15px;
+  padding: 6px;
+  transition: all 0.4s ease;
+}
+footer .main .share-icons ul li a span {
+  width: 20px;
+  text-align: center;
+  color: #444444;
+}
+footer .main .share-icons ul li a:hover {
+  background: #FE7B00;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav .mobile-menu {
+  background: #165C96;
+}
+nav .mobile-menu .logo {
+  padding: 15px 0 14px 20px;
+}
+nav .mobile-menu .logo img {
+  width: 186px;
+}
+nav .mobile-menu .menu {
+  text-align: right;
+  padding: 10px 20px 10px 0;
+}
+nav .mobile-menu .menu a span {
+  position: relative;
+  top: 7px;
+  transition: all 0.4s ease;
+  font-size: 26px;
+  color: #FFF;
+}
+nav .mobile-menu .menu a:hover span {
+  color: #FE7B00;
+}
+nav .mobile-menu .uk-offcanvas-bar {
+  width: 160px;
+  background: #165C96;
+}
+nav .mobile-menu .uk-offcanvas-bar .uk-close {
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  font-size: 24px;
+  color: #DC6A00;
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+nav .mobile-menu .uk-offcanvas-bar .uk-close:hover {
+  opacity: 0.8;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist {
+  padding-top: 50px;
+  text-align: center;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist ul {
+  list-style: none;
+  padding: 0;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist ul li a {
+  font-weight: 200;
+  color: #FFF;
+  font-size: 16px;
+  padding: 12px 20px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn {
+  margin-top: 15px;
+  display: inline-block;
+  width: auto;
+}
+nav .desktop-menu {
+  background: #165C96;
+}
+nav .desktop-menu .uk-container {
+  margin: 0 auto;
+}
+nav .desktop-menu .uk-container .logo {
+  padding: 10px 0 10px 20px;
+}
+nav .desktop-menu .uk-container .logo img {
+  width: 240px;
+}
+nav .desktop-menu .uk-container .menulist {
+  text-align: right;
+  padding: 20px 20px 10px 0;
+}
+nav .desktop-menu .uk-container .menulist ul {
+  width: auto;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+}
+nav .desktop-menu .uk-container .menulist ul li {
+  display: inline-block;
+  width: auto;
+}
+nav .desktop-menu .uk-container .menulist ul li a {
+  font-weight: 200;
+  color: #FFF;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.4s ease;
+  padding: 5px 0px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav .desktop-menu .uk-container .menulist ul li a.active {
+  border-bottom: solid 2px #FFF;
+}
+.uk-grid {
+  margin: 0;
+}
 /* ========================================================================
    Component: Slideshow
  ========================================================================== */
