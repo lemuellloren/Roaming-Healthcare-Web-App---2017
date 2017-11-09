@@ -5001,37 +5001,66 @@
 		"oAP": "\/assets\/css\/templates\/home.css.map",
 		"oF": 0
 		},
-	"\/assets\/images\/logo.png": {
+	"\/assets\/images\/logos\/logo.png": {
 		"ft": 32768,
 		"iS": 16621,
 		"oA": 0,
-		"oAP": "\/assets\/images\/logo.png",
+		"oAP": "\/assets\/images\/logos\/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/images\/search-banner-bg.png": {
-		"ft": 32768,
-		"iS": 1651507,
-		"oA": 0,
-		"oAP": "\/assets\/images\/search-banner-bg.png",
+	"\/assets\/images\/logos\/logotype_colour.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/logos\/logotype_colour.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
-	"\/assets\/images\/white-logo.png": {
+	"\/assets\/images\/logos\/site-menu-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/logos\/site-menu-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/logos\/white-logo.png": {
 		"ft": 32768,
 		"iS": 13919,
 		"oA": 0,
-		"oAP": "\/assets\/images\/white-logo.png",
+		"oAP": "\/assets\/images\/logos\/white-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/logos\/white-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/logos\/white-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/search-banner-bg.jpg": {
+		"ft": 16384,
+		"iS": 420990,
+		"oA": 0,
+		"oAP": "\/assets\/images\/search-banner-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/js\/_base.js": {
