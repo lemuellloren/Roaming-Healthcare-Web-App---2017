@@ -306,13 +306,16 @@ h5 {
 /* SITE FOOTER AREA STYLES */
 
 footer {
-    .uk-grid.footer-container {
-        @media @width-768 {
-            margin: 20px;
-        }
-        @media @width-1366 {
-            margin: 0 310px 0 310px;
-        }
+    // .uk-grid.footer-container {
+    //     @media @width-768 {
+    //         margin: 20px;
+    //     }
+    //     @media @width-1366 {
+    //         margin: 0 310px 0 310px;
+    //     }
+    // }
+    .uk-container {
+        margin: 0 auto;
     }
     background: @gray;
     padding: 37px 0 0 0;
@@ -346,10 +349,10 @@ footer {
     }
     .footer-contact {
         padding: 0 30px 0 30px;
-        @media @width-1366 {
-            padding: 0;
-            margin: 0 0 0 -100px;
-        }
+        // @media @width-1366 {
+        //     padding: 0;
+        //     margin: 0 0 0 -100px;
+        // }
         form {
             margin-bottom: 35px;
             .field {
