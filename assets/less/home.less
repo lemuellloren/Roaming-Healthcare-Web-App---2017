@@ -1,18 +1,79 @@
 // BASE IMPORT
 @import '_base';
-
-
 // PAGE FRAMEWORK COMPONENT IMPORT
 // @import '../bower_components/uikit/less/components/slideshow.less';
 // @import '../bower_components/uikit/less/components/dotnav.less';
-
-
 // PAGE FRAMEWORK OVERRIDES
-
-
 // PAGE SECTION STYLES
+
 /* #hero, #about, #contact, etc. */
 
-section.search-banner{
-	height: 90vh; //temporary
+
+/* FEATURED SERVICES SECTION  AREA STYLES */
+
+#featured-services-section {
+	background-color: @gray;
+	padding: 37px 0 0 0;
+	.featured-container {
+		h3 {
+			font-size: 24px;
+			text-align: center;
+		}
+		.divider-title {
+			.line-title();
+		}
+		.featured-grid-container {
+			margin-top: 30px;
+		}
+		// .uk-overlay-panel {
+		// 	width: 250px;
+		// 	position: absolute;
+		// 	top: 27%;
+		// 	left: 50%;
+		// 	transform: translate(-50%, -50%);
+		// }
+		h5 {
+			background: transparent;
+			border: 2px solid @white;
+			padding: 14px 20px!important;
+			width: auto;
+			margin: 0 20px 0 20px;
+			font-family: @main-font;
+			font-size: 20px;
+			font-weight: 600;
+			text-align: center;
+			color: @white;
+		}
+		.feautured-list {
+			margin: 0 0 20px 0;
+		}
+		.feat-content-hvr {
+			background-color: rgba(255, 255, 255, 0.9);
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+			.feat-title-hvr {
+				border: 0 !important;
+				padding: 0 !important;
+				font-family: @main-font;
+				font-size: 20px;
+				font-weight: 600;
+				text-align: center;
+				color: @blue;
+			}
+			p {
+				font-family:@secodary-font;
+				font-size: 16px;
+				line-height: 1.38;
+				text-align: center;
+				color: @darkgray;
+			}
+			.feat-search-brn {
+				.btn-orange();
+				width: 109.1px;
+				height: 36.6px;
+			}
+		}
+	}
 }
+
+
+/* END FEATURED SERVICES SECTION  AREA STYLES */

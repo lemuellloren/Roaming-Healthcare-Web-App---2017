@@ -5165,6 +5165,46 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/featured\/feat-1.jpg": {
+		"ft": 16384,
+		"iS": 86399,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured\/feat-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/featured\/feat-2.jpg": {
+		"ft": 16384,
+		"iS": 1731903,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured\/feat-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/featured\/feat-3.jpg": {
+		"ft": 16384,
+		"iS": 682499,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured\/feat-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/featured\/feat-4.jpg": {
+		"ft": 16384,
+		"iS": 86608,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured\/feat-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/logos\/logo.png": {
 		"ft": 32768,
 		"iS": 16621,
@@ -5217,11 +5257,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/images\/search-banner-bg.jpg": {
+	"\/assets\/images\/searchbanner\/search-banner-bg.jpg": {
 		"ft": 16384,
 		"iS": 420990,
 		"oA": 0,
-		"oAP": "\/assets\/images\/search-banner-bg.jpg",
+		"oAP": "\/assets\/images\/searchbanner\/search-banner-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

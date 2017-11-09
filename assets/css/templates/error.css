@@ -9040,6 +9040,9 @@ h5 {
 /* End Link Hover animations */
 /* Site Menu, Site Footer, etc. */
 /* SEARCH BANNER AREA STYLES */
+#search-banner-section {
+  height: 90vh;
+}
 #search-banner-section .uk-container {
   margin: 0 auto;
   margin-bottom: 100px;
