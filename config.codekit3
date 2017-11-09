@@ -5001,6 +5001,170 @@
 		"oAP": "\/assets\/css\/templates\/home.css.map",
 		"oF": 0
 		},
+	"\/assets\/images\/favicons\/android-chrome-144x144.png": {
+		"ft": 32768,
+		"iS": 12696,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/android-chrome-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/apple-touch-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 8411,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/apple-touch-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 8909,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 11229,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 3625,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/apple-touch-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/apple-touch-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 3884,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/apple-touch-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 4840,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 5154,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 11229,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/images\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/assets\/images\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1221,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2033,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/images\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/assets\/images\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/images\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/images\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 10185,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/logos\/logo.png": {
 		"ft": 32768,
 		"iS": 16621,
