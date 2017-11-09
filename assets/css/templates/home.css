@@ -9873,10 +9873,13 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #featured-services-section .featured-container .feautured-list {
   margin: 0 0 20px 0;
 }
+#featured-services-section .featured-container .uk-overlay-panel {
+  background-color: rgba(255, 255, 255, 0.9);
+}
 #featured-services-section .featured-container .feat-content-hvr {
   background-color: rgba(255, 255, 255, 0.9);
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid #165C96;
+  height: 100%;
 }
 #featured-services-section .featured-container .feat-content-hvr .feat-title-hvr {
   border: 0 !important;
@@ -9894,6 +9897,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: center;
   color: #444444;
 }
+#featured-services-section .featured-container .feat-content-hvr .feat-content-area {
+  margin: 15px;
+}
 #featured-services-section .featured-container .feat-content-hvr .feat-search-brn {
   width: 159px;
   height: 50px;
@@ -9909,6 +9915,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   transition: all 0.4s ease-in-out 0.1s;
   width: 109.1px;
   height: 36.6px;
+  margin: 0 35px 0 35px;
 }
 #featured-services-section .featured-container .feat-content-hvr .feat-search-brn::before {
   content: '';
