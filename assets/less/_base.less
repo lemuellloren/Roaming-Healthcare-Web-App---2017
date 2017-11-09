@@ -308,6 +308,26 @@ h5 {
     }
 }
 
+.link-animation-gray-bg() {
+    display: inline-block;
+    color: @darkgray;
+    text-decoration: none !important;
+    &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 3px;
+        background: @darkgray;
+        transition: width 0.3s;
+        .soft-transition();
+    }
+    &:hover {
+        color: @darkgray;
+    }
+    &:hover:after {
+        width: 100%;
+    }
+}
 
 /* End Link Hover animations */
 
@@ -757,6 +777,9 @@ nav {
                     list-style: none;
                     padding: 0;
                     li {
+                        .desktop-links {
+                            .link-animation-blue-bg();
+                        }
                         a {
                             font-weight: @font-lighter;
                             color: @white;
@@ -799,6 +822,9 @@ nav {
                     li {
                         display: inline-block;
                         width: auto;
+                        .desktop-links {
+                            .link-animation-blue-bg();
+                        }
                         a {
                             font-weight: @font-lighter;
                             color: @white;
@@ -808,7 +834,6 @@ nav {
                             padding: 5px 0px;
                             text-decoration: none;
                             margin: 0 10px;
-                            &:hover {}
                             &.active {
                                 border-bottom: solid 2px @white;
                             }
