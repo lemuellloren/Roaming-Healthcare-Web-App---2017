@@ -3,6 +3,5 @@
 // @codekit-prepend '../bower_components/jquery/dist/jquery.js'
 // @codekit-prepend '../bower_components/uikit/js/uikit.js'
 
-
 // GLOBAL FUNCTIONS
 // define global functions here:

@@ -9233,6 +9233,32 @@ h5 {
   margin: 30px auto auto;
   border: solid 1px #444444;
 }
+#featured-listers-section .feat-profiles {
+  padding-top: 29px;
+  margin: 0 auto;
+}
+#featured-listers-section .feat-profiles h5 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #165C96;
+}
+#featured-listers-section .feat-profiles p {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+  color: #444444;
+}
+#featured-listers-section .feat-profiles .uk-overlay {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#featured-listers-section .feat-profiles .uk-overlay-bottom {
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
 /* END FEATURED LISTERS SECTION AREA STYLES */
 #blog-call-section {
   background-color: #E4E4E4;

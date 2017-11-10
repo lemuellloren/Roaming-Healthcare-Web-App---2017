@@ -2625,7 +2625,7 @@
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/js\/components\/slideshow.js",
 		"oF": 0,
 		"sC": 3,
@@ -3327,7 +3327,7 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/less\/components\/slidenav.less",
 		"oF": 0,
 		"oS": 0,
@@ -5377,7 +5377,7 @@
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/templates\/_base-min.js",
+		"oAP": "\/assets\/js\/templates\/_base.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -5387,7 +5387,7 @@
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/error-min.js",
+		"oAP": "\/assets\/js\/templates\/error.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -5397,43 +5397,43 @@
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/home-min.js",
+		"oAP": "\/assets\/js\/templates\/home.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/assets\/js\/templates\/error-min.js": {
+	"\/assets\/js\/templates\/error.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/error-min-min.js",
+		"oAP": "\/assets\/js\/templates\/error.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/assets\/js\/templates\/error-min.js.map": {
+	"\/assets\/js\/templates\/error.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/js\/templates\/error-min.js.map",
+		"oAP": "\/assets\/js\/templates\/error.min.js.map",
 		"oF": 0
 		},
-	"\/assets\/js\/templates\/home-min.js": {
+	"\/assets\/js\/templates\/home.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/home-min-min.js",
+		"oAP": "\/assets\/js\/templates\/home.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/assets\/js\/templates\/home-min.js.map": {
+	"\/assets\/js\/templates\/home.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/js\/templates\/home-min.js.map",
+		"oAP": "\/assets\/js\/templates\/home.min.js.map",
 		"oF": 0
 		},
 	"\/assets\/less\/_base.less": {
@@ -7338,7 +7338,7 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathFilenamePattern": "*.min.js",
 		"autoOutputPathRelativePath": "assets\/js\/templates",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
