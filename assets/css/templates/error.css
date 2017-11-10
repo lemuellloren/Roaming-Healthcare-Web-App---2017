@@ -9237,11 +9237,10 @@ h5 {
   height: 600px;
 }
 #blog-call-section h3 {
-  text-align: center;
   font-family: 'Montserrat';
   font-size: 24px;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
 }
 #blog-call-section .divider-title {
   width: 50px;
@@ -9262,7 +9261,7 @@ h5 {
   font-size: 18px;
   font-weight: 300;
   color: #444444;
-  text-align: center;
+  text-align: left;
 }
 #blog-call-section .uk-article .uk-article-meta {
   font-family: 'Roboto';
