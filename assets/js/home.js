@@ -6,7 +6,7 @@
 // PAGE FRAMEWORK COMPONENT IMPORT
 // import any framework components that are used in this page only:
 // @codekit-prepend '../bower_components/uikit/js/components/slideshow.js'
-
+@codekit-prepend '../bower_components/uikit/js/components/slider.js';
 
 // PAGE FUNCTIONS
 // define needed page functions here, when document.readyState === "complete":

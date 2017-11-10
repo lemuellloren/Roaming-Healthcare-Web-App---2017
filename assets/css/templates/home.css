@@ -9213,6 +9213,188 @@ h5 {
   color: #FFF;
 }
 /* END ABOUT SECTION AREA STYLES */
+/* FEATURED LISTERS SECTION AREA STYLES */
+#featured-listers-section {
+  background-color: #FFF;
+  padding: 37px 0 0 0;
+  height: 500px;
+}
+#featured-listers-section h3 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+#featured-listers-section .divider-title {
+  width: 50px;
+  margin: 30px auto auto;
+  border: solid 1px #444444;
+}
+/* END FEATURED LISTERS SECTION AREA STYLES */
+#blog-call-section {
+  background-color: #E4E4E4;
+  padding: 37px 0 0 0;
+  height: 600px;
+}
+#blog-call-section h3 {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+}
+#blog-call-section .divider-title {
+  width: 50px;
+  margin: 30px auto auto;
+  border: solid 1px #444444;
+}
+#blog-call-section .mobile-blog-article {
+  margin-top: 25px;
+  padding: 0;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#blog-call-section .uk-article {
+  margin: 14px;
+}
+#blog-call-section .uk-article .uk-article-title {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 300;
+  color: #444444;
+  text-align: center;
+}
+#blog-call-section .uk-article .uk-article-meta {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.38;
+  margin-top: -8px;
+  margin-bottom: -25px;
+  text-align: left;
+  color: #444444;
+}
+#blog-call-section .uk-article .date-category {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -20px 25px 0px -45px;
+}
+#blog-call-section .uk-article .date-category li {
+  padding-left: 20px;
+}
+#blog-call-section .uk-article .date-category li p,
+#blog-call-section .uk-article .date-category li a {
+  font-family: 'Roboto';
+  font-size: 12px;
+  text-align: right;
+  color: #165c96;
+}
+#blog-call-section .uk-article .blog-call-readmore {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  text-decoration: none;
+  padding: 8px;
+}
+#blog-call-section .uk-article .blog-call-readmore::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#blog-call-section .uk-article .blog-call-readmore:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#blog-call-section .uk-article .blog-call-readmore:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#blog-call-section .uk-article .readmore-link {
+  position: relative;
+  right: 0;
+  top: 45px;
+  bottom: 0;
+  text-align: left;
+}
+#blog-call-section .uk-article p {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+  color: #adadad;
+}
+#blog-call-section .visit-blog-container {
+  position: relative;
+  text-align: center;
+  top: 25px;
+  bottom: 0;
+}
+#blog-call-section .visit-blog-container .visit-blog-btn {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  background-color: #E4E4E4;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+}
+#blog-call-section .visit-blog-container .visit-blog-btn::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#blog-call-section .visit-blog-container .visit-blog-btn:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+#blog-call-section .visit-blog-container .visit-blog-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+/* BLOG CALL SECTION AREA STYLES */
+/* END BLOG CALL SECTION AREA STYLES */
 /* SITE FOOTER AREA STYLES */
 footer {
   background: #E4E4E4;
@@ -9840,6 +10022,102 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   opacity: 0;
 }
 /* END SITE MENU AREA STYLES */
+/* ========================================================================
+   Component: Slider
+ ========================================================================== */
+/*
+ * RTL Compatibility
+ */
+[data-uk-slider] {
+  direction: ltr;
+}
+html[dir="rtl"] .uk-slider > * {
+  direction: rtl;
+}
+/*
+ * 1. Create position context
+ * 2. Create stacking context to prevent z-index issues with other components
+ * 3. Deactivate browser history navigation in IE11
+ */
+.uk-slider {
+  /* 1 */
+  position: relative;
+  /* 2 */
+  z-index: 0;
+  /* 3 */
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+}
+/*
+ * 1. Reset list style without interfering with grid
+ */
+.uk-slider:not(.uk-grid) {
+  /* 1 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*
+ * Sub-object item
+ * 1. Position items above each other
+ */
+.uk-slider > * {
+  /* 1 */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*
+ * Clip child elements
+ */
+.uk-slider-container {
+  overflow: hidden;
+}
+/*
+ * Dragged
+ */
+.uk-slider:not(.uk-drag) {
+  -webkit-transition: -webkit-transform 200ms linear;
+  transition: -webkit-transform 200ms linear;
+  transition: transform 200ms linear;
+  transition: transform 200ms linear, -webkit-transform 200ms linear;
+}
+/*
+ * 1. Makes text unselectable
+ */
+.uk-slider.uk-drag {
+  cursor: col-resize;
+  /* 1 */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*
+ * 1. Prevents images and links from being dragged (default browser behavior)
+ * 2. Disables the default callout shown when you touch and hold a touch target
+ * Currently only works in Webkit
+ */
+.uk-slider a,
+.uk-slider img {
+  /* 1 */
+  -webkit-user-drag: none;
+  user-drag: none;
+  /* 2 */
+  -webkit-touch-callout: none;
+}
+/*
+ * 1. Prevents images and links from being dragged in Firefox
+ */
+.uk-slider img {
+  pointer-events: none;
+}
+/* Modifier: `uk-slider-fullscreen`
+ ========================================================================== */
+.uk-slider-fullscreen,
+.uk-slider-fullscreen > li {
+  height: 100vh;
+}
 /* #hero, #about, #contact, etc. */
 /* FEATURED SERVICES SECTION  AREA STYLES */
 #featured-services-section {
