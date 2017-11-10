@@ -5340,6 +5340,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/subs-cta\/cta-bg.jpg": {
+		"ft": 16384,
+		"iS": 363764,
+		"oA": 0,
+		"oAP": "\/assets\/images\/subs-cta\/cta-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/js\/_base.js": {
 		"ft": 64,
 		"ma": 1,
