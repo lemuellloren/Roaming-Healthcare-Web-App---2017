@@ -44,7 +44,9 @@ html {
     font-family: @main-font;
     background: @lightgray;
 }
-
+body {
+    overflow-x: hidden;
+}
 h1 {
     font-weight: @font-light;
 }
@@ -615,6 +617,22 @@ h5 {
 
 
 /* END SUBSCRIBER CALL TO ACTION  AREA STYLES */
+ 
+/* ADS AREA STYLES */
+#adver-section {
+    height: 50%;
+        .adver-img {
+            margin: 10% 0 10% 0;
+            width: 256px;
+            height: 213.2px;
+            @media @width-768 {
+                width: auto;
+                height: 116px;
+            }
+        }
+}
+/* END ADS AREA STYLES */
+
 
 
 /* END BLOG CALL SECTION AREA STYLES */

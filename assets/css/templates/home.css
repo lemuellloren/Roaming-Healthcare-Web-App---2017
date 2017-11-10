@@ -9010,6 +9010,9 @@ html {
   font-family: 'Montserrat';
   background: #F0F0F0;
 }
+body {
+  overflow-x: hidden;
+}
 h1 {
   font-weight: 300;
 }
@@ -9461,6 +9464,22 @@ h5 {
   opacity: 0;
 }
 /* END SUBSCRIBER CALL TO ACTION  AREA STYLES */
+/* ADS AREA STYLES */
+#adver-section {
+  height: 50%;
+}
+#adver-section .adver-img {
+  margin: 10% 0 10% 0;
+  width: 256px;
+  height: 213.2px;
+}
+@media only screen and (min-width: 768px) {
+  #adver-section .adver-img {
+    width: auto;
+    height: 116px;
+  }
+}
+/* END ADS AREA STYLES */
 /* END BLOG CALL SECTION AREA STYLES */
 /* SITE FOOTER AREA STYLES */
 footer {
