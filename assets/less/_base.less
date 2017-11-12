@@ -353,6 +353,15 @@ h5 {
         margin: 0 auto;
         margin-bottom: 50px;
     }
+    .form-container {
+        margin: 0 auto;
+        text-align: center;
+        .uk-form-icon {
+            @media @width-640 {
+                padding: 10px;
+            }
+        }
+    }
     .search-banner-container {
         margin: 95px auto;
         text-align: center;
@@ -375,6 +384,14 @@ h5 {
             font-weight: @font-regular;
             margin: 0 0 5px 0;
         }
+        ul {
+            list-style: none;
+            margin: 0 auto;
+            padding: 0;
+            @media @width-768 {
+                display: inline-flex;
+            }
+        }
         form {
             input {
                 .contact-field();
@@ -384,6 +401,7 @@ h5 {
                 padding-left: 50px!important;
             }
             .search-input {
+                margin-top: -10px;
                 span {
                     color: @darkgray;
                     font-size: 20px;
@@ -393,15 +411,15 @@ h5 {
             }
             .find-btn {
                 .btn-orange();
-                margin: 0 45px 0 45px;
+                // margin: 0 45px 0 45px;
             }
         }
         .btn-find-con {
-            margin-bottom: 60%;
+            position: relative;
+            margin-bottom: 400px;
             @media @width-768 {
-                margin-bottom: 30%;
-                position: relative;
                 top: 27px;
+                left: 10px;
             }
         }
     }
@@ -530,15 +548,52 @@ h5 {
     .divider-title {
         .line-title();
     }
-    .feat-profiles {
-        padding-top: 29px;
-        margin: 0 auto;
+    .feat-info {
+        width: 295px;
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.9);
+        position: relative;
+        top: 100px;
+        bottom: 0;
         h5 {
             font-family: @main-font;
             font-size: 20px;
             font-weight: 300;
             text-align: center;
             color: @blue;
+            margin: 25px 0 -10px 0;
+        }
+
+        p {
+            font-family: @secodary-font;
+            font-size: @default-font-size;
+            line-height: 1.38;
+            text-align: center;
+            color: @darkgray;
+        }
+    }
+    .feat-listers-cover {
+        .soft-transition();
+        &:hover {
+            .feat-info {
+                display: none;
+            }
+        }
+    }
+    .uk-overlay-panel {
+        .soft-transition();
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+    .feat-content-hvr {
+        .soft-transition();
+        h5 {
+            font-family:@main-font;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            color: @blue;
+            margin: 45px 0 -10px 0;
         }
         p {
             font-family: @secodary-font;
@@ -547,12 +602,29 @@ h5 {
             text-align: center;
             color: @darkgray;
         }
-        .uk-overlay {
-            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+    .feat-profiles {
+        padding-top: 29px;
+        margin: 0 auto;
+        .feat-content-hvr {
+            border: 2px solid #165C96;
+            height: 100%;
         }
-        .uk-overlay-bottom {
-            height: 50px;
-            background-color: rgba(255, 255, 255, 0.9);
+        .feat-lister-btn-container {
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 10px;
+            text-align: center;
+        }
+        .feat-listers-sms-btn {
+            .btn-orange();
+            width: 109.1px;
+            height: 36.6px;
+            margin-bottom: 12px;
+        }
+        .feat-listers-info-btn {
+            .btn-white();
         }
     }
 }
