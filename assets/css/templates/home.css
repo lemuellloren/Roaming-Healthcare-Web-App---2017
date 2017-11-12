@@ -9047,9 +9047,14 @@ h5 {
   height: auto;
   margin-bottom: -180px;
 }
+@media only screen and (min-width: 1024px) {
+  #search-banner-section {
+    margin-bottom: -125px;
+  }
+}
 #search-banner-section .uk-container {
   margin: 0 auto;
-  margin-bottom: 8px;
+  margin-bottom: 50px;
 }
 #search-banner-section .search-banner-container {
   margin: 95px auto;
@@ -9149,6 +9154,7 @@ h5 {
 }
 @media only screen and (min-width: 768px) {
   #search-banner-section .search-banner-container .btn-find-con {
+    margin-bottom: 30%;
     position: relative;
     top: 27px;
   }
@@ -9168,12 +9174,23 @@ h5 {
   z-index: 1;
   top: -50px;
 }
+@media only screen and (min-width: 768px) {
+  #overlaped-section {
+    max-width: 70%;
+    max-height: 245px;
+  }
+}
 #overlaped-section .uk-container {
   margin: 0 auto;
 }
 #overlaped-section .overlay-container {
   margin: 20px 0 20px 0;
   text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  #overlaped-section .overlay-container {
+    margin: 50px 0 0 0;
+  }
 }
 #overlaped-section .overlay-container .divider-title {
   width: 50px;
@@ -9193,7 +9210,8 @@ h5 {
   line-height: 1.38;
   text-align: center;
   color: #444444;
-  padding-top: 10%;
+  padding-top: 15px;
+  margin: 0 auto;
 }
 /* END ABOUT SECTION OVERLAPED AREA STYLES */
 #about-section {
@@ -9201,7 +9219,15 @@ h5 {
   margin-top: -225px;
   background-color: #165C96;
 }
+@media only screen and (min-width: 768px) {
+  #about-section {
+    margin-top: -170px;
+  }
+}
 #about-section .uk-grid {
+  margin: 0 auto;
+}
+#about-section .uk-container {
   margin: 0 auto;
 }
 #about-section .blurb-container {

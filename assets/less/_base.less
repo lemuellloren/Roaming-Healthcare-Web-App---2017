@@ -346,9 +346,12 @@ h5 {
 #search-banner-section {
     height: auto;
     margin-bottom: -180px;
+    @media @width-1024 {
+        margin-bottom: -125px;
+    }
     .uk-container {
         margin: 0 auto;
-        margin-bottom: 8px;
+        margin-bottom: 50px;
     }
     .search-banner-container {
         margin: 95px auto;
@@ -396,6 +399,7 @@ h5 {
         .btn-find-con {
             margin-bottom: 60%;
             @media @width-768 {
+                margin-bottom: 30%;
                 position: relative;
                 top: 27px;
             }
@@ -414,11 +418,18 @@ h5 {
 
 #overlaped-section {
     max-width: 85%;
+    @media @width-768 {
+        max-width: 70%;
+        max-height: 245px;
+    }
     margin: 0 auto;
     height: auto;
     background-color: @white;
     border-radius: 3px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0,
+    0,
+    0,
+    0.2);
     position: relative;
     z-index: 1;
     top: -50px;
@@ -427,6 +438,9 @@ h5 {
     }
     .overlay-container {
         margin: 20px 0 20px 0;
+        @media @width-768 {
+            margin: 50px 0 0 0;
+        }
         text-align: center;
         .divider-title {
             .line-title();
@@ -444,7 +458,8 @@ h5 {
             line-height: 1.38;
             text-align: center;
             color: @darkgray;
-            padding-top: 10%;
+            padding-top: 15px;
+            margin: 0 auto;
         }
     }
 }
@@ -455,8 +470,14 @@ h5 {
 #about-section {
     position: relative;
     margin-top: -225px;
+    @media @width-768 {
+        margin-top: -170px;
+    }
     background-color: @blue;
     .uk-grid {
+        margin: 0 auto;
+    }
+    .uk-container {
         margin: 0 auto;
     }
     .blurb-container {
