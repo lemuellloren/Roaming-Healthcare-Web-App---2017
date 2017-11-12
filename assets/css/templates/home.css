@@ -9305,8 +9305,18 @@ h5 {
 /* END FEATURED LISTERS SECTION AREA STYLES */
 #blog-call-section {
   background-color: #E4E4E4;
-  padding: 10% 0 5% 0;
-  height: 600px;
+  padding: 20% 0 25% 0;
+  height: auto;
+}
+@media only screen and (min-width: 768px) {
+  #blog-call-section {
+    padding: 10% 0 20% 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #blog-call-section {
+    padding-bottom: 15%;
+  }
 }
 #blog-call-section h3 {
   font-family: 'Montserrat';
@@ -9340,6 +9350,7 @@ h5 {
   font-weight: 300;
   color: #444444;
   text-align: left;
+  line-height: 1;
 }
 #blog-call-section .uk-article .uk-article-meta {
   font-family: 'Roboto';
@@ -9355,7 +9366,7 @@ h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: -20px 25px 0px -45px;
+  margin: 0px 25px 0px -50px;
 }
 #blog-call-section .uk-article .date-category li {
   padding-left: 20px;

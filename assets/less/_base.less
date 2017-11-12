@@ -562,8 +562,14 @@ h5 {
 
 #blog-call-section {
     background-color: @gray;
-    padding: 10% 0 5% 0;
-    height: 600px;
+    padding: 20% 0 25% 0;
+    @media @width-768 {
+        padding: 10% 0 20% 0;
+    }
+    @media @width-1024 {
+        padding-bottom: 15%;
+    }
+    height: auto;
     h3 {
         text-align: center;
         font-family: @main-font;
@@ -593,6 +599,7 @@ h5 {
             font-weight: 300;
             color: @darkgray;
             text-align: left;
+            line-height: 1;
         }
         .uk-article-meta {
             font-family: @secodary-font;
@@ -606,7 +613,7 @@ h5 {
         .date-category {
             list-style: none;
             display: flex;
-            margin: -20px 25px 0px -45px;
+            margin: 0px 25px 0px -50px;
             li {
                 padding-left: 20px;
                 p,
