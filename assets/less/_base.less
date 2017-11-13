@@ -408,7 +408,6 @@ h5 {
                     padding: 10px;
                 }
             }
-           
         }
         form {
             input {
@@ -559,7 +558,6 @@ h5 {
 #featured-listers-section {
     background-color: @white;
     padding: 10% 0 10% 0;
-    height: 500px;
     .uk-container {
         margin: 0 auto;
     }
@@ -573,13 +571,30 @@ h5 {
     .divider-title {
         .line-title();
     }
+    .profile-img {
+        width: 100%;
+    }
+    .hover-list {
+        opacity: 0;
+    }
+    .uk-panel.uk-panel-box {
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(0, 0, 0, 0.16);
+        .soft-transition();
+        &:hover {
+            .hover-list {
+                opacity: 1;
+            }
+        }
+    }
+    ul {
+        display: block;
+        list-style: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
     .feat-info {
-        width: 295px;
-        height: 100px;
-        background-color: rgba(255, 255, 255, 0.9);
-        position: relative;
-        top: 100px;
-        bottom: 0;
         h5 {
             font-family: @main-font;
             font-size: 20px;
@@ -618,6 +633,9 @@ h5 {
             text-align: center;
             color: @blue;
             margin: 45px 0 -10px 0;
+            @media @width-960 {
+                margin: 50% 0 0 0;
+            }
         }
         p {
             font-family: @secodary-font;

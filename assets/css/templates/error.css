@@ -9306,7 +9306,6 @@ h5 {
 #featured-listers-section {
   background-color: #FFF;
   padding: 10% 0 10% 0;
-  height: 500px;
 }
 #featured-listers-section .uk-container {
   margin: 0 auto;
@@ -9322,13 +9321,27 @@ h5 {
   margin: 30px auto auto;
   border: solid 1px #444444;
 }
-#featured-listers-section .feat-info {
-  width: 295px;
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0.9);
-  position: relative;
-  top: 100px;
-  bottom: 0;
+#featured-listers-section .profile-img {
+  width: 100%;
+}
+#featured-listers-section .hover-list {
+  opacity: 0;
+}
+#featured-listers-section .uk-panel.uk-panel-box {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#featured-listers-section .uk-panel.uk-panel-box:hover .hover-list {
+  opacity: 1;
+}
+#featured-listers-section ul {
+  display: block;
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
 }
 #featured-listers-section .feat-info h5 {
   font-family: 'Montserrat';
@@ -9370,6 +9383,11 @@ h5 {
   text-align: center;
   color: #165C96;
   margin: 45px 0 -10px 0;
+}
+@media only screen and (min-width: 960px) {
+  #featured-listers-section .feat-content-hvr h5 {
+    margin: 50% 0 0 0;
+  }
 }
 #featured-listers-section .feat-content-hvr p {
   font-family: 'Roboto';
