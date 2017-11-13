@@ -367,9 +367,20 @@ h5 {
         text-align: center;
         .search-banner-title {
             padding-bottom: 20px;
+            @media @width-768 {
+                height: 90px;
+                padding-top: 20%;
+                position: relative;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding-bottom: 0;
+            } // @media @width-960 {
+            //     height: 30px;
+            // }
         }
         h1 {
-            height: 156px;
+            // height: 156px;
             font-family: @main-font;
             font-size: 30px;
             font-weight: 300;
@@ -393,7 +404,11 @@ h5 {
             padding: 0;
             @media @width-768 {
                 display: inline-flex;
+                li {
+                    padding: 10px;
+                }
             }
+           
         }
         form {
             input {
@@ -402,6 +417,12 @@ h5 {
                 width: 260px;
                 height: 50px;
                 padding-left: 50px!important;
+                @media @width-768 {
+                    width: 200px;
+                }
+                @media @width-960 {
+                    width: 310px;
+                }
             }
             .search-input {
                 margin-top: -10px;
@@ -420,7 +441,7 @@ h5 {
             position: relative;
             margin-bottom: 400px;
             @media @width-768 {
-                top: 27px; // left: 10px;
+                top: 17px; // left: 10px;
             }
         }
     }

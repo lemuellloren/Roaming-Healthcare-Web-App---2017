@@ -9067,8 +9067,18 @@ h5 {
 #search-banner-section .search-banner-container .search-banner-title {
   padding-bottom: 20px;
 }
+@media only screen and (min-width: 768px) {
+  #search-banner-section .search-banner-container .search-banner-title {
+    height: 90px;
+    padding-top: 20%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+  }
+}
 #search-banner-section .search-banner-container h1 {
-  height: 156px;
   font-family: 'Montserrat';
   font-size: 30px;
   font-weight: 300;
@@ -9097,6 +9107,9 @@ h5 {
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
+  #search-banner-section .search-banner-container ul li {
+    padding: 10px;
+  }
 }
 #search-banner-section .search-banner-container form input {
   width: 93%;
@@ -9121,6 +9134,16 @@ h5 {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+@media only screen and (min-width: 768px) {
+  #search-banner-section .search-banner-container form input {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #search-banner-section .search-banner-container form input {
+    width: 310px;
+  }
 }
 #search-banner-section .search-banner-container form .search-input {
   margin-top: -10px;
@@ -9176,7 +9199,7 @@ h5 {
 }
 @media only screen and (min-width: 768px) {
   #search-banner-section .search-banner-container .btn-find-con {
-    top: 27px;
+    top: 17px;
   }
 }
 /* END SEARCH BANNER AREA STYLES */
