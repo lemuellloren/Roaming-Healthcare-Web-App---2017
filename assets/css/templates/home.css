@@ -10473,6 +10473,132 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   left: -25%;
   opacity: 0;
 }
+/* LOGIN MODAL AREA STYLES */
+#login-modal h3 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #165C96;
+  padding-top: 30px;
+}
+#login-modal .uk-modal-dialog {
+  background-color: #FFF;
+  height: 370px;
+}
+#login-modal .divider-title {
+  width: 50px;
+  margin: 30px auto auto;
+  border: solid 1px #444444;
+}
+#login-modal a.uk-modal-close.uk-close {
+  font-size: 24px;
+  text-align: center;
+  color: #E4E4E4;
+}
+#login-modal .log-in-form.uk-form {
+  margin-top: 35px;
+}
+#login-modal .log-in-form.uk-form input {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border: solid 1px #c9c9c9;
+  height: 40px;
+  width: 100%;
+}
+#login-modal .log-in-form.uk-form input:placeholder {
+  color: #BBBBBB;
+}
+#login-modal .log-in-form.uk-form input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#login-modal .log-in-form.uk-form a {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  float: right;
+  margin-top: -51px;
+  width: 64px;
+  height: 28px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  text-align: right;
+  color: #FE7B00;
+}
+#login-modal .log-in-form.uk-form a:hover {
+  color: #C45F00;
+  text-decoration: none;
+}
+#login-modal .log-in-form.uk-form .login-btn-container {
+  padding-top: 20px;
+}
+#login-modal .log-in-form.uk-form .login-btn-container .login-btn {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 109.1px;
+  height: 36.6px;
+}
+#login-modal .log-in-form.uk-form .login-btn-container .login-btn::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#login-modal .log-in-form.uk-form .login-btn-container .login-btn:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#login-modal .log-in-form.uk-form .login-btn-container .login-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#login-modal .login-account {
+  font-family: #444444;
+  font-size: 12px;
+  text-align: center;
+  color: #444444;
+  margin: 0 auto;
+}
+#login-modal .login-account a {
+  color: #FE7B00;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#login-modal .login-account a:hover {
+  color: #C45F00;
+  text-decoration: none;
+}
+/* LOGIN MODAL AREA STYLES */
 /* END SITE MENU AREA STYLES */
 /* ========================================================================
    Component: Slider
