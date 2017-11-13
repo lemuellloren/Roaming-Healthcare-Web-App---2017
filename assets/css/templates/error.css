@@ -9060,14 +9060,12 @@ h5 {
   margin: 0 auto;
   text-align: center;
 }
-@media only screen and (min-width: 640px) {
-  #search-banner-section .form-container .uk-form-icon {
-    padding: 10px;
-  }
-}
 #search-banner-section .search-banner-container {
   margin: 95px auto;
   text-align: center;
+}
+#search-banner-section .search-banner-container .search-banner-title {
+  padding-bottom: 20px;
 }
 #search-banner-section .search-banner-container h1 {
   height: 156px;
@@ -9179,7 +9177,6 @@ h5 {
 @media only screen and (min-width: 768px) {
   #search-banner-section .search-banner-container .btn-find-con {
     top: 27px;
-    left: 10px;
   }
 }
 /* END SEARCH BANNER AREA STYLES */
@@ -9285,8 +9282,11 @@ h5 {
 /* FEATURED LISTERS SECTION AREA STYLES */
 #featured-listers-section {
   background-color: #FFF;
-  padding: 37px 0 0 0;
+  padding: 10% 0 10% 0;
   height: 500px;
+}
+#featured-listers-section .uk-container {
+  margin: 0 auto;
 }
 #featured-listers-section h3 {
   font-family: 'Montserrat';
@@ -9637,7 +9637,7 @@ h5 {
 /* BLOG CALL SECTION AREA STYLES */
 /* SUBSCRIBER CALL TO ACTION  AREA STYLES */
 #subscriber-cta-section {
-  height: 320px;
+  padding: 25px 0 25px 0;
 }
 #subscriber-cta-section .subscriber-cta-container {
   padding: 80px 0 80px 0;
@@ -9661,6 +9661,13 @@ h5 {
   line-height: 1.67;
   text-align: center;
   color: #FFF;
+}
+@media only screen and (min-width: 960px) {
+  #subscriber-cta-section .subscriber-cta-container .cta-content p {
+    width: 490px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
 }
 #subscriber-cta-section .subscriber-cta-container .cta-btn {
   position: relative;

@@ -357,14 +357,17 @@ h5 {
         margin: 0 auto;
         text-align: center;
         .uk-form-icon {
-            @media @width-640 {
-                padding: 10px;
-            }
+            // @media @width-640 {
+            //     padding: 10px;
+            // }
         }
     }
     .search-banner-container {
         margin: 95px auto;
         text-align: center;
+        .search-banner-title {
+            padding-bottom: 20px;
+        }
         h1 {
             height: 156px;
             font-family: @main-font;
@@ -410,16 +413,14 @@ h5 {
                 }
             }
             .find-btn {
-                .btn-orange();
-                // margin: 0 45px 0 45px;
+                .btn-orange(); // margin: 0 45px 0 45px;
             }
         }
         .btn-find-con {
             position: relative;
             margin-bottom: 400px;
             @media @width-768 {
-                top: 27px;
-                left: 10px;
+                top: 27px; // left: 10px;
             }
         }
     }
@@ -536,8 +537,11 @@ h5 {
 
 #featured-listers-section {
     background-color: @white;
-    padding: 37px 0 0 0;
+    padding: 10% 0 10% 0;
     height: 500px;
+    .uk-container {
+        margin: 0 auto;
+    }
     h3 {
         text-align: center;
         font-family: @main-font;
@@ -563,7 +567,6 @@ h5 {
             color: @blue;
             margin: 25px 0 -10px 0;
         }
-
         p {
             font-family: @secodary-font;
             font-size: @default-font-size;
@@ -588,7 +591,7 @@ h5 {
     .feat-content-hvr {
         .soft-transition();
         h5 {
-            font-family:@main-font;
+            font-family: @main-font;
             font-size: 20px;
             font-weight: 600;
             text-align: center;
@@ -740,7 +743,7 @@ h5 {
 /* SUBSCRIBER CALL TO ACTION  AREA STYLES */
 
 #subscriber-cta-section {
-    height: 320px;
+    padding: 25px 0 25px 0;
     .subscriber-cta-container {
         padding: 80px 0 80px 0;
         text-align: center;
@@ -761,6 +764,11 @@ h5 {
                 line-height: 1.67;
                 text-align: center;
                 color: @white;
+                @media @width-960 {
+                    width: 490px;
+                    margin: 0 auto;
+                    margin-bottom: 50px;
+                }
             }
         }
         .cta-btn {
