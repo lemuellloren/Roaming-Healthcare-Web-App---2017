@@ -557,7 +557,7 @@ h5 {
 
 #featured-listers-section {
     background-color: @white;
-    padding: 10% 0 10% 0;
+    padding: 80px 0 100px 0;
     .uk-container {
         margin: 0 auto;
     }
@@ -574,6 +574,22 @@ h5 {
     .profile-img {
         width: 100%;
     }
+    .feat-list-arrow {
+        .btn-white();
+        width: 37px;
+        outline: none;
+    }
+    .uk-slidenav.uk-slidenav-previous,
+    .uk-slidenav.uk-slidenav-next {
+        display: block;
+        color: @orange;
+        .soft-transition();
+        &:hover {
+            color: @hvr-orange;
+        }
+    } // .uk-slidenav-previous {
+    //     left: 100px;
+    // }
     .hover-list {
         opacity: 0;
     }
@@ -624,6 +640,12 @@ h5 {
         background-color: rgba(255, 255, 255, 0.9);
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     }
+    .uk-slidenav {
+        font-size: 25px;
+        text-align: center;
+        border-radius: 3px;
+        border: solid 2px @orange;
+    }
     .feat-content-hvr {
         .soft-transition();
         h5 {
@@ -643,6 +665,14 @@ h5 {
             line-height: 1.38;
             text-align: center;
             color: @darkgray;
+        }
+    }
+    .feat-list-nav {
+        position: relative;
+        top: 30px;
+        float: right;
+        @media @width-768 {
+            top: 50px;
         }
     }
     .feat-profiles {
@@ -829,6 +859,9 @@ h5 {
 
 #adver-section {
     height: 50%;
+    .uk-container {
+        margin: 0 auto;
+    }
     .adver-img {
         margin: 10% 0 10% 0;
         width: 256px;
