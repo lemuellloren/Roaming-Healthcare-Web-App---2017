@@ -4,7 +4,7 @@
 // @import '../bower_components/uikit/less/components/slideshow.less';
 // @import '../bower_components/uikit/less/components/dotnav.less';
 @import '../bower_components/uikit/less/components/slider.less';
-@import '../bower_components/uikit/less/components/slidenav.less'; 
+@import '../bower_components/uikit/less/components/slidenav.less';
 // PAGE FRAMEWORK OVERRIDES
 // PAGE SECTION STYLES
 
@@ -15,7 +15,14 @@
 
 #featured-services-section {
 	background-color: @gray;
-	padding: 37px 0 0 0;
+	padding: 70px 0 70px 0;
+	@media @width-768 {
+		padding: 10% 0 10% 0;
+	}
+	text-align: center;
+	.uk-container {
+		margin: 0 auto;
+	}
 	.featured-container {
 		h3 {
 			font-size: 24px;
@@ -26,6 +33,7 @@
 		}
 		.featured-grid-container {
 			margin-top: 30px;
+			margin-bottom: -31px;
 		}
 		h5 {
 			background: transparent;
@@ -60,7 +68,7 @@
 				color: @blue;
 			}
 			p {
-				font-family:@secodary-font;
+				font-family: @secodary-font;
 				font-size: 16px;
 				line-height: 1.38;
 				text-align: center;
@@ -68,12 +76,20 @@
 			}
 			.feat-content-area {
 				margin: 15px;
-			}			
-			.feat-search-brn {
-				.btn-orange();
-				width: 109.1px;
-				height: 36.6px;
-				margin: 0 35px 0 35px;
+				@media @width-768 {
+					text-align: center;
+					margin: 0 auto;
+					padding: 50px 20px 50px 20px;
+				}
+			}
+			.feat-services-btn {
+				text-align: center;
+				.feat-search-brn {
+					.btn-orange();
+					width: 109.1px;
+					height: 36.6px;
+					margin: 0 35px 0 35px;
+				}
 			}
 		}
 	}

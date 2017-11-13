@@ -10556,7 +10556,16 @@ html[dir="rtl"] .uk-slider > * {
 /* FEATURED SERVICES SECTION  AREA STYLES */
 #featured-services-section {
   background-color: #E4E4E4;
-  padding: 37px 0 0 0;
+  padding: 70px 0 70px 0;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  #featured-services-section {
+    padding: 10% 0 10% 0;
+  }
+}
+#featured-services-section .uk-container {
+  margin: 0 auto;
 }
 #featured-services-section .featured-container h3 {
   font-size: 24px;
@@ -10569,6 +10578,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 #featured-services-section .featured-container .featured-grid-container {
   margin-top: 30px;
+  margin-bottom: -31px;
 }
 #featured-services-section .featured-container h5 {
   background: transparent;
@@ -10614,7 +10624,17 @@ html[dir="rtl"] .uk-slider > * {
 #featured-services-section .featured-container .feat-content-hvr .feat-content-area {
   margin: 15px;
 }
-#featured-services-section .featured-container .feat-content-hvr .feat-search-brn {
+@media only screen and (min-width: 768px) {
+  #featured-services-section .featured-container .feat-content-hvr .feat-content-area {
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 20px 50px 20px;
+  }
+}
+#featured-services-section .featured-container .feat-content-hvr .feat-services-btn {
+  text-align: center;
+}
+#featured-services-section .featured-container .feat-content-hvr .feat-services-btn .feat-search-brn {
   width: 159px;
   height: 50px;
   border-radius: 3px;
@@ -10631,7 +10651,7 @@ html[dir="rtl"] .uk-slider > * {
   height: 36.6px;
   margin: 0 35px 0 35px;
 }
-#featured-services-section .featured-container .feat-content-hvr .feat-search-brn::before {
+#featured-services-section .featured-container .feat-content-hvr .feat-services-btn .feat-search-brn::before {
   content: '';
   background-color: #C45F00;
   width: 0%;
@@ -10645,11 +10665,11 @@ html[dir="rtl"] .uk-slider > * {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-#featured-services-section .featured-container .feat-content-hvr .feat-search-brn:hover {
+#featured-services-section .featured-container .feat-content-hvr .feat-services-btn .feat-search-brn:hover {
   background-color: #C45F00;
   border: 1px solid #C45F00;
 }
-#featured-services-section .featured-container .feat-content-hvr .feat-search-brn:hover::before {
+#featured-services-section .featured-container .feat-content-hvr .feat-services-btn .feat-search-brn:hover::before {
   width: 150%;
   height: 150%;
   top: -25%;
