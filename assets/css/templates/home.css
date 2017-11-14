@@ -9395,6 +9395,11 @@ h5 {
   text-align: center;
   padding: 0;
 }
+#featured-listers-section .feat-content-area {
+  position: relative;
+  top: 30%;
+  bottom: 50%;
+}
 #featured-listers-section .feat-info h5 {
   font-family: 'Montserrat';
   font-size: 20px;
@@ -9440,12 +9445,6 @@ h5 {
   font-weight: 600;
   text-align: center;
   color: #165C96;
-  margin: 45px 0 -10px 0;
-}
-@media only screen and (min-width: 960px) {
-  #featured-listers-section .feat-content-hvr h5 {
-    margin: 50% 0 0 0;
-  }
 }
 #featured-listers-section .feat-content-hvr p {
   font-family: 'Roboto';
