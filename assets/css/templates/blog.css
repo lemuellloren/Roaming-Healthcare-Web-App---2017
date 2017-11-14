@@ -11062,8 +11062,9 @@ html[dir="rtl"] .uk-slider > * {
 /* FEATURED SERVICES SECTION  AREA STYLES */
 /* BREADCRUMB AREA STYLES */
 #breadcrumb-section {
+  background-color: #E4E4E4;
   height: 50px;
-  margin: 100px 0 0 0;
+  padding: 100px 0 0 0;
   text-align: left;
 }
 #breadcrumb-section .uk-container {
@@ -11093,7 +11094,7 @@ html[dir="rtl"] .uk-slider > * {
 /* END BREADCRUMB AREA STYLES */
 /* FEATURED BLOG AREA STYLES */
 #featured-blog-section {
-  margin-bottom: 10%;
+  background-color: #E4E4E4;
 }
 #featured-blog-section .uk-container {
   margin: 0 auto;
