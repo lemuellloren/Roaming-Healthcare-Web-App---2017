@@ -10428,9 +10428,6 @@ nav .desktop-menu .uk-container .menulist ul li a {
   text-decoration: none;
   margin: 0 10px;
 }
-nav .desktop-menu .uk-container .menulist ul li a.active {
-  border-bottom: solid 2px #FFF;
-}
 nav .desktop-menu .uk-container .menulist a.list-services-btn {
   width: 109.1px;
   height: 36.6px;
