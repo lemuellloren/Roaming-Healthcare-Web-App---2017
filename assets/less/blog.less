@@ -1,8 +1,8 @@
 // BASE IMPORT
 @import '_base';
 // PAGE FRAMEWORK COMPONENT IMPORT
-// @import '../bower_components/uikit/less/components/slideshow.less';
-// @import '../bower_components/uikit/less/components/dotnav.less';
+@import '../bower_components/uikit/less/components/slideshow.less';
+@import '../bower_components/uikit/less/components/dotnav.less';
 @import '../bower_components/uikit/less/components/slider.less';
 @import '../bower_components/uikit/less/components/slidenav.less';
 // PAGE FRAMEWORK OVERRIDES
@@ -15,6 +15,7 @@
 
 
 /* BREADCRUMB AREA STYLES */
+
 #breadcrumb-section {
     height: 50px;
     margin: 100px 0 0 0;
@@ -22,7 +23,6 @@
     .uk-container {
         margin: 0 auto;
     }
-    
     a {
         font-family: @secodary-font;
         font-size: 12px;
@@ -39,16 +39,87 @@
         font-size: 12px;
     }
 }
+
+
 /* END BREADCRUMB AREA STYLES */
 
+
 /* FEATURED BLOG AREA STYLES */
+
 #featured-blog-section {
+    margin-bottom: 10%;
     .uk-container {
         margin: 0 auto;
     }
-    img {
+    .uk-slideshow {
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     }
+
+.uk-overlay-panel {
+   @media @width-960 {
+  top: 200px;
+   }
 }
+    .uk-panel {
+        width: auto;
+        height: 248px;
+        border-radius: 3px;
+        background-color: @white;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+        position: relative;
+        top: 50%;
+        left: 0;
+        padding: 25px;
+        transform: translateY(-50%);
+        @media @width-768 {
+            width: 650px;
+            height: 180px;
+            margin: 0 auto;
+        }
+        h3 {
+            font-family: @main-font;
+            font-size: 22px;
+            text-align: left;
+            color: @darkgray;
+        }
+        p {
+            font-family: @secodary-font;
+            font-size: 16px;
+            line-height: 1.38;
+            text-align: left;
+            color: @darkgray;
+        }
+    }
+    .blog-readmore-container {
+        text-align: right;
+        .blog-readmore-btn {
+            .btn-orange();
+            width: 86.9px;
+            height: 29.7px;
+        }
+    }
+    .uk-dotnav-contrast>.uk-active>* {
+        background-color: @darkgray;
+    }
+    .uk-dotnav-contrast > * > * {
+        background-color: @gray;
+        width: 15px;
+        height: 15px;
+    }
+    .date-category {
+        position: relative;
+        top: 38px;
+        p {
+            font-family: @secodary-font;
+            font-size: 12px;
+            text-align: left;
+            color: @blue;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
 
 /* END FEATURED BLOG AREA STYLES */
