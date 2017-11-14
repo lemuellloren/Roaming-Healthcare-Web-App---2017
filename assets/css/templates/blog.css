@@ -9868,6 +9868,147 @@ h5 {
 }
 /* END ADS AREA STYLES */
 /* END BLOG CALL SECTION AREA STYLES */
+/* BLOG SEARCH AREA STYLES */
+#blogsearch-section {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#165c96), to(#3382c4));
+  background-image: linear-gradient(to top, #165c96, #3382c4);
+}
+#blogsearch-section .uk-container {
+  margin: 0 auto;
+}
+#blogsearch-section .blogsearch-container {
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+#blogsearch-section .blogsearch-container h3 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #E4E4E4;
+}
+#blogsearch-section .blogsearch-container .divider-title {
+  width: 50px;
+  margin: 30px auto auto;
+  border: solid 1px #444444;
+  border: solid 1px #E4E4E4;
+}
+#blogsearch-section .blogsearch-container form {
+  padding: 20px 0 0 0;
+}
+#blogsearch-section .blogsearch-container form input {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  width: 80%;
+  height: 40px;
+}
+#blogsearch-section .blogsearch-container form input:placeholder {
+  color: #BBBBBB;
+}
+#blogsearch-section .blogsearch-container form input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
+@media only screen and (min-width: 768px) {
+  #blogsearch-section .blogsearch-container form input {
+    width: 391.4px;
+  }
+}
+#blogsearch-section .blogsearch-container form input::-webkit-input-placeholder {
+  color: #E4E4E4;
+}
+#blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
+  color: #E4E4E4;
+}
+#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
+  color: #E4E4E4;
+}
+#blogsearch-section .blogsearch-container form input::placeholder {
+  color: #E4E4E4;
+}
+#blogsearch-section .blogsearch-container form .blogsearch-btn {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  position: relative;
+  top: -4px;
+  left: -8px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  width: 40px;
+  height: 40px;
+}
+#blogsearch-section .blogsearch-container form .blogsearch-btn::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#blogsearch-section .blogsearch-container form .blogsearch-btn:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#blogsearch-section .blogsearch-container form .blogsearch-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+@media only screen and (min-width: 768px) {
+  #blogsearch-section .blogsearch-container form .blogsearch-btn {
+    width: 50px;
+  }
+}
+#blogsearch-section .blogsearch-container .categories {
+  padding: 20px 0 0 0;
+}
+#blogsearch-section .blogsearch-container .categories p {
+  display: inline;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin: 0 auto;
+}
+#blogsearch-section .blogsearch-container .categories a {
+  color: #E4E4E4;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: right;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#blogsearch-section .blogsearch-container .categories a:hover {
+  color: #FE7B00;
+}
+/* END BLOG SEARCH AREA STYLES */
 /* SITE FOOTER AREA STYLES */
 footer {
   background: #E4E4E4;
