@@ -829,6 +829,17 @@ h5 {
     .uk-pagination {
         width: 230px;
     }
+    .uk-pagination-previous,
+    .uk-pagination-next {
+        .soft-transition();
+        &:hover {
+            a {
+                color: @white;
+            }
+            background-color: @orange;
+            border-radius: 3px;
+        }
+    }
 }
 
 
@@ -855,7 +866,7 @@ h5 {
                 text-align: center;
                 color: @white;
                 line-height: 1;
-                text-transform: uppercase;                
+                text-transform: uppercase;
             }
             p {
                 font-family: @secodary-font;
@@ -913,6 +924,7 @@ h5 {
 
 /* END BLOG CALL SECTION AREA STYLES */
 
+
 /* BREADCRUMB AREA STYLES */
 
 #breadcrumb-section {
@@ -960,7 +972,7 @@ h5 {
             font-weight: 300;
             text-align: center;
             color: @gray;
-            text-transform: uppercase;            
+            text-transform: uppercase;
         }
         .divider-title {
             .line-title();

@@ -9767,6 +9767,20 @@ h5 {
 #blog-call-section .uk-pagination {
   width: 230px;
 }
+#blog-call-section .uk-pagination-previous,
+#blog-call-section .uk-pagination-next {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#blog-call-section .uk-pagination-previous:hover,
+#blog-call-section .uk-pagination-next:hover {
+  background-color: #FE7B00;
+  border-radius: 3px;
+}
+#blog-call-section .uk-pagination-previous:hover a,
+#blog-call-section .uk-pagination-next:hover a {
+  color: #FFF;
+}
 /* BLOG CALL SECTION AREA STYLES */
 /* SUBSCRIBER CALL TO ACTION  AREA STYLES */
 #subscriber-cta-section {
