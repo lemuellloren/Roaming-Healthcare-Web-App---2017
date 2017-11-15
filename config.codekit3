@@ -4974,6 +4974,23 @@
 		"oAP": "\/assets\/css\/home.min.css.map",
 		"oF": 0
 		},
+	"\/assets\/css\/templates\/article.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/templates\/article-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/templates\/article.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/templates\/article.css.map",
+		"oF": 0
+		},
 	"\/assets\/css\/templates\/blog.css": {
 		"aP": 1,
 		"bl": 0,
@@ -5477,6 +5494,23 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/assets\/js\/templates\/article.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/article.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/assets\/js\/templates\/article.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/templates\/article.min.js.map",
+		"oF": 0
+		},
 	"\/assets\/js\/templates\/blog.min.js": {
 		"ft": 64,
 		"ma": 1,
@@ -5612,13 +5646,6 @@
 		"sI": 0,
 		"sM": 0,
 		"sU": 0
-		},
-	"\/blog.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/blog.html",
-		"oF": 0
 		},
 	"\/bower.json": {
 		"ft": 524288,

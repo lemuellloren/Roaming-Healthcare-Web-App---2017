@@ -9907,9 +9907,14 @@ h5 {
   text-align: center;
   color: #444444;
   text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 #breadcrumb-section a:active {
   color: #FE7B00;
+}
+#breadcrumb-section a:hover {
+  color: #C45F00;
 }
 #breadcrumb-section span {
   color: #FE7B00;
@@ -9921,6 +9926,12 @@ h5 {
 #breadcrumb-section span:hover {
   color: #C45F00;
   text-decoration: none;
+}
+#breadcrumb-section .uk-breadcrumb > li:nth-child(n+2)::before {
+  content: "\f054";
+  /* chevron-right */
+  font-family: Fontawesome;
+  font-size: 12px;
 }
 /* END BREADCRUMB AREA STYLES */
 /* BLOG SEARCH AREA STYLES */
@@ -11354,8 +11365,8 @@ html[dir="rtl"] .uk-slider > * {
   overflow: hidden;
   -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
-  width: 86.9px;
-  height: 29.7px;
+  padding: 8px;
+  text-decoration: none;
 }
 #featured-blog-section .blog-readmore-btn::before {
   content: '';

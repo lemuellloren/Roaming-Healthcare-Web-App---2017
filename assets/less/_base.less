@@ -941,13 +941,22 @@ h5 {
         text-align: center;
         color: @darkgray;
         text-decoration: none;
+        .soft-transition();
         &:active {
             color: @orange;
+        }
+        &:hover {
+            color: @hvr-orange;
         }
     }
     span {
         .orange-link();
         font-family: @secodary-font;
+        font-size: 12px;
+    }
+    .uk-breadcrumb > li:nth-child(n+2)::before {
+        content: "\f054"; /* chevron-right */
+        font-family: Fontawesome;
         font-size: 12px;
     }
 }
