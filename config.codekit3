@@ -5102,6 +5102,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/c1.png": {
+		"ft": 32768,
+		"iS": 115202,
+		"oA": 0,
+		"oAP": "\/assets\/images\/c1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/c2.png": {
+		"ft": 32768,
+		"iS": 115449,
+		"oA": 0,
+		"oAP": "\/assets\/images\/c2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/desktop-img.png": {
 		"ft": 32768,
 		"iS": 63259,
@@ -5646,6 +5668,13 @@
 		"sI": 0,
 		"sM": 0,
 		"sU": 0
+		},
+	"\/blog.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog.html",
+		"oF": 0
 		},
 	"\/bower.json": {
 		"ft": 524288,

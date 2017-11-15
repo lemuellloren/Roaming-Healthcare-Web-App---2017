@@ -9012,6 +9012,7 @@ html {
 }
 body {
   overflow-x: hidden;
+  background-color: #E4E4E4;
 }
 h1 {
   font-weight: 300;
@@ -9806,7 +9807,7 @@ h5 {
   text-align: center;
   color: #FFF;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: initial;
 }
 #subscriber-cta-section .subscriber-cta-container .cta-content p {
   font-family: 'Roboto';
@@ -11293,4 +11294,172 @@ html[dir="rtl"] .uk-slider > * {
 /* #hero, #about, #contact, etc. */
 /* FEATURED SERVICES SECTION  AREA STYLES */
 /* FEATURED BLOG AREA STYLES */
+/* FEATURED ARTICLE SYTLES AREA */
+#article-section {
+  height: auto;
+}
+#article-section .article-container {
+  padding: 0;
+}
+@media only screen and (min-width: 768px) {
+  #article-section .article-container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    max-width: 1127px;
+    padding: 0 25px;
+    margin: 0 auto;
+    padding: 0 0 80px 0;
+  }
+}
+#article-section .uk-container {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#article-section .uk-panel-box {
+  background: #FFF;
+}
+@media only screen and (min-width: 768px) {
+  #article-section .uk-panel-box {
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+#article-section h1 {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  text-align: left;
+  color: #444444;
+  line-height: 1.3;
+  margin-bottom: 5px;
+}
+#article-section p {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #444444;
+}
+#article-section .date-category {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 25px 0px -50px;
+}
+#article-section .date-category li {
+  padding-left: 20px;
+}
+#article-section .date-category li p,
+#article-section .date-category li a {
+  font-family: 'Roboto';
+  font-size: 12px;
+  text-align: right;
+  color: #165c96;
+  text-decoration: none;
+  margin-top: 1px;
+}
+#article-section .older-post {
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+#article-section .older-post .olderpost-btn {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  padding: 8px;
+  text-decoration: none;
+}
+#article-section .older-post .olderpost-btn::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#article-section .older-post .olderpost-btn:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+#article-section .older-post .olderpost-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#article-section .quote-article {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+#article-section .quote-article p {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #444444;
+}
+#article-section .quote-article span {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.71;
+}
+#article-section .article-share-icons {
+  text-align: center;
+  padding-top: 20px;
+}
+#article-section .article-share-icons p {
+  color: #444444;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  font-family: 'Roboto';
+  text-align: center;
+}
+#article-section .article-share-icons ul {
+  padding: 0;
+  list-style: none;
+}
+#article-section .article-share-icons ul li {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+}
+#article-section .article-share-icons ul li a {
+  background: #444444;
+  border-radius: 15px;
+  padding: 6px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#article-section .article-share-icons ul li a span {
+  width: 20px;
+  text-align: center;
+  color: #FFF;
+}
+#article-section .article-share-icons ul li a:hover {
+  background: #FE7B00;
+}
+#article-section .disqus-container {
+  padding: 30px 0 30px 0;
+}
+/* END FEATURED ARTICLE SYTLES AREA */
 /*# sourceMappingURL=article.css.map */

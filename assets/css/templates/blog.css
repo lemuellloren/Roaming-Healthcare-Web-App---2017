@@ -9012,6 +9012,7 @@ html {
 }
 body {
   overflow-x: hidden;
+  background-color: #E4E4E4;
 }
 h1 {
   font-weight: 300;
@@ -9806,7 +9807,7 @@ h5 {
   text-align: center;
   color: #FFF;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: initial;
 }
 #subscriber-cta-section .subscriber-cta-container .cta-content p {
   font-family: 'Roboto';

@@ -14,5 +14,133 @@
 /* FEATURED SERVICES SECTION  AREA STYLES */
 
 
-
 /* FEATURED BLOG AREA STYLES */
+
+
+/* FEATURED ARTICLE SYTLES AREA */
+
+#article-section {
+    height: auto;
+    .article-container {
+        padding: 0;
+        @media @width-768 {
+            box-sizing: border-box;
+            max-width: 1127px;
+            padding: 0 25px;
+            margin: 0 auto;
+            padding: 0 0 80px 0;
+        }
+    }
+    .uk-container {
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .uk-panel-box {
+        background: @white;
+        @media @width-768 {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        }
+    }
+    h1 {
+        font-family: @main-font;
+        font-size: 22px;
+        text-align: left;
+        color: @darkgray;
+        line-height: 1.3;
+        margin-bottom: 5px;
+    }
+    p {
+        font-family: @secodary-font;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+        color: @darkgray;
+    }
+    .date-category {
+        list-style: none;
+        display: flex;
+        margin: 0px 25px 0px -50px;
+        li {
+            padding-left: 20px;
+            p,
+            a {
+                font-family: @secodary-font;
+                font-size: 12px;
+                text-align: right;
+                color: #165c96;
+                text-decoration: none;
+                margin-top: 1px;
+            }
+        }
+    }
+    .older-post {
+        text-align: center;
+        padding: 30px 0 30px 0;
+        .olderpost-btn {
+            .btn-white();
+            padding: 8px;
+            text-decoration: none;
+        }
+    }
+    .quote-article {
+        text-align: center;
+        width: 75%;
+        margin: 0 auto;
+        p {
+            font-family: @main-font;
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+            color: @darkgray;
+        }
+        span {
+            text-align: center;
+            font-family: @secodary-font;
+            font-size: 14px;
+            font-style: italic;
+            line-height: 1.71;
+        }
+    }
+    .article-share-icons {
+        text-align: center;
+        padding-top: 20px;
+        p {
+            color: @darkgray;
+            font-size: @default-font-size - 4;
+            font-weight: @font-light;
+            margin: 0;
+            font-family: @secodary-font;
+            text-align: center;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+                width: auto;
+                margin-right: 5px;
+                a {
+                    background: @darkgray;
+                    border-radius: 15px;
+                    padding: 6px;
+                    .soft-transition();
+                    span {
+                        width: 20px;
+                        text-align: center;
+                        color: @white
+                    }
+                    &:hover {
+                        background: @orange;
+                        span {}
+                    }
+                }
+            }
+        }
+    } //DISQUS CSS
+    .disqus-container {
+        padding: 30px 0 30px 0;
+    }
+}
+
+
+/* END FEATURED ARTICLE SYTLES AREA */
