@@ -840,6 +840,51 @@ h5 {
             background-color: @orange;
             border-radius: 3px;
         }
+    } //Search Blog css
+    .blog-search-result {
+        margin-top: -60px;
+        @media @width-768 {
+            margin-top: 0;
+            padding-left: 20px;
+        }
+        p {
+            width: 140px;
+            height: 32px;
+            font-family: @secodary-font;
+            font-size: 12px;
+            text-align: left;
+            color: @darkgray;
+            @media @width-768 {
+                width: auto;
+            }
+        }
+        a {
+            font-size: 14px;
+            font-style: italic;
+            color: @orange;
+            .soft-transition();
+            text-decoration: none;
+            &:hover {
+                color: @hvr-orange;
+            }
+        }
+        .uk-form {
+            @media @width-768 {
+                margin-top: -55px;
+            }
+            text-align: right;
+
+            select {
+                width: 93px;
+                height: 27px;
+                border-radius: 3px;
+                background-color: #e4e4e4 !important;
+                color: @darkgray !important;
+                font-family: @secodary-font !important;
+                font-size: 10px;
+                text-align: center;
+            }
+        }
     }
 }
 
@@ -955,8 +1000,9 @@ h5 {
         font-family: @secodary-font;
         font-size: 12px;
     }
-    .uk-breadcrumb > li:nth-child(n+2)::before {
-        content: "\f054"; /* chevron-right */
+    .uk-breadcrumb>li:nth-child(n+2)::before {
+        content: "\f054";
+        /* chevron-right */
         font-family: Fontawesome;
         font-size: 12px;
     }
