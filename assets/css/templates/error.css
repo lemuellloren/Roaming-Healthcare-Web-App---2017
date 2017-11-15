@@ -9015,21 +9015,26 @@ body {
 }
 h1 {
   font-weight: 300;
+  text-transform: uppercase;
 }
 h2 {
   font-weight: 400;
   font-family: 'Roboto';
+  text-transform: uppercase;
 }
 h3 {
   font-weight: 300;
   color: #165C96;
+  text-transform: uppercase;
 }
 h4 {
   font-weight: 400;
   font-family: 'Roboto';
+  text-transform: uppercase;
 }
 h5 {
   font-weight: 300;
+  text-transform: uppercase;
 }
 /* Contact Field Area Styles */
 /* End Contact Field Area Styles */
@@ -9787,6 +9792,7 @@ h5 {
   text-align: center;
   color: #FFF;
   line-height: 1;
+  text-transform: uppercase;
 }
 #subscriber-cta-section .subscriber-cta-container .cta-content p {
   font-family: 'Roboto';
@@ -9871,6 +9877,38 @@ h5 {
 }
 /* END ADS AREA STYLES */
 /* END BLOG CALL SECTION AREA STYLES */
+/* BREADCRUMB AREA STYLES */
+#breadcrumb-section {
+  background-color: #E4E4E4;
+  height: 50px;
+  padding: 100px 0 0 0;
+  text-align: left;
+}
+#breadcrumb-section .uk-container {
+  margin: 0 auto;
+}
+#breadcrumb-section a {
+  font-family: 'Roboto';
+  font-size: 12px;
+  text-align: center;
+  color: #444444;
+  text-decoration: none;
+}
+#breadcrumb-section a:active {
+  color: #FE7B00;
+}
+#breadcrumb-section span {
+  color: #FE7B00;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+#breadcrumb-section span:hover {
+  color: #C45F00;
+  text-decoration: none;
+}
+/* END BREADCRUMB AREA STYLES */
 /* BLOG SEARCH AREA STYLES */
 #blogsearch-section {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#165c96), to(#3382c4));
@@ -9889,6 +9927,7 @@ h5 {
   font-weight: 300;
   text-align: center;
   color: #E4E4E4;
+  text-transform: uppercase;
 }
 #blogsearch-section .blogsearch-container .divider-title {
   width: 50px;
@@ -10285,6 +10324,7 @@ footer .main-footer .share-icons ul li a:hover {
   text-align: center;
   line-height: 1;
   color: #FFF;
+  text-transform: uppercase;
   margin: 36px;
 }
 @media only screen and (min-width: 768px) {
@@ -10643,6 +10683,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: center;
   color: #165C96;
   padding-top: 30px;
+  text-transform: uppercase;
 }
 #login-modal .uk-modal-dialog {
   background-color: #FFF;

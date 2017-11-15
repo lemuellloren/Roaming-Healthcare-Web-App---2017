@@ -51,25 +51,30 @@ body {
 
 h1 {
     font-weight: @font-light;
+    text-transform: uppercase;
 }
 
 h2 {
     font-weight: @font-regular;
     font-family: @secodary-font;
+    text-transform: uppercase;
 }
 
 h3 {
     font-weight: @font-light;
     color: @blue;
+    text-transform: uppercase;
 }
 
 h4 {
     font-weight: @font-regular;
     font-family: @secodary-font;
+    text-transform: uppercase;
 }
 
 h5 {
     font-weight: @font-light;
+    text-transform: uppercase;
 }
 
 // SITE-WIDE STYLES & MIXINS
@@ -850,6 +855,7 @@ h5 {
                 text-align: center;
                 color: @white;
                 line-height: 1;
+                text-transform: uppercase;                
             }
             p {
                 font-family: @secodary-font;
@@ -907,6 +913,36 @@ h5 {
 
 /* END BLOG CALL SECTION AREA STYLES */
 
+/* BREADCRUMB AREA STYLES */
+
+#breadcrumb-section {
+    background-color: @gray;
+    height: 50px;
+    padding: 100px 0 0 0;
+    text-align: left;
+    .uk-container {
+        margin: 0 auto;
+    }
+    a {
+        font-family: @secodary-font;
+        font-size: 12px;
+        text-align: center;
+        color: @darkgray;
+        text-decoration: none;
+        &:active {
+            color: @orange;
+        }
+    }
+    span {
+        .orange-link();
+        font-family: @secodary-font;
+        font-size: 12px;
+    }
+}
+
+
+/* END BREADCRUMB AREA STYLES */
+
 
 /* BLOG SEARCH AREA STYLES */
 
@@ -924,6 +960,7 @@ h5 {
             font-weight: 300;
             text-align: center;
             color: @gray;
+            text-transform: uppercase;            
         }
         .divider-title {
             .line-title();
@@ -1173,6 +1210,7 @@ footer {
         text-align: center;
         line-height: 1;
         color: @white;
+        text-transform: uppercase;
         margin: 36px;
         @media @width-768 {
             margin: 60px;
@@ -1380,6 +1418,7 @@ nav {
         text-align: center;
         color: @blue;
         padding-top: 30px;
+        text-transform: uppercase;
     }
     .uk-modal-dialog {
         background-color: @white;
