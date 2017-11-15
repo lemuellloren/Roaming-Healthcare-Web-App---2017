@@ -9012,7 +9012,7 @@ html {
 }
 body {
   overflow-x: hidden;
-  background-color: #E4E4E4;
+  background-color: #F0F0F0;
 }
 h1 {
   font-weight: 300;
@@ -9567,7 +9567,7 @@ h5 {
 }
 /* END FEATURED LISTERS SECTION AREA STYLES */
 #blog-call-section {
-  background-color: #E4E4E4;
+  background-color: #F0F0F0;
   padding: 20% 0 25% 0;
   height: auto;
 }
@@ -9894,7 +9894,7 @@ h5 {
 /* END BLOG CALL SECTION AREA STYLES */
 /* BREADCRUMB AREA STYLES */
 #breadcrumb-section {
-  background-color: #E4E4E4;
+  background-color: #F0F0F0;
   height: 50px;
   padding: 100px 0 0 0;
   text-align: left;
