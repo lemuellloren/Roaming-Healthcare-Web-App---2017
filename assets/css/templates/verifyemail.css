@@ -10888,7 +10888,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 /* END SITE MENU AREA STYLES */
 /* #hero, #about, #contact, etc. */
 /* FEATURED SERVICES SECTION  AREA STYLES */
-/* CREATE LISTER ACCOUNT BANNER SYTLES AREA */
+/* VERIFY EMAIL BANNER SYTLES AREA */
 #gradient-banner {
   margin-bottom: -175px;
 }
@@ -10897,9 +10897,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
     margin-bottom: -110px;
   }
 }
-/* END CREATE LISTER ACCOUNT BANNER SYTLES AREA */
-/* CREATE LISTER ACCOUNT  SYTLES AREA */
-#lister-account-section {
+/* END VERIFY EMAIL BANNER SYTLES AREA  */
+/* VERIFY EMAIL SYTLES AREA */
+#verify-account-section {
   padding: 50px 0 50px 0;
   max-width: 85%;
   margin: 0 auto;
@@ -10912,147 +10912,50 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   top: -50px;
 }
 @media only screen and (min-width: 768px) {
-  #lister-account-section {
+  #verify-account-section {
     max-width: 60%;
   }
 }
-#lister-account-section .uk-container {
+#verify-account-section .uk-container {
   margin: 0 auto;
 }
-#lister-account-section h3 {
+#verify-account-section h3 {
   font-family: 'Montserrat';
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
   color: #165C96;
+  text-transform: initial;
 }
-#lister-account-section p {
+#verify-account-section p {
   font-family: 'Roboto';
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.33;
-  text-align: center;
+  text-align: left;
   color: #444444;
 }
 @media only screen and (min-width: 768px) {
-  #lister-account-section p {
+  #verify-account-section p {
     margin: 0 auto;
     padding-top: 20px;
   }
 }
 @media only screen and (min-width: 1024px) {
-  #lister-account-section p {
+  #verify-account-section p {
     width: 70%;
   }
 }
-#lister-account-section a {
+#verify-account-section a {
   color: #FE7B00;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-#lister-account-section a:hover {
+#verify-account-section a:hover {
   color: #C45F00;
   text-decoration: none;
 }
-#lister-account-section .divider-title {
-  width: 50px;
-  margin: 30px auto auto;
-  border: solid 1px #444444;
-}
-#lister-account-section .login-lister-account {
-  padding-top: 15px;
-}
-#lister-account-section form {
+#verify-account-section .verification-account {
   text-align: center;
-  padding-top: 25px;
 }
-@media only screen and (min-width: 768px) {
-  #lister-account-section form {
-    margin: 0 auto;
-    width: 70%;
-  }
-}
-#lister-account-section form input {
-  width: 93%;
-  padding: 5px 10px;
-  border: 0;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  border: #FFF 1px solid;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  font-size: 12px;
-  width: 100%;
-  height: 45px;
-  border-radius: 3px;
-  background-color: #FFF;
-  border: solid 1px #E4E4E4;
-}
-#lister-account-section form input:placeholder {
-  color: #BBBBBB;
-}
-#lister-account-section form input:focus {
-  border-bottom: #FE7B00 1px solid;
-  outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
-}
-@media only screen and (min-width: 1024px) {
-  #lister-account-section form input {
-    width: 70%;
-  }
-}
-#lister-account-section form img {
-  padding: 0 0 10px 0;
-}
-@media only screen and (min-width: 768px) {
-  #lister-account-section form img {
-    width: 70%;
-  }
-}
-#lister-account-section form .create-btn {
-  width: 159px;
-  height: 50px;
-  border-radius: 3px;
-  border: 1px solid #FE7B00;
-  background-color: #FE7B00;
-  font-size: 14px;
-  text-align: center;
-  color: #FFF;
-  position: relative;
-  overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
-  transition: all 0.4s ease-in-out 0.1s;
-  width: 100%;
-}
-#lister-account-section form .create-btn::before {
-  content: '';
-  background-color: #C45F00;
-  width: 0%;
-  height: 0%;
-  border-radius: 50%;
-  color: #FFF;
-  opacity: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-#lister-account-section form .create-btn:hover {
-  background-color: #C45F00;
-  border: 1px solid #C45F00;
-}
-#lister-account-section form .create-btn:hover::before {
-  width: 150%;
-  height: 150%;
-  top: -25%;
-  left: -25%;
-  opacity: 0;
-}
-@media only screen and (min-width: 1024px) {
-  #lister-account-section form .create-btn {
-    width: 70%;
-  }
-}
-/* END CREATE LISTER ACCOUNT  SYTLES AREA */
-/*# sourceMappingURL=createlister.css.map */
+/* END VERIFY EMAIL SYTLES AREA */
+/*# sourceMappingURL=verifyemail.css.map */

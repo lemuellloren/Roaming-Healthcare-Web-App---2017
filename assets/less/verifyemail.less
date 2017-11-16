@@ -1,0 +1,76 @@
+// BASE IMPORT
+@import '_base';
+// PAGE FRAMEWORK COMPONENT IMPORT
+// PAGE FRAMEWORK OVERRIDES
+// PAGE SECTION STYLES
+
+/* #hero, #about, #contact, etc. */
+
+
+/* FEATURED SERVICES SECTION  AREA STYLES */
+
+
+/* VERIFY EMAIL BANNER SYTLES AREA */
+
+#gradient-banner {
+    margin-bottom: -175px;
+    @media @width-768 {
+        margin-bottom: -110px;
+    }
+}
+
+
+/* END VERIFY EMAIL BANNER SYTLES AREA  */
+
+
+/* VERIFY EMAIL SYTLES AREA */
+
+#verify-account-section {
+    padding: 50px 0 50px 0;
+    max-width: 85%;
+    margin: 0 auto;
+    height: auto;
+    background-color: @white;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -50px;
+    @media @width-768 {
+        max-width: 60%;
+    }
+    .uk-container {
+        margin: 0 auto;
+    }
+    h3 {
+        font-family: @main-font;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: left;
+        color: @blue;
+        text-transform: initial;
+    }
+    p {
+        font-family: @secodary-font;
+        font-size: 16px;
+        line-height: 1.33;
+        text-align: left;
+        color: @darkgray;
+        @media @width-768 {
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+        @media @width-1024 {
+            width: 70%;
+        }
+    }
+    a {
+        .orange-link();
+    }
+    .verification-account {
+        text-align: center;
+    }
+}
+
+
+/* END VERIFY EMAIL SYTLES AREA */
