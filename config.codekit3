@@ -5540,12 +5540,12 @@
 		"sC": 3,
 		"tS": 1
 		},
-	"\/assets\/js\/createsubscriberaccount.js": {
+	"\/assets\/js\/createlister.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/createsubscriberaccount.min.js",
+		"oAP": "\/assets\/js\/templates\/createlister.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -5740,7 +5740,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/createsubscriberaccount.less": {
+	"\/assets\/less\/createlister.less": {
 		"aP": 1,
 		"bl": 1,
 		"dJ": 0,
@@ -5749,7 +5749,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/assets\/css\/templates\/createsubscriberaccount.css",
+		"oAP": "\/assets\/css\/templates\/createlister.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -5813,11 +5813,11 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/createsubscriberaccount.html": {
+	"\/createlister.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/createsubscriberaccount.html",
+		"oAP": "\/createlister.html",
 		"oF": 0
 		},
 	"\/error.html": {
