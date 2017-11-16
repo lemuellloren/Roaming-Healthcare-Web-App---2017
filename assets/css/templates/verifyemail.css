@@ -10913,7 +10913,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 @media only screen and (min-width: 768px) {
   #verify-account-section {
-    max-width: 60%;
+    max-width: 50%;
   }
 }
 #verify-account-section .uk-container {
@@ -10926,6 +10926,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: left;
   color: #165C96;
   text-transform: initial;
+  padding-bottom: 25px;
 }
 #verify-account-section p {
   font-family: 'Roboto';
@@ -10933,17 +10934,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   line-height: 1.33;
   text-align: left;
   color: #444444;
-}
-@media only screen and (min-width: 768px) {
-  #verify-account-section p {
-    margin: 0 auto;
-    padding-top: 20px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  #verify-account-section p {
-    width: 70%;
-  }
 }
 #verify-account-section a {
   color: #FE7B00;
@@ -10956,6 +10946,57 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #verify-account-section .verification-account {
   text-align: center;
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  #verify-account-section .dashboard-btn-container {
+    text-align: center;
+  }
+}
+#verify-account-section .dashboard-btn-container .goto-dashboard {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 100%;
+}
+#verify-account-section .dashboard-btn-container .goto-dashboard::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#verify-account-section .dashboard-btn-container .goto-dashboard:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#verify-account-section .dashboard-btn-container .goto-dashboard:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+@media only screen and (min-width: 768px) {
+  #verify-account-section .dashboard-btn-container .goto-dashboard {
+    width: 200px;
+  }
 }
 /* END VERIFY EMAIL SYTLES AREA */
 /*# sourceMappingURL=verifyemail.css.map */

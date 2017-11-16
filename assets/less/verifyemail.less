@@ -37,7 +37,7 @@
     position: relative;
     top: -50px;
     @media @width-768 {
-        max-width: 60%;
+        max-width: 50%;
     }
     .uk-container {
         margin: 0 auto;
@@ -49,6 +49,7 @@
         text-align: left;
         color: @blue;
         text-transform: initial;
+        padding-bottom: 25px;
     }
     p {
         font-family: @secodary-font;
@@ -56,19 +57,25 @@
         line-height: 1.33;
         text-align: left;
         color: @darkgray;
-        @media @width-768 {
-            margin: 0 auto;
-            padding-top: 20px;
-        }
-        @media @width-1024 {
-            width: 70%;
-        }
     }
     a {
         .orange-link();
     }
     .verification-account {
         text-align: center;
+        padding-bottom: 20px;
+    }
+    .dashboard-btn-container {
+        @media @width-768 {
+            text-align: center;
+        }
+        .goto-dashboard {
+            .btn-orange();
+            width: 100%;
+            @media @width-768 {
+                width: 200px;
+            }
+        }
     }
 }
 
