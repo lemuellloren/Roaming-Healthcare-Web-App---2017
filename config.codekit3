@@ -5025,6 +5025,23 @@
 		"oAP": "\/assets\/css\/templates\/blogsearch.css.map",
 		"oF": 0
 		},
+	"\/assets\/css\/templates\/createsubscriberaccount.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/templates\/createsubscriberaccount-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/templates\/createsubscriberaccount.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/templates\/createsubscriberaccount.css.map",
+		"oF": 0
+		},
 	"\/assets\/css\/templates\/error.css": {
 		"aP": 1,
 		"bl": 0,
@@ -5523,6 +5540,16 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/assets\/js\/createsubscriberaccount.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/createsubscriberaccount.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/assets\/js\/error.js": {
 		"ft": 64,
 		"ma": 1,
@@ -5592,6 +5619,23 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/blogsearch.min.js.map",
+		"oF": 0
+		},
+	"\/assets\/js\/templates\/createsubscriberaccount.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/createsubscriberaccount.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/assets\/js\/templates\/createsubscriberaccount.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/templates\/createsubscriberaccount.min.js.map",
 		"oF": 0
 		},
 	"\/assets\/js\/templates\/error.min.js": {
@@ -5696,6 +5740,23 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/assets\/less\/createsubscriberaccount.less": {
+		"aP": 1,
+		"bl": 1,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/css\/templates\/createsubscriberaccount.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
 	"\/assets\/less\/error.less": {
 		"aP": 1,
 		"bl": 1,
@@ -5751,6 +5812,13 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/createsubscriberaccount.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/createsubscriberaccount.html",
+		"oF": 0
 		},
 	"\/error.html": {
 		"cB": 0,
