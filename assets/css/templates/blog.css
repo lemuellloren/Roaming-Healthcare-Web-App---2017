@@ -10075,6 +10075,7 @@ h5 {
   border-bottom-right-radius: 3px;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 #blogsearch-section .blogsearch-container form .blogsearch-btn::before {
   content: '';
