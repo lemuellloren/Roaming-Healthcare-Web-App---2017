@@ -10967,6 +10967,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   width: 100%;
+  cursor: pointer;
 }
 #verify-account-section .dashboard-btn-container .goto-dashboard::before {
   content: '';
