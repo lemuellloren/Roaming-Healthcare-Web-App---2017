@@ -1,7 +1,6 @@
 // BASE IMPORT
 @import '_base';
 // PAGE FRAMEWORK COMPONENT IMPORT
-
 // PAGE FRAMEWORK OVERRIDES
 // PAGE SECTION STYLES
 
@@ -11,7 +10,102 @@
 /* FEATURED SERVICES SECTION  AREA STYLES */
 
 
-/* FEATURED BLOG AREA STYLES */
+/* CREATE LISTER ACCOUNT BANNER SYTLES AREA */
+
+#csaccount-banner {
+    margin-bottom: -175px;
+    @media @width-768 {
+        margin-bottom: -110px;
+    }
+}
 
 
-/* FEATURED ARTICLE SYTLES AREA */
+/* END CREATE LISTER ACCOUNT BANNER SYTLES AREA */
+
+
+/* CREATE LISTER ACCOUNT  SYTLES AREA */
+
+#lister-account-section {
+    padding: 50px 0 50px 0;
+    max-width: 85%;
+    margin: 0 auto;
+    height: auto;
+    background-color: @white;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -50px;
+    @media @width-768 {
+        max-width: 60%;
+    }
+    .uk-container {
+        margin: 0 auto;
+    }
+    h3 {
+        font-family: @main-font;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        color: @blue;
+    }
+    p {
+        font-family: @secodary-font;
+        font-size: 12px;
+        line-height: 1.33;
+        text-align: center;
+        color: @darkgray;
+        @media @width-768 {
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+        @media @width-1024 {
+            width: 70%;
+        }
+    }
+    a {
+        .orange-link();
+    }
+    .divider-title {
+        .line-title();
+    }
+    .login-lister-account {
+        padding-top: 15px;
+    }
+    form {
+        text-align: center;
+        padding-top: 25px;
+        @media @width-768 {
+            margin: 0 auto;
+            width: 70%;
+        }
+        input {
+            .contact-field();
+            font-size: 12px;
+            width: 100%;
+            height: 45px;
+            border-radius: 3px;
+            background-color: @white;
+            border: solid 1px @gray;
+            @media @width-1024 {
+                width: 70%;
+            }
+        }
+        img {
+            padding: 0 0 10px 0; //remove this after adding recaptcha
+            @media @width-768 {
+                width: 70%;
+            }
+        }
+        .create-btn {
+            .btn-orange();
+            width: 100%;
+            @media @width-1024{
+                width: 70%;
+            }
+        }
+    } 
+}
+
+
+/* END CREATE LISTER ACCOUNT  SYTLES AREA */

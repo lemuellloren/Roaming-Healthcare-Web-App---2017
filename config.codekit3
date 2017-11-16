@@ -5025,6 +5025,23 @@
 		"oAP": "\/assets\/css\/templates\/blogsearch.css.map",
 		"oF": 0
 		},
+	"\/assets\/css\/templates\/createlister.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/templates\/createlister-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/templates\/createlister.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/templates\/createlister.css.map",
+		"oF": 0
+		},
 	"\/assets\/css\/templates\/createsubscriberaccount.css": {
 		"aP": 1,
 		"bl": 0,
@@ -5480,6 +5497,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/recaptcha.png": {
+		"ft": 32768,
+		"iS": 22262,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recaptcha.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/searchbanner\/search-banner-bg.jpg": {
 		"ft": 16384,
 		"iS": 420990,
@@ -5619,6 +5647,23 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/blogsearch.min.js.map",
+		"oF": 0
+		},
+	"\/assets\/js\/templates\/createlister.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/createlister.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/assets\/js\/templates\/createlister.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/templates\/createlister.min.js.map",
 		"oF": 0
 		},
 	"\/assets\/js\/templates\/createsubscriberaccount.min.js": {
