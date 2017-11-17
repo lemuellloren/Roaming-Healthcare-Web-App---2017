@@ -1,0 +1,143 @@
+// BASE IMPORT
+@import '_base';
+// PAGE FRAMEWORK COMPONENT IMPORT
+// PAGE FRAMEWORK OVERRIDES
+// PAGE SECTION STYLES
+
+/* #hero, #about, #contact, etc. */
+
+
+/* FEATURED SERVICES SECTION  AREA STYLES */
+
+
+/* VERIFY EMAIL BANNER SYTLES AREA */
+
+#gradient-banner {
+    margin-bottom: -175px;
+    @media @width-768 {
+        margin-bottom: -110px;
+    }
+}
+
+
+/* END VERIFY EMAIL BANNER SYTLES AREA  */
+
+
+/* VERIFY EMAIL SYTLES AREA */
+
+#step1-onboarding-section {
+    padding: 50px 0 50px 0;
+    max-width: 85%;
+    margin: 0 auto;
+    height: auto;
+    background-color: @white;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -50px;
+    @media @width-768 {
+        max-width: 50%;
+    }
+    .uk-container {
+        margin: 0 auto;
+    }
+    .verification-account {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .dashboard-btn-container {
+        @media @width-768 {
+            text-align: center;
+        }
+        .goto-dashboard {
+            .btn-orange();
+            width: 100%;
+            cursor: pointer;
+            @media @width-768 {
+                width: 200px;
+            }
+        }
+    } // uk tabs custom css
+    .uk-tab {
+        h3 {
+            font-family: @main-font;
+            font-size: 16px;
+            line-height: 1.38;
+            color: @darkgray;
+        }
+        p,
+        span {
+            font-family: @secodary-font;
+            font-size: 11px;
+            font-weight: 300;
+            line-height: 2.0;
+            text-align: center;
+            color: @darkgray;
+        }
+    }
+    .uk-tab-bottom {
+        >li.uk-active {
+            >a {
+                border-top-color: transparent;
+                border-bottom: solid 2px @orange !important;
+            }
+        }
+    }
+    .uk-tab {
+        >li.uk-active {
+            >a {
+                border-color: transparent;
+            }
+        }
+    }
+    .uk-tab-grid {
+        &:before {
+            display: block;
+            position: absolute;
+            left: 5px;
+            right: 0;
+            border-top: 0;
+            z-index: -1;
+        }
+    }
+    .uk-tab {
+        >li {
+            >a {
+                &:hover {
+                    background: transparent;
+                    outline: none;
+                    border: transparent;
+                }
+                &:focus {
+                    background: transparent;
+                    outline: none;
+                }
+            }
+        }
+        >li.uk-open {
+            >a {
+                background: transparent;
+                outline: none;
+            }
+        }
+    }
+    .uk-tab-bottom {
+        >li {
+            border-bottom: 1px solid @gray;
+        }
+    } //Content Items Css
+    .steps-content-area {
+        padding: 10px 0 0 0;
+        .uk-alert-warning {
+            background: #fffceb;
+            font-family: @secodary-font;
+            font-size: 14px;
+            text-align: left;
+            color: #faa05a;
+        }
+    }
+}
+
+
+/* END VERIFY EMAIL SYTLES AREA */

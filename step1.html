@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+
+<head>
+    <!-- STANDARD META -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Roaming Healthcare</title>
+    <meta name="description" content="">
+
+    <!-- OPENGRAPH META -->
+    <meta property="og:url" content="https://mysite.com/mypage">
+    <meta property="og:title" content="My Page Title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="http://mysite.com/assets/logo.jpg">
+
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/manifest.json">
+    <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#fe7b00">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="assets/css/templates/step1.css">
+
+</head>
+
+<body>
+
+    <!-- BANNER AREA -->
+    <section id="gradient-banner" style="background-image: linear-gradient(43deg, #fe7b00, #3382c4); width: auto;
+height: 355px;">
+    </section>
+
+    <!-- END BANNER AREA -->
+
+    <!-- CREATE LISTER ACCOUNT AREA -->
+    <section id="step1-onboarding-section">
+        <div class="uk-container">
+            <ul class="uk-tab uk-tab-grid uk-tab-bottom" data-uk-tab="{connect:'#tab-content', animation: 'fade'}">
+                <li class="uk-width-1-2">
+                    <a href="3">
+                        <h3>STEP 1</h3>
+                        <span>Account Info</span>
+                    </a>
+                </li>
+                <li class="uk-width-1-2">
+                    <a href="#">
+                        <h3>STEP 2</h3>
+                        <span>Create Listing</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- This is the  content items -->
+            <div class="steps-content-area">
+                <ul id="tab-content" class="uk-switcher">
+                    <li>
+                        <figure>
+                            <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>vcvcvcvvcvc</figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!-- END CREATE LISTER ACCOUNT AREA -->
+
+
+    <!-- SITE MENU AREA-->
+    <nav>
+        <!--MOBILE SITE MENU -->
+        <div class="mobile-menu uk-hidden-medium uk-hidden-large">
+            <div class="uk-grid">
+                <div class="logo uk-width-2-3">
+                    <a href="#/" title="logo">
+                        <img src="assets/images/logos/site-menu-logo.svg" alt="Roaming Healthcare Logo">
+                    </a>
+                </div>
+                <div class="menu uk-width-1-3">
+                    <a href="#off-canvas-menu" title="menu" data-uk-offcanvas>
+                        <span class="uk-icon-bars"></span>
+                    </a>
+                </div>
+            </div>
+            <div id="off-canvas-menu" class="uk-offcanvas">
+                <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+                    <a href="#/" class="uk-close"></a>
+                    <div class="menulist">
+                        <ul>
+                            <li>
+                                <a class="desktop-links" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="desktop-links" href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a class="desktop-links" href="#login-modal" data-uk-modal="{center:true}">Login</a>
+                            </li>
+                        </ul>
+                        <a class="list-services-btn">List Your Services</a>
+                    </div>
+                </div>
+            </div>
+            <!-- END MOBILE SITE MENU -->
+        </div>
+        <!-- DESKTOP SITE MENU -->
+        <div class="desktop-menu uk-hidden-small">
+            <div class="uk-container">
+                <div class="uk-grid">
+                    <div class="logo uk-width-2-5">
+                        <a href="#/" title="logo">
+                            <img src="assets/images/logos/site-menu-logo.svg" alt="Roaming Healthcare Logo">
+                        </a>
+                    </div>
+                    <div class="menulist uk-width-3-5">
+                        <ul>
+                            <li>
+                                <a class="desktop-links active" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="desktop-links" href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a class="desktop-links" href="#login-modal" data-uk-modal="{center:true}">Login</a>
+                            </li>
+                        </ul>
+                        <a class="list-services-btn">List Your Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END DESKTOP SITE MENU -->
+    </nav>
+
+    <!-- LOG IN MODAL AREA -->
+    <!-- This is the modal -->
+    <div id="login-modal" class="uk-modal">
+        <div class="uk-modal-dialog">
+            <a class="uk-modal-close uk-close" autofocus></a>
+            <div class="login-continer">
+                <h3>Subscriber Log-in</h3>
+                <div class="divider-title"></div>
+
+                <form class="log-in-form uk-form">
+                    <input type="text" placeholder="Email Address" required>
+                    <input type="password" placeholder="Password" required>
+                    <div class="login-btn-container">
+                        <button class="login-btn" type="submit">Log In</button>
+                    </div>
+                    <p>
+                        <a href="#">Forgot
+                            <br> password?</a>
+                    </p>
+                </form>
+                <p class="login-account">Have no account?
+                    <a href="#">Create one now.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- LOG IN MODAL AREA -->
+    <!-- END SITE MENU AREA-->
+    <!--  SCRIPT -->
+    <script src="assets/js/templates/step1.min.js"></script>
+    <!--  SCRIPT -->
+
+</body>
+
+</html>
