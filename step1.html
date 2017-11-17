@@ -62,10 +62,20 @@ height: 355px;">
                     <li>
                         <figure>
                             <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
+                            <div class="upload-photo">
+                                <div class="upload-icon-container">
+                                    <input type="file" id="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+                                    <span id="upload-icon" class="uk-icon-camera"></span>
+                                </div>
+                                <img id="upload-img" src="http://placehold.it/180" alt="Your Image Here">
+                            </div>
+
                         </figure>
                     </li>
                     <li>
-                        <figure>vcvcvcvvcvc</figure>
+                        <figure>
+                            <span class="uk-icon-camera"></span>
+                        </figure>
                     </li>
                 </ul>
             </div>

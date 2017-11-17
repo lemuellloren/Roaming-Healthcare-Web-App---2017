@@ -11030,5 +11030,31 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: left;
   color: #faa05a;
 }
+#step1-onboarding-section .upload-photo {
+  margin-top: -15px;
+  text-align: center;
+}
+#step1-onboarding-section .upload-photo .upload-icon-container {
+  position: relative;
+  top: 40px;
+  left: 65px;
+}
+#step1-onboarding-section .upload-photo img {
+  max-width: 180px;
+  height: 180px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#step1-onboarding-section .upload-photo span {
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FE7B00;
+  color: #FFF;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .upload-photo span:hover {
+  background-color: #C45F00;
+}
 /* END VERIFY EMAIL SYTLES AREA */
 /*# sourceMappingURL=step1.css.map */
