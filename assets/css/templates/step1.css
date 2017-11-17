@@ -9043,6 +9043,8 @@ h5 {
 /* End Contact Field Area Styles */
 /* Orange Link Area Styles */
 /* Orange Link Area Styles */
+/* Square Hexagon Title */
+/* End Square Hexagon Title */
 /* Title Underline Style */
 /* End Title Underline Style */
 /* Global Button Area Styles */
@@ -10913,7 +10915,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 @media only screen and (min-width: 768px) {
   #step1-onboarding-section {
-    max-width: 50%;
+    max-width: 70%;
   }
 }
 #step1-onboarding-section .uk-container {
@@ -11055,6 +11057,273 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #step1-onboarding-section .upload-photo span:hover {
   background-color: #C45F00;
+}
+#step1-onboarding-section .upload-photo form {
+  padding-top: 25px;
+}
+#step1-onboarding-section .upload-photo form input {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 1px #E4E4E4;
+}
+#step1-onboarding-section .upload-photo form input:placeholder {
+  color: #BBBBBB;
+}
+#step1-onboarding-section .upload-photo form input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#step1-onboarding-section h3 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #165C96;
+  text-transform: initial;
+}
+#step1-onboarding-section .divider-title {
+  width: 50px;
+  margin: 30px auto auto;
+  border: solid 1px #444444;
+}
+#step1-onboarding-section .biling-address .billing-btn-container {
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+#step1-onboarding-section .biling-address .billing-btn-container .billing-btn {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  height: 30px;
+}
+#step1-onboarding-section .biling-address .billing-btn-container .billing-btn::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .biling-address .billing-btn-container .billing-btn:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#step1-onboarding-section .biling-address .billing-btn-container .billing-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#step1-onboarding-section .plan-area {
+  padding: 55px 0 0 0;
+}
+#step1-onboarding-section .plan-area p {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+  color: #444444;
+}
+#step1-onboarding-section .plan-heading {
+  width: auto;
+  height: 55px;
+  background: #165C96;
+  color: #FFF;
+  position: relative;
+}
+#step1-onboarding-section .plan-heading h3 {
+  padding: 25px;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+}
+#step1-onboarding-section .plan-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 3px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 25px solid #165C96;
+}
+#step1-onboarding-section .plan-heading-orange {
+  width: auto;
+  height: 55px;
+  background: #FE7B00;
+  color: #FFF;
+  position: relative;
+}
+#step1-onboarding-section .plan-heading-orange h3 {
+  padding: 25px;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+}
+#step1-onboarding-section .plan-heading-orange::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 3px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 25px solid #FE7B00;
+}
+#step1-onboarding-section .plan-content {
+  height: 454px;
+  background-color: #FFF;
+  border: solid 1px #E4E4E4;
+}
+#step1-onboarding-section .plan-content .pricing-content {
+  padding: 50px 0 0 0;
+}
+#step1-onboarding-section .plan-content .pricing-content p,
+#step1-onboarding-section .plan-content .pricing-content em {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: #444444;
+}
+#step1-onboarding-section .plan-content .pricing-content .price-here-orange {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+}
+#step1-onboarding-section .plan-content .pricing-content .price-here-orange span {
+  font-size: 30px;
+  font-weight: 300;
+}
+#step1-onboarding-section .plan-content .pricing-content .price-here-blue {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: center;
+  color: #165C96;
+}
+#step1-onboarding-section .plan-content .pricing-content .price-here-blue span {
+  font-size: 30px;
+  font-weight: 300;
+}
+#step1-onboarding-section .plan-content .pricing-content .choose-btn-container {
+  text-align: center;
+}
+#step1-onboarding-section .plan-content .pricing-content .choose-btn-container .choose-btn-orange {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 180.1px;
+  height: 30px;
+}
+#step1-onboarding-section .plan-content .pricing-content .choose-btn-container .choose-btn-orange::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .plan-content .pricing-content .choose-btn-container .choose-btn-orange:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#step1-onboarding-section .plan-content .pricing-content .choose-btn-container .choose-btn-orange:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#step1-onboarding-section .plan-content .pricing-content .choose-btn-container .choose-btn-blue {
+  width: 110px;
+  height: 37px;
+  border-radius: 3px;
+  border: 1px solid #165C96;
+  background-color: #165C96;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 180.1px;
+  height: 30px;
+}
+#step1-onboarding-section .plan-content .pricing-content .choose-btn-container .choose-btn-blue::before {
+  content: '';
+  background-color: #053C69;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: white;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .plan-content .pricing-content .choose-btn-container .choose-btn-blue:hover {
+  background-color: #053C69;
+  border: 1px solid #053C69;
+}
+#step1-onboarding-section .plan-content .pricing-content .choose-btn-container .choose-btn-blue:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
 }
 /* END VERIFY EMAIL SYTLES AREA */
 /*# sourceMappingURL=step1.css.map */

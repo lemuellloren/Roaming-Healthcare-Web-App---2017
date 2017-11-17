@@ -125,7 +125,61 @@ h5 {
 
 /* Orange Link Area Styles */
 
+/* Square Hexagon Title */
+.plan-title-blue() {
+    width: auto;
+	height: 55px;
+    background: @blue;
+    color: @white;
+    position: relative;
+    h3 {
+        padding: 25px;
+        font-family: @main-font;
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
+        color: @white;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 3px;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-top: 25px solid @blue;
+    }
+}
 
+.plan-title-orange() {
+    width: auto;
+	height: 55px;
+    background: @orange;
+    color: @white;
+    position: relative;
+    h3 {
+        padding: 25px;
+        font-family: @main-font;
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
+        color: @white;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 3px;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-top: 25px solid @orange;
+    }
+}
+/* End Square Hexagon Title */
 /* Title Underline Style */
 
 .line-title() {

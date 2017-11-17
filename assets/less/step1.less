@@ -37,7 +37,7 @@
     position: relative;
     top: -50px;
     @media @width-768 {
-        max-width: 50%;
+        max-width: 70%;
     }
     .uk-container {
         margin: 0 auto;
@@ -146,7 +146,7 @@
             left: 65px;
         }
         img {
-            max-width:180px;
+            max-width: 180px;
             height: 180px;
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
         }
@@ -158,6 +158,109 @@
             .soft-transition();
             &:hover {
                 background-color: @hvr-orange;
+            }
+        }
+        form {
+            padding-top: 25px;
+            input {
+                .contact-field();
+                width: 100%;
+                height: 40px;
+                border-radius: 3px;
+                border: solid 1px @gray;
+            }
+        }
+    }
+    h3 {
+        font-family: @main-font;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        color: @blue;
+        text-transform: initial;
+    }
+    .divider-title {
+        .line-title();
+    }
+    .biling-address {
+        .billing-btn-container {
+            text-align: center;
+            padding: 30px 0 0 0;
+            .billing-btn {
+                .btn-orange();
+                height: 30px;
+            }
+        }
+    }
+    .plan-area {
+        padding: 55px 0 0 0;
+        p {
+            font-family: @secodary-font;
+            font-size: 16px;
+            line-height: 1.38;
+            text-align: center;
+            color: @darkgray;
+        }
+    }
+    .plan-heading {
+        .plan-title-blue();
+    }
+    .plan-heading-blue {
+        .plan-title-blue();
+    }
+    .plan-heading-orange {
+        .plan-title-orange();
+    }
+    .plan-content {
+        height: 454px;
+        background-color: @white;
+        border: solid 1px @gray;
+        .pricing-content {
+            padding: 50px 0 0 0;
+            p,
+            em {
+                font-family: @secodary-font;
+                font-size: 14px;
+                font-weight: 300;
+                text-align: center;
+                color: @darkgray;
+            }
+            .plan-heading {
+                .plan-title-blue()
+            }
+            .price-here-orange {
+                font-family: @main-font;
+                font-size: 14px;
+                text-align: center;
+                color: @orange;
+                span {
+                    font-size: 30px;
+                    font-weight: 300;
+                }
+            }
+            .price-here-blue {
+                font-family: @main-font;
+                font-size: 14px;
+                text-align: center;
+                color: @blue;
+                span {
+                    font-size: 30px;
+                    font-weight: 300;
+                }
+            }
+            .choose-btn-container {
+                text-align: center;
+                
+                .choose-btn-orange {
+                    .btn-orange();
+                    width: 180.1px;
+                    height: 30px;
+                }
+                .choose-btn-blue {
+                    .choose-btn-blue();
+                    width: 180.1px;
+                    height: 30px;
+                }
             }
         }
     }
