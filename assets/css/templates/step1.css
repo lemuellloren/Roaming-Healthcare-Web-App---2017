@@ -11178,6 +11178,32 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border-right: 100px solid transparent;
   border-top: 25px solid #165C96;
 }
+#step1-onboarding-section .plan-heading-blue {
+  width: auto;
+  height: 55px;
+  background: #165C96;
+  color: #FFF;
+  position: relative;
+}
+#step1-onboarding-section .plan-heading-blue h3 {
+  padding: 25px;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+}
+#step1-onboarding-section .plan-heading-blue::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 3px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 25px solid #165C96;
+}
 #step1-onboarding-section .plan-heading-orange {
   width: auto;
   height: 55px;
@@ -11219,6 +11245,32 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-weight: 300;
   text-align: center;
   color: #444444;
+}
+#step1-onboarding-section .plan-content .pricing-content .plan-heading {
+  width: auto;
+  height: 55px;
+  background: #165C96;
+  color: #FFF;
+  position: relative;
+}
+#step1-onboarding-section .plan-content .pricing-content .plan-heading h3 {
+  padding: 25px;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+}
+#step1-onboarding-section .plan-content .pricing-content .plan-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 3px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 25px solid #165C96;
 }
 #step1-onboarding-section .plan-content .pricing-content .price-here-orange {
   font-family: 'Montserrat';
@@ -11319,6 +11371,55 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border: 1px solid #053C69;
 }
 #step1-onboarding-section .plan-content .pricing-content .choose-btn-container .choose-btn-blue:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#proceed-btn-section {
+  text-align: center;
+  padding: 0 0 100px 0;
+}
+#proceed-btn-section .uk-container {
+  margin: 0 auto;
+}
+#proceed-btn-section .proceed-btn-box .proceed-btn {
+  padding: 60px 0 0 0;
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  padding: 8px;
+  text-decoration: none;
+}
+#proceed-btn-section .proceed-btn-box .proceed-btn::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#proceed-btn-section .proceed-btn-box .proceed-btn:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#proceed-btn-section .proceed-btn-box .proceed-btn:hover::before {
   width: 150%;
   height: 150%;
   top: -25%;
