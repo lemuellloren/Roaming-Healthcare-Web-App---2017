@@ -215,6 +215,7 @@
         height: 454px;
         background-color: @white;
         border: solid 1px @gray;
+        position: relative;
         .pricing-content {
             padding: 50px 0 0 0;
             p,
@@ -248,18 +249,23 @@
                     font-weight: 300;
                 }
             }
-            .choose-btn-container {
-                text-align: center;
-                .choose-btn-orange {
-                    .btn-orange();
-                    width: 180.1px;
-                    height: 30px;
-                }
-                .choose-btn-blue {
-                    .btn-blue();
-                    width: 180.1px;
-                    height: 30px;
-                }
+        }
+        .choose-btn-container {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            text-align: center;
+            padding: 0 0 15px 0;
+            .choose-btn-orange {
+                .btn-orange();
+                width: 180.1px;
+                height: 30px;
+            }
+            .choose-btn-blue {
+                .btn-blue();
+                width: 180.1px;
+                height: 30px;
             }
         }
     }
