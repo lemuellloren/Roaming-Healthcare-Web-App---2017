@@ -63,11 +63,13 @@ height: 355px;">
                         <figure>
                             <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
                             <div class="upload-photo">
+                                <!-- upload photo -->
                                 <div class="upload-icon-container">
                                     <input type="file" id="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
                                     <span id="upload-icon" class="uk-icon-camera"></span>
                                 </div>
                                 <img id="upload-img" src="http://placehold.jp/150x150.png" alt="Your Image Here">
+                                 <!-- upload photo -->
                                 <form class="uk-form">
                                     <input type="text" placeholder="Full Name">
                                     <input type="email" placeholder="Email Address">
@@ -86,8 +88,8 @@ height: 355px;">
                                 <p>
                                     Find the perfect plan for you — 100% satisfaction guaranteed.
                                 </p>
-                                <div class="uk-grid">
-                                    <div class="uk-width-1-1 uk-width-medium-1-4">
+                                <div class="uk-grid uk-grid-collapse">
+                                    <div class="uk-width-1-1 uk-width-large-1-4">
                                         <div class="plan-content">
                                             <div class="plan-heading-orange">
                                                 <h3>FREE</h3>
@@ -121,11 +123,12 @@ height: 355px;">
                                                     $
                                                     <span>0</span>
                                                 </p>
-                                                <button class="choose-btn-orange">Choose</button>
+                                                <!-- <button class="choose-btn-orange">Choose</button> -->
+                                                <i class="uk-icon-check"><span> Current plan</span></i>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="uk-width-1-1 uk-width-medium-1-4">
+                                    <div class="uk-width-1-1 uk-width-large-1-4">
                                         <div class="plan-content">
                                             <div class="plan-heading">
                                                 <h3>BASIC</h3>
@@ -154,10 +157,11 @@ height: 355px;">
                                                     <span>9.99</span>
                                                 </p>
                                                 <button class="choose-btn-blue">Choose</button>
+                                                <!-- <i class="uk-icon-check current-blue"><span> Current plan</span></i> -->
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="uk-width-1-1 uk-width-medium-1-4">
+                                    <div class="uk-width-1-1 uk-width-large-1-4">
                                         <div class="plan-content">
                                             <div class="plan-heading">
                                                 <h3>PREMIUM</h3>
@@ -186,7 +190,7 @@ height: 355px;">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="uk-width-1-1 uk-width-medium-1-4">
+                                    <div class="uk-width-1-1 uk-width-large-1-4">
                                         <div class="plan-content">
                                             <div class="plan-heading">
                                                 <h3>VIP</h3>

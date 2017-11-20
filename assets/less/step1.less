@@ -137,13 +137,26 @@
             color: #faa05a;
         }
     } //upload photo css
+    figure {
+        @media @width-768 {
+            text-align: center;
+        }
+    }
     .upload-photo {
         margin-top: -15px;
         text-align: center;
+        @media @width-768 {
+            display: inline-flex;
+            padding-top: 40px;
+        }
         .upload-icon-container {
             position: relative;
             top: 40px;
-            left: 50px;
+            left: 51px;
+            @media @width-768 {
+                top: 10px;
+                left: 140px;
+            }
         }
         img {
             max-width: 150px;
@@ -162,12 +175,18 @@
         }
         form {
             padding-top: 25px;
+            @media @width-768 {
+                padding-top: 0;
+            }
             input {
                 .contact-field();
                 width: 100%;
                 height: 40px;
                 border-radius: 3px;
                 border: solid 1px @gray;
+                @media @width-768 {
+                    width: 80%;
+                }
             }
         }
     }
@@ -221,12 +240,20 @@
         .plan-title-orange();
     }
     .plan-content {
+        max-width: 205px;
         height: 454px;
         background-color: @white;
         border: solid 1px @gray;
         position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        @media @width-960 {
+            max-width: 100%;
+        }
         .pricing-content {
             padding: 50px 0 0 0;
+            width: 80%;
+            margin: 0 auto;
             p,
             em {
                 font-family: @secodary-font;
@@ -246,14 +273,34 @@
             bottom: 0;
             text-align: center;
             padding: 0 0 15px 0;
+            i {
+                color: @orange;
+                font-size: 12px;
+                span {
+                    font-family: @secodary-font;
+                    font-size: 14px;
+                    text-align: center;
+                    color: @orange;
+                }
+            }
+            .current-blue {
+                color: @blue !important;
+                font-size: 12px;
+                span {
+                    font-family: @secodary-font;
+                    font-size: 14px;
+                    text-align: center;
+                    color: @blue; 
+                }
+            }
             .choose-btn-orange {
                 .btn-orange();
-                width: 180.1px;
+                width: 80%;
                 height: 30px;
             }
             .choose-btn-blue {
                 .btn-blue();
-                width: 180.1px;
+                width: 80%;
                 height: 30px;
             }
         }

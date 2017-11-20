@@ -11032,14 +11032,33 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: left;
   color: #faa05a;
 }
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section figure {
+    text-align: center;
+  }
+}
 #step1-onboarding-section .upload-photo {
   margin-top: -15px;
   text-align: center;
 }
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .upload-photo {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-top: 40px;
+  }
+}
 #step1-onboarding-section .upload-photo .upload-icon-container {
   position: relative;
   top: 40px;
-  left: 50px;
+  left: 51px;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .upload-photo .upload-icon-container {
+    top: 10px;
+    left: 140px;
+  }
 }
 #step1-onboarding-section .upload-photo img {
   max-width: 150px;
@@ -11060,6 +11079,11 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #step1-onboarding-section .upload-photo form {
   padding-top: 25px;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .upload-photo form {
+    padding-top: 0;
+  }
 }
 #step1-onboarding-section .upload-photo form input {
   width: 93%;
@@ -11084,6 +11108,11 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .upload-photo form input {
+    width: 80%;
+  }
 }
 #step1-onboarding-section h3 {
   font-family: 'Montserrat';
@@ -11240,13 +11269,23 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border-top: 25px solid #FE7B00;
 }
 #step1-onboarding-section .plan-content {
+  max-width: 205px;
   height: 454px;
   background-color: #FFF;
   border: solid 1px #E4E4E4;
   position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media only screen and (min-width: 960px) {
+  #step1-onboarding-section .plan-content {
+    max-width: 100%;
+  }
 }
 #step1-onboarding-section .plan-content .pricing-content {
   padding: 50px 0 0 0;
+  width: 80%;
+  margin: 0 auto;
 }
 #step1-onboarding-section .plan-content .pricing-content p,
 #step1-onboarding-section .plan-content .pricing-content em {
@@ -11290,6 +11329,26 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: center;
   padding: 0 0 15px 0;
 }
+#step1-onboarding-section .plan-content .choose-btn-container i {
+  color: #FE7B00;
+  font-size: 12px;
+}
+#step1-onboarding-section .plan-content .choose-btn-container i span {
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+}
+#step1-onboarding-section .plan-content .choose-btn-container .current-blue {
+  color: #165C96 !important;
+  font-size: 12px;
+}
+#step1-onboarding-section .plan-content .choose-btn-container .current-blue span {
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+  color: #165C96;
+}
 #step1-onboarding-section .plan-content .choose-btn-container .choose-btn-orange {
   width: 159px;
   height: 50px;
@@ -11303,7 +11362,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   overflow: hidden;
   -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
-  width: 180.1px;
+  width: 80%;
   height: 30px;
 }
 #step1-onboarding-section .plan-content .choose-btn-container .choose-btn-orange::before {
@@ -11344,7 +11403,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   overflow: hidden;
   -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
-  width: 180.1px;
+  width: 80%;
   height: 30px;
 }
 #step1-onboarding-section .plan-content .choose-btn-container .choose-btn-blue::before {
