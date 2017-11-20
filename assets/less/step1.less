@@ -332,7 +332,8 @@
         form {
             padding-top: 25px;
             input,
-            select {
+            select,
+            textarea {
                 .contact-field();
                 width: 100%;
                 height: 40px;
@@ -344,6 +345,9 @@
                 &::placeholder {
                     color: @lighergray !important;
                 }
+            }
+            textarea {
+                height: 120px;
             }
             select {
                 color: @lighergray !important;
@@ -406,7 +410,6 @@
                 background-color: transparent;
                 border: 0;
                 cursor: pointer;
-               
                 &:focus {
                     outline: none;
                 }
@@ -419,6 +422,20 @@
                 text-align: left;
                 color: @blue !important;
                 text-decoration: none;
+            }
+        }
+        .input-fields-wrap {
+            padding-bottom: 20px;
+        }
+        .about-area {
+            padding-top: 20px;
+        }
+        .docs-box {
+            text-align: center;
+            padding: 30px 0 0 0;
+            .docs-btn {
+                .btn-orange();
+                height: 30px;
             }
         }
     }

@@ -11467,7 +11467,8 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   padding-top: 25px;
 }
 #step1-onboarding-section .basic-info-container form input,
-#step1-onboarding-section .basic-info-container form select {
+#step1-onboarding-section .basic-info-container form select,
+#step1-onboarding-section .basic-info-container form textarea {
   width: 93%;
   font-size: 12px;
   padding: 5px 10px;
@@ -11483,11 +11484,13 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border: solid 1px #E4E4E4;
 }
 #step1-onboarding-section .basic-info-container form input:placeholder,
-#step1-onboarding-section .basic-info-container form select:placeholder {
+#step1-onboarding-section .basic-info-container form select:placeholder,
+#step1-onboarding-section .basic-info-container form textarea:placeholder {
   color: #BBBBBB;
 }
 #step1-onboarding-section .basic-info-container form input:focus,
-#step1-onboarding-section .basic-info-container form select:focus {
+#step1-onboarding-section .basic-info-container form select:focus,
+#step1-onboarding-section .basic-info-container form textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
@@ -11495,25 +11498,33 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 @media only screen and (min-width: 768px) {
   #step1-onboarding-section .basic-info-container form input,
-  #step1-onboarding-section .basic-info-container form select {
+  #step1-onboarding-section .basic-info-container form select,
+  #step1-onboarding-section .basic-info-container form textarea {
     width: 80%;
   }
 }
 #step1-onboarding-section .basic-info-container form input::-webkit-input-placeholder,
-#step1-onboarding-section .basic-info-container form select::-webkit-input-placeholder {
+#step1-onboarding-section .basic-info-container form select::-webkit-input-placeholder,
+#step1-onboarding-section .basic-info-container form textarea::-webkit-input-placeholder {
   color: #BBBBBB !important;
 }
 #step1-onboarding-section .basic-info-container form input:-ms-input-placeholder,
-#step1-onboarding-section .basic-info-container form select:-ms-input-placeholder {
+#step1-onboarding-section .basic-info-container form select:-ms-input-placeholder,
+#step1-onboarding-section .basic-info-container form textarea:-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 #step1-onboarding-section .basic-info-container form input::-ms-input-placeholder,
-#step1-onboarding-section .basic-info-container form select::-ms-input-placeholder {
+#step1-onboarding-section .basic-info-container form select::-ms-input-placeholder,
+#step1-onboarding-section .basic-info-container form textarea::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 #step1-onboarding-section .basic-info-container form input::placeholder,
-#step1-onboarding-section .basic-info-container form select::placeholder {
+#step1-onboarding-section .basic-info-container form select::placeholder,
+#step1-onboarding-section .basic-info-container form textarea::placeholder {
   color: #BBBBBB !important;
+}
+#step1-onboarding-section .basic-info-container form textarea {
+  height: 120px;
 }
 #step1-onboarding-section .basic-info-container form select {
   color: #BBBBBB !important;
@@ -11584,6 +11595,56 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: left;
   color: #165C96 !important;
   text-decoration: none;
+}
+#step1-onboarding-section .basic-info-container .input-fields-wrap {
+  padding-bottom: 20px;
+}
+#step1-onboarding-section .basic-info-container .about-area {
+  padding-top: 20px;
+}
+#step1-onboarding-section .basic-info-container .docs-box {
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+#step1-onboarding-section .basic-info-container .docs-box .docs-btn {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  height: 30px;
+}
+#step1-onboarding-section .basic-info-container .docs-box .docs-btn::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .basic-info-container .docs-box .docs-btn:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#step1-onboarding-section .basic-info-container .docs-box .docs-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
 }
 #proceed-btn-section {
   text-align: center;
