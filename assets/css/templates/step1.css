@@ -11273,26 +11273,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border-right: 100px solid transparent;
   border-top: 25px solid #165C96;
 }
-#step1-onboarding-section .plan-content .pricing-content .price-here-orange {
-  font-family: 'Montserrat';
-  font-size: 14px;
-  text-align: center;
-  color: #FE7B00;
-}
-#step1-onboarding-section .plan-content .pricing-content .price-here-orange span {
-  font-size: 30px;
-  font-weight: 300;
-}
-#step1-onboarding-section .plan-content .pricing-content .price-here-blue {
-  font-family: 'Montserrat';
-  font-size: 14px;
-  text-align: center;
-  color: #165C96;
-}
-#step1-onboarding-section .plan-content .pricing-content .price-here-blue span {
-  font-size: 30px;
-  font-weight: 300;
-}
 #step1-onboarding-section .plan-content .choose-btn-container {
   position: absolute;
   left: 0;
@@ -11382,6 +11362,26 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   top: -25%;
   left: -25%;
   opacity: 0;
+}
+#step1-onboarding-section .plan-content .price-here-blue {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: center;
+  color: #165C96;
+}
+#step1-onboarding-section .plan-content .price-here-blue span {
+  font-size: 30px;
+  font-weight: 300;
+}
+#step1-onboarding-section .plan-content .price-here-orange {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+}
+#step1-onboarding-section .plan-content .price-here-orange span {
+  font-size: 30px;
+  font-weight: 300;
 }
 #proceed-btn-section {
   text-align: center;
