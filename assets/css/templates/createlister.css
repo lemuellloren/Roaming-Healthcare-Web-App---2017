@@ -10047,16 +10047,16 @@ h5 {
   }
 }
 #blogsearch-section .blogsearch-container form input::-webkit-input-placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input::placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form .blogsearch-btn {
   width: 159px;
@@ -10997,6 +10997,18 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#lister-account-section form input::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+#lister-account-section form input:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+#lister-account-section form input::-ms-input-placeholder {
+  color: #BBBBBB;
+}
+#lister-account-section form input::placeholder {
+  color: #BBBBBB;
 }
 @media only screen and (min-width: 1024px) {
   #lister-account-section form input {

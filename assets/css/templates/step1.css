@@ -10047,16 +10047,16 @@ h5 {
   }
 }
 #blogsearch-section .blogsearch-container form input::-webkit-input-placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input::placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form .blogsearch-btn {
   width: 159px;
@@ -11114,6 +11114,18 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
     width: 80%;
   }
 }
+#step1-onboarding-section .upload-photo form input::-webkit-input-placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .upload-photo form input:-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .upload-photo form input::-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .upload-photo form input::placeholder {
+  color: #BBBBBB !important;
+}
 #step1-onboarding-section h3 {
   font-family: 'Montserrat';
   font-size: 24px;
@@ -11450,6 +11462,128 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .plan-content .price-here-orange span {
   font-size: 30px;
   font-weight: 300;
+}
+#step1-onboarding-section .basic-info-container form {
+  padding-top: 25px;
+}
+#step1-onboarding-section .basic-info-container form input,
+#step1-onboarding-section .basic-info-container form select {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 1px #E4E4E4;
+}
+#step1-onboarding-section .basic-info-container form input:placeholder,
+#step1-onboarding-section .basic-info-container form select:placeholder {
+  color: #BBBBBB;
+}
+#step1-onboarding-section .basic-info-container form input:focus,
+#step1-onboarding-section .basic-info-container form select:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .basic-info-container form input,
+  #step1-onboarding-section .basic-info-container form select {
+    width: 80%;
+  }
+}
+#step1-onboarding-section .basic-info-container form input::-webkit-input-placeholder,
+#step1-onboarding-section .basic-info-container form select::-webkit-input-placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .basic-info-container form input:-ms-input-placeholder,
+#step1-onboarding-section .basic-info-container form select:-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .basic-info-container form input::-ms-input-placeholder,
+#step1-onboarding-section .basic-info-container form select::-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .basic-info-container form input::placeholder,
+#step1-onboarding-section .basic-info-container form select::placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .basic-info-container form select {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .basic-info-container p {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  color: #444444;
+}
+#step1-onboarding-section .basic-info-container .help-box {
+  position: relative;
+}
+#step1-onboarding-section .basic-info-container .help-box span {
+  position: absolute;
+  top: 13px;
+  right: 6px;
+  color: #BBBBBB;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .basic-info-container .help-box span:hover {
+  color: #C45F00;
+}
+#step1-onboarding-section .basic-info-container .map-container iframe {
+  height: 180px;
+}
+#step1-onboarding-section .basic-info-container .registration-s p {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.57;
+  text-align: left;
+  color: #165C96;
+}
+#step1-onboarding-section .basic-info-container .registration-s p span {
+  font-size: 16px;
+  text-align: center;
+  color: #BBBBBB;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .basic-info-container .registration-s p span:hover {
+  color: #C45F00;
+}
+#step1-onboarding-section .basic-info-container .num-list {
+  padding-left: 15px;
+}
+#step1-onboarding-section .basic-info-container .input-fields-wrap .add-field-button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  text-align: left;
+  color: #165C96;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+#step1-onboarding-section .basic-info-container .input-fields-wrap .add-field-button:focus {
+  outline: none;
+}
+#step1-onboarding-section .basic-info-container .input-fields-wrap .remove_field {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  text-align: left;
+  color: #165C96 !important;
+  text-decoration: none;
 }
 #proceed-btn-section {
   text-align: center;

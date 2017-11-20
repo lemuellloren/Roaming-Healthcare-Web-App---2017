@@ -187,6 +187,9 @@
                 @media @width-768 {
                     width: 80%;
                 }
+                &::placeholder {
+                    color: @lighergray !important;
+                }
             }
         }
     }
@@ -290,7 +293,7 @@
                     font-family: @secodary-font;
                     font-size: 14px;
                     text-align: center;
-                    color: @blue; 
+                    color: @blue;
                 }
             }
             .choose-btn-orange {
@@ -322,6 +325,100 @@
             span {
                 font-size: 30px;
                 font-weight: 300;
+            }
+        }
+    } //Basic info css
+    .basic-info-container {
+        form {
+            padding-top: 25px;
+            input,
+            select {
+                .contact-field();
+                width: 100%;
+                height: 40px;
+                border-radius: 3px;
+                border: solid 1px @gray;
+                @media @width-768 {
+                    width: 80%;
+                }
+                &::placeholder {
+                    color: @lighergray !important;
+                }
+            }
+            select {
+                color: @lighergray !important;
+            }
+        }
+        p {
+            font-family: @main-font;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: left;
+            color: @darkgray;
+        }
+        .help-box {
+            position: relative;
+            span {
+                position: absolute;
+                top: 13px;
+                right: 6px;
+                color: @lighergray;
+                .soft-transition();
+                &:hover {
+                    color: @hvr-orange;
+                }
+            }
+        }
+        .map-container {
+            iframe {
+                height: 180px;
+            }
+        }
+        .registration-s {
+            p {
+                font-family: @secodary-font;
+                font-size: 14px;
+                line-height: 1.57;
+                text-align: left;
+                color: @blue;
+                span {
+                    font-size: 16px;
+                    text-align: center;
+                    color: @lighergray;
+                    .soft-transition();
+                    &:hover {
+                        color: @hvr-orange;
+                    }
+                }
+            }
+        }
+        .num-list {
+            padding-left: 15px;
+        }
+        .input-fields-wrap {
+            .add-field-button {
+                font-family: @secodary-font;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.57;
+                text-align: left;
+                color: @blue;
+                background-color: transparent;
+                border: 0;
+                cursor: pointer;
+               
+                &:focus {
+                    outline: none;
+                }
+            }
+            .remove_field {
+                font-family: @secodary-font;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.57;
+                text-align: left;
+                color: @blue !important;
+                text-decoration: none;
             }
         }
     }

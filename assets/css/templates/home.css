@@ -10047,16 +10047,16 @@ h5 {
   }
 }
 #blogsearch-section .blogsearch-container form input::-webkit-input-placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input::placeholder {
-  color: #E4E4E4;
+  color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form .blogsearch-btn {
   width: 159px;
