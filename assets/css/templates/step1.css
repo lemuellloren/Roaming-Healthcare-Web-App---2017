@@ -11039,11 +11039,11 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .upload-photo .upload-icon-container {
   position: relative;
   top: 40px;
-  left: 65px;
+  left: 50px;
 }
 #step1-onboarding-section .upload-photo img {
-  max-width: 180px;
-  height: 180px;
+  max-width: 150px;
+  height: 150px;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
@@ -11097,6 +11097,15 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   width: 50px;
   margin: 30px auto auto;
   border: solid 1px #444444;
+}
+#step1-onboarding-section .biling-address h3 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #165C96;
+  text-transform: initial;
+  padding-top: 60px;
 }
 #step1-onboarding-section .biling-address .billing-btn-container {
   text-align: center;
