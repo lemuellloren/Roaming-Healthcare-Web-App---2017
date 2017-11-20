@@ -11279,7 +11279,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 @media only screen and (min-width: 960px) {
   #step1-onboarding-section .plan-content {
-    max-width: 100%;
+    max-width: 300px;
   }
 }
 #step1-onboarding-section .plan-content .pricing-content {
