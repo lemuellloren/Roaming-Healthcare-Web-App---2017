@@ -237,24 +237,38 @@ height: 355px;">
                                         <input type="text" placeholder="Display Name (e.g. Dr. Jon Sn)" required>
                                     </div>
                                     <p>Business Information</p>
-                                    <input type="text" placeholder="Business Name" required>
-                                    <select>
-                                        <option disabled selected>Business Type</option>
-                                        <option>Pharmacy</option>
-                                        <option>Chiropractic</option>
-                                        <option>Petmalu</option>
-                                    </select>
+                                    <div class="uk-grid">
+                                        <div class="uk-width-medium-1-2">
+                                            <input type="text" placeholder="Business Name" required>
+                                        </div>
+                                        <div class="uk-width-medium-1-2">
+                                            <select>
+                                                <option disabled selected>Business Type</option>
+                                                <option>Pharmacy</option>
+                                                <option>Chiropractic</option>
+                                                <option>Petmalu</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
                                     <div class="map-container">
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d212126.66857326083!2d150.8357076!3d-33.8257507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b218afaa2dbf%3A0xb4e18d4555a9017d!2sSydney+Children&#39;s+Hospital!5e0!3m2!1sen!2sph!4v1511162738692"
                                             width="100%" height="488" frameborder="0" style="border:0" allowfullscreen></iframe>
                                         <div class="uk-overlay-panel" id="toggle-cover" data-uk-toggle="{target:'#toggle-cover'}"></div>
                                     </div>
                                     <p>Contact Information</p>
-                                    <div class="help-box">
-                                        <span class="uk-icon-question-circle" title="Help"></span>
-                                        <input type="email" placeholder="Email Address" required>
+
+                                    <div class="uk-grid">
+                                        <div class="uk-width-medium-1-2">
+                                            <div class="help-box">
+                                                <span class="uk-icon-question-circle" title="Help"></span>
+                                                <input type="email" placeholder="Email Address" required>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-medium-1-2">
+                                            <input type="url" placeholder="Website Url" required>
+                                        </div>
                                     </div>
-                                    <input type="url" placeholder="Website Url" required>
                                     <input type="tel" placeholder="Contact Number" required>
 
                                     <p>Other Information</p>
@@ -263,12 +277,22 @@ height: 355px;">
                                             <span class="uk-icon-question-circle" title="Help"></span>
                                         </p>
                                     </div>
-                                    <ol class="num-list">
-                                        <li>
-                                            <input type="text" placeholder="Title" required>
+
+                                    <div class="uk-grid">
+                                        <div class="uk-width-medium-1-2">
+                                            <ol class="num-list">
+                                                <li>
+                                                    <input type="text" placeholder="Title" required>
+
+                                                </li>
+                                            </ol>
+                                        </div>
+                                        <div class="uk-width-medium-1-2">
                                             <input type="text" placeholder="Reg. No." required>
-                                        </li>
-                                    </ol>
+                                        </div>
+                                    </div>
+
+
 
                                     <div class="input-fields-wrap">
                                         <button class="add-field-button">+ Add more...</button>
@@ -280,26 +304,36 @@ height: 355px;">
 
                                     <h3>About</h3>
                                     <div class="divider-title"></div>
-                                   <div class="about-area">
+                                    <div class="about-area">
                                         <textarea name="language" id="business-area" cols="30" rows="10" placeholder="Tell us about your business"></textarea>
-                                   </div>
-
-                                   <h3>Services</h3>
-                                   <div class="divider-title"></div>
-                                  <div class="about-area">
-                                        <input type="text" placeholder="Service Title" required>
-                                       <textarea name="language" id="business-area" cols="30" rows="10" placeholder="Service Description"></textarea>
-                                  </div>
-                                  <div class="input-fields-wrap">
-                                        <button class="add-field-button">+ Add more...</button>
-                                        <!-- <div>
-                                            <input type="text" name="mytext[]">
-                                        </div> -->
                                     </div>
+
+                                    <h3>Services</h3>
+                                    <div class="divider-title"></div>
+
+                                    <div class="uk-grid">
+                                        <div class="uk-width-medium-1-2">
+                                            <div class="about-area">
+                                                <input type="text" placeholder="Service Title" required>
+                                                <textarea name="language" id="business-area" cols="30" rows="10" placeholder="Service Description"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-medium-1-2">
+                                            <div class="input-fields-wrap2">
+                                                <button class="add-field-button2">+ Add more...</button>
+                                                <!-- <div>
+                                                                <input type="text" name="mytext[]">
+                                                            </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <h3>Documents</h3>
                                     <div class="divider-title"></div>
 
-                                    <div class="docs-box"><button class="docs-btn">Add Document</button></div>
+                                    <div class="docs-box">
+                                        <button class="docs-btn">Add Document</button>
+                                    </div>
                                 </form>
                             </div>
 

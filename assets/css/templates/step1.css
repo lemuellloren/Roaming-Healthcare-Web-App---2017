@@ -11019,11 +11019,23 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   background: transparent;
   outline: none;
 }
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .uk-tab-bottom {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 #step1-onboarding-section .uk-tab-bottom > li {
   border-bottom: 1px solid #E4E4E4;
 }
 #step1-onboarding-section .steps-content-area {
   padding: 10px 0 0 0;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .steps-content-area {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 #step1-onboarding-section .steps-content-area .uk-alert-warning {
   background: #fffceb;
@@ -11500,7 +11512,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   #step1-onboarding-section .basic-info-container form input,
   #step1-onboarding-section .basic-info-container form select,
   #step1-onboarding-section .basic-info-container form textarea {
-    width: 80%;
+    width: 100%;
   }
 }
 #step1-onboarding-section .basic-info-container form input::-webkit-input-placeholder,
@@ -11550,8 +11562,16 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .basic-info-container .help-box span:hover {
   color: #C45F00;
 }
+#step1-onboarding-section .basic-info-container .map-container {
+  padding: 15px 0 15px 0;
+}
 #step1-onboarding-section .basic-info-container .map-container iframe {
   height: 180px;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .basic-info-container .map-container iframe {
+    height: 200px;
+  }
 }
 #step1-onboarding-section .basic-info-container .registration-s p {
   font-family: 'Roboto';
@@ -11572,6 +11592,11 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #step1-onboarding-section .basic-info-container .num-list {
   padding-left: 15px;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .basic-info-container .input-fields-wrap {
+    text-align: left;
+  }
 }
 #step1-onboarding-section .basic-info-container .input-fields-wrap .add-field-button {
   font-family: 'Roboto';
@@ -11596,8 +11621,39 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #165C96 !important;
   text-decoration: none;
 }
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .basic-info-container .input-fields-wrap2 {
+    text-align: left;
+  }
+}
+#step1-onboarding-section .basic-info-container .input-fields-wrap2 .add-field-button2 {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  text-align: left;
+  color: #165C96;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+#step1-onboarding-section .basic-info-container .input-fields-wrap2 .add-field-button2:focus {
+  outline: none;
+}
+#step1-onboarding-section .basic-info-container .input-fields-wrap2 .remove_field2 {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  text-align: left;
+  color: #165C96 !important;
+  text-decoration: none;
+}
 #step1-onboarding-section .basic-info-container .input-fields-wrap {
   padding-bottom: 20px;
+}
+#step1-onboarding-section .basic-info-container .input-fields-wrap2 {
+  padding-top: 20px;
 }
 #step1-onboarding-section .basic-info-container .about-area {
   padding-top: 20px;

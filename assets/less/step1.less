@@ -123,12 +123,21 @@
         }
     }
     .uk-tab-bottom {
+        @media @width-768 {
+            width: 80%;
+            margin: 0 auto;
+        }
         >li {
             border-bottom: 1px solid @gray;
+           
         }
     } //Content Items Css
     .steps-content-area {
         padding: 10px 0 0 0;
+        @media @width-768 {
+            width: 80%;
+            margin: 0 auto;
+        }
         .uk-alert-warning {
             background: #fffceb;
             font-family: @secodary-font;
@@ -340,7 +349,7 @@
                 border-radius: 3px;
                 border: solid 1px @gray;
                 @media @width-768 {
-                    width: 80%;
+                    width: 100%;
                 }
                 &::placeholder {
                     color: @lighergray !important;
@@ -374,8 +383,12 @@
             }
         }
         .map-container {
+            padding: 15px 0 15px 0;
             iframe {
                 height: 180px;
+                @media @width-768 {
+                    height: 200px;
+                }
             }
         }
         .registration-s {
@@ -400,6 +413,9 @@
             padding-left: 15px;
         }
         .input-fields-wrap {
+            @media @width-768 {
+                text-align: left;
+            }
             .add-field-button {
                 font-family: @secodary-font;
                 font-size: 14px;
@@ -424,8 +440,39 @@
                 text-decoration: none;
             }
         }
+        .input-fields-wrap2 {
+            @media @width-768 {
+                text-align: left;
+            }
+            .add-field-button2 {
+                font-family: @secodary-font;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.57;
+                text-align: left;
+                color: @blue;
+                background-color: transparent;
+                border: 0;
+                cursor: pointer;
+                &:focus {
+                    outline: none;
+                }
+            }
+            .remove_field2 {
+                font-family: @secodary-font;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.57;
+                text-align: left;
+                color: @blue !important;
+                text-decoration: none;
+            }
+        }
         .input-fields-wrap {
             padding-bottom: 20px;
+        }
+        .input-fields-wrap2 {
+            padding-top: 20px;
         }
         .about-area {
             padding-top: 20px;
