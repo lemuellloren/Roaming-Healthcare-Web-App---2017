@@ -11766,6 +11766,24 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   margin: 30px auto auto;
   border: solid 1px #444444;
 }
+#listing-section .checkbox-container {
+  width: 223px;
+  height: 40px;
+  margin: 0 auto;
+}
+#listing-section .checkbox-container label {
+  font-family: 'Roboto' !important;
+  font-size: 16px !important;
+  line-height: 1.38;
+  text-align: left;
+  color: #444444;
+}
+#listing-section .checkbox-container input[type="checkbox"] {
+  width: 19px;
+  font-size: 24px !important;
+  text-align: center;
+  color: #444444 !important;
+}
 #listing-section .uk-panel {
   width: 212px;
   height: 320px;
@@ -11773,19 +11791,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   margin: 0 auto;
-}
-#listing-section label {
-  font-family: 'Roboto' !important;
-  font-size: 16px !important;
-  line-height: 1.38;
-  text-align: left;
-  color: #444444;
-}
-#listing-section input[type="checkbox"] {
-  width: 19px;
-  font-size: 24px !important;
-  text-align: center;
-  color: #444444 !important;
 }
 #listing-section .uk-grid {
   padding-top: 20px;

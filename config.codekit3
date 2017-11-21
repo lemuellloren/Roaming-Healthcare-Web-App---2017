@@ -4974,74 +4974,6 @@
 		"oAP": "\/assets\/css\/home.min.css.map",
 		"oF": 0
 		},
-	"\/assets\/css\/templates\/article.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/templates\/article-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/css\/templates\/article.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/templates\/article.css.map",
-		"oF": 0
-		},
-	"\/assets\/css\/templates\/blog.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/templates\/blog-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/css\/templates\/blog.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/templates\/blog.css.map",
-		"oF": 0
-		},
-	"\/assets\/css\/templates\/blogsearch.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/templates\/blogsearch-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/css\/templates\/blogsearch.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/templates\/blogsearch.css.map",
-		"oF": 0
-		},
-	"\/assets\/css\/templates\/createlister.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/templates\/createlister-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/css\/templates\/createlister.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/templates\/createlister.css.map",
-		"oF": 0
-		},
 	"\/assets\/css\/templates\/createsubscriberaccount.css": {
 		"aP": 1,
 		"bl": 0,
@@ -5057,74 +4989,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/createsubscriberaccount.css.map",
-		"oF": 0
-		},
-	"\/assets\/css\/templates\/error.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/templates\/error-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/css\/templates\/error.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/templates\/error.css.map",
-		"oF": 0
-		},
-	"\/assets\/css\/templates\/home.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/templates\/home-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/css\/templates\/home.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/templates\/home.css.map",
-		"oF": 0
-		},
-	"\/assets\/css\/templates\/step1.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/templates\/step1-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/css\/templates\/step1.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/templates\/step1.css.map",
-		"oF": 0
-		},
-	"\/assets\/css\/templates\/verifyemail.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/templates\/verifyemail-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/css\/templates\/verifyemail.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/templates\/verifyemail.css.map",
 		"oF": 0
 		},
 	"\/assets\/images\/blog-call\/blog1.jpg": {
@@ -5572,16 +5436,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/js\/_base.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/assets\/js\/templates\/_base.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
 	"\/assets\/js\/article.js": {
 		"ft": 64,
 		"ma": 1,
@@ -5652,74 +5506,6 @@
 		"sC": 3,
 		"tS": 1
 		},
-	"\/assets\/js\/templates\/article.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/article.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/assets\/js\/templates\/article.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/templates\/article.min.js.map",
-		"oF": 0
-		},
-	"\/assets\/js\/templates\/blog.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/blog.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/assets\/js\/templates\/blog.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/templates\/blog.min.js.map",
-		"oF": 0
-		},
-	"\/assets\/js\/templates\/blogsearch.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/blogsearch.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/assets\/js\/templates\/blogsearch.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/templates\/blogsearch.min.js.map",
-		"oF": 0
-		},
-	"\/assets\/js\/templates\/createlister.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/createlister.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/assets\/js\/templates\/createlister.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/templates\/createlister.min.js.map",
-		"oF": 0
-		},
 	"\/assets\/js\/templates\/createsubscriberaccount.min.js": {
 		"ft": 64,
 		"ma": 1,
@@ -5754,57 +5540,6 @@
 		"oAP": "\/assets\/js\/templates\/error.min.js.map",
 		"oF": 0
 		},
-	"\/assets\/js\/templates\/home.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/home.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/assets\/js\/templates\/home.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/templates\/home.min.js.map",
-		"oF": 0
-		},
-	"\/assets\/js\/templates\/step1.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/step1.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/assets\/js\/templates\/step1.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/templates\/step1.min.js.map",
-		"oF": 0
-		},
-	"\/assets\/js\/templates\/verifyemail.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/verifyemail.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/assets\/js\/templates\/verifyemail.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/templates\/verifyemail.min.js.map",
-		"oF": 0
-		},
 	"\/assets\/js\/verifyemail.js": {
 		"ft": 64,
 		"ma": 1,
@@ -5814,23 +5549,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
-		},
-	"\/assets\/less\/_base.less": {
-		"aP": 1,
-		"bl": 1,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/assets\/css\/templates\/_base.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
 		},
 	"\/assets\/less\/article.less": {
 		"aP": 1,
