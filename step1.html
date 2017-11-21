@@ -43,13 +43,13 @@ height: 355px;">
         <div class="uk-container">
             <ul class="uk-tab uk-tab-grid uk-tab-bottom" data-uk-tab="{connect:'#tab-content', animation: 'fade'}">
                 <li class="uk-width-1-2">
-                    <a class="tab-1" href="3">
+                    <a id="hide" class="tab-1" href="3">
                         <h3>STEP 1</h3>
                         <span>Account Info</span>
                     </a>
                 </li>
                 <li class="uk-width-1-2">
-                    <a class="tab-2" onclick="changeClass()" href="#">
+                    <a id="show" class="tab-2" href="#">
                         <h3>STEP 2</h3>
                         <span>Create Listing</span>
                     </a>
@@ -354,7 +354,7 @@ height: 355px;">
     <!--Proceed to Create Listing-->
 
     <!--layouts-->
-    <div id="listing-section" class="listing-layout">
+    <section id="listing-section" class="listing-layout">
         <div class="uk-container">
             <h3>LISTING LAYOUT</h3>
             <div class="divider-title"></div>
@@ -451,7 +451,7 @@ height: 355px;">
                 <button class="publish-btn">Publish Listing</button>
             </div>
         </div>
-    </div>
+    </section>
     <!--layouts-->
     <!-- END CREATE LISTER ACCOUNT AREA -->
 

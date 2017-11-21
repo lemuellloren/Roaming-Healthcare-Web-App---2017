@@ -59,7 +59,18 @@ $(document).ready(function() {
         e.preventDefault(); $(this).parent('div').remove(); x--;
     })
 });
- 
+ //hideshow
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $('.proceed-btn').show();
+        $(".listing-layout").hide();
+    });
+    $("#show").click(function(){
+        $('.proceed-btn').hide();
+        $(".listing-layout").show();
+    });
+});
+
 })(jQuery);
 
 
