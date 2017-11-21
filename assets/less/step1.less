@@ -503,6 +503,7 @@
     }
 } //listing css
 #listing-section {
+    height: 80vh;
     h3 {
         font-family: @main-font;
         font-size: 24px;
@@ -514,10 +515,16 @@
     .divider-title {
         .line-title();
     } //layouts
+    .uk-container {
+        margin: 0 auto;
+    }
+    
+    
     .checkbox-container {
         width: 223px;
         height: 40px;
         margin: 0 auto;
+        margin-top: 10px;
         label {
             font-family: @secodary-font !important;
             font-size: 16px !important;
@@ -532,105 +539,210 @@
             color: @darkgray !important;
         }
     }
-    .uk-panel {
-        width: 212px;
-        height: 320px;
-        background-color: @white;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-        margin: 0 auto;
-    }
-
-    .uk-grid {
-        padding-top: 20px;
-    }
-    .profile-img-blur {
-        width: 212px;
-        height: 153px;
-        filter: blur(2px);
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(62, 62, 62, 0.45) 67%, rgba(0, 0, 0, 0.6));
-    }
-    .profile-img {
-        width: 70px;
-        height: 70px;
-        display: block;
-        margin: auto;
-        border-radius: 100px;
-        background-color: @white;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-        border: solid 3px @white;
-    }
-    .info-name {
-        text-align: center;
-        font-family: @main-font;
-        font-size: 20px;
-        color: @white;
-    }
-    .mile-away {
-        margin: -15px;
-        text-align: center;
-        font-family: @secodary-font;
-        font-size: 12px;
-        text-align: center;
-        color: @white;
-    }
-    .profile-content {
-        margin: 10px 25px 25px 25px;
-        text-align: center;
-        .profile-address {
-            font-family: @secodary-font;
-            font-size: 14px;
-            font-weight: 300;
-            line-height: 1.57;
+    .layout-container-1 {
+        .uk-panel {
+            width: 212px;
+            height: 320px;
+            background-color: @white;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+        }
+        .profile-img-blur {
+            width: 212px;
+            height: 153px;
+            filter: blur(2px);
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(62, 62, 62, 0.45) 67%, rgba(0, 0, 0, 0.6));
+        }
+        .profile-img {
+            width: 70px;
+            height: 70px;
+            display: block;
+            margin: auto;
+            border-radius: 100px;
+            background-color: @white;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+            border: solid 3px @white;
+        }
+        .info-name {
             text-align: center;
+            font-family: @main-font;
+            font-size: 20px;
+            color: @white;
+        }
+        .mile-away {
+            margin: -15px;
+            text-align: center;
+            font-family: @secodary-font;
+            font-size: 12px;
+            text-align: center;
+            color: @white;
+        }
+        .profile-content {
+            margin: 10px 25px 25px 25px;
+            text-align: center;
+            .profile-address {
+                font-family: @secodary-font;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.57;
+                text-align: center;
+                color: @darkgray;
+                margin-top: -10px;
+                margin-bottom: 5px;
+            }
+            .uk-panel-title {
+                font-family: @secodary-font !important;
+                font-size: 16px !important;
+                line-height: 1.38;
+                text-align: left !important;
+            }
+            .contact-number {
+                font-family: @secodary-font;
+                font-size: 18px;
+                font-weight: bold;
+                text-align: center;
+                color: @darkgray;
+                margin: -10px;
+                text-decoration: none;
+                .soft-transition();
+                &:hover {
+                    color: @hvr-orange;
+                }
+            }
+            .website-com {
+                font-family: @secodary-font;
+                font-size: 12px;
+                font-weight: 300;
+                line-height: 1.83;
+                text-align: center;
+                color: @darkgray;
+                margin: 5px;
+                text-decoration: none;
+                .soft-transition();
+                &:hover {
+                    color: @hvr-orange;
+                }
+            }
+            .msg-container {
+                position: relative;
+                left: -25px;
+                right: 0;
+                top: 15px;
+                .msg-btn {
+                    .btn-orange();
+                    width: 212px;
+                    height: 45px;
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+    .layout-container-2 {
+        .uk-panel {
+            width: 212px;
+            height: 320px;
+            background-color: @white;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+        }
+        ul {
+            list-style: none;
+            display: inline-flex;
+            margin: 0 auto;
+            padding: 25px;
+        }
+        .info-name {
+            width: 70px;
+            font-family: @main-font;
+            font-size: 20px;
+            text-align: left;
             color: @darkgray;
+            padding-left: 15px;
+        }
+        .mile-away {
+            font-family: Roboto;
+            font-size: 12px;
+            text-align: left;
+            color: #165c96;
+            padding-left: 15px;
             margin-top: -10px;
-            margin-bottom: 5px;
+        }
+        .profile-img {
+            width: 70px;
+            height: 70px;
+            border-radius: 100px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+            border: solid 3px #ffffff;
         }
         .uk-panel-title {
             font-family: @secodary-font !important;
-            font-size: 16px !important;
-            line-height: 1.38;
+            font-size: 18px !important;
+            line-height: 1.22;
             text-align: left !important;
+            width: 166px;
         }
-        .contact-number {
-            font-family: @secodary-font;
-            font-size: 18px;
-            font-weight: bold;
+        .profile-content {
+            margin: 10px 25px 25px 25px;
             text-align: center;
-            color: @darkgray;
-            margin: -10px;
-            text-decoration: none;
-            .soft-transition();
-            &:hover {
-                color: @hvr-orange;
+            .profile-address {
+                font-family: @secodary-font;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.57;
+                text-align: left;
+                color: @darkgray;
+                margin-top: -10px;
+                margin-bottom: 5px;
+            }
+            .contact-number2 {
+                font-family: @secodary-font;
+                font-size: 18px;
+                font-weight: bold;
+                text-align: left;
+                color: @darkgray;
+                margin: -10px;
+                text-decoration: none;
+                margin: 0 auto;
+                .soft-transition();
+                &:hover {
+                    color: @hvr-orange;
+                }
+            }
+            .website-link-2 {
+                text-align: left;
+            }
+            .dial-container2 {
+                text-align: left;
+            }
+            .website-com {
+                font-family: @secodary-font;
+                font-size: 12px;
+                font-weight: 300;
+                line-height: 1.83;
+                text-align: left;
+                color: @darkgray;
+                margin: 5px;
+                text-decoration: none;
+                .soft-transition();
+                &:hover {
+                    color: @hvr-orange;
+                }
+            }
+            .msg-cirle-container {
+                position: relative;
+                top: 15px;
+                margin: 0 auto;
+                .msg-btn-circle {
+                    .btn-orange();
+                    height: 40px;
+                    border-radius: 100px;
+                }
             }
         }
-        .website-com {
-            font-family: @secodary-font;
-            font-size: 12px;
-            font-weight: 300;
-            line-height: 1.83;
-            text-align: center;
-            color: @darkgray;
-            margin: 5px;
-            text-decoration: none;
-            .soft-transition();
-            &:hover {
-                color: @hvr-orange;
-            }
-        }
-        .msg-container {
-            position: relative;
-            left: -25px;
-            right: 0;
-            top: 15px;
-            .msg-btn {
-                .btn-orange();
-                width: 212px;
-                height: 45px;
-                border-radius: 0;
-            }
-        }
+    }
+    .uk-grid {
+        padding-top: 20px;
     }
 }
 
