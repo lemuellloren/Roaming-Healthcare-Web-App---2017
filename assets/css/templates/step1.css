@@ -11774,10 +11774,10 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   margin: 0 auto;
 }
 #listing-section .checkbox-container {
-  width: 223px;
+  width: 212px;
   height: 40px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 #listing-section .checkbox-container label {
   font-family: 'Roboto' !important;
