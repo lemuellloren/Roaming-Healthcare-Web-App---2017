@@ -10136,6 +10136,8 @@ h5 {
   color: #FE7B00;
 }
 /* END BLOG SEARCH AREA STYLES */
+/* LISTING LAYOUTS AREA STYLES */
+/* END LISTING LAYOUTS AREA STYLES */
 /* SITE FOOTER AREA STYLES */
 footer {
   background: #E4E4E4;
@@ -11745,6 +11747,172 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border: 1px solid #C45F00;
 }
 #proceed-btn-section .proceed-btn-box .proceed-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#listing-section h3 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #165C96;
+  text-transform: initial;
+}
+#listing-section .divider-title {
+  width: 50px;
+  margin: 30px auto auto;
+  border: solid 1px #444444;
+}
+#listing-section .uk-panel {
+  width: 212px;
+  height: 320px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+#listing-section label {
+  font-family: 'Roboto' !important;
+  font-size: 16px !important;
+  line-height: 1.38;
+  text-align: left;
+  color: #444444;
+}
+#listing-section input[type="checkbox"] {
+  width: 19px;
+  font-size: 24px !important;
+  text-align: center;
+  color: #444444 !important;
+}
+#listing-section .uk-grid {
+  padding-top: 20px;
+}
+#listing-section .profile-img-blur {
+  width: 212px;
+  height: 153px;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(67%, rgba(62, 62, 62, 0.45)), to(rgba(0, 0, 0, 0.6)));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(62, 62, 62, 0.45) 67%, rgba(0, 0, 0, 0.6));
+}
+#listing-section .profile-img {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: auto;
+  border-radius: 100px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  border: solid 3px #FFF;
+}
+#listing-section .info-name {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: #FFF;
+}
+#listing-section .mile-away {
+  margin: -15px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  text-align: center;
+  color: #FFF;
+}
+#listing-section .profile-content {
+  margin: 10px 25px 25px 25px;
+  text-align: center;
+}
+#listing-section .profile-content .profile-address {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  text-align: center;
+  color: #444444;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+#listing-section .profile-content .uk-panel-title {
+  font-family: 'Roboto' !important;
+  font-size: 16px !important;
+  line-height: 1.38;
+  text-align: left !important;
+}
+#listing-section .profile-content .contact-number {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #444444;
+  margin: -10px;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#listing-section .profile-content .contact-number:hover {
+  color: #C45F00;
+}
+#listing-section .profile-content .website-com {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.83;
+  text-align: center;
+  color: #444444;
+  margin: 5px;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#listing-section .profile-content .website-com:hover {
+  color: #C45F00;
+}
+#listing-section .profile-content .msg-container {
+  position: relative;
+  left: -25px;
+  right: 0;
+  top: 15px;
+}
+#listing-section .profile-content .msg-container .msg-btn {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 212px;
+  height: 45px;
+  border-radius: 0;
+}
+#listing-section .profile-content .msg-container .msg-btn::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#listing-section .profile-content .msg-container .msg-btn:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#listing-section .profile-content .msg-container .msg-btn:hover::before {
   width: 150%;
   height: 150%;
   top: -25%;
