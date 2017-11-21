@@ -11755,6 +11755,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #listing-section {
   height: 80vh;
+  display: none;
 }
 #listing-section h3 {
   font-family: 'Montserrat';
@@ -11790,6 +11791,11 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-size: 24px !important;
   text-align: center;
   color: #444444 !important;
+}
+#listing-section .line {
+  border: solid 1px #c9c9c9;
+  position: relative;
+  top: -10px;
 }
 #listing-section .layout-container-1 .uk-panel {
   width: 212px;
@@ -11977,7 +11983,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   width: 166px;
 }
 #listing-section .layout-container-2 .profile-content {
-  margin: 10px 25px 25px 25px;
+  margin: 0 25px 25px 25px;
   text-align: center;
 }
 #listing-section .layout-container-2 .profile-content .profile-address {
@@ -12066,6 +12072,52 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border: 1px solid #C45F00;
 }
 #listing-section .layout-container-2 .profile-content .msg-cirle-container .msg-btn-circle:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#listing-section .publish-btn-container {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+#listing-section .publish-btn-container .publish-btn {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 191px;
+  height: 44px;
+}
+#listing-section .publish-btn-container .publish-btn::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#listing-section .publish-btn-container .publish-btn:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#listing-section .publish-btn-container .publish-btn:hover::before {
   width: 150%;
   height: 150%;
   top: -25%;

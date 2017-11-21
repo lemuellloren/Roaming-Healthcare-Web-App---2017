@@ -504,6 +504,7 @@
 } //listing css
 #listing-section {
     height: 80vh;
+    display: none;
     h3 {
         font-family: @main-font;
         font-size: 24px;
@@ -518,8 +519,6 @@
     .uk-container {
         margin: 0 auto;
     }
-    
-    
     .checkbox-container {
         width: 223px;
         height: 40px;
@@ -538,6 +537,11 @@
             text-align: center;
             color: @darkgray !important;
         }
+    }
+    .line {
+        border: solid 1px #c9c9c9;
+        position: relative;
+        top: -10px;
     }
     .layout-container-1 {
         .uk-panel {
@@ -683,7 +687,7 @@
             width: 166px;
         }
         .profile-content {
-            margin: 10px 25px 25px 25px;
+            margin: 0 25px 25px 25px;
             text-align: center;
             .profile-address {
                 font-family: @secodary-font;
@@ -739,6 +743,18 @@
                     border-radius: 100px;
                 }
             }
+        }
+    }
+    .publish-btn-container {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .publish-btn-container {
+        .publish-btn {
+            .btn-orange();
+            width: 191px;
+            height: 44px;
         }
     }
     .uk-grid {
