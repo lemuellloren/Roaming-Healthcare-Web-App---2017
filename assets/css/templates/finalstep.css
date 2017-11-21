@@ -10902,4 +10902,45 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   }
 }
 /* END GRADIENT BANNER SYTLES AREA  */
+/* PROCEED SECTION */
+#proceed-dashboard-section {
+  padding: 50px 0 50px 0;
+  max-width: 80%;
+  margin: 0 auto;
+  height: 355px;
+  background-color: #FFF;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: -50px;
+}
+@media only screen and (min-width: 768px) {
+  #proceed-dashboard-section {
+    height: 202px;
+    max-width: 60%;
+  }
+}
+#proceed-dashboard-section h3 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  color: #165C96;
+  text-transform: initial;
+}
+#proceed-dashboard-section a {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: left;
+  color: #FE7B00;
+}
+#proceed-dashboard-section a:hover {
+  color: #C45F00;
+  text-decoration: none;
+}
+/* END PROCEED SECTION */
 /*# sourceMappingURL=finalstep.css.map */
