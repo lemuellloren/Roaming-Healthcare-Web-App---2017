@@ -11808,13 +11808,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #listing-section .checkbox-container .check-container input {
   position: absolute;
   opacity: 0;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
 }
 #listing-section .checkbox-container .check-container input:checked ~ .checkmark {
   background-color: #444444;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
 }
 #listing-section .checkbox-container .check-container input:checked ~ .checkmark:after {
   display: block;
