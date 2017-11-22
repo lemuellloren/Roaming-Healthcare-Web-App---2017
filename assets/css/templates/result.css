@@ -11085,4 +11085,161 @@ html[dir="rtl"] .uk-slider > * {
   color: rgba(255, 255, 255, 0.9);
 }
 /* #hero, #about, #contact, etc. */
+/* SEARCH BANNER AREA */
+#search-banner-white-section {
+  background-color: #FFF;
+  height: 320px;
+}
+#search-banner-white-section .uk-container {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+#search-banner-white-section .form-container {
+  margin: 0 auto;
+  text-align: center;
+}
+#search-banner-white-section .search-banner-container {
+  margin: 95px auto;
+  text-align: center;
+}
+#search-banner-white-section .search-banner-container .search-banner-title {
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  #search-banner-white-section .search-banner-container .search-banner-title {
+    height: 90px;
+    padding-top: 20%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+  }
+}
+#search-banner-white-section .search-banner-container h1 {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+}
+#search-banner-white-section .search-banner-container p {
+  width: 128px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: left;
+  color: #444444;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+}
+#search-banner-white-section .search-banner-container ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+@media only screen and (min-width: 768px) {
+  #search-banner-white-section .search-banner-container ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  #search-banner-white-section .search-banner-container ul li {
+    padding: 10px;
+  }
+}
+#search-banner-white-section .search-banner-container form input {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #BBBBBB;
+  width: 260px;
+  height: 50px;
+  padding-left: 50px!important;
+  border: solid 1px #165C96;
+}
+#search-banner-white-section .search-banner-container form input:placeholder {
+  color: #BBBBBB;
+}
+#search-banner-white-section .search-banner-container form input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
+@media only screen and (min-width: 768px) {
+  #search-banner-white-section .search-banner-container form input {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #search-banner-white-section .search-banner-container form input {
+    width: 310px;
+  }
+}
+#search-banner-white-section .search-banner-container form .search-input {
+  margin-top: -10px;
+}
+#search-banner-white-section .search-banner-container form .search-input span {
+  color: #444444;
+  font-size: 20px;
+  top: 56%;
+  left: 5%;
+}
+#search-banner-white-section .search-banner-container form .find-btn {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+}
+#search-banner-white-section .search-banner-container form .find-btn::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#search-banner-white-section .search-banner-container form .find-btn:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#search-banner-white-section .search-banner-container form .find-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#search-banner-white-section .search-banner-container .btn-find-con {
+  position: relative;
+  margin-bottom: 400px;
+}
+@media only screen and (min-width: 768px) {
+  #search-banner-white-section .search-banner-container .btn-find-con {
+    top: 17px;
+  }
+}
+/* END SEARCH BANNER AREA */
 /*# sourceMappingURL=result.css.map */
