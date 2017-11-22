@@ -249,7 +249,6 @@
     }
     .plan-heading-orange {
         .plan-title-orange();
-       
     }
     .bottom-triangle-orange {
         .triangle-down-orange();
@@ -257,7 +256,6 @@
     .bottom-triangle-blue {
         .triangle-down-blue();
     }
-    
     .plan-content {
         max-width: 205px;
         height: 500px;
@@ -532,70 +530,67 @@
         height: 40px;
         margin: 0 auto;
         margin-top: 20px;
-       
-.check-container {
-	display: block;
-	position: relative;
-	padding-left: 35px;
-	margin-bottom: 12px;
-	cursor: pointer;
-    user-select: none;
-    font-family: @secodary-font;
-    font-size: 16px;
-    line-height: 1.38;
-    text-align: left;
-    color: @darkgray;
-    .soft-transition();
-	input {
-		position: absolute;
-        opacity: 0;
-        .soft-transition();
-		&:checked {
-			&~.checkmark {
-                background-color: @darkgray;
+        .check-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            user-select: none;
+            font-family: @secodary-font;
+            font-size: 16px;
+            line-height: 1.38;
+            text-align: left;
+            color: @darkgray;
+            .soft-transition();
+            input {
+                position: absolute;
+                opacity: 0;
                 .soft-transition();
-				&:after {
-					display: block;
-				}
-			}
-		}
-	}
-	&:hover {
-		input {
-			&~.checkmark {
-                border: solid @hvr-orange;
-			}
-		}
-	}
-	.checkmark {
-		&:after {
-            left: 6px;
-            top: 2px;
-			width: 5px;
-			height: 10px;
-			border: solid @white;
-			border-width: 0 3px 3px 0;
-			transform: rotate(45deg);
-		}
-	}
-}
-.checkmark {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 20px;
-	width: 20px;
-	background-color: @lightgray;
-    border: solid @darkgray;
-    border-radius: 7px;
-
-	&:after {
-		content: "";
-		position: absolute;
-		display: none;
-	}
-}
-
+                &:checked {
+                    &~.checkmark {
+                        background-color: @darkgray;
+                        .soft-transition();
+                        &:after {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                input {
+                    &~.checkmark {
+                        border: solid @hvr-orange;
+                    }
+                }
+            }
+            .checkmark {
+                &:after {
+                    left: 6px;
+                    top: 2px;
+                    width: 5px;
+                    height: 10px;
+                    border: solid @white;
+                    border-width: 0 3px 3px 0;
+                    transform: rotate(45deg);
+                }
+            }
+        }
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 20px;
+            width: 20px;
+            background-color: @lightgray;
+            border: solid @darkgray;
+            border-radius: 7px;
+            &:after {
+                content: "";
+                position: absolute;
+                display: none;
+            }
+        }
     }
     .line {
         border: solid 1px #c9c9c9;
@@ -821,5 +816,6 @@
         padding-top: 20px;
     }
 }
+
 
 /* END VERIFY EMAIL SYTLES AREA */
