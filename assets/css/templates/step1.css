@@ -11224,7 +11224,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: relative;
 }
 #step1-onboarding-section .plan-heading h3 {
-  padding: 25px;
+  padding: 20px 0 0 0;
   font-family: 'Montserrat';
   font-size: 22px;
   font-weight: 300;
@@ -11250,7 +11250,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: relative;
 }
 #step1-onboarding-section .plan-heading-blue h3 {
-  padding: 25px;
+  padding: 20px 0 0 0;
   font-family: 'Montserrat';
   font-size: 22px;
   font-weight: 300;
@@ -11276,7 +11276,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: relative;
 }
 #step1-onboarding-section .plan-heading-orange h3 {
-  padding: 25px;
+  padding: 20px 0 0 0;
   font-family: 'Montserrat';
   font-size: 22px;
   font-weight: 300;
@@ -11296,7 +11296,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #step1-onboarding-section .plan-content {
   max-width: 205px;
-  height: 454px;
+  height: 500px;
   background-color: #FFF;
   border: solid 1px #E4E4E4;
   position: relative;
@@ -11329,7 +11329,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: relative;
 }
 #step1-onboarding-section .plan-content .pricing-content .plan-heading h3 {
-  padding: 25px;
+  padding: 20px 0 0 0;
   font-family: 'Montserrat';
   font-size: 22px;
   font-weight: 300;
