@@ -11231,17 +11231,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: center;
   color: #FFF;
 }
-#step1-onboarding-section .plan-heading::after {
-  content: "";
-  position: absolute;
-  bottom: -25px;
-  left: 3px;
-  width: 0;
-  height: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-top: 25px solid #165C96;
-}
 #step1-onboarding-section .plan-heading-blue {
   width: auto;
   height: 55px;
@@ -11256,17 +11245,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-weight: 300;
   text-align: center;
   color: #FFF;
-}
-#step1-onboarding-section .plan-heading-blue::after {
-  content: "";
-  position: absolute;
-  bottom: -25px;
-  left: 3px;
-  width: 0;
-  height: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-top: 25px solid #165C96;
 }
 #step1-onboarding-section .plan-heading-orange {
   width: auto;
@@ -11283,16 +11261,57 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: center;
   color: #FFF;
 }
-#step1-onboarding-section .plan-heading-orange::after {
-  content: "";
+#step1-onboarding-section .bottom-triangle-orange {
   position: absolute;
-  bottom: -25px;
-  left: 3px;
+  left: 0;
+  right: 0;
+  top: 55px;
+  width: 50%;
+  height: 0;
+  padding-left: 50%;
+  padding-top: 10%;
+  overflow: hidden;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+#step1-onboarding-section .bottom-triangle-orange:after {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  content: "";
+  display: block;
   width: 0;
   height: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-top: 25px solid #FE7B00;
+  margin-left: -1000px;
+  margin-top: -200px;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+  border-top: 200px solid #FE7B00;
+}
+#step1-onboarding-section .bottom-triangle-blue {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 55px;
+  width: 50%;
+  height: 0;
+  padding-left: 50%;
+  padding-top: 10%;
+  overflow: hidden;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+#step1-onboarding-section .bottom-triangle-blue:after {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: -1000px;
+  margin-top: -200px;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+  border-top: 200px solid #165C96;
 }
 #step1-onboarding-section .plan-content {
   max-width: 205px;
@@ -11335,17 +11354,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-weight: 300;
   text-align: center;
   color: #FFF;
-}
-#step1-onboarding-section .plan-content .pricing-content .plan-heading::after {
-  content: "";
-  position: absolute;
-  bottom: -25px;
-  left: 3px;
-  width: 0;
-  height: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-top: 25px solid #165C96;
 }
 #step1-onboarding-section .plan-content .choose-btn-container {
   position: absolute;
