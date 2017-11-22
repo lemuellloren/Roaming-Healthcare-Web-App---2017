@@ -9051,6 +9051,8 @@ h5 {
 /* Global End Button Area Styles */
 /* Link Hover animations */
 /* End Link Hover animations */
+/* cirle img and blur effects */
+/* cirle img */
 /* Site Menu, Site Footer, etc. */
 /* SEARCH BANNER AREA STYLES */
 #search-banner-section {
@@ -11188,7 +11190,7 @@ html[dir="rtl"] .uk-slider > * {
   margin-top: -10px;
 }
 #search-banner-white-section .search-banner-container form .search-input span {
-  color: #444444;
+  color: #165C96;
   font-size: 20px;
   top: 56%;
   left: 5%;
