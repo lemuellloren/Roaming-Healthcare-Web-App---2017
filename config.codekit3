@@ -5110,6 +5110,23 @@
 		"oAP": "\/assets\/css\/templates\/home.css.map",
 		"oF": 0
 		},
+	"\/assets\/css\/templates\/result.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/templates\/result-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/templates\/result.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/templates\/result.css.map",
+		"oF": 0
+		},
 	"\/assets\/css\/templates\/step1.css": {
 		"aP": 1,
 		"bl": 0,
@@ -5669,6 +5686,16 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/assets\/js\/result.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/result.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/assets\/js\/step1.js": {
 		"ft": 64,
 		"ma": 1,
@@ -5813,6 +5840,23 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/home.min.js.map",
+		"oF": 0
+		},
+	"\/assets\/js\/templates\/result.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/result.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/assets\/js\/templates\/result.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/templates\/result.min.js.map",
 		"oF": 0
 		},
 	"\/assets\/js\/templates\/step1.min.js": {
@@ -5995,6 +6039,23 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/assets\/less\/result.less": {
+		"aP": 1,
+		"bl": 1,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/css\/templates\/result.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
 	"\/assets\/less\/step1.less": {
 		"aP": 1,
 		"bl": 1,
@@ -6096,6 +6157,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/result.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/result.html",
+		"oF": 0
 		},
 	"\/step1.html": {
 		"cB": 0,
