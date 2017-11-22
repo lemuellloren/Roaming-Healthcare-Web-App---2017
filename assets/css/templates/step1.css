@@ -11779,18 +11779,65 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   margin: 0 auto;
   margin-top: 20px;
 }
-#listing-section .checkbox-container label {
-  font-family: 'Roboto' !important;
-  font-size: 16px !important;
+#listing-section .checkbox-container .check-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: 'Roboto';
+  font-size: 16px;
   line-height: 1.38;
   text-align: left;
   color: #444444;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-#listing-section .checkbox-container input[type="checkbox"] {
-  width: 19px;
-  font-size: 24px !important;
-  text-align: center;
-  color: #444444 !important;
+#listing-section .checkbox-container .check-container input {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#listing-section .checkbox-container .check-container input:checked ~ .checkmark {
+  background-color: #444444;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#listing-section .checkbox-container .check-container input:checked ~ .checkmark:after {
+  display: block;
+}
+#listing-section .checkbox-container .check-container:hover input ~ .checkmark {
+  border: solid #C45F00;
+}
+#listing-section .checkbox-container .check-container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #FFF;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+#listing-section .checkbox-container .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #F0F0F0;
+  border: solid #444444;
+  border-radius: 7px;
+}
+#listing-section .checkbox-container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
 }
 #listing-section .line {
   border: solid 1px #c9c9c9;
