@@ -11494,7 +11494,6 @@ html[dir="rtl"] .uk-slider > * {
 }
 #results-section .results-container .layout-div-2 .uk-panel {
   max-width: 280px;
-  height: 445px;
   background-color: #FFF;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -11539,7 +11538,7 @@ html[dir="rtl"] .uk-slider > * {
   color: #165C96;
 }
 #results-section .results-container .layout-div-2 .profile-content {
-  padding: 30px 25px 25px 25px;
+  padding: 30px 25px 0 25px;
   text-align: center;
 }
 #results-section .results-container .layout-div-2 .profile-content .profile-address {
