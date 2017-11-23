@@ -11283,14 +11283,14 @@ html[dir="rtl"] .uk-slider > * {
   color: #444444;
 }
 #results-section .results-container .layout-div-1 .mile-away {
-  margin: -15px;
+  margin: -35px 43px 25px 0;
+  text-align: right;
   font-family: 'Roboto';
   font-size: 12px;
-  text-align: center;
-  color: #FFF;
+  color: #165C96;
 }
 #results-section .results-container .layout-div-1 .profile-content {
-  margin: 10px 25px 25px 25px;
+  padding: 10px 25px 25px 25px;
   text-align: center;
 }
 #results-section .results-container .layout-div-1 .profile-content .profile-address {
