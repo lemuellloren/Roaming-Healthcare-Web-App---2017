@@ -10990,7 +10990,7 @@ html[dir="rtl"] .uk-slider > * {
   border-radius: 3px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   position: relative;
-  top: -195px;
+  margin-top: -195px;
 }
 @media only screen and (min-width: 768px) {
   #subscriberContainer {
@@ -11198,7 +11198,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 #subscriberContainer .uk-container .about {
   text-align: center;
-  padding-top: 35px;
+  padding-top: 50px;
 }
 #subscriberContainer .uk-container .about h3 {
   font-size: 24px;
@@ -11221,7 +11221,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 #subscriberContainer .uk-container .services {
   text-align: center;
-  padding-top: 35px;
+  padding: 50px 0 40px 0;
 }
 #subscriberContainer .uk-container .services h3 {
   font-size: 24px;
@@ -11309,5 +11309,19 @@ html[dir="rtl"] .uk-slider > * {
   #subscriberContainer .uk-container .services .services-content .service-list-nav {
     top: 20px;
   }
+}
+#subscriberContainer .uk-container .documents {
+  text-align: center;
+  padding-top: 50px;
+}
+#subscriberContainer .uk-container .documents h3 {
+  font-size: 24px;
+  text-transform: none;
+}
+#subscriberContainer .uk-container .documents .divider-title {
+  width: 50px;
+  margin: 30px auto auto;
+  border: solid 1px #444444;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=expert.css.map */
