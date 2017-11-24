@@ -11244,6 +11244,45 @@ html[dir="rtl"] .uk-slider > * {
 #results-section .uk-container {
   margin: 0 auto;
 }
+#results-section .sort-div {
+  text-align: right;
+  margin: -40px 0 20px 0;
+}
+#results-section .sort-div label {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  color: #444444;
+}
+#results-section .sort-div select {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  width: 99px;
+  height: 30px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: left;
+  color: #FE7B00;
+}
+#results-section .sort-div select:placeholder {
+  color: #BBBBBB;
+}
+#results-section .sort-div select:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
 #results-section .results-container {
   padding: 80px 0 0 0;
 }
