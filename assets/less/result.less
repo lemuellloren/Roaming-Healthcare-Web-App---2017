@@ -1,4 +1,4 @@
-// BASE IMPORT
+    // BASE IMPORT
 @import '_base';
 // PAGE FRAMEWORK COMPONENT IMPORT
 // @import '../bower_components/uikit/less/components/slideshow.less';
@@ -1091,6 +1091,160 @@
                     }
                 }
             }
+        } //layout 9
+        .layout-div-9 {
+            .uk-panel {
+                max-width: 280px;
+                height: 100%;
+                background-color: @white;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            .heading-div {
+                .uk-panel-title {
+                    font-family: @main-font;
+                    font-size: 18px;
+                    text-align: left;
+                    color: @blue;
+                }
+                p {
+                    font-family: @secodary-font;
+                    font-size: 16px;
+                    text-align: left;
+                    color: @blue;
+                }
+            }
+            .line {
+                border: solid 1px #c9c9c9;
+                position: relative;
+                top: -10px;
+            }
+            ul {
+                list-style: none;
+                display: inline-flex;
+                margin: 0 auto;
+                padding: 25px;
+            }
+            .info-name {
+                width: 70px;
+                font-family: @main-font;
+                font-size: 20px;
+                text-align: left;
+                color: @darkgray;
+                padding-left: 15px;
+            }
+            .mile-away {
+                font-family: @secodary-font;
+                font-size: 12px;
+                text-align: right;
+                color: @blue;
+            }
+            .profile-img {
+                @img-size: 70px;
+                width: @img-size;
+                height: @img-size;
+                border-radius: 100px;
+                background-color: @white;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+                border: solid 3px @white;
+            }
+            .profile-content {
+                @orange-width: 30px;
+                padding: 25px 25px 5px 25px;
+                padding-left: @orange-width + 10px;
+                text-align: center;
+                position: relative;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    width: @orange-width;
+                    background: @orange;
+                }
+                .profile-address {
+                    font-family: @secodary-font;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 1.57;
+                    text-align: left;
+                    color: @darkgray; // margin-top: -10px;
+                    margin-bottom: 5px;
+                    span {
+                        position: absolute;
+                        left: 8px;
+                        color: white;
+                        font-size: 20px;
+                    }
+                }
+                    h3 {
+                        font-family: @secodary-font;
+                        font-size: 16px;
+                        text-align: left;
+                        color: @blue;
+                        text-transform: initial;
+                        margin-bottom: -15px;
+                    }
+                    .contact-number2 {
+                        font-family: @secodary-font;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: left;
+                        color: @orange;
+                        margin: -10px;
+                        text-decoration: none;
+                        margin: 0 auto;
+                        span {
+                            position: absolute;
+                            left: 8px;
+                            color: @white;
+                        }
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .website-link-2 {
+                        text-align: left;
+                        padding-top: 10px;
+                        span {
+                            position: absolute;
+                            left: 8px;
+                            color: @white;
+                            font-size: 20px;
+                        }
+                    }
+                    .dial-container2 {
+                        text-align: left;
+                    }
+                    .website-com {
+                        font-family: @secodary-font;
+                        font-size: 12px;
+                        font-weight: 300;
+                        line-height: 1.83;
+                        text-align: left;
+                        color: @darkgray;
+                        margin: 5px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .msg-cirle-container {
+                        position: relative;
+                        top: 15px;
+                        margin: 0 auto;
+                        .msg-btn-circle {
+                            .btn-orange();
+                            width: 100%;
+                            height: 40px;
+                            border-radius: 100px;
+                        }
+                    }
+                }
+            }
         }
     }
-}
