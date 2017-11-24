@@ -13068,4 +13068,92 @@ html[dir="rtl"] .uk-slider > * {
   left: -25%;
   opacity: 0;
 }
+#results-section .pagination-container {
+  position: relative;
+  text-align: center;
+  top: 25px;
+  bottom: 0;
+  padding-bottom: 60px;
+}
+@media only screen and (min-width: 768px) {
+  #results-section .pagination-container {
+    top: 80px;
+  }
+}
+#results-section .pagination-container .visit-blog-btn {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  background-color: #F0F0F0;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+}
+#results-section .pagination-container .visit-blog-btn::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#results-section .pagination-container .visit-blog-btn:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+#results-section .pagination-container .visit-blog-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#results-section .uk-pagination > .uk-active > span {
+  background: #FE7B00;
+  color: #FFF;
+}
+#results-section .uk-pagination > li > a {
+  background: transparent;
+  color: #FE7B00;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+#results-section .uk-pagination > li > span {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #FE7B00;
+}
+#results-section .uk-pagination {
+  width: 230px;
+}
+#results-section .uk-pagination-previous,
+#results-section .uk-pagination-next {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#results-section .uk-pagination-previous:hover,
+#results-section .uk-pagination-next:hover {
+  background-color: #FE7B00;
+  border-radius: 3px;
+}
+#results-section .uk-pagination-previous:hover a,
+#results-section .uk-pagination-next:hover a {
+  color: #FFF;
+}
 /*# sourceMappingURL=result.css.map */
