@@ -2452,7 +2452,7 @@
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/js\/components\/lightbox.js",
 		"oF": 0,
 		"sC": 3,
@@ -5269,6 +5269,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/documents\/document.jpg": {
+		"ft": 16384,
+		"iS": 106041,
+		"oA": 0,
+		"oAP": "\/assets\/images\/documents\/document.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/favicons\/android-chrome-144x144.png": {

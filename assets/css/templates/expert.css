@@ -10990,7 +10990,7 @@ html[dir="rtl"] .uk-slider > * {
   border-radius: 3px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   position: relative;
-  top: -195px;
+  margin-top: -195px;
 }
 @media only screen and (min-width: 768px) {
   #subscriberContainer {
@@ -11198,7 +11198,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 #subscriberContainer .uk-container .about {
   text-align: center;
-  padding-top: 35px;
+  padding-top: 50px;
 }
 #subscriberContainer .uk-container .about h3 {
   font-size: 24px;
@@ -11221,7 +11221,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 #subscriberContainer .uk-container .services {
   text-align: center;
-  padding-top: 35px;
+  padding: 50px 0 40px 0;
 }
 #subscriberContainer .uk-container .services h3 {
   font-size: 24px;
@@ -11307,6 +11307,123 @@ html[dir="rtl"] .uk-slider > * {
 }
 @media only screen and (min-width: 768px) {
   #subscriberContainer .uk-container .services .services-content .service-list-nav {
+    top: 20px;
+  }
+}
+#subscriberContainer .uk-container .documents {
+  text-align: center;
+  padding-top: 50px;
+}
+#subscriberContainer .uk-container .documents h3 {
+  font-size: 24px;
+  text-transform: none;
+}
+#subscriberContainer .uk-container .documents .divider-title {
+  width: 50px;
+  margin: 30px auto auto;
+  border: solid 1px #444444;
+  margin-bottom: 15px;
+}
+#subscriberContainer .uk-container .documents .uk-slider li .document {
+  margin-bottom: 25px;
+  padding: 0px;
+}
+#subscriberContainer .uk-container .documents .uk-slider li .document .shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 3px;
+}
+#subscriberContainer .uk-container .documents .uk-slider li .document .shadow figure.image {
+  overflow: hidden;
+  height: 130px;
+  margin: 0;
+  width: 100%;
+}
+#subscriberContainer .uk-container .documents .uk-slider li .document .shadow figure.image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 155px;
+  width: 100%;
+}
+#subscriberContainer .uk-container .documents .uk-slider li .document .shadow .uk-overlay .uk-overlay-panel {
+  background: rgba(254, 123, 0, 0.8);
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+}
+@media screen and (max-width: 768px) {
+  #subscriberContainer .uk-container .documents .uk-slider li .document .shadow .uk-overlay .uk-overlay-panel {
+    opacity: 1;
+  }
+}
+#subscriberContainer .uk-container .documents .uk-slider li .document .shadow .uk-overlay .uk-overlay-panel span {
+  padding-right: 10px;
+}
+#subscriberContainer .uk-container .documents .uk-slider li .document .shadow div.docu-desc {
+  padding: 13px;
+}
+#subscriberContainer .uk-container .documents .uk-slider li .document .shadow div.docu-desc p {
+  margin: 0px;
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-style: 16px;
+}
+#subscriberContainer .uk-container .documents .service-list-arrow {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Roboto';
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 37px;
+  outline: none;
+}
+#subscriberContainer .uk-container .documents .service-list-arrow::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+#subscriberContainer .uk-container .documents .service-list-arrow:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+#subscriberContainer .uk-container .documents .service-list-arrow:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#subscriberContainer .uk-container .documents .uk-slidenav.uk-slidenav-previous,
+#subscriberContainer .uk-container .documents .uk-slidenav.uk-slidenav-next {
+  display: block;
+  color: #FE7B00;
+  transition: all 0.4s ease;
+}
+#subscriberContainer .uk-container .documents .uk-slidenav.uk-slidenav-previous:hover,
+#subscriberContainer .uk-container .documents .uk-slidenav.uk-slidenav-next:hover {
+  color: #C45F00;
+}
+#subscriberContainer .uk-container .documents .service-list-nav {
+  position: relative;
+  top: 10px;
+  float: right;
+}
+@media only screen and (min-width: 768px) {
+  #subscriberContainer .uk-container .documents .service-list-nav {
     top: 20px;
   }
 }

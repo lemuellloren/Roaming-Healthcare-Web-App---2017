@@ -3,9 +3,9 @@
 
 // PAGE FRAMEWORK COMPONENT IMPORT
 // import any framework components that are used in this page only:
+// @codekit-prepend '../bower_components/uikit/js/components/lightbox.js'
 // @codekit-prepend '../bower_components/uikit/js/components/slider.js'
 // @codekit-prepend '../bower_components/uikit/js/components/slideshow.js'
-
 
 
 // PAGE FUNCTIONS
