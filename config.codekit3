@@ -5076,6 +5076,23 @@
 		"oAP": "\/assets\/css\/templates\/error.css.map",
 		"oF": 0
 		},
+	"\/assets\/css\/templates\/expert.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/templates\/expert-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/templates\/expert.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/templates\/expert.css.map",
+		"oF": 0
+		},
 	"\/assets\/css\/templates\/finalstep.css": {
 		"aP": 1,
 		"bl": 0,
@@ -5575,6 +5592,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/profile-img.jpg": {
+		"ft": 16384,
+		"iS": 739837,
+		"oA": 0,
+		"oAP": "\/assets\/images\/profile-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/recaptcha.png": {
 		"ft": 32768,
 		"iS": 22262,
@@ -5662,6 +5689,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/templates\/error.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/assets\/js\/expert.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/expert.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -5806,6 +5843,23 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/error.min.js.map",
+		"oF": 0
+		},
+	"\/assets\/js\/templates\/expert.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/expert.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/assets\/js\/templates\/expert.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/templates\/expert.min.js.map",
 		"oF": 0
 		},
 	"\/assets\/js\/templates\/finalstep.min.js": {
@@ -6005,6 +6059,23 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/assets\/less\/expert.less": {
+		"aP": 1,
+		"bl": 1,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/css\/templates\/expert.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
 	"\/assets\/less\/finalstep.less": {
 		"aP": 1,
 		"bl": 1,
@@ -6124,6 +6195,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/error.html",
+		"oF": 0
+		},
+	"\/expert.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/expert.html",
 		"oF": 0
 		},
 	"\/finalstep.html": {

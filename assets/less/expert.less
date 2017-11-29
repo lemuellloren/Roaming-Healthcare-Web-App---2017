@@ -1,0 +1,246 @@
+// BASE IMPORT
+@import '_base';
+// PAGE FRAMEWORK COMPONENT IMPORT
+// PAGE FRAMEWORK OVERRIDES
+// PAGE SECTION STYLES
+@import '../bower_components/uikit/less/components/slider.less';
+@import '../bower_components/uikit/less/components/slidenav.less';
+/* #hero, #about, #contact, etc. */
+
+
+/* FEATURED SERVICES SECTION  AREA STYLES */
+
+#subscriberContainer{
+
+	padding-bottom: 50px;
+	max-width: 85%;
+	margin: 0 auto;
+	height: auto;
+	background-color: @white;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: -195px;
+	@media @width-768 {
+		max-width: 70%;
+	}
+	.uk-container {
+		margin: 0 auto;
+		padding-bottom: 30px;
+
+		figure.profile-img{
+			width: 145px;
+			margin: 0 auto;
+			position: relative;
+			margin-top: -50px;
+			padding: 5px 5px 15px 5px;
+			background: @white;
+			border-radius: 5px;
+		}
+
+		div.subscriber-details{
+
+			h1{
+				font-family: @main-font;
+				font-size: 32px;
+				color: @darkgray;
+				text-transform: none;
+				text-align: center;
+				margin: 0;
+			}
+			p.mile-away{
+				font-family: @secodary-font;
+				font-size: 12px;
+				color: @blue;
+				text-align: center;
+				margin: 0 0 5px 0;
+			}
+			.uk-panel-title {
+				font-family: @secodary-font !important;
+				font-size: 20px;
+				text-align: left;
+				color: @blue;
+			}
+			.profile-address {
+				font-family: @secodary-font;
+				font-size: 18px;
+				font-weight: 300;
+				line-height: 1.57;
+				text-align: center;
+				color: @darkgray;
+				margin-top: -10px;
+				margin-bottom: 5px;
+			}
+			.dial-container {
+				text-align: center;
+
+				.contact-number {
+					font-family: @secodary-font;
+					font-size: 18px;
+					font-weight: bold;
+					text-align: center;
+					color: @darkgray;
+					margin: -10px;
+					text-decoration: none;
+					.soft-transition();
+					&:hover {
+						color: @hvr-orange;
+					}
+				}
+
+			}
+			.website-link {
+				text-align: center;
+				margin-top: 5px;
+
+				.website-com {
+					font-family: @secodary-font;
+					font-size: 12px;
+					font-weight: 300;
+					line-height: 1.83;
+					text-align: center;
+					color: @darkgray;
+					margin: 5px;
+					text-decoration: none;
+					.soft-transition();
+					&:hover {
+						color: @hvr-orange;
+					}
+				}
+
+			}
+
+		}
+		.action-buttons{
+			text-align: center;
+			margin-top: 30px;
+			.sms-btn{
+				.btn-blue();
+			}
+			.msg-btn{
+				.btn-orange();
+			}
+			.sms-btn, .msg-btn{
+				display: inline-block;
+				width: auto;
+				height: auto;
+				padding: 6px 10px;
+				margin: 0 5px;
+			}
+		}
+
+		.basic-info{
+			text-align: center;
+			padding-top: 35px;
+			h3{
+				font-size: 24px;
+				text-transform: none;
+			}
+			.divider-title{
+				.line-title();
+				margin-bottom: 15px;
+			}
+			.info-headers{
+				font-family: 'Roboto';
+				font-size: 12px;
+				font-weight: 300;
+				line-height: 1.83;
+				text-align: center;
+				color: #444444;
+				margin: 5px 0 0 0;
+				font-style: italic;
+			}
+			.info-content{
+				font-family: @secodary-font;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 1.57;
+				text-align: center;
+				color: @darkgray;
+				margin: -3px 0 5px 0px;
+			}
+		}
+		.about{
+			text-align: center;
+			padding-top: 35px;
+			h3{
+				font-size: 24px;
+				text-transform: none;
+			}
+			.divider-title{
+				.line-title();
+				margin-bottom: 15px;
+			}
+			.about-content{
+				font-family: @secodary-font;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 1.57;
+				text-align: center;
+				color: @darkgray;
+				font-style: italic;
+			}
+		}
+		.services{
+			text-align: center;
+			padding-top: 35px;
+			h3{
+				font-size: 24px;
+				text-transform: none;
+			}
+			.divider-title{
+				.line-title();
+				margin-bottom: 15px;
+			}
+
+			.services-content{
+				li{
+					padding: 0px;
+					.service{
+						.shadow{
+							box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+							margin: 2px;
+							h5{
+								background: #444;
+								color: #fff;
+								font-weight: 300;
+								padding: 5px 10px;
+								text-align: center;
+							}
+							p{
+								padding: 0 10px 15px 10px;
+							}
+						}
+					}
+				}
+				
+
+				.service-list-arrow {
+					.btn-white();
+					width: 37px;
+					outline: none;
+				}
+				.uk-slidenav.uk-slidenav-previous,
+				.uk-slidenav.uk-slidenav-next {
+					display: block;
+					color: @orange;
+					.soft-transition();
+					&:hover {
+						color: @hvr-orange;
+					}
+				}
+
+				.service-list-nav {
+					position: relative;
+					top: 10px;
+					float: right;
+					@media @width-768 {
+						top: 20px;
+					}
+				}
+			}
+
+		}
+	}
+}
