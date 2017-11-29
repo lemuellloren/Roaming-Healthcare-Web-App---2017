@@ -11107,6 +11107,11 @@ html[dir="rtl"] .uk-slider > * {
   height: 320px;
   padding: 30px 0 50px 0;
 }
+@media only screen and (min-width: 768px) {
+  #search-banner-white-section {
+    height: 180px;
+  }
+}
 #search-banner-white-section .uk-container {
   margin: 0 auto;
   margin-bottom: 50px;
@@ -11311,28 +11316,49 @@ html[dir="rtl"] .uk-slider > * {
   margin-bottom: 20px;
 }
 #results-section .results-container .layout-div-1 .profile-img-linear {
+  width: 212px;
+  height: 153px;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(67%, rgba(62, 62, 62, 0.45)), to(rgba(0, 0, 0, 0.6)));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(62, 62, 62, 0.45) 67%, rgba(0, 0, 0, 0.6));
   width: 280px;
   height: 170px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(0, 0, 0, 0.6)));
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6));
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-1 .profile-img-linear {
+    width: 100%;
+    height: 304px;
+  }
+}
 #results-section .results-container .layout-div-1 .profile-img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
   width: 70px;
   height: 70px;
-  display: block;
-  margin: auto;
   border-radius: 100px;
   background-color: #FFF;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
   border: solid 3px #FFF;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  margin: auto;
+}
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-1 .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+    border: solid 3px #FFF;
+  }
 }
 #results-section .results-container .layout-div-1 .info-name {
   font-family: 'Roboto';
@@ -11347,9 +11373,21 @@ html[dir="rtl"] .uk-slider > * {
   font-size: 12px;
   color: #165C96;
 }
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-1 .mile-away {
+    text-indent: 65px;
+    text-align: left;
+  }
+}
 #results-section .results-container .layout-div-1 .profile-content {
   padding: 10px 25px 25px 25px;
   text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-1 .profile-content {
+    padding: 40px 25px 0 25px;
+    min-height: 214px;
+  }
 }
 #results-section .results-container .layout-div-1 .profile-content .profile-address {
   font-family: 'Roboto';
@@ -11375,6 +11413,15 @@ html[dir="rtl"] .uk-slider > * {
   line-height: 1.43;
   text-align: left;
   color: #444444;
+}
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-1 .profile-content .readmore-div {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: left;
+  }
 }
 #results-section .results-container .layout-div-1 .profile-content .readmore-div a {
   color: #FE7B00;
@@ -11560,6 +11607,11 @@ html[dir="rtl"] .uk-slider > * {
 }
 #results-section .results-container .layout-div-1 .btn-container .more-info-btn:hover {
   border-left: 1px solid #FFF;
+}
+#results-section .results-container .layout-1-lg {
+  background-color: #FFF;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 #results-section .results-container .layout-div-2 .uk-panel {
   max-width: 280px;
@@ -12069,6 +12121,8 @@ html[dir="rtl"] .uk-slider > * {
   width: 100%;
   height: 50px;
   border-radius: 0;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 #results-section .results-container .layout-div-3 .btn-container .more-info-btn::before {
   content: '';
@@ -12094,6 +12148,9 @@ html[dir="rtl"] .uk-slider > * {
   top: -25%;
   left: -25%;
   opacity: 0;
+}
+#results-section .results-container .layout-div-3 .btn-container .more-info-btn:hover {
+  border-left: 1px solid #FFF;
 }
 #results-section .results-container .layout-div-4 .uk-panel {
   max-width: 280px;
@@ -12520,10 +12577,10 @@ html[dir="rtl"] .uk-slider > * {
   width: 70px;
   height: 70px;
   border-radius: 100px;
-  background-color: #ffffff;
+  background-color: #FFF;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-  border: solid 3px #ffffff;
+  border: solid 3px #FFF;
 }
 #results-section .results-container .layout-div-6 .uk-panel-title {
   font-family: 'Roboto';
