@@ -11380,8 +11380,10 @@ html[dir="rtl"] .uk-slider > * {
   color: #444444;
   margin: -3px 0 5px 0px;
 }
-#subscriberContainer .uk-container .basic-info .tabled-info {
-  padding: 0 50px;
+@media only screen and (min-width: 1200px) {
+  #subscriberContainer .uk-container .basic-info .tabled-info {
+    padding: 0 50px;
+  }
 }
 #subscriberContainer .uk-container .basic-info .tabled-info table.info td {
   display: inline-block;
@@ -11389,6 +11391,14 @@ html[dir="rtl"] .uk-slider > * {
 }
 #subscriberContainer .uk-container .basic-info .tabled-info table.info td p {
   margin: 0px;
+}
+@media only screen and (min-width: 1200px) {
+  #subscriberContainer .uk-container .basic-info .tabled-info table.info td.first {
+    width: 350px;
+  }
+  #subscriberContainer .uk-container .basic-info .tabled-info table.info td.second {
+    width: 250px;
+  }
 }
 #subscriberContainer .uk-container .about {
   text-align: center;
@@ -11435,7 +11445,7 @@ html[dir="rtl"] .uk-slider > * {
 #subscriberContainer .uk-container .services .services-content li {
   padding: 0px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
   #subscriberContainer .uk-container .services .services-content li .service {
     padding: 0 20px;
   }
@@ -11515,6 +11525,10 @@ html[dir="rtl"] .uk-slider > * {
 @media only screen and (min-width: 768px) {
   #subscriberContainer .uk-container .services .services-content .service-list-nav {
     top: 20px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #subscriberContainer .uk-container .services .services-content .service-list-nav {
     margin-right: 20px;
   }
 }
@@ -11538,7 +11552,7 @@ html[dir="rtl"] .uk-slider > * {
 #subscriberContainer .uk-container .documents .uk-slider li .document {
   margin-bottom: 25px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
   #subscriberContainer .uk-container .documents .uk-slider li .document {
     padding: 0 20px;
   }
@@ -11640,6 +11654,10 @@ html[dir="rtl"] .uk-slider > * {
 @media only screen and (min-width: 768px) {
   #subscriberContainer .uk-container .documents .service-list-nav {
     top: 20px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #subscriberContainer .uk-container .documents .service-list-nav {
     margin-right: 20px;
   }
 }

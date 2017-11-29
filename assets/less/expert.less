@@ -150,13 +150,23 @@
 				margin: -3px 0 5px 0px;
 			}
 			.tabled-info{
-				padding: 0 50px;
+				@media @width-1200{
+					padding: 0 50px;
+				}
 				table.info{
 					td{
 						display: inline-block;
 						vertical-align: top;
 						p{
 							margin: 0px;
+						}
+						@media @width-1200{
+							&.first{
+								width: 350px;
+							}
+							&.second{
+								width: 250px;
+							}
 						}
 					}
 				}
@@ -202,7 +212,7 @@
 				li{
 					padding: 0px;
 					.service{
-						@media @width-768{
+						@media @width-960{
 							padding: 0 20px;
 						}
 						.shadow{
@@ -245,8 +255,10 @@
 					position: relative;
 					top: 10px;
 					float: right;
-					@media @width-768 {
+					@media @width-768{
 						top: 20px;
+					}
+					@media @width-960 {
 						margin-right: 20px;
 					}
 				}
@@ -271,7 +283,7 @@
 					padding: 0px;
 					.document{
 						margin-bottom: 25px;
-						@media @width-768{
+						@media @width-960{
 							padding: 0 20px;
 						}
 						.shadow{
@@ -336,6 +348,8 @@
 				float: right;
 				@media @width-768 {
 					top: 20px;
+				}
+				@media @width-960 {
 					margin-right: 20px;
 				}
 			}
