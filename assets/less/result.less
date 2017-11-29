@@ -12,6 +12,9 @@
         background-color: @white;
         height: 320px;
         padding: 30px 0 50px 0;
+        @media @width-768 {
+            height: 180px;
+        }
         .uk-container {
             margin: 0 auto;
             margin-bottom: 50px;
@@ -135,19 +138,25 @@
             .layout-div-1 {
                 .uk-panel {
                     max-width: 280px;
-                    height: 445px;
+                    height: 455px;
                     background-color: @white;
                     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
                     margin: 0 auto;
                     margin-bottom: 20px;
                 }
                 .profile-img-linear {
+                    .blur-effect-bg();
                     width: 280px;
                     height: 170px;
-                    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6));
                     object-fit: cover;
+                    @media @width-768 {
+                        width: 100%;
+                        height: 304px;
+                    }
+
                 }
                 .profile-img {
+                    .circle-img();
                     position: absolute;
                     left: 0;
                     top: 0;
@@ -155,7 +164,9 @@
                     bottom: 0;
                     display: block;
                     margin: auto;
-                    .circle-img();
+                    @media @width-768 {
+                        .circle-img-lg(); 
+                    }
                 }
                 .info-name {
                     font-family: @secodary-font;
@@ -169,10 +180,18 @@
                     font-family: @secodary-font;
                     font-size: 12px;
                     color: @blue;
+                    @media @width-768 {
+                        text-indent: 65px;
+                        text-align: left;
+                    }
                 }
                 .profile-content {
                     padding: 10px 25px 25px 25px;
                     text-align: center;
+                    @media @width-768 {
+                        padding: 40px 25px 0 25px;
+                        min-height: 214px;
+                    }
                     .profile-address {
                         font-family: @secodary-font;
                         font-size: 16px;
@@ -182,6 +201,9 @@
                         color: @darkgray;
                         margin-top: -10px;
                         margin-bottom: 5px;
+                        @media @width-768 {
+                            margin: 0;
+                        }
                     }
                     .uk-panel-title {
                         font-family: @secodary-font !important;
@@ -197,6 +219,13 @@
                         line-height: 1.43;
                         text-align: left;
                         color: @darkgray;
+                        @media @width-768 {
+                            font-size: 12px;
+                            font-weight: 300;
+                            font-style: italic;
+                            line-height: 1.5;
+                            text-align: left;
+                        }
                         a {
                             .orange-link();
                         }
@@ -265,7 +294,12 @@
                         }
                     }
                 }
-            } //layout 2
+            } 
+            .layout-1-lg {
+                background-color: @white;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            }
+            //layout 2
             .layout-div-2 {
                 .uk-panel {
                     max-width: 280px; // height: 445px;
@@ -302,10 +336,24 @@
                     font-family: @secodary-font;
                     font-size: 12px;
                     color: @blue;
+                    @media @width-768 {
+                        text-indent: 65px;
+                        text-align: left;
+                    }
+                }
+                .uk-panel-title {
+                    font-family: @secodary-font !important;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    text-align: left;
+                    color: @blue;
                 }
                 .profile-content {
                     padding: 30px 25px 0 25px;
                     text-align: center;
+                    @media @width-768 {
+                        padding: 10%;
+                    }
                     .profile-address {
                         font-family: @secodary-font;
                         font-size: 16px;
@@ -315,13 +363,9 @@
                         color: @darkgray;
                         margin-top: -10px;
                         margin-bottom: 5px;
-                    }
-                    .uk-panel-title {
-                        font-family: @secodary-font !important;
-                        font-family: Montserrat;
-                        font-size: 14px;
-                        text-align: left;
-                        color: @blue;
+                        @media @width-768 {
+                            margin: 0;
+                        }
                     }
                     .readmore-div {
                         font-family: @secodary-font;
@@ -330,6 +374,13 @@
                         line-height: 1.43;
                         text-align: left;
                         color: @darkgray;
+                        @media @width-768 {
+                            font-size: 12px;
+                            font-weight: 300;
+                            font-style: italic;
+                            line-height: 1.5;
+                            text-align: left;
+                        }
                         a {
                             .orange-link();
                         }
@@ -374,14 +425,13 @@
                     .btn-container {
                         text-align: center;
                         padding: 10px 0 40px 0;
-                    } // .uk-button-group {
-                    //     top: 10px;
-                    //     margin-bottom: 50px;
-                    //     font-size: 21px !important;
-                    // }
+                    } 
                     .sms-container {
                         text-align: center;
                         padding: 20px 0 0 0;
+                        @media @width-768 {
+                            padding: 0;
+                        }
                         .sms-btn {
                             .btn-blue();
                             width: 100%;
@@ -391,22 +441,36 @@
                     }
                     .msg-btn {
                         .btn-orange();
-                        width: 100px;
+                        width: 100%;
                         height: 40px;
                         border-radius: 100px;
                     }
                     .more-info-btn {
                         .btn-white();
-                        width: 100px;
+                        width: 100%;
                         height: 40px;
                         border-radius: 100px;
                     }
                 }
+                .layout-2-lg {
+                    background-color: @white;
+                    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    height: 320px;
+                    margin-top: 20px;
+                }
+               
+                    @media @width-768 {
+                        .lg-cover {
+                            margin: 0 !important;
+                        }
+                    }
+                
             } //layout 3
             .layout-div-3 {
                 .uk-panel {
                     max-width: 280px;
-                    height: 415px;
+                    height: 405px;
                     background-color: @white;
                     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
                     margin: 0 auto;
@@ -423,6 +487,10 @@
                     width: 280px;
                     height: 170px;
                     object-fit: cover;
+                    @media @width-768 {
+                        width: 100%;
+                        height: 235px;                    
+                    }
                 }
                 .profile-img {
                     .circle-img();
@@ -433,6 +501,9 @@
                     bottom: 0;
                     display: block;
                     margin: auto;
+                    @media @width-768 {
+                        .circle-img-lg(); 
+                    }
                 }
                 .info-name {
                     font-family: @secodary-font;
@@ -530,18 +601,32 @@
                             border-radius: 100px;
                         }
                     }
+                   
+                }
+                .btn-container {
+                    text-align: center;
                     .msg-btn {
                         .btn-orange();
-                        width: 129.8px;
+                        width: 100%;
                         height: 50px;
                         border-radius: 0;
                     }
                     .more-info-btn {
                         .btn-white();
-                        width: 125.7px;
+                        width: 100%;
                         height: 50px;
                         border-radius: 0;
+                        .soft-transition();
+                        &:hover {
+                            border-left: 1px solid @white;
+                        }
                     }
+                }
+                .layout-3-lg {
+                    background-color: @white;
+                    width: 100%;
+                    height: auto;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
                 }
             } //layout 4
             .layout-div-4 {
@@ -584,6 +669,9 @@
                 .profile-content {
                     padding: 30px 25px 0 25px;
                     text-align: center;
+                    @media @width-768 {
+                        padding: 25px;
+                    }
                     .profile-address {
                         font-family: @secodary-font;
                         font-size: 16px;
@@ -653,24 +741,41 @@
                             border-radius: 100px;
                         }
                     }
+                    
+                }
+                .btn-container {
+                    text-align: center;
+                    padding: 10px 0 40px 0;
                     .msg-btn {
                         .btn-orange();
-                        width: 105px;
+                        width: 100%;
                         height: 40px;
                         border-radius: 100px;
                     }
                     .more-info-btn {
                         .btn-white();
-                        width: 105px;
+                        width: 100%;
                         height: 40px;
                         border-radius: 100px;
+                    }
+                }
+                .layout-4-lg {
+                    background-color: @white;
+                    width: 100%;
+                    height: 270px;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    // margin-top: 20px;
+                }
+                @media @width-768 {
+                    .lg-cover {
+                        margin: 0 !important;
                     }
                 }
             } //layout5
             .layout-div-5 {
                 .uk-panel {
                     max-width: 280px;
-                    height: 320px;
+                    height: 330px;
                     background-color: @white;
                     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
                     margin: 0 auto;
@@ -744,17 +849,13 @@
                             color: @hvr-orange;
                         }
                     }
-                    .msg-container {
-                        position: relative;
-                        left: -25px;
-                        right: 0;
-                        top: 15px;
-                        .msg-btn {
-                            .btn-orange();
-                            width: 212px;
-                            height: 45px;
-                            border-radius: 0;
-                        }
+                }
+                .msg-container {
+                    .msg-btn {
+                        .btn-orange();
+                        width: 100%;
+                        height: 45px;
+                        border-radius: 0;
                     }
                 }
             } //layout 6
@@ -798,9 +899,9 @@
                     width: 70px;
                     height: 70px;
                     border-radius: 100px;
-                    background-color: #ffffff;
+                    background-color: @white;
                     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-                    border: solid 3px #ffffff;
+                    border: solid 3px @white;
                 }
                 .uk-panel-title {
                     font-family: @secodary-font;
