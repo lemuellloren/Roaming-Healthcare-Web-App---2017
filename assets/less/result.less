@@ -333,10 +333,24 @@
                     font-family: @secodary-font;
                     font-size: 12px;
                     color: @blue;
+                    @media @width-768 {
+                        text-indent: 65px;
+                        text-align: left;
+                    }
+                }
+                .uk-panel-title {
+                    font-family: @secodary-font !important;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    text-align: left;
+                    color: @blue;
                 }
                 .profile-content {
                     padding: 30px 25px 0 25px;
                     text-align: center;
+                    @media @width-768 {
+                        padding: 10%;
+                    }
                     .profile-address {
                         font-family: @secodary-font;
                         font-size: 16px;
@@ -347,13 +361,6 @@
                         margin-top: -10px;
                         margin-bottom: 5px;
                     }
-                    .uk-panel-title {
-                        font-family: @secodary-font !important;
-                        font-family: Montserrat;
-                        font-size: 14px;
-                        text-align: left;
-                        color: @blue;
-                    }
                     .readmore-div {
                         font-family: @secodary-font;
                         font-size: 14px;
@@ -361,6 +368,13 @@
                         line-height: 1.43;
                         text-align: left;
                         color: @darkgray;
+                        @media @width-768 {
+                            font-size: 12px;
+                            font-weight: 300;
+                            font-style: italic;
+                            line-height: 1.5;
+                            text-align: left;
+                        }
                         a {
                             .orange-link();
                         }
@@ -409,6 +423,9 @@
                     .sms-container {
                         text-align: center;
                         padding: 20px 0 0 0;
+                        @media @width-768 {
+                            padding: 0;
+                        }
                         .sms-btn {
                             .btn-blue();
                             width: 100%;
@@ -429,6 +446,20 @@
                         border-radius: 100px;
                     }
                 }
+                .layout-2-lg {
+                    background-color: @white;
+                    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    height: 320px;
+                    margin-top: 20px;
+                }
+               
+                    @media @width-768 {
+                        .lg-cover {
+                            margin: 0 !important;
+                        }
+                    }
+                
             } //layout 3
             .layout-div-3 {
                 .uk-panel {

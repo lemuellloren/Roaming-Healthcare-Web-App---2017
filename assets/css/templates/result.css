@@ -11658,9 +11658,27 @@ html[dir="rtl"] .uk-slider > * {
   font-size: 12px;
   color: #165C96;
 }
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-2 .mile-away {
+    text-indent: 65px;
+    text-align: left;
+  }
+}
+#results-section .results-container .layout-div-2 .uk-panel-title {
+  font-family: 'Roboto' !important;
+  font-family: Montserrat;
+  font-size: 14px;
+  text-align: left;
+  color: #165C96;
+}
 #results-section .results-container .layout-div-2 .profile-content {
   padding: 30px 25px 0 25px;
   text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-2 .profile-content {
+    padding: 10%;
+  }
 }
 #results-section .results-container .layout-div-2 .profile-content .profile-address {
   font-family: 'Roboto';
@@ -11672,13 +11690,6 @@ html[dir="rtl"] .uk-slider > * {
   margin-top: -10px;
   margin-bottom: 5px;
 }
-#results-section .results-container .layout-div-2 .profile-content .uk-panel-title {
-  font-family: 'Roboto' !important;
-  font-family: Montserrat;
-  font-size: 14px;
-  text-align: left;
-  color: #165C96;
-}
 #results-section .results-container .layout-div-2 .profile-content .readmore-div {
   font-family: 'Roboto';
   font-size: 14px;
@@ -11686,6 +11697,15 @@ html[dir="rtl"] .uk-slider > * {
   line-height: 1.43;
   text-align: left;
   color: #444444;
+}
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-2 .profile-content .readmore-div {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: left;
+  }
 }
 #results-section .results-container .layout-div-2 .profile-content .readmore-div a {
   color: #FE7B00;
@@ -11742,6 +11762,11 @@ html[dir="rtl"] .uk-slider > * {
 #results-section .results-container .layout-div-2 .profile-content .sms-container {
   text-align: center;
   padding: 20px 0 0 0;
+}
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-2 .profile-content .sms-container {
+    padding: 0;
+  }
 }
 #results-section .results-container .layout-div-2 .profile-content .sms-container .sms-btn {
   width: 110px;
@@ -11871,6 +11896,18 @@ html[dir="rtl"] .uk-slider > * {
   top: -25%;
   left: -25%;
   opacity: 0;
+}
+#results-section .results-container .layout-div-2 .layout-2-lg {
+  background-color: #FFF;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  height: 320px;
+  margin-top: 20px;
+}
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-2 .lg-cover {
+    margin: 0 !important;
+  }
 }
 #results-section .results-container .layout-div-3 .uk-panel {
   max-width: 280px;
