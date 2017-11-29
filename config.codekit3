@@ -5448,6 +5448,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/testimonials\/p1.png": {
+		"ft": 32768,
+		"iS": 86381,
+		"oA": 0,
+		"oAP": "\/assets\/images\/testimonials\/p1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/testimonials\/p2.png": {
+		"ft": 32768,
+		"iS": 91878,
+		"oA": 0,
+		"oAP": "\/assets\/images\/testimonials\/p2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/testimonials\/p3.png": {
+		"ft": 32768,
+		"iS": 113309,
+		"oA": 0,
+		"oAP": "\/assets\/images\/testimonials\/p3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/testimonials\/p4.png": {
+		"ft": 32768,
+		"iS": 113663,
+		"oA": 0,
+		"oAP": "\/assets\/images\/testimonials\/p4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/js\/_base.js": {
 		"ft": 64,
 		"mi": 1,

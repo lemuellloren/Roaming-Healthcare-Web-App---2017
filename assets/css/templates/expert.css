@@ -11268,6 +11268,11 @@ html[dir="rtl"] .uk-slider > * {
   margin: 0 auto;
   padding-bottom: 30px;
 }
+@media only screen and (min-width: 960px) {
+  #subscriberContainer .uk-container {
+    padding: 0 50px 30px 50px;
+  }
+}
 #subscriberContainer .uk-container figure.profile-img {
   width: 145px;
   margin: 0 auto;
@@ -11295,7 +11300,7 @@ html[dir="rtl"] .uk-slider > * {
 #subscriberContainer .uk-container div.subscriber-details .uk-panel-title {
   font-family: 'Roboto' !important;
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   color: #165C96;
 }
 #subscriberContainer .uk-container div.subscriber-details .profile-address {
@@ -11375,9 +11380,24 @@ html[dir="rtl"] .uk-slider > * {
   color: #444444;
   margin: -3px 0 5px 0px;
 }
+#subscriberContainer .uk-container .basic-info .tabled-info {
+  padding: 0 50px;
+}
+#subscriberContainer .uk-container .basic-info .tabled-info table.info td {
+  display: inline-block;
+  vertical-align: top;
+}
+#subscriberContainer .uk-container .basic-info .tabled-info table.info td p {
+  margin: 0px;
+}
 #subscriberContainer .uk-container .about {
   text-align: center;
   padding-top: 50px;
+}
+@media only screen and (min-width: 768px) {
+  #subscriberContainer .uk-container .about {
+    padding: 50px 20px 0 20px;
+  }
 }
 #subscriberContainer .uk-container .about h3 {
   font-size: 24px;
@@ -11415,6 +11435,11 @@ html[dir="rtl"] .uk-slider > * {
 #subscriberContainer .uk-container .services .services-content li {
   padding: 0px;
 }
+@media only screen and (min-width: 768px) {
+  #subscriberContainer .uk-container .services .services-content li .service {
+    padding: 0 20px;
+  }
+}
 #subscriberContainer .uk-container .services .services-content li .service .shadow {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   margin: 2px;
@@ -11427,7 +11452,10 @@ html[dir="rtl"] .uk-slider > * {
   text-align: center;
 }
 #subscriberContainer .uk-container .services .services-content li .service .shadow p {
+  font-size: 16px;
   padding: 0 10px 15px 10px;
+  font-weight: normal;
+  font-family: 'Roboto';
 }
 #subscriberContainer .uk-container .services .services-content .service-list-arrow {
   width: 109.1px;
@@ -11487,11 +11515,12 @@ html[dir="rtl"] .uk-slider > * {
 @media only screen and (min-width: 768px) {
   #subscriberContainer .uk-container .services .services-content .service-list-nav {
     top: 20px;
+    margin-right: 20px;
   }
 }
 #subscriberContainer .uk-container .documents {
   text-align: center;
-  padding-top: 50px;
+  padding: 50px 0 70px 0;
 }
 #subscriberContainer .uk-container .documents h3 {
   font-size: 24px;
@@ -11508,6 +11537,11 @@ html[dir="rtl"] .uk-slider > * {
 }
 #subscriberContainer .uk-container .documents .uk-slider li .document {
   margin-bottom: 25px;
+}
+@media only screen and (min-width: 768px) {
+  #subscriberContainer .uk-container .documents .uk-slider li .document {
+    padding: 0 20px;
+  }
 }
 #subscriberContainer .uk-container .documents .uk-slider li .document .shadow {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -11606,13 +11640,17 @@ html[dir="rtl"] .uk-slider > * {
 @media only screen and (min-width: 768px) {
   #subscriberContainer .uk-container .documents .service-list-nav {
     top: 20px;
+    margin-right: 20px;
   }
 }
 #subscriberContainer .testimonials {
   background: #165C96;
 }
+#subscriberContainer .testimonials .uk-grid {
+  margin: 0px;
+}
 #subscriberContainer .testimonials .testimonials-container {
-  padding-bottom: 70px;
+  padding: 0 0 70px 0;
 }
 #subscriberContainer .testimonials .testimonials-container .uk-slideshow li {
   padding: 0px;
@@ -11649,6 +11687,15 @@ html[dir="rtl"] .uk-slider > * {
   font-family: 'Roboto' !important;
   text-transform: none;
   margin: 0;
+}
+#subscriberContainer .testimonials .subscriber-map {
+  position: relative;
+  padding: 0;
+}
+@media only screen and (min-width: 768px) {
+  #subscriberContainer .testimonials .subscriber-map iframe {
+    height: 100%;
+  }
 }
 #subscriberContainer .testimonials .uk-dotnav {
   margin-bottom: -40px;
