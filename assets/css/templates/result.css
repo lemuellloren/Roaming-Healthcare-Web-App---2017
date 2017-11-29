@@ -11399,6 +11399,11 @@ html[dir="rtl"] .uk-slider > * {
   margin-top: -10px;
   margin-bottom: 5px;
 }
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-1 .profile-content .profile-address {
+    margin: 0;
+  }
+}
 #results-section .results-container .layout-div-1 .profile-content .uk-panel-title {
   font-family: 'Roboto' !important;
   font-family: Montserrat;
@@ -11690,6 +11695,11 @@ html[dir="rtl"] .uk-slider > * {
   margin-top: -10px;
   margin-bottom: 5px;
 }
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-2 .profile-content .profile-address {
+    margin: 0;
+  }
+}
 #results-section .results-container .layout-div-2 .profile-content .readmore-div {
   font-family: 'Roboto';
   font-size: 14px;
@@ -11938,6 +11948,12 @@ html[dir="rtl"] .uk-slider > * {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-3 .profile-img-blur {
+    width: 100%;
+    height: 235px;
+  }
+}
 #results-section .results-container .layout-div-3 .profile-img {
   width: 70px;
   height: 70px;
@@ -11953,6 +11969,17 @@ html[dir="rtl"] .uk-slider > * {
   bottom: 0;
   display: block;
   margin: auto;
+}
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-3 .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+    border: solid 3px #FFF;
+  }
 }
 #results-section .results-container .layout-div-3 .info-name {
   font-family: 'Roboto';
@@ -12189,6 +12216,13 @@ html[dir="rtl"] .uk-slider > * {
 #results-section .results-container .layout-div-3 .btn-container .more-info-btn:hover {
   border-left: 1px solid #FFF;
 }
+#results-section .results-container .layout-div-3 .layout-3-lg {
+  background-color: #FFF;
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
 #results-section .results-container .layout-div-4 .uk-panel {
   max-width: 280px;
   background-color: #FFF;
@@ -12237,6 +12271,11 @@ html[dir="rtl"] .uk-slider > * {
 #results-section .results-container .layout-div-4 .profile-content {
   padding: 30px 25px 0 25px;
   text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-4 .profile-content {
+    padding: 25px;
+  }
 }
 #results-section .results-container .layout-div-4 .profile-content .profile-address {
   font-family: 'Roboto';
@@ -12435,6 +12474,18 @@ html[dir="rtl"] .uk-slider > * {
   top: -25%;
   left: -25%;
   opacity: 0;
+}
+#results-section .results-container .layout-div-4 .layout-4-lg {
+  background-color: #FFF;
+  width: 100%;
+  height: 270px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+@media only screen and (min-width: 768px) {
+  #results-section .results-container .layout-div-4 .lg-cover {
+    margin: 0 !important;
+  }
 }
 #results-section .results-container .layout-div-5 .uk-panel {
   max-width: 280px;
