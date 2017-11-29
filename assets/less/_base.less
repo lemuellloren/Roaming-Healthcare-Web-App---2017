@@ -14,7 +14,7 @@
 @hvr-orange: #C45F00;
 @lighergray: #BBBBBB;
 @main-font: 'Montserrat';
-@secodary-font: 'Roboto';
+@secondary-font: 'Roboto';
 @darkorange: #DC6A00;
 @default-font-size: 16px;
 @font-regular: 400;
@@ -32,6 +32,7 @@
 @width-768m: ~"screen and (max-width: 768px)";
 @width-960: ~"only screen and (min-width: 960px)";
 @width-1024: ~"only screen and (min-width: 1024px)";
+@width-1200: ~"only screen and (min-width: 1200px)";
 @width-1366: ~"only screen and (min-width: 1366px)";
 // MAX WIDTH AREA
 @width-320max: ~"only screen and (max-width: 320px)";
@@ -58,7 +59,7 @@ h1 {
 
 h2 {
     font-weight: @font-regular;
-    font-family: @secodary-font;
+    font-family: @secondary-font;
     text-transform: uppercase;
 }
 
@@ -71,7 +72,7 @@ h3 {
 
 h4 {
     font-weight: @font-regular;
-    font-family: @secodary-font;
+    font-family: @secondary-font;
     text-transform: uppercase;
 }
 
@@ -303,7 +304,7 @@ h5 {
     color: @orange;
     position: relative;
     overflow: hidden;
-    font-family: @secodary-font;
+    font-family: @secondary-font;
     transition: all 0.4s ease-in-out 0.1s;
     &::before {
         content: '';
@@ -343,7 +344,7 @@ h5 {
     position: relative;
     overflow: hidden;
     transition: all 0.4s ease-in-out 0.1s;
-    font-family: @secodary-font;
+    font-family: @secondary-font;
     &::before {
         content: '';
         background-color: @hvr-orange;
@@ -382,7 +383,7 @@ h5 {
     position: relative;
     overflow: hidden;
     transition: all 0.4s ease-in-out 0.1s;
-    font-family: @secodary-font;
+    font-family: @secondary-font;
     &::before {
         content: '';
         background-color: @hvr-blue;
@@ -541,7 +542,7 @@ h5 {
         }
         p {
             width: 128px;
-            font-family: @secodary-font;
+            font-family: @secondary-font;
             font-size: 16px;
             line-height: 1.38;
             text-align: left;
@@ -643,7 +644,7 @@ h5 {
         p {
             width: auto;
             height: 154px;
-            font-family: @secodary-font;
+            font-family: @secondary-font;
             font-size: @default-font-size;
             line-height: 1.38;
             text-align: center;
@@ -776,7 +777,7 @@ h5 {
             margin: 25px 0 -10px 0;
         }
         p {
-            font-family: @secodary-font;
+            font-family: @secondary-font;
             font-size: @default-font-size;
             line-height: 1.38;
             text-align: center;
@@ -812,7 +813,7 @@ h5 {
             color: @blue;
         }
         p {
-            font-family: @secodary-font;
+            font-family: @secondary-font;
             font-size: @default-font-size;
             line-height: 1.38;
             text-align: center;
@@ -898,7 +899,7 @@ h5 {
             line-height: 1;
         }
         .uk-article-meta {
-            font-family: @secodary-font;
+            font-family: @secondary-font;
             font-size: @default-font-size;
             line-height: 1.38;
             margin-top: -8px;
@@ -914,7 +915,7 @@ h5 {
                 padding-left: 20px;
                 p,
                 a {
-                    font-family: @secodary-font;
+                    font-family: @secondary-font;
                     font-size: 12px;
                     text-align: right;
                     color: #165c96;
@@ -934,7 +935,7 @@ h5 {
             text-align: left;
         }
         p {
-            font-family: @secodary-font;
+            font-family: @secondary-font;
             font-size: 12px;
             text-align: right;
             color: #adadad;
@@ -964,11 +965,11 @@ h5 {
         color: @orange;
         border-radius: 3px;
         border: solid 1px @orange;
-        font-family: @secodary-font;
+        font-family: @secondary-font;
         font-size: 12px;
     }
     .uk-pagination>li>span {
-        font-family: @secodary-font;
+        font-family: @secondary-font;
         font-size: 12px;
         color: @orange;
     }
@@ -995,7 +996,7 @@ h5 {
         p {
             width: 140px;
             height: 32px;
-            font-family: @secodary-font;
+            font-family: @secondary-font;
             font-size: 12px;
             text-align: left;
             color: @darkgray;
@@ -1024,7 +1025,7 @@ h5 {
                 border-radius: 3px;
                 background-color: #e4e4e4 !important;
                 color: @darkgray !important;
-                font-family: @secodary-font !important;
+                font-family: @secondary-font !important;
                 font-size: 10px;
                 text-align: center;
             }
@@ -1059,7 +1060,7 @@ h5 {
                 text-transform: initial;
             }
             p {
-                font-family: @secodary-font;
+                font-family: @secondary-font;
                 font-size: 18px;
                 line-height: 1.67;
                 text-align: center;
@@ -1126,7 +1127,7 @@ h5 {
         margin: 0 auto;
     }
     a {
-        font-family: @secodary-font;
+        font-family: @secondary-font;
         font-size: 12px;
         text-align: center;
         color: @darkgray;
@@ -1141,7 +1142,7 @@ h5 {
     }
     span {
         .orange-link();
-        font-family: @secodary-font;
+        font-family: @secondary-font;
         font-size: 12px;
     }
     .uk-breadcrumb>li:nth-child(n+2)::before {
@@ -1222,7 +1223,7 @@ h5 {
             a {
                 color: @gray;
                 text-decoration: none;
-                font-family: @secodary-font;
+                font-family: @secondary-font;
                 font-size: 14px;
                 text-align: right;
                 .soft-transition();
@@ -1371,7 +1372,7 @@ footer {
                 font-size: @default-font-size - 6;
                 font-weight: @font-light;
                 margin: 0;
-                font-family: @secodary-font;
+                font-family: @secondary-font;
             }
         }
         .url {
@@ -1381,7 +1382,7 @@ footer {
                 color: @white;
                 font-size: @default-font-size - 6;
                 font-weight: @font-light;
-                font-family: @secodary-font;
+                font-family: @secondary-font;
             }
         }
         .share-icons {
@@ -1392,7 +1393,7 @@ footer {
                 font-size: @default-font-size - 4;
                 font-weight: @font-light;
                 margin: 0;
-                font-family: @secodary-font;
+                font-family: @secondary-font;
             }
             ul {
                 padding: 0;
@@ -1445,7 +1446,7 @@ footer {
         font-style: normal;
         line-height: 1.67;
         text-align: center;
-        font-family: @secodary-font;
+        font-family: @secondary-font;
     }
     .uk-close {
         font-family: material !important;
@@ -1668,7 +1669,7 @@ nav {
             margin-top: -51px;
             width: 64px;
             height: 28px;
-            font-family: @secodary-font;
+            font-family: @secondary-font;
             font-size: 12px;
             text-align: right;
             color: @orange;

@@ -5,6 +5,8 @@
 // PAGE SECTION STYLES
 @import '../bower_components/uikit/less/components/slider.less';
 @import '../bower_components/uikit/less/components/slidenav.less';
+@import '../bower_components/uikit/less/components/slideshow.less';
+@import '../bower_components/uikit/less/components/dotnav.less';
 /* #hero, #about, #contact, etc. */
 
 
@@ -29,6 +31,10 @@
 		margin: 0 auto;
 		padding-bottom: 30px;
 
+		@media @width-960{
+			padding: 0 50px 30px 50px;
+		}	
+
 		figure.profile-img{
 			width: 145px;
 			margin: 0 auto;
@@ -50,20 +56,20 @@
 				margin: 0;
 			}
 			p.mile-away{
-				font-family: @secodary-font;
+				font-family: @secondary-font;
 				font-size: 12px;
 				color: @blue;
 				text-align: center;
 				margin: 0 0 5px 0;
 			}
 			.uk-panel-title {
-				font-family: @secodary-font !important;
+				font-family: @secondary-font !important;
 				font-size: 20px;
-				text-align: left;
+				text-align: center;
 				color: @blue;
 			}
 			.profile-address {
-				font-family: @secodary-font;
+				font-family: @secondary-font;
 				font-size: 18px;
 				font-weight: 300;
 				line-height: 1.57;
@@ -76,7 +82,7 @@
 				text-align: center;
 
 				.contact-number {
-					font-family: @secodary-font;
+					font-family: @secondary-font;
 					font-size: 18px;
 					font-weight: bold;
 					text-align: center;
@@ -95,7 +101,7 @@
 				margin-top: 5px;
 
 				.website-com {
-					font-family: @secodary-font;
+					font-family: @secondary-font;
 					font-size: 12px;
 					font-weight: 300;
 					line-height: 1.83;
@@ -112,23 +118,6 @@
 			}
 
 		}
-		.action-buttons{
-			text-align: center;
-			margin-top: 30px;
-			.sms-btn{
-				.btn-blue();
-			}
-			.msg-btn{
-				.btn-orange();
-			}
-			.sms-btn, .msg-btn{
-				display: inline-block;
-				width: auto;
-				height: auto;
-				padding: 6px 10px;
-				margin: 0 5px;
-			}
-		}
 
 		.basic-info{
 			text-align: center;
@@ -142,7 +131,7 @@
 				margin-bottom: 15px;
 			}
 			.info-headers{
-				font-family: 'Roboto';
+				font-family: @secondary-font;
 				font-size: 12px;
 				font-weight: 300;
 				line-height: 1.83;
@@ -152,7 +141,7 @@
 				font-style: italic;
 			}
 			.info-content{
-				font-family: @secodary-font;
+				font-family: @secondary-font;
 				font-size: @default-font-size;
 				font-weight: 400;
 				line-height: 1.57;
@@ -160,10 +149,35 @@
 				color: @darkgray;
 				margin: -3px 0 5px 0px;
 			}
+			.tabled-info{
+				@media @width-1200{
+					padding: 0 50px;
+				}
+				table.info{
+					td{
+						display: inline-block;
+						vertical-align: top;
+						p{
+							margin: 0px;
+						}
+						@media @width-1200{
+							&.first{
+								width: 350px;
+							}
+							&.second{
+								width: 250px;
+							}
+						}
+					}
+				}
+			}
 		}
 		.about{
 			text-align: center;
 			padding-top: 50px;
+			@media @width-768{
+				padding: 50px 20px 0 20px;
+			}
 			h3{
 				font-size: 24px;
 				text-transform: none;
@@ -173,7 +187,7 @@
 				margin-bottom: 15px;
 			}
 			.about-content{
-				font-family: @secodary-font;
+				font-family: @secondary-font;
 				font-size: @default-font-size;
 				font-weight: 400;
 				line-height: 1.57;
@@ -198,18 +212,24 @@
 				li{
 					padding: 0px;
 					.service{
+						@media @width-960{
+							padding: 0 20px;
+						}
 						.shadow{
 							box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 							margin: 2px;
 							h5{
 								background: #444;
-								color: #fff;
+								color: @white;
 								font-weight: 300;
 								padding: 5px 10px;
 								text-align: center;
 							}
 							p{
+								font-size: 16px;
 								padding: 0 10px 15px 10px;
+								font-weight: normal;
+								font-family: @secondary-font;
 							}
 						}
 					}
@@ -235,8 +255,11 @@
 					position: relative;
 					top: 10px;
 					float: right;
-					@media @width-768 {
+					@media @width-768{
 						top: 20px;
+					}
+					@media @width-960 {
+						margin-right: 20px;
 					}
 				}
 			}
@@ -244,7 +267,7 @@
 		}
 		.documents{
 			text-align: center;
-			padding-top: 50px;
+			padding: 50px 0 70px 0;
 			h3{
 				font-size: 24px;
 				text-transform: none;
@@ -257,9 +280,12 @@
 
 			.uk-slider{
 				li{
+					padding: 0px;
 					.document{
 						margin-bottom: 25px;
-						padding: 0px;
+						@media @width-960{
+							padding: 0 20px;
+						}
 						.shadow{
 							box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 							margin: 3px;
@@ -277,7 +303,7 @@
 							.uk-overlay{
 								.uk-overlay-panel{
 									background: rgba(254,123,0,0.8);
-									font-family: 'Roboto';
+									font-family: @secondary-font;
 									font-size: @default-font-size - 2;
 									font-weight: normal;
 									@media @width-768m{
@@ -292,7 +318,7 @@
 								padding: 13px;
 								p{
 									margin: 0px;
-									font-family: 'Roboto';
+									font-family: @secondary-font;
 									font-weight: normal;
 									font-style: @default-font-size;
 								}
@@ -323,7 +349,104 @@
 				@media @width-768 {
 					top: 20px;
 				}
+				@media @width-960 {
+					margin-right: 20px;
+				}
 			}
 		}
+	}
+	.testimonials{
+		background: @blue;
+		.uk-grid{
+			margin: 0px;
+		}
+		.testimonials-container{
+			padding: 0 0 70px 0;
+			.uk-slideshow{
+				li{
+					padding: 0px;
+					.testimonial{
+						figure.image{
+							width: 80px;
+							height: 80px;
+							overflow: hidden;
+							margin: 0 auto;
+							border-radius: 50%;
+							margin-top: 25px;
+						}
+						.testimonial-desc{
+							padding: 25px;
+							p, h2, h3{
+								color: @white;
+								text-align: center;
+							}
+							p{
+								font-family: @main-font;
+								font-weight: 300;
+								font-size: 18px;
+								line-height: 27px;
+							}
+							h2{
+								font-family: @secondary-font !important;
+								text-transform: none;
+								margin: 0 0 10px 0;
+							}
+							h3{
+								font-family: @secondary-font !important;
+								text-transform: none;
+								margin: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+		.subscriber-map{
+			position: relative;
+			padding: 0;
+			iframe{
+				@media @width-768{
+					height: 100%;
+				}
+			}
+		}
+		.uk-dotnav{
+			margin-bottom: -40px;
+			.uk-active > *{
+				background: #444444;
+			}
+			& > * > * {
+				box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+				background: #fff;
+				width: 12px;
+				height: 12px;
+			}
+			li{
+				padding-left: 5px;
+				a{
+					.soft-transition();
+				}
+			}
+		}
+	}
+	.action-buttons{
+		text-align: center;
+		margin-top: 30px;
+		.sms-btn{
+			.btn-blue();
+		}
+		.msg-btn{
+			.btn-orange();
+		}
+		.sms-btn, .msg-btn{
+			display: inline-block;
+			width: auto;
+			height: auto;
+			padding: 6px 10px;
+			margin: 0 5px;
+		}
+	}
+	.bottom-buttons{
+		margin-top: 50px;
 	}
 }
