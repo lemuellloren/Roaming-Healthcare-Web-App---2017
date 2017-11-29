@@ -1,1206 +1,1211 @@
     // BASE IMPORT
-@import '_base';
-// PAGE FRAMEWORK COMPONENT IMPORT
-// @import '../bower_components/uikit/less/components/slideshow.less';
-// @import '../bower_components/uikit/less/components/dotnav.less';
-@import '../bower_components/uikit/less/components/slider.less';
-@import '../bower_components/uikit/less/components/slidenav.less';
-// PAGE FRAMEWORK OVERRIDES
-// PAGE SECTION STYLES
+    @import '_base';
+    // PAGE FRAMEWORK COMPONENT IMPORT
+    // @import '../bower_components/uikit/less/components/slideshow.less';
+    // @import '../bower_components/uikit/less/components/dotnav.less';
+    @import '../bower_components/uikit/less/components/slider.less';
+    @import '../bower_components/uikit/less/components/slidenav.less';
+    // PAGE FRAMEWORK OVERRIDES
+    // PAGE SECTION STYLES
+    /* #hero, #about, #contact, etc. */
+    /* SEARCH BANNER AREA */
 
-/* #hero, #about, #contact, etc. */
-
-
-/* SEARCH BANNER AREA */
-
-#search-banner-white-section {
-    background-color: @white;
-    height: 320px;
-    padding: 30px 0 50px 0;
-    .uk-container {
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-    .form-container {
-        margin: 0 auto;
-        text-align: center;
-        .uk-form-icon {
-            // @media @width-640 {
-            //     padding: 10px;
-            // }
-        }
-    }
-    .search-banner-container {
-        margin: 95px auto;
-        text-align: center;
-        .search-banner-title {
-            padding-bottom: 20px;
-            @media @width-768 {
-                height: 90px;
-                padding-top: 20%;
-                position: relative;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                padding-bottom: 0;
-            } // @media @width-960 {
-            //     height: 30px;
-            // }
-        }
-        p {
-            width: 128px;
-            font-family: @secodary-font;
-            font-size: 16px;
-            line-height: 1.38;
-            text-align: left;
-            color: @darkgray;
-            font-weight: @font-regular;
-            margin: 0 0 5px 0;
-        }
-        ul {
-            list-style: none;
+    #search-banner-white-section {
+        background-color: @white;
+        height: 320px;
+        padding: 30px 0 50px 0;
+        .uk-container {
             margin: 0 auto;
-            padding: 0;
-            @media @width-768 {
-                display: inline-flex;
-                li {
-                    padding: 10px;
-                }
+            margin-bottom: 50px;
+        }
+        .form-container {
+            margin: 0 auto;
+            text-align: center;
+            .uk-form-icon {
+                // @media @width-640 {
+                //     padding: 10px;
+                // }
             }
         }
-        form {
-            input {
-                .contact-field();
-                color: @lighergray;
-                width: 260px;
-                height: 50px;
-                padding-left: 50px!important;
-                border: solid 1px @blue;
+        .search-banner-container {
+            margin: 95px auto;
+            text-align: center;
+            .search-banner-title {
+                padding-bottom: 20px;
                 @media @width-768 {
-                    width: 200px;
-                }
-                @media @width-960 {
-                    width: 310px;
-                }
-            }
-            .search-input {
-                margin-top: -10px;
-                span {
-                    color: @blue;
-                    font-size: 20px;
-                    top: 56%;
-                    left: 5%;
-                }
-            }
-            .find-btn {
-                .btn-orange(); // margin: 0 45px 0 45px;
-            }
-        }
-        .btn-find-con {
-            position: relative;
-            margin-bottom: 400px;
-            @media @width-768 {
-                top: 17px; // left: 10px;
-            }
-        }
-    }
-}
-
-
-/* END SEARCH BANNER AREA */
-
-
-/* RESULTS AREA */
-
-#results-section {
-    height: auto;
-    .uk-container {
-        margin: 0 auto;
-    }
-    .sort-div {
-        text-align: right; 
-        margin: -40px 0 20px 0;
-        label {
-            font-family: @main-font;
-            font-size: 14px;
-            font-weight: 300;
-            text-align: left;
-            color: @darkgray;
-        }
-        select {
-            .contact-field();
-            width: 99px;
-            height: 30px;
-            border-radius: 3px;
-            border: solid 1px @orange;
-            font-family: Roboto;
-            font-size: 14px;
-            text-align: left;
-            color: @orange;
-        }
-    } 
-    .results-container {
-        padding: 80px 0 0 0;
-        .layout-div-1 {
-            .uk-panel {
-                max-width: 280px;
-                height: 445px;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-                margin: 0 auto;
-                margin-bottom: 20px;
-            }
-            .profile-img-linear {
-                width: 280px;
-                height: 170px;
-                background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6));
-                object-fit: cover;
-            }
-            .profile-img {
-                position: absolute;
-                left: 0;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                display: block;
-                margin: auto;
-                .circle-img();
-            }
-            .info-name {
-                font-family: @secodary-font;
-                font-size: 18px;
-                text-align: left;
-                color: @darkgray;
-            }
-            .mile-away {
-                margin: -35px 43px 25px 0;
-                text-align: right;
-                font-family: @secodary-font;
-                font-size: 12px;
-                color: @blue;
-            }
-            .profile-content {
-                padding: 10px 25px 25px 25px;
-                text-align: center;
-                .profile-address {
-                    font-family: @secodary-font;
-                    font-size: 16px;
-                    font-weight: 300;
-                    line-height: 1.38;
-                    text-align: left;
-                    color: @darkgray;
-                    margin-top: -10px;
-                    margin-bottom: 5px;
-                }
-                .uk-panel-title {
-                    font-family: @secodary-font !important;
-                    font-family: Montserrat;
-                    font-size: 20px;
-                    text-align: left;
-                    color: @blue;
-                }
-                .readmore-div {
-                    font-family: @secodary-font;
-                    font-size: 14px;
-                    font-style: italic;
-                    line-height: 1.43;
-                    text-align: left;
-                    color: @darkgray;
-                    a {
-                        .orange-link();
-                    }
-                }
-                .dial-container {
-                    text-align: left;
+                    height: 90px;
+                    padding-top: 20%;
                     position: relative;
-                    left: 10px;
-                }
-                .contact-number {
-                    font-family: @secodary-font;
-                    font-size: 18px;
-                    font-weight: bold;
-                    text-align: center;
-                    color: @darkgray;
-                    margin: -10px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .website-link {
-                    text-align: left;
-                    position: relative;
-                    left: -5px;
-                }
-                .website-com {
-                    font-family: @secodary-font;
-                    font-size: 12px;
-                    font-weight: 300;
-                    line-height: 1.83;
-                    text-align: center;
-                    color: @darkgray;
-                    margin: 5px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .sms-btn {
-                    .btn-blue();
-                    width: 93px;
-                    height: 50px;
-                    border-radius: 0;
-                }
-                .msg-btn {
-                    .btn-orange();
-                    width: 93px;
-                    height: 50px;
-                    border-radius: 0;
-                }
-                .more-info-btn {
-                    .btn-white();
-                    width: 93px;
-                    height: 50px;
-                    border-radius: 0;
-                }
-            }
-        } //layout 2
-        .layout-div-2 {
-            .uk-panel {
-                max-width: 280px; // height: 445px;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-                margin: 0 auto;
-                margin-bottom: 20px;
-            }
-            .profile-img-linear {
-                width: 280px;
-                height: 170px;
-                background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6));
-                object-fit: cover;
-            }
-            .profile-img {
-                position: absolute;
-                left: 0;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                display: block;
-                margin: auto;
-                .circle-img();
-            }
-            .info-name {
-                font-family: @secodary-font;
-                font-size: 20px;
-                text-align: left;
-                color: @darkgray;
-            }
-            .mile-away {
-                margin: -35px 30px 10px 0;
-                text-align: right;
-                font-family: @secodary-font;
-                font-size: 12px;
-                color: @blue;
-            }
-            .profile-content {
-                padding: 30px 25px 0 25px;
-                text-align: center;
-                .profile-address {
-                    font-family: @secodary-font;
-                    font-size: 16px;
-                    font-weight: 300;
-                    line-height: 1.38;
-                    text-align: left;
-                    color: @darkgray;
-                    margin-top: -10px;
-                    margin-bottom: 5px;
-                }
-                .uk-panel-title {
-                    font-family: @secodary-font !important;
-                    font-family: Montserrat;
-                    font-size: 14px;
-                    text-align: left;
-                    color: @blue;
-                }
-                .readmore-div {
-                    font-family: @secodary-font;
-                    font-size: 14px;
-                    font-style: italic;
-                    line-height: 1.43;
-                    text-align: left;
-                    color: @darkgray;
-                    a {
-                        .orange-link();
-                    }
-                }
-                .dial-container {
-                    text-align: left;
-                    position: relative;
-                    left: 10px;
-                }
-                .contact-number {
-                    font-family: @secodary-font;
-                    font-size: 18px;
-                    font-weight: bold;
-                    text-align: center;
-                    color: @darkgray;
-                    margin: -10px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .website-link {
-                    text-align: left;
-                    position: relative;
-                    left: -5px;
-                }
-                .website-com {
-                    font-family: @secodary-font;
-                    font-size: 12px;
-                    font-weight: 300;
-                    line-height: 1.83;
-                    text-align: center;
-                    color: @darkgray;
-                    margin: 5px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .uk-button-group {
-                    top: 10px;
-                    margin-bottom: 50px;
-                }
-                .sms-container {
-                    text-align: center;
-                    padding: 20px 0 0 0;
-                    .sms-btn {
-                        .btn-blue();
-                        width: 100%;
-                        height: 40px;
-                        border-radius: 100px;
-                    }
-                }
-                .msg-btn {
-                    .btn-orange();
-                    width: 105px;
-                    height: 40px;
-                    border-radius: 100px;
-                }
-                .more-info-btn {
-                    .btn-white();
-                    width: 105px;
-                    height: 40px;
-                    border-radius: 100px;
-                }
-            }
-        } //layout 3
-        .layout-div-3 {
-            .uk-panel {
-                max-width: 280px;
-                height: 415px;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-                margin: 0 auto;
-                margin-bottom: 20px;
-            }
-            .profile-img-linear {
-                width: 280px;
-                height: 170px;
-                background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6));
-                object-fit: cover;
-            }
-            .profile-img-blur {
-                .blur-effect-bg();
-                width: 280px;
-                height: 170px;
-                object-fit: cover;
-            }
-            .profile-img {
-                .circle-img();
-                position: absolute;
-                left: 0;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                display: block;
-                margin: auto;
-            }
-            .info-name {
-                font-family: @secodary-font;
-                font-size: 20px;
-                text-align: left;
-                color: @darkgray;
-            }
-            .mile-away {
-                margin: -35px 30px 10px 0;
-                text-align: right;
-                font-family: @secodary-font;
-                font-size: 12px;
-                color: @blue;
-            }
-            .profile-content {
-                padding: 30px 25px 25px 25px;
-                text-align: center;
-                .profile-address {
-                    font-family: @secodary-font;
-                    font-size: 16px;
-                    font-weight: 300;
-                    line-height: 1.38;
-                    text-align: left;
-                    color: @darkgray;
-                    margin-top: -10px;
-                    margin-bottom: 5px;
-                }
-                .uk-panel-title {
-                    font-family: @secodary-font !important;
-                    font-family: Montserrat;
-                    font-size: 14px;
-                    text-align: left;
-                    color: @blue;
-                }
-                .readmore-div {
-                    font-family: @secodary-font;
-                    font-size: 14px;
-                    font-style: italic;
-                    line-height: 1.43;
-                    text-align: left;
-                    color: @darkgray;
-                    a {
-                        .orange-link();
-                    }
-                }
-                .dial-container {
-                    text-align: left;
-                    position: relative;
-                    left: 10px;
-                }
-                .contact-number {
-                    font-family: @secodary-font;
-                    font-size: 18px;
-                    font-weight: bold;
-                    text-align: center;
-                    color: @darkgray;
-                    margin: -10px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .website-link {
-                    text-align: left;
-                    position: relative;
-                    left: -5px;
-                }
-                .website-com {
-                    font-family: @secodary-font;
-                    font-size: 12px;
-                    font-weight: 300;
-                    line-height: 1.83;
-                    text-align: center;
-                    color: @darkgray;
-                    margin: 5px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .uk-button-group {
-                    top: 35px;
-                    margin-bottom: 50px;
-                    left: -25px;
-                }
-                .sms-container {
-                    text-align: center;
-                    padding: 20px 0 0 0;
-                    .sms-btn {
-                        .btn-blue();
-                        width: 100%;
-                        height: 40px;
-                        border-radius: 100px;
-                    }
-                }
-                .msg-btn {
-                    .btn-orange();
-                    width: 129.8px;
-                    height: 50px;
-                    border-radius: 0;
-                }
-                .more-info-btn {
-                    .btn-white();
-                    width: 125.7px;
-                    height: 50px;
-                    border-radius: 0;
-                }
-            }
-        } //layout 4
-        .layout-div-4 {
-            .uk-panel {
-                max-width: 280px; // height: 445px;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-                margin: 0 auto;
-                margin-bottom: 20px;
-            }
-            .profile-img-linear {
-                width: 280px;
-                height: 170px;
-                background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6));
-                object-fit: cover;
-            }
-            .profile-img {
-                position: absolute;
-                left: 0;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                display: block;
-                margin: auto;
-                .circle-img();
-            }
-            .info-name {
-                font-family: @secodary-font;
-                font-size: 20px;
-                text-align: left;
-                color: @darkgray;
-            }
-            .mile-away {
-                text-align: left;
-                font-family: @secodary-font;
-                font-size: 12px;
-                color: @blue;
-                margin-top: -10px;
-            }
-            .profile-content {
-                padding: 30px 25px 0 25px;
-                text-align: center;
-                .profile-address {
-                    font-family: @secodary-font;
-                    font-size: 16px;
-                    font-weight: 300;
-                    line-height: 1.38;
-                    text-align: left;
-                    color: @darkgray;
-                    margin-top: -10px;
-                    margin-bottom: 5px;
-                }
-                .uk-panel-title {
-                    font-family: @secodary-font !important;
-                    font-family: Montserrat;
-                    font-size: 14px;
-                    text-align: left;
-                    color: @blue;
-                    margin-top: -5px;
-                }
-                .dial-container {
-                    text-align: left;
-                    position: relative;
-                    left: 10px;
-                }
-                .contact-number {
-                    font-family: @secodary-font;
-                    font-size: 18px;
-                    font-weight: bold;
-                    text-align: center;
-                    color: @darkgray;
-                    margin: -10px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .website-link {
-                    text-align: left;
-                    position: relative;
-                    left: -5px;
-                }
-                .website-com {
-                    font-family: @secodary-font;
-                    font-size: 12px;
-                    font-weight: 300;
-                    line-height: 1.83;
-                    text-align: center;
-                    color: @darkgray;
-                    margin: 5px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .uk-button-group {
-                    top: 10px;
-                    margin-bottom: 50px;
-                }
-                .sms-container {
-                    text-align: center;
-                    padding: 20px 0 0 0;
-                    .sms-btn {
-                        .btn-blue();
-                        width: 100%;
-                        height: 40px;
-                        border-radius: 100px;
-                    }
-                }
-                .msg-btn {
-                    .btn-orange();
-                    width: 105px;
-                    height: 40px;
-                    border-radius: 100px;
-                }
-                .more-info-btn {
-                    .btn-white();
-                    width: 105px;
-                    height: 40px;
-                    border-radius: 100px;
-                }
-            }
-        } //layout5
-        .layout-div-5 {
-            .uk-panel {
-                max-width: 280px;
-                height: 320px;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-                margin: 0 auto;
-                margin-bottom: 20px;
-            }
-            .profile-img-blur {
-                .blur-effect-bg();
-                object-fit: cover;
-                width: 280px;
-            }
-            .profile-img {
-                .circle-img();
-            }
-            .info-name {
-                text-align: center;
-                font-family: @main-font;
-                font-size: 20px;
-                color: @white;
-            }
-            .mile-away {
-                margin: -15px;
-                text-align: center;
-                font-family: @secodary-font;
-                font-size: 12px;
-                text-align: center;
-                color: @white;
-            }
-            .profile-content {
-                padding: 10px 25px 25px 25px;
-                text-align: center;
-                .profile-address {
-                    font-family: @secodary-font;
-                    font-size: 14px;
-                    font-weight: 300;
-                    line-height: 1.57;
-                    text-align: center;
-                    color: @darkgray;
-                    margin-top: -10px;
-                    margin-bottom: 5px;
-                }
-                .uk-panel-title {
-                    font-family: @secodary-font !important;
-                    font-size: 16px !important;
-                    line-height: 1.38;
-                    text-align: center !important;
-                }
-                .contact-number {
-                    font-family: @secodary-font;
-                    font-size: 18px;
-                    font-weight: bold;
-                    text-align: center;
-                    color: @darkgray;
-                    margin: -10px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .website-com {
-                    font-family: @secodary-font;
-                    font-size: 12px;
-                    font-weight: 300;
-                    line-height: 1.83;
-                    text-align: center;
-                    color: @darkgray;
-                    margin: 5px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .msg-container {
-                    position: relative;
-                    left: -25px;
+                    bottom: 0;
+                    left: 0;
                     right: 0;
-                    top: 15px;
+                    padding-bottom: 0;
+                } // @media @width-960 {
+                //     height: 30px;
+                // }
+            }
+            p {
+                width: 128px;
+                font-family: @secodary-font;
+                font-size: 16px;
+                line-height: 1.38;
+                text-align: left;
+                color: @darkgray;
+                font-weight: @font-regular;
+                margin: 0 0 5px 0;
+            }
+            ul {
+                list-style: none;
+                margin: 0 auto;
+                padding: 0;
+                @media @width-768 {
+                    display: inline-flex;
+                    li {
+                        padding: 10px;
+                    }
+                }
+            }
+            form {
+                input {
+                    .contact-field();
+                    color: @lighergray;
+                    width: 260px;
+                    height: 50px;
+                    padding-left: 50px!important;
+                    border: solid 1px @blue;
+                    @media @width-768 {
+                        width: 200px;
+                    }
+                    @media @width-960 {
+                        width: 310px;
+                    }
+                }
+                .search-input {
+                    margin-top: -10px;
+                    span {
+                        color: @blue;
+                        font-size: 20px;
+                        top: 56%;
+                        left: 5%;
+                    }
+                }
+                .find-btn {
+                    .btn-orange(); // margin: 0 45px 0 45px;
+                }
+            }
+            .btn-find-con {
+                position: relative;
+                margin-bottom: 400px;
+                @media @width-768 {
+                    top: 17px; // left: 10px;
+                }
+            }
+        }
+    }
+    /* END SEARCH BANNER AREA */
+    /* RESULTS AREA */
+
+    #results-section {
+        height: auto;
+        .uk-container {
+            margin: 0 auto;
+        }
+        .sort-div {
+            text-align: right;
+            margin: -40px 0 20px 0;
+            label {
+                font-family: @main-font;
+                font-size: 14px;
+                font-weight: 300;
+                text-align: left;
+                color: @darkgray;
+            }
+            select {
+                .contact-field();
+                width: 99px;
+                height: 30px;
+                border-radius: 3px;
+                border: solid 1px @orange;
+                font-family: Roboto;
+                font-size: 14px;
+                text-align: left;
+                color: @orange;
+            }
+        }
+        .results-container {
+            padding: 80px 0 0 0;
+            .layout-div-1 {
+                .uk-panel {
+                    max-width: 280px;
+                    height: 445px;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+                .profile-img-linear {
+                    width: 280px;
+                    height: 170px;
+                    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6));
+                    object-fit: cover;
+                }
+                .profile-img {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    display: block;
+                    margin: auto;
+                    .circle-img();
+                }
+                .info-name {
+                    font-family: @secodary-font;
+                    font-size: 18px;
+                    text-align: left;
+                    color: @darkgray;
+                }
+                .mile-away {
+                    margin: -35px 43px 25px 0;
+                    text-align: right;
+                    font-family: @secodary-font;
+                    font-size: 12px;
+                    color: @blue;
+                }
+                .profile-content {
+                    padding: 10px 25px 25px 25px;
+                    text-align: center;
+                    .profile-address {
+                        font-family: @secodary-font;
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 1.38;
+                        text-align: left;
+                        color: @darkgray;
+                        margin-top: -10px;
+                        margin-bottom: 5px;
+                    }
+                    .uk-panel-title {
+                        font-family: @secodary-font !important;
+                        font-family: Montserrat;
+                        font-size: 20px;
+                        text-align: left;
+                        color: @blue;
+                    }
+                    .readmore-div {
+                        font-family: @secodary-font;
+                        font-size: 14px;
+                        font-style: italic;
+                        line-height: 1.43;
+                        text-align: left;
+                        color: @darkgray;
+                        a {
+                            .orange-link();
+                        }
+                    }
+                    .dial-container {
+                        text-align: left;
+                        position: relative;
+                        left: 10px;
+                    }
+                    .contact-number {
+                        font-family: @secodary-font;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: @darkgray;
+                        margin: -10px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .website-link {
+                        text-align: left;
+                        position: relative;
+                        left: -5px;
+                    }
+                    .website-com {
+                        font-family: @secodary-font;
+                        font-size: 12px;
+                        font-weight: 300;
+                        line-height: 1.83;
+                        text-align: center;
+                        color: @darkgray;
+                        margin: 5px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                }
+                .btn-container {
+                    width: auto;
+                    text-align: center;
+                    .sms-btn {
+                        .btn-blue();
+                        width: 100%;
+                        height: 50px;
+                        border-radius: 0;
+                    }
                     .msg-btn {
                         .btn-orange();
-                        width: 212px;
-                        height: 45px;
+                        width: 100%;
+                        height: 50px;
+                        border-radius: 0;
+                    }
+                    .more-info-btn {
+                        .btn-white();
+                        width: 100%;
+                        height: 50px;
+                        border-radius: 0;
+                        .soft-transition();
+                        &:hover {
+                            border-left: 1px solid @white;
+                        }
+                    }
+                }
+            } //layout 2
+            .layout-div-2 {
+                .uk-panel {
+                    max-width: 280px; // height: 445px;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+                .profile-img-linear {
+                    width: 280px;
+                    height: 170px;
+                    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6));
+                    object-fit: cover;
+                }
+                .profile-img {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    display: block;
+                    margin: auto;
+                    .circle-img();
+                }
+                .info-name {
+                    font-family: @secodary-font;
+                    font-size: 20px;
+                    text-align: left;
+                    color: @darkgray;
+                }
+                .mile-away {
+                    margin: -35px 30px 10px 0;
+                    text-align: right;
+                    font-family: @secodary-font;
+                    font-size: 12px;
+                    color: @blue;
+                }
+                .profile-content {
+                    padding: 30px 25px 0 25px;
+                    text-align: center;
+                    .profile-address {
+                        font-family: @secodary-font;
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 1.38;
+                        text-align: left;
+                        color: @darkgray;
+                        margin-top: -10px;
+                        margin-bottom: 5px;
+                    }
+                    .uk-panel-title {
+                        font-family: @secodary-font !important;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        text-align: left;
+                        color: @blue;
+                    }
+                    .readmore-div {
+                        font-family: @secodary-font;
+                        font-size: 14px;
+                        font-style: italic;
+                        line-height: 1.43;
+                        text-align: left;
+                        color: @darkgray;
+                        a {
+                            .orange-link();
+                        }
+                    }
+                    .dial-container {
+                        text-align: left;
+                        position: relative;
+                        left: 10px;
+                    }
+                    .contact-number {
+                        font-family: @secodary-font;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: @darkgray;
+                        margin: -10px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .website-link {
+                        text-align: left;
+                        position: relative;
+                        left: -5px;
+                    }
+                    .website-com {
+                        font-family: @secodary-font;
+                        font-size: 12px;
+                        font-weight: 300;
+                        line-height: 1.83;
+                        text-align: center;
+                        color: @darkgray;
+                        margin: 5px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .btn-container {
+                        text-align: center;
+                        padding: 10px 0 40px 0;
+                    } // .uk-button-group {
+                    //     top: 10px;
+                    //     margin-bottom: 50px;
+                    //     font-size: 21px !important;
+                    // }
+                    .sms-container {
+                        text-align: center;
+                        padding: 20px 0 0 0;
+                        .sms-btn {
+                            .btn-blue();
+                            width: 100%;
+                            height: 40px;
+                            border-radius: 100px;
+                        }
+                    }
+                    .msg-btn {
+                        .btn-orange();
+                        width: 100px;
+                        height: 40px;
+                        border-radius: 100px;
+                    }
+                    .more-info-btn {
+                        .btn-white();
+                        width: 100px;
+                        height: 40px;
+                        border-radius: 100px;
+                    }
+                }
+            } //layout 3
+            .layout-div-3 {
+                .uk-panel {
+                    max-width: 280px;
+                    height: 415px;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+                .profile-img-linear {
+                    width: 280px;
+                    height: 170px;
+                    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6));
+                    object-fit: cover;
+                }
+                .profile-img-blur {
+                    .blur-effect-bg();
+                    width: 280px;
+                    height: 170px;
+                    object-fit: cover;
+                }
+                .profile-img {
+                    .circle-img();
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    display: block;
+                    margin: auto;
+                }
+                .info-name {
+                    font-family: @secodary-font;
+                    font-size: 20px;
+                    text-align: left;
+                    color: @darkgray;
+                }
+                .mile-away {
+                    margin: -35px 30px 10px 0;
+                    text-align: right;
+                    font-family: @secodary-font;
+                    font-size: 12px;
+                    color: @blue;
+                }
+                .profile-content {
+                    padding: 30px 25px 25px 25px;
+                    text-align: center;
+                    .profile-address {
+                        font-family: @secodary-font;
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 1.38;
+                        text-align: left;
+                        color: @darkgray;
+                        margin-top: -10px;
+                        margin-bottom: 5px;
+                    }
+                    .uk-panel-title {
+                        font-family: @secodary-font !important;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        text-align: left;
+                        color: @blue;
+                    }
+                    .readmore-div {
+                        font-family: @secodary-font;
+                        font-size: 14px;
+                        font-style: italic;
+                        line-height: 1.43;
+                        text-align: left;
+                        color: @darkgray;
+                        a {
+                            .orange-link();
+                        }
+                    }
+                    .dial-container {
+                        text-align: left;
+                        position: relative;
+                        left: 10px;
+                    }
+                    .contact-number {
+                        font-family: @secodary-font;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: @darkgray;
+                        margin: -10px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .website-link {
+                        text-align: left;
+                        position: relative;
+                        left: -5px;
+                    }
+                    .website-com {
+                        font-family: @secodary-font;
+                        font-size: 12px;
+                        font-weight: 300;
+                        line-height: 1.83;
+                        text-align: center;
+                        color: @darkgray;
+                        margin: 5px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .uk-button-group {
+                        top: 35px;
+                        margin-bottom: 50px;
+                        left: -25px;
+                    }
+                    .sms-container {
+                        text-align: center;
+                        padding: 20px 0 0 0;
+                        .sms-btn {
+                            .btn-blue();
+                            width: 100%;
+                            height: 40px;
+                            border-radius: 100px;
+                        }
+                    }
+                    .msg-btn {
+                        .btn-orange();
+                        width: 129.8px;
+                        height: 50px;
+                        border-radius: 0;
+                    }
+                    .more-info-btn {
+                        .btn-white();
+                        width: 125.7px;
+                        height: 50px;
                         border-radius: 0;
                     }
                 }
-            }
-        } //layout 6
-        .layout-div-6 {
-            .uk-panel {
-                max-width: 280px;
-                height: 320px;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-                margin: 0 auto;
-                margin-bottom: 20px;
-            }
-            .line {
-                border: solid 1px #c9c9c9;
-                position: relative;
-                top: -10px;
-            }
-            ul {
-                list-style: none;
-                display: inline-flex;
-                margin: 0 auto;
-                padding: 25px;
-            }
-            .info-name {
-                width: 70px;
-                font-family: @main-font;
-                font-size: 20px;
-                text-align: left;
-                color: @darkgray;
-                padding-left: 15px;
-            }
-            .mile-away {
-                font-family: Roboto;
-                font-size: 12px;
-                text-align: left;
-                color: #165c96;
-                padding-left: 15px;
-                margin-top: -10px;
-            }
-            .profile-img {
-                width: 70px;
-                height: 70px;
-                border-radius: 100px;
-                background-color: #ffffff;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-                border: solid 3px #ffffff;
-            }
-            .uk-panel-title {
-                font-family: @secodary-font;
-                font-size: 18px;
-                line-height: 1.22;
-                text-align: left;
-                color: @blue;
-                margin-top: 10px;
-            }
-            .profile-content {
-                margin: 0 25px 25px 25px;
-                text-align: center;
-                .profile-address {
-                    font-family: @secodary-font;
-                    font-size: 14px;
-                    font-weight: 300;
-                    line-height: 1.57;
-                    text-align: left;
-                    color: @darkgray;
-                    margin-top: -10px;
-                    margin-bottom: 5px;
-                }
-                .contact-number2 {
-                    font-family: @secodary-font;
-                    font-size: 18px;
-                    font-weight: bold;
-                    text-align: left;
-                    color: @darkgray;
-                    margin: -10px;
-                    text-decoration: none;
+            } //layout 4
+            .layout-div-4 {
+                .uk-panel {
+                    max-width: 280px; // height: 445px;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
                     margin: 0 auto;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
+                    margin-bottom: 20px;
                 }
-                .website-link-2 {
-                    text-align: left;
+                .profile-img-linear {
+                    width: 280px;
+                    height: 170px;
+                    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6));
+                    object-fit: cover;
                 }
-                .dial-container2 {
-                    text-align: left;
-                }
-                .website-com {
-                    font-family: @secodary-font;
-                    font-size: 12px;
-                    font-weight: 300;
-                    line-height: 1.83;
-                    text-align: left;
-                    color: @darkgray;
-                    margin: 5px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .msg-cirle-container {
-                    position: relative;
-                    top: 15px;
-                    margin: 0 auto;
-                    .msg-btn-circle {
-                        .btn-orange();
-                        width: 100%;
-                        height: 40px;
-                        border-radius: 100px;
-                    }
-                }
-            }
-        } //layout 7
-        .layout-div-7 {
-            .uk-panel {
-                max-width: 280px;
-                height: 100%;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-                margin: 0 auto;
-                margin-bottom: 20px;
-            }
-            .heading-div {
-                width: auto;
-                height: auto;
-                background-color: @blue; // padding: 30px 0 0px 35px;
-                margin: 0;
-                .uk-panel-title {
-                    font-family: @main-font;
-                    font-size: 18px;
-                    text-align: left;
-                    color: @white;
-                    text-align: left;
-                    padding: 25px;
-                }
-            }
-            .line {
-                border: solid 1px #c9c9c9;
-                position: relative;
-                top: -10px;
-            }
-            ul {
-                list-style: none;
-                display: inline-flex;
-                margin: 0 auto;
-                padding: 25px;
-            }
-            .info-name {
-                width: 70px;
-                font-family: @main-font;
-                font-size: 20px;
-                text-align: left;
-                color: @darkgray;
-                padding-left: 15px;
-            }
-            .mile-away {
-                font-family: @secodary-font;
-                font-size: 12px;
-                text-align: right;
-                color: @blue;
-            }
-            .profile-img {
-                width: 70px;
-                height: 70px;
-                border-radius: 100px;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-                border: solid 3px @white;
-            }
-            .profile-content {
-                margin: 0 25px 25px 25px;
-                text-align: center;
-                .profile-address {
-                    font-family: @secodary-font;
-                    font-size: 14px;
-                    font-weight: 300;
-                    line-height: 1.57;
-                    text-align: left;
-                    color: @darkgray;
-                    margin-top: -10px;
-                    margin-bottom: 5px;
-                }
-                h3 {
-                    font-family: @secodary-font;
-                    font-size: 16px;
-                    font-weight: 500;
-                    text-align: left;
-                    color: @blue;
-                }
-                .contact-number2 {
-                    font-family: @secodary-font;
-                    font-size: 18px;
-                    font-weight: bold;
-                    text-align: left;
-                    color: @orange;
-                    margin: -10px;
-                    text-decoration: none;
-                    margin: 0 auto;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .website-link-2 {
-                    text-align: left;
-                    padding-top: 10px;
-                }
-                .dial-container2 {
-                    text-align: left;
-                }
-                .website-com {
-                    font-family: @secodary-font;
-                    font-size: 12px;
-                    font-weight: 300;
-                    line-height: 1.83;
-                    text-align: left;
-                    color: @darkgray;
-                    margin: 5px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .msg-cirle-container {
-                    position: relative;
-                    top: 15px;
-                    margin: 0 auto;
-                    .msg-btn-circle {
-                        .btn-orange();
-                        width: 100%;
-                        height: 40px;
-                        border-radius: 100px;
-                    }
-                }
-            }
-        } //layout 8
-        .layout-div-8 {
-            .uk-panel {
-                max-width: 280px;
-                height: 100%;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-                margin: 0 auto;
-                margin-bottom: 20px;
-            }
-            .heading-div {
-                width: auto;
-                height: auto;
-                background-color: @blue; // padding: 30px 0 0px 35px;
-                margin: 0;
-                .uk-panel-title {
-                    font-family: @main-font;
-                    font-size: 18px;
-                    text-align: left;
-                    color: @white;
-                    text-align: left;
-                    padding: 25px;
-                }
-            }
-            .line {
-                border: solid 1px #c9c9c9;
-                position: relative;
-                top: -10px;
-            }
-            ul {
-                list-style: none;
-                display: inline-flex;
-                margin: 0 auto;
-                padding: 25px;
-            }
-            .info-name {
-                width: 70px;
-                font-family: @main-font;
-                font-size: 20px;
-                text-align: left;
-                color: @darkgray;
-                padding-left: 15px;
-            }
-            .mile-away {
-                font-family: @secodary-font;
-                font-size: 12px;
-                text-align: right;
-                color: @blue;
-            }
-            .profile-img {
-                width: 70px;
-                height: 70px;
-                border-radius: 100px;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-                border: solid 3px @white;
-            }
-            .profile-content {
-                margin: 0 25px 25px 25px;
-                text-align: center;
-                .profile-address {
-                    font-family: @secodary-font;
-                    font-size: 14px;
-                    font-weight: 300;
-                    line-height: 1.57;
-                    text-align: left;
-                    color: @darkgray; // margin-top: -10px;
-                    margin-bottom: 5px;
-                }
-                h3 {
-                    font-family: @secodary-font;
-                    font-size: 16px;
-                    font-weight: 500;
-                    text-align: left;
-                    color: @blue;
-                }
-                .contact-number2 {
-                    font-family: @secodary-font;
-                    font-size: 18px;
-                    font-weight: bold;
-                    text-align: left;
-                    color: @orange;
-                    margin: -10px;
-                    text-decoration: none;
-                    margin: 0 auto;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .website-link-2 {
-                    text-align: left;
-                    padding-top: 10px;
-                }
-                .dial-container2 {
-                    text-align: left;
-                }
-                .website-com {
-                    font-family: @secodary-font;
-                    font-size: 12px;
-                    font-weight: 300;
-                    line-height: 1.83;
-                    text-align: left;
-                    color: @darkgray;
-                    margin: 5px;
-                    text-decoration: none;
-                    .soft-transition();
-                    &:hover {
-                        color: @hvr-orange;
-                    }
-                }
-                .msg-cirle-container {
-                    position: relative;
-                    top: 15px;
-                    margin: 0 auto;
-                    .msg-btn-circle {
-                        .btn-orange();
-                        width: 100%;
-                        height: 40px;
-                        border-radius: 100px;
-                    }
-                }
-            }
-        } //layout 9
-        .layout-div-9 {
-            .uk-panel {
-                max-width: 280px;
-                height: 100%;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-                margin: 0 auto;
-                margin-bottom: 20px;
-            }
-            .heading-div {
-                .uk-panel-title {
-                    font-family: @main-font;
-                    font-size: 18px;
-                    text-align: left;
-                    color: @blue;
-                }
-                p {
-                    font-family: @secodary-font;
-                    font-size: 16px;
-                    text-align: left;
-                    color: @blue;
-                }
-            }
-            .line {
-                border: solid 1px #c9c9c9;
-                position: relative;
-                top: -10px;
-            }
-            ul {
-                list-style: none;
-                display: inline-flex;
-                margin: 0 auto;
-                padding: 25px;
-            }
-            .info-name {
-                width: 70px;
-                font-family: @main-font;
-                font-size: 20px;
-                text-align: left;
-                color: @darkgray;
-                padding-left: 15px;
-            }
-            .mile-away {
-                font-family: @secodary-font;
-                font-size: 12px;
-                text-align: right;
-                color: @blue;
-            }
-            .profile-img {
-                @img-size: 70px;
-                width: @img-size;
-                height: @img-size;
-                border-radius: 100px;
-                background-color: @white;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-                border: solid 3px @white;
-            }
-            .profile-content {
-                @orange-width: 30px;
-                padding: 25px 25px 5px 25px;
-                padding-left: @orange-width + 10px;
-                text-align: center;
-                position: relative;
-                &:before {
-                    content: '';
+                .profile-img {
                     position: absolute;
-                    top: 0;
                     left: 0;
+                    top: 0;
+                    right: 0;
                     bottom: 0;
-                    width: @orange-width;
-                    background: @orange;
+                    display: block;
+                    margin: auto;
+                    .circle-img();
                 }
-                .profile-address {
+                .info-name {
                     font-family: @secodary-font;
-                    font-size: 14px;
-                    font-weight: 300;
-                    line-height: 1.57;
+                    font-size: 20px;
                     text-align: left;
-                    color: @darkgray; // margin-top: -10px;
-                    margin-bottom: 5px;
-                    span {
-                        position: absolute;
-                        left: 8px;
-                        color: white;
-                        font-size: 20px;
+                    color: @darkgray;
+                }
+                .mile-away {
+                    text-align: left;
+                    font-family: @secodary-font;
+                    font-size: 12px;
+                    color: @blue;
+                    margin-top: -10px;
+                }
+                .profile-content {
+                    padding: 30px 25px 0 25px;
+                    text-align: center;
+                    .profile-address {
+                        font-family: @secodary-font;
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 1.38;
+                        text-align: left;
+                        color: @darkgray;
+                        margin-top: -10px;
+                        margin-bottom: 5px;
+                    }
+                    .uk-panel-title {
+                        font-family: @secodary-font !important;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        text-align: left;
+                        color: @blue;
+                        margin-top: -5px;
+                    }
+                    .dial-container {
+                        text-align: left;
+                        position: relative;
+                        left: 10px;
+                    }
+                    .contact-number {
+                        font-family: @secodary-font;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: @darkgray;
+                        margin: -10px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .website-link {
+                        text-align: left;
+                        position: relative;
+                        left: -5px;
+                    }
+                    .website-com {
+                        font-family: @secodary-font;
+                        font-size: 12px;
+                        font-weight: 300;
+                        line-height: 1.83;
+                        text-align: center;
+                        color: @darkgray;
+                        margin: 5px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .uk-button-group {
+                        top: 10px;
+                        margin-bottom: 50px;
+                    }
+                    .sms-container {
+                        text-align: center;
+                        padding: 20px 0 0 0;
+                        .sms-btn {
+                            .btn-blue();
+                            width: 100%;
+                            height: 40px;
+                            border-radius: 100px;
+                        }
+                    }
+                    .msg-btn {
+                        .btn-orange();
+                        width: 105px;
+                        height: 40px;
+                        border-radius: 100px;
+                    }
+                    .more-info-btn {
+                        .btn-white();
+                        width: 105px;
+                        height: 40px;
+                        border-radius: 100px;
                     }
                 }
+            } //layout5
+            .layout-div-5 {
+                .uk-panel {
+                    max-width: 280px;
+                    height: 320px;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+                .profile-img-blur {
+                    .blur-effect-bg();
+                    object-fit: cover;
+                    width: 280px;
+                }
+                .profile-img {
+                    .circle-img();
+                }
+                .info-name {
+                    text-align: center;
+                    font-family: @main-font;
+                    font-size: 20px;
+                    color: @white;
+                }
+                .mile-away {
+                    margin: -15px;
+                    text-align: center;
+                    font-family: @secodary-font;
+                    font-size: 12px;
+                    text-align: center;
+                    color: @white;
+                }
+                .profile-content {
+                    padding: 10px 25px 25px 25px;
+                    text-align: center;
+                    .profile-address {
+                        font-family: @secodary-font;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 1.57;
+                        text-align: center;
+                        color: @darkgray;
+                        margin-top: -10px;
+                        margin-bottom: 5px;
+                    }
+                    .uk-panel-title {
+                        font-family: @secodary-font !important;
+                        font-size: 16px !important;
+                        line-height: 1.38;
+                        text-align: center !important;
+                    }
+                    .contact-number {
+                        font-family: @secodary-font;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: @darkgray;
+                        margin: -10px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .website-com {
+                        font-family: @secodary-font;
+                        font-size: 12px;
+                        font-weight: 300;
+                        line-height: 1.83;
+                        text-align: center;
+                        color: @darkgray;
+                        margin: 5px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .msg-container {
+                        position: relative;
+                        left: -25px;
+                        right: 0;
+                        top: 15px;
+                        .msg-btn {
+                            .btn-orange();
+                            width: 212px;
+                            height: 45px;
+                            border-radius: 0;
+                        }
+                    }
+                }
+            } //layout 6
+            .layout-div-6 {
+                .uk-panel {
+                    max-width: 280px;
+                    height: 320px;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+                .line {
+                    border: solid 1px #c9c9c9;
+                    position: relative;
+                    top: -10px;
+                }
+                ul {
+                    list-style: none;
+                    display: inline-flex;
+                    margin: 0 auto;
+                    padding: 25px;
+                }
+                .info-name {
+                    width: 70px;
+                    font-family: @main-font;
+                    font-size: 20px;
+                    text-align: left;
+                    color: @darkgray;
+                    padding-left: 15px;
+                }
+                .mile-away {
+                    font-family: Roboto;
+                    font-size: 12px;
+                    text-align: left;
+                    color: #165c96;
+                    padding-left: 15px;
+                    margin-top: -10px;
+                }
+                .profile-img {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 100px;
+                    background-color: #ffffff;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+                    border: solid 3px #ffffff;
+                }
+                .uk-panel-title {
+                    font-family: @secodary-font;
+                    font-size: 18px;
+                    line-height: 1.22;
+                    text-align: left;
+                    color: @blue;
+                    margin-top: 10px;
+                }
+                .profile-content {
+                    margin: 0 25px 25px 25px;
+                    text-align: center;
+                    .profile-address {
+                        font-family: @secodary-font;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 1.57;
+                        text-align: left;
+                        color: @darkgray;
+                        margin-top: -10px;
+                        margin-bottom: 5px;
+                    }
+                    .contact-number2 {
+                        font-family: @secodary-font;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: left;
+                        color: @darkgray;
+                        margin: -10px;
+                        text-decoration: none;
+                        margin: 0 auto;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .website-link-2 {
+                        text-align: left;
+                    }
+                    .dial-container2 {
+                        text-align: left;
+                    }
+                    .website-com {
+                        font-family: @secodary-font;
+                        font-size: 12px;
+                        font-weight: 300;
+                        line-height: 1.83;
+                        text-align: left;
+                        color: @darkgray;
+                        margin: 5px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .msg-cirle-container {
+                        position: relative;
+                        top: 15px;
+                        margin: 0 auto;
+                        .msg-btn-circle {
+                            .btn-orange();
+                            width: 100%;
+                            height: 40px;
+                            border-radius: 100px;
+                        }
+                    }
+                }
+            } //layout 7
+            .layout-div-7 {
+                .uk-panel {
+                    max-width: 280px;
+                    height: 100%;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+                .heading-div {
+                    width: auto;
+                    height: auto;
+                    background-color: @blue; // padding: 30px 0 0px 35px;
+                    margin: 0;
+                    .uk-panel-title {
+                        font-family: @main-font;
+                        font-size: 18px;
+                        text-align: left;
+                        color: @white;
+                        text-align: left;
+                        padding: 25px;
+                    }
+                }
+                .line {
+                    border: solid 1px #c9c9c9;
+                    position: relative;
+                    top: -10px;
+                }
+                ul {
+                    list-style: none;
+                    display: inline-flex;
+                    margin: 0 auto;
+                    padding: 25px;
+                }
+                .info-name {
+                    width: 70px;
+                    font-family: @main-font;
+                    font-size: 20px;
+                    text-align: left;
+                    color: @darkgray;
+                    padding-left: 15px;
+                }
+                .mile-away {
+                    font-family: @secodary-font;
+                    font-size: 12px;
+                    text-align: right;
+                    color: @blue;
+                }
+                .profile-img {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 100px;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+                    border: solid 3px @white;
+                }
+                .profile-content {
+                    margin: 0 25px 25px 25px;
+                    text-align: center;
+                    .profile-address {
+                        font-family: @secodary-font;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 1.57;
+                        text-align: left;
+                        color: @darkgray;
+                        margin-top: -10px;
+                        margin-bottom: 5px;
+                    }
+                    h3 {
+                        font-family: @secodary-font;
+                        font-size: 16px;
+                        font-weight: 500;
+                        text-align: left;
+                        color: @blue;
+                    }
+                    .contact-number2 {
+                        font-family: @secodary-font;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: left;
+                        color: @orange;
+                        margin: -10px;
+                        text-decoration: none;
+                        margin: 0 auto;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .website-link-2 {
+                        text-align: left;
+                        padding-top: 10px;
+                    }
+                    .dial-container2 {
+                        text-align: left;
+                    }
+                    .website-com {
+                        font-family: @secodary-font;
+                        font-size: 12px;
+                        font-weight: 300;
+                        line-height: 1.83;
+                        text-align: left;
+                        color: @darkgray;
+                        margin: 5px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .msg-cirle-container {
+                        position: relative;
+                        top: 15px;
+                        margin: 0 auto;
+                        .msg-btn-circle {
+                            .btn-orange();
+                            width: 100%;
+                            height: 40px;
+                            border-radius: 100px;
+                        }
+                    }
+                }
+            } //layout 8
+            .layout-div-8 {
+                .uk-panel {
+                    max-width: 280px;
+                    height: 100%;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+                .heading-div {
+                    width: auto;
+                    height: auto;
+                    background-color: @blue; // padding: 30px 0 0px 35px;
+                    margin: 0;
+                    .uk-panel-title {
+                        font-family: @main-font;
+                        font-size: 18px;
+                        text-align: left;
+                        color: @white;
+                        text-align: left;
+                        padding: 25px;
+                    }
+                }
+                .line {
+                    border: solid 1px #c9c9c9;
+                    position: relative;
+                    top: -10px;
+                }
+                ul {
+                    list-style: none;
+                    display: inline-flex;
+                    margin: 0 auto;
+                    padding: 25px;
+                }
+                .info-name {
+                    width: 70px;
+                    font-family: @main-font;
+                    font-size: 20px;
+                    text-align: left;
+                    color: @darkgray;
+                    padding-left: 15px;
+                }
+                .mile-away {
+                    font-family: @secodary-font;
+                    font-size: 12px;
+                    text-align: right;
+                    color: @blue;
+                }
+                .profile-img {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 100px;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+                    border: solid 3px @white;
+                }
+                .profile-content {
+                    margin: 0 25px 25px 25px;
+                    text-align: center;
+                    .profile-address {
+                        font-family: @secodary-font;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 1.57;
+                        text-align: left;
+                        color: @darkgray; // margin-top: -10px;
+                        margin-bottom: 5px;
+                    }
+                    h3 {
+                        font-family: @secodary-font;
+                        font-size: 16px;
+                        font-weight: 500;
+                        text-align: left;
+                        color: @blue;
+                    }
+                    .contact-number2 {
+                        font-family: @secodary-font;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: left;
+                        color: @orange;
+                        margin: -10px;
+                        text-decoration: none;
+                        margin: 0 auto;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .website-link-2 {
+                        text-align: left;
+                        padding-top: 10px;
+                    }
+                    .dial-container2 {
+                        text-align: left;
+                    }
+                    .website-com {
+                        font-family: @secodary-font;
+                        font-size: 12px;
+                        font-weight: 300;
+                        line-height: 1.83;
+                        text-align: left;
+                        color: @darkgray;
+                        margin: 5px;
+                        text-decoration: none;
+                        .soft-transition();
+                        &:hover {
+                            color: @hvr-orange;
+                        }
+                    }
+                    .msg-cirle-container {
+                        position: relative;
+                        top: 15px;
+                        margin: 0 auto;
+                        .msg-btn-circle {
+                            .btn-orange();
+                            width: 100%;
+                            height: 40px;
+                            border-radius: 100px;
+                        }
+                    }
+                }
+            } //layout 9
+            .layout-div-9 {
+                .uk-panel {
+                    max-width: 280px;
+                    height: 100%;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+                .heading-div {
+                    .uk-panel-title {
+                        font-family: @main-font;
+                        font-size: 18px;
+                        text-align: left;
+                        color: @blue;
+                    }
+                    p {
+                        font-family: @secodary-font;
+                        font-size: 16px;
+                        text-align: left;
+                        color: @blue;
+                    }
+                }
+                .line {
+                    border: solid 1px #c9c9c9;
+                    position: relative;
+                    top: -10px;
+                }
+                ul {
+                    list-style: none;
+                    display: inline-flex;
+                    margin: 0 auto;
+                    padding: 25px;
+                }
+                .info-name {
+                    width: 70px;
+                    font-family: @main-font;
+                    font-size: 20px;
+                    text-align: left;
+                    color: @darkgray;
+                    padding-left: 15px;
+                }
+                .mile-away {
+                    font-family: @secodary-font;
+                    font-size: 12px;
+                    text-align: right;
+                    color: @blue;
+                }
+                .profile-img {
+                    @img-size: 70px;
+                    width: @img-size;
+                    height: @img-size;
+                    border-radius: 100px;
+                    background-color: @white;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+                    border: solid 3px @white;
+                }
+                .profile-content {
+                    @orange-width: 30px;
+                    padding: 25px 25px 5px 25px;
+                    padding-left: @orange-width + 10px;
+                    text-align: center;
+                    position: relative;
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        width: @orange-width;
+                        background: @orange;
+                    }
+                    .profile-address {
+                        font-family: @secodary-font;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 1.57;
+                        text-align: left;
+                        color: @darkgray; // margin-top: -10px;
+                        margin-bottom: 5px;
+                        span {
+                            position: absolute;
+                            left: 8px;
+                            color: white;
+                            font-size: 20px;
+                        }
+                    }
                     h3 {
                         font-family: @secodary-font;
                         font-size: 16px;
@@ -1315,5 +1320,5 @@
                 background-color: @orange;
                 border-radius: 3px;
             }
-        } 
+        }
     }
