@@ -16,7 +16,9 @@
 
 	/* page functions go here */
 
-
+	$("#upload-icon").click(function () {
+		$("#upload-file").trigger('click');
+	});
 
 })(jQuery);
 
