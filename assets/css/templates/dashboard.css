@@ -10932,7 +10932,12 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   margin: 0;
 }
 .dashboard .uk-container .uk-tab-bottom > li.uk-active > a:hover {
-  padding: 9px 12px 8px 12px !important;
+  padding: 9px 4px 8px 4px !important;
+}
+@media only screen and (min-width: 480px) {
+  .dashboard .uk-container .uk-tab-bottom > li.uk-active > a:hover {
+    padding: 9px 12px 8px 12px !important;
+  }
 }
 .dashboard .uk-container .uk-tab > li.uk-active > a {
   border-color: transparent;
@@ -10947,13 +10952,23 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 .dashboard .uk-container .uk-tab > li > a {
   margin: 0;
-  padding: 9px 12px 8px 12px !important;
+  padding: 9px 4px 8px 4px !important;
+}
+@media only screen and (min-width: 480px) {
+  .dashboard .uk-container .uk-tab > li > a {
+    padding: 9px 12px 8px 12px !important;
+  }
 }
 .dashboard .uk-container .uk-tab > li > a:hover {
   background: transparent;
   outline: none;
   border: transparent;
-  padding: 9px 12px 9px 12px !important;
+  padding: 9px 4px 8px 4px !important;
+}
+@media only screen and (min-width: 480px) {
+  .dashboard .uk-container .uk-tab > li > a:hover {
+    padding: 9px 12px 8px 12px !important;
+  }
 }
 .dashboard .uk-container .uk-tab > li > a:focus {
   background: transparent;
@@ -11478,17 +11493,11 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-size: 30px;
   font-weight: 300;
 }
-.dashboard .uk-container .uk-alert {
+.dashboard .uk-container .proceed-btn-box {
   text-align: center;
+  padding: 60px 0 20px 0;
 }
-#proceed-btn-section {
-  text-align: center;
-  padding: 25px 0 100px 0;
-}
-#proceed-btn-section .uk-container {
-  margin: 0 auto;
-}
-#proceed-btn-section .proceed-btn-box .proceed-btn {
+.dashboard .uk-container .proceed-btn-box .proceed-btn {
   padding: 60px 0 0 0;
   width: 159px;
   height: 50px;
@@ -11505,7 +11514,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   padding: 8px;
   text-decoration: none;
 }
-#proceed-btn-section .proceed-btn-box .proceed-btn::before {
+.dashboard .uk-container .proceed-btn-box .proceed-btn::before {
   content: '';
   background-color: #C45F00;
   width: 0%;
@@ -11518,15 +11527,18 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   left: 50%;
   transition: all 0.4s ease;
 }
-#proceed-btn-section .proceed-btn-box .proceed-btn:hover {
+.dashboard .uk-container .proceed-btn-box .proceed-btn:hover {
   background-color: #C45F00;
   border: 1px solid #C45F00;
 }
-#proceed-btn-section .proceed-btn-box .proceed-btn:hover::before {
+.dashboard .uk-container .proceed-btn-box .proceed-btn:hover::before {
   width: 150%;
   height: 150%;
   top: -25%;
   left: -25%;
   opacity: 0;
+}
+.dashboard .uk-container .uk-alert {
+  text-align: center;
 }
 /*# sourceMappingURL=dashboard.css.map */

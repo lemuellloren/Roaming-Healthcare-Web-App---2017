@@ -63,7 +63,10 @@
 					border-bottom: solid 2px @orange !important;
 					margin: 0;
 					&:hover{
-						padding: 9px 12px 8px 12px !important;
+						padding: 9px 4px 8px 4px !important;
+						@media @width-480{
+							padding: 9px 12px 8px 12px !important;
+						}
 					}
 				}
 			}
@@ -89,13 +92,19 @@
 			>li {
 				>a {
 					margin: 0;
-					padding: 9px 12px 8px 12px !important;
+					padding: 9px 4px 8px 4px !important;
+					@media @width-480{
+						padding: 9px 12px 8px 12px !important;
+					}
 					&:hover {
 						background: transparent;
 						outline: none;
 						border: transparent;
 						// margin-bottom: 2px;
-						padding: 9px 12px 9px 12px !important;
+						padding: 9px 4px 8px 4px !important;
+						@media @width-480{
+							padding: 9px 12px 8px 12px !important;
+						}
 					}
 					&:focus {
 						background: transparent;
@@ -341,6 +350,16 @@
 				}
 			}
 		}
+		.proceed-btn-box {
+			text-align: center;
+			padding: 60px 0 20px 0;
+			.proceed-btn {
+				padding: 60px 0 0 0;
+				.btn-orange();
+				padding: 8px;
+				text-decoration: none;
+			}
+		}
 		.uk-alert{
 			text-align: center;
 		}
@@ -348,20 +367,3 @@
 	}
 }
 //dashboard styles
-
-//create listing button
-#proceed-btn-section {
-    text-align: center;
-    padding: 25px 0 100px 0;
-    .uk-container {
-        margin: 0 auto;
-    }
-    .proceed-btn-box {
-        .proceed-btn {
-            padding: 60px 0 0 0;
-            .btn-orange();
-            padding: 8px;
-            text-decoration: none;
-        }
-    }
-}
