@@ -10926,13 +10926,25 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: center;
   color: #747474;
 }
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .uk-tab p,
+  .dashboard .uk-container .uk-tab span {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+}
 .dashboard .uk-container .uk-tab-bottom > li.uk-active > a {
   border-top-color: transparent;
   border-bottom: solid 2px #FE7B00 !important;
   margin: 0;
 }
 .dashboard .uk-container .uk-tab-bottom > li.uk-active > a:hover {
-  padding: 9px 12px 8px 12px !important;
+  padding: 9px 4px 8px 4px !important;
+}
+@media only screen and (min-width: 480px) {
+  .dashboard .uk-container .uk-tab-bottom > li.uk-active > a:hover {
+    padding: 9px 12px 8px 12px !important;
+  }
 }
 .dashboard .uk-container .uk-tab > li.uk-active > a {
   border-color: transparent;
@@ -10947,13 +10959,23 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 .dashboard .uk-container .uk-tab > li > a {
   margin: 0;
-  padding: 9px 12px 8px 12px !important;
+  padding: 9px 4px 8px 4px !important;
+}
+@media only screen and (min-width: 480px) {
+  .dashboard .uk-container .uk-tab > li > a {
+    padding: 9px 12px 8px 12px !important;
+  }
 }
 .dashboard .uk-container .uk-tab > li > a:hover {
   background: transparent;
   outline: none;
   border: transparent;
-  padding: 9px 12px 9px 12px !important;
+  padding: 9px 4px 8px 4px !important;
+}
+@media only screen and (min-width: 480px) {
+  .dashboard .uk-container .uk-tab > li > a:hover {
+    padding: 9px 12px 8px 12px !important;
+  }
 }
 .dashboard .uk-container .uk-tab > li > a:focus {
   background: transparent;
@@ -10963,11 +10985,21 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   display: block;
   color: #FE7B00;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .uk-tab > li > a i {
+    width: auto;
+    display: inline-block;
+    padding: 0;
+  }
 }
 .dashboard .uk-container .uk-tab > li.uk-open > a {
   background: transparent;
   outline: none;
+}
+.dashboard .uk-container figure {
+  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   .dashboard .uk-container .uk-tab-bottom {
@@ -11017,12 +11049,15 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   background-color: #C45F00;
 }
 .dashboard .uk-container .upload-photo form#accountForm {
-  padding-top: 25px;
+  padding: 25px 0 50px 0;
   text-align: left;
+  border-bottom: 1px dotted #444444;
 }
 @media only screen and (min-width: 768px) {
   .dashboard .uk-container .upload-photo form#accountForm {
     padding-top: 0;
+    text-align: center;
+    border: 0px;
   }
 }
 .dashboard .uk-container .upload-photo form#accountForm input {
@@ -11072,6 +11107,12 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 .dashboard .uk-container .upload-photo form#accountForm .change-pass {
   padding: 15px 0;
+  text-align: left;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .upload-photo form#accountForm .change-pass {
+    padding-left: 35px;
+  }
 }
 .dashboard .uk-container .upload-photo form#accountForm button {
   width: 159px;
@@ -11115,7 +11156,13 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   opacity: 0;
 }
 .dashboard .uk-container .billing-address {
-  padding-top: 35px;
+  padding: 35px 0 50px 0;
+  border-bottom: 1px dotted #444444;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .billing-address {
+    margin: 0 100px;
+  }
 }
 .dashboard .uk-container .billing-address form#billingAddressForm {
   padding-top: 25px;
@@ -11198,6 +11245,20 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   top: -25%;
   left: -25%;
   opacity: 0;
+}
+.dashboard .uk-container .billing-address .uk-grid {
+  margin: 0px;
+}
+.dashboard .uk-container .billing-address .uk-grid div {
+  padding: 0px;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .billing-address .padding-left {
+    padding-left: 15px !important;
+  }
+  .dashboard .uk-container .billing-address .padding-right {
+    padding-right: 15px !important;
+  }
 }
 .dashboard .uk-container .plan-area {
   padding: 55px 0 0 0;
@@ -11478,17 +11539,11 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-size: 30px;
   font-weight: 300;
 }
-.dashboard .uk-container .uk-alert {
+.dashboard .uk-container .proceed-btn-box {
   text-align: center;
+  padding: 60px 0 20px 0;
 }
-#proceed-btn-section {
-  text-align: center;
-  padding: 25px 0 100px 0;
-}
-#proceed-btn-section .uk-container {
-  margin: 0 auto;
-}
-#proceed-btn-section .proceed-btn-box .proceed-btn {
+.dashboard .uk-container .proceed-btn-box .proceed-btn {
   padding: 60px 0 0 0;
   width: 159px;
   height: 50px;
@@ -11502,10 +11557,12 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   overflow: hidden;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
-  padding: 8px;
+  width: auto;
+  height: auto;
+  padding: 10px 23px;
   text-decoration: none;
 }
-#proceed-btn-section .proceed-btn-box .proceed-btn::before {
+.dashboard .uk-container .proceed-btn-box .proceed-btn::before {
   content: '';
   background-color: #C45F00;
   width: 0%;
@@ -11518,11 +11575,197 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   left: 50%;
   transition: all 0.4s ease;
 }
-#proceed-btn-section .proceed-btn-box .proceed-btn:hover {
+.dashboard .uk-container .proceed-btn-box .proceed-btn:hover {
   background-color: #C45F00;
   border: 1px solid #C45F00;
 }
-#proceed-btn-section .proceed-btn-box .proceed-btn:hover::before {
+.dashboard .uk-container .proceed-btn-box .proceed-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .uk-alert {
+  text-align: center;
+}
+.dashboard .uk-container .uk-modal .uk-close {
+  font-size: 24px;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .uk-modal h3 {
+  margin-top: 25px !important;
+}
+.dashboard .uk-container .uk-modal form#changePassForm input {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  transition: all 0.4s ease;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 1px #E4E4E4;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+.dashboard .uk-container .uk-modal form#changePassForm input:placeholder {
+  color: #BBBBBB;
+}
+.dashboard .uk-container .uk-modal form#changePassForm input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  box-shadow: 0 5px 20px -6px #FE7B00;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .uk-modal form#changePassForm input {
+    width: 80%;
+  }
+}
+.dashboard .uk-container .uk-modal form#changePassForm input::-webkit-input-placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-container .uk-modal form#changePassForm input:-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-container .uk-modal form#changePassForm input::placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-container .uk-modal form#changePassForm button {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 10px 28px;
+  margin-top: 20px;
+}
+.dashboard .uk-container .uk-modal form#changePassForm button::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .uk-modal form#changePassForm button:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+.dashboard .uk-container .uk-modal form#changePassForm button:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .uk-modal .confirm-content {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+}
+.dashboard .uk-container .uk-modal .footer-modal {
+  text-align: center;
+  padding: 25px 0 15px 0;
+}
+.dashboard .uk-container .uk-modal .modal-button {
+  display: inline-block;
+  width: auto !important;
+  height: auto !important;
+  vertical-align: top;
+}
+.dashboard .uk-container .uk-modal .confirm {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Roboto';
+  transition: all 0.4s ease-in-out 0.1s;
+  padding: 10px 20px;
+}
+.dashboard .uk-container .uk-modal .confirm::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .uk-modal .confirm:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+.dashboard .uk-container .uk-modal .confirm:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .uk-modal .back {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  padding: 8px 39px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.dashboard .uk-container .uk-modal .back::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .uk-modal .back:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+.dashboard .uk-container .uk-modal .back:hover::before {
   width: 150%;
   height: 150%;
   top: -25%;

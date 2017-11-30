@@ -16,9 +16,16 @@
 
 	/* page functions go here */
 
+
+	//upload photo
 	$("#upload-icon").click(function () {
 		$("#upload-file").trigger('click');
 	});
+
+	//close modal
+	$('.back').click(function(){
+		$("#cancel-acct .uk-modal-close").trigger('click');
+	})
 
 })(jQuery);
 

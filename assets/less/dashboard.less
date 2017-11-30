@@ -54,6 +54,10 @@
 				line-height: 13px;
 				text-align: center;
 				color: @dimgray;
+				@media @width-768{
+					font-size: @default-font-size;
+					padding-left: 10px;
+				}
 			}
 		}
 		.uk-tab-bottom {
@@ -63,7 +67,10 @@
 					border-bottom: solid 2px @orange !important;
 					margin: 0;
 					&:hover{
-						padding: 9px 12px 8px 12px !important;
+						padding: 9px 4px 8px 4px !important;
+						@media @width-480{
+							padding: 9px 12px 8px 12px !important;
+						}
 					}
 				}
 			}
@@ -89,13 +96,19 @@
 			>li {
 				>a {
 					margin: 0;
-					padding: 9px 12px 8px 12px !important;
+					padding: 9px 4px 8px 4px !important;
+					@media @width-480{
+						padding: 9px 12px 8px 12px !important;
+					}
 					&:hover {
 						background: transparent;
 						outline: none;
 						border: transparent;
 						// margin-bottom: 2px;
-						padding: 9px 12px 9px 12px !important;
+						padding: 9px 4px 8px 4px !important;
+						@media @width-480{
+							padding: 9px 12px 8px 12px !important;
+						}
 					}
 					&:focus {
 						background: transparent;
@@ -105,7 +118,12 @@
 						display: block;
 						color: @orange;
 						padding-bottom: 10px;
-						font-size: @default-font-size + 4;
+						font-size: @default-font-size;
+						@media @width-768{
+							width: auto;
+							display: inline-block;
+							padding: 0;
+						}
 					}
 				}
 			}
@@ -115,6 +133,9 @@
 					outline: none;
 				}
 			}
+		}
+		figure{
+			text-align: center;
 		}
 		.uk-tab-bottom {
 			@media @width-768 {
@@ -157,10 +178,13 @@
 				}
 			}
 			form#accountForm{
-				padding-top: 25px;
+				padding: 25px 0 50px 0;
 				text-align: left;
+				border-bottom: 1px dotted @darkgray;
 				@media @width-768 {
 					padding-top: 0;
+					text-align: center;
+					border: 0px;
 				}
 				input {
 					.contact-field();
@@ -186,6 +210,10 @@
 				}
 				.change-pass{
 					padding: 15px 0;
+					text-align: left;
+					@media @width-768{
+						padding-left: 35px;
+					}
 				}
 				button{
 					.btn-orange();
@@ -196,7 +224,11 @@
 			}
 		}
 		.billing-address{
-			padding-top: 35px;
+			padding: 35px 0 50px 0;
+			border-bottom: 1px dotted @darkgray;
+			@media @width-768{
+				margin: 0 100px;
+			}
 			form#billingAddressForm{
 				padding-top: 25px;
 				text-align: center;
@@ -222,7 +254,20 @@
 					margin-top: 20px;
 				}
 			}
-			
+			.uk-grid{
+				margin: 0px;
+				div{
+					padding: 0px;
+				}
+			}
+			@media @width-768{
+				.padding-left{
+					padding-left: 15px !important;
+				}
+				.padding-right{
+					padding-right: 15px !important;
+				}
+			}
 		}
 		.plan-area {
 			padding: 55px 0 0 0;
@@ -341,27 +386,80 @@
 				}
 			}
 		}
+		.proceed-btn-box {
+			text-align: center;
+			padding: 60px 0 20px 0;
+			.proceed-btn {
+				padding: 60px 0 0 0;
+				.btn-orange();
+				width: auto;
+				height: auto;
+				padding: 10px 23px;
+				text-decoration: none;
+			}
+		}
 		.uk-alert{
 			text-align: center;
 		}
-
+		.uk-modal{
+			.uk-close{
+				font-size: @default-font-size + 8;
+				.soft-transition();
+			}
+			h3{
+				margin-top: 25px !important;
+			}
+			form#changePassForm{
+				input{
+					.contact-field();
+					width: 100%;
+					height: 40px;
+					border-radius: 3px;
+					border: solid 1px @gray;
+					@media @width-768 {
+						width: 80%;
+					}
+					&::placeholder {
+						color: @lighergray !important;
+					}
+					font-size: 14px;
+					font-family: @secondary-font;
+					font-weight: normal;
+				}
+				button{
+					.btn-orange();
+					width: auto;
+					height: auto;
+					padding: 10px 28px;
+					margin-top: 20px;
+				}
+			}
+			.confirm-content{
+				font-family: @secondary-font;
+				font-size: @default-font-size;
+				font-weight: normal;
+			}
+			.footer-modal{
+				text-align: center;
+				padding: 25px 0 15px 0;
+			}
+			.modal-button{
+				display: inline-block;
+				width: auto !important;
+				height: auto !important;
+				vertical-align: top;
+			}
+			.confirm{
+				.btn-white();
+				padding: 10px 20px;
+			}
+			.back{
+				.btn-orange();
+				padding: 8px 39px;
+				margin-left: 15px;
+				text-decoration: none;
+			}
+		}
 	}
 }
 //dashboard styles
-
-//create listing button
-#proceed-btn-section {
-    text-align: center;
-    padding: 25px 0 100px 0;
-    .uk-container {
-        margin: 0 auto;
-    }
-    .proceed-btn-box {
-        .proceed-btn {
-            padding: 60px 0 0 0;
-            .btn-orange();
-            padding: 8px;
-            text-decoration: none;
-        }
-    }
-}
