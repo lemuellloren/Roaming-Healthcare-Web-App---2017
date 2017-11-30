@@ -19,7 +19,12 @@
 (function($) {
     
     /* page functions go here */
-    
+    $('.modalSelector').on({
+        
+            'hide.uk.modal': function(){
+                var accordion = UIkit.accordion($('.uk-accordion'), { showfirst:false });
+            }
+        });
  
 })(jQuery);
 
