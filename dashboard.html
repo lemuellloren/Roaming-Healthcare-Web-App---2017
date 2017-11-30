@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+
+<head>
+  <!-- STANDARD META -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Roaming Healthcare</title>
+  <meta name="description" content="">
+
+  <!-- OPENGRAPH META -->
+  <meta property="og:url" content="https://mysite.com/mypage">
+  <meta property="og:title" content="My Page Title">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="http://mysite.com/assets/logo.jpg">
+
+  <!-- FAVICONS -->
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicons/manifest.json">
+  <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#fe7b00">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="assets/css/templates/dashboard.css">
+
+</head>
+
+<body>
+
+
+ <!-- BANNER AREA -->
+ <section id="gradient-banner" style="background-image: linear-gradient(43deg, #fe7b00, #3382c4); width: auto;
+ height: 355px;">
+</section>
+<!-- BANNER AREA -->
+
+<!-- DASHBOARD -->
+
+<section class="dashboard">
+  <div class="uk-container">
+    <ul class="uk-tab uk-tab-grid uk-tab-bottom" data-uk-tab="{connect:'#tab-content', animation: 'fade'}">
+      <li class="uk-width-1-4">
+        <a id="hide" class="tab-1" href="3">
+         <i class="uk-icon-user"></i>
+         <span>Account Info</span>
+       </a>
+     </li>
+     <li class="uk-width-1-4">
+      <a id="show" class="tab-2" href="#">
+        <i class="uk-icon-pencil"></i>
+        <span>Listing Info</span>
+      </a>
+    </li>
+    <li class="uk-width-1-4">
+      <a id="show" class="tab-3" href="#">
+       <i class="uk-icon-history"></i>
+       <span>Blog History</span>
+     </a>
+   </li>
+   <li class="uk-width-1-4">
+    <a id="show" class="tab-4" href="#">
+     <i class="uk-icon-flag"></i>
+     <span>Ad Manager</span>
+   </a>
+ </li>
+</ul>
+
+<!-- This is the  content items -->
+<div class="steps-content-area">
+  <ul id="tab-content" class="uk-switcher">
+    <li>
+      <figure>
+       <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
+       <div class="upload-photo">
+        <!-- upload photo -->
+        <div class="upload-icon-container">
+          <input type="file" id="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+          <span id="upload-icon" class="uk-icon-camera"></span>
+        </div>
+        <img id="upload-img" src="assets/images/profile-img.jpg" alt="Your Image Here">
+        <!-- upload photo -->
+        <form class="uk-form" id="accountForm">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email Address" required>
+          <div class="change-pass">
+            <a href="#/">Click to change password</a>
+          </div>
+          <button type="submit" class="save-changes">Save Changes</button>
+        </form>
+      </div>
+      <div class="billing-address">
+        <h3>Basic Info</h3>
+        <div class="divider-title"></div>
+        <form class="uk-form" id="billingAddressForm">
+          <input type="text" placeholder="Street Address" required>
+          <input type="text" placeholder="Country" required>
+          <input type="text" placeholder="State/Province" required>
+          <input type="text" placeholder="City/Municipality" required>
+          <button type="submit" class="save-changes">Save Changes</button>
+        </form>
+      </div>
+      <div class="plan-area">
+        <h3>Upgrade Your Plan</h3>
+        <div class="divider-title"></div>
+        <p>
+          Find the perfect plan for you — 100% satisfaction guaranteed.
+        </p>
+        <div class="uk-grid uk-grid-collapse">
+          <div class="uk-width-1-1 uk-width-large-1-4">
+            <div class="plan-content">
+              <div class="plan-heading-orange">
+                <h3>FREE</h3>
+              </div>
+              <div class="bottom-triangle-orange"></div>
+              <div class="pricing-content">
+                <p>
+                  Company Name
+                </p>
+                <p>
+                  Contact Name
+                </p>
+                <p>
+                  Service Type
+                </p>
+                <p>
+                  Languages Spoken
+                </p>
+                <p>
+                  Professional Credentials
+                </p>
+                <p>
+                  Address &amp; Phone
+                </p>
+                <p>
+                  Link to Website
+                </p>
+
+              </div>
+              <div class="choose-btn-container">
+                <p class="price-here-orange">
+                  $
+                  <span>0</span>
+                </p>
+                <!-- <button class="choose-btn-orange">Choose</button> -->
+                <button class="choose-btn-orange">Choose</button>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-1 uk-width-large-1-4">
+            <div class="plan-content">
+              <div class="plan-heading">
+                <h3>BASIC</h3>
+              </div>
+              <div class="bottom-triangle-blue"></div>
+              <div class="pricing-content">
+                <p class="plus-size">
+                  <em>all features </em> from
+                  <br> FREE plan
+                </p>
+                <p>
+                  Send Direct Messages
+                </p>
+                <p>
+                  Full Service Description
+                </p>
+                <p>
+                  Logo/Image Layouts
+                </p>
+                <p>
+                  View More Modal
+                </p>
+
+              </div>
+              <div class="choose-btn-container">
+                <p class="price-here-blue">
+                  $
+                  <span>9.99</span>
+                </p>
+                <button class="choose-btn-blue">Choose</button>
+                <!-- <i class="uk-icon-check current-blue"><span> Current plan</span></i> -->
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-1 uk-width-large-1-4">
+            <div class="plan-content">
+              <div class="plan-heading">
+                <h3>PREMIUM</h3>
+              </div>
+              <div class="bottom-triangle-blue"></div>
+              <div class="pricing-content">
+                <p class="plus-size">
+                  <em> all features</em> from
+                  <br> BASIC plan
+                </p>
+                <p>
+                  Feature Image Layout
+                </p>
+                <p>
+                  Service Type
+                </p>
+                <p>
+                  Blog Articles
+                </p>
+
+              </div>
+              <div class="choose-btn-container">
+                <p class="price-here-blue">
+                  $
+                  <span>19.99</span>
+                </p>
+                <button class="choose-btn-blue">Choose</button>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-1 uk-width-large-1-4">
+            <div class="plan-content">
+              <div class="plan-heading">
+                <h3>VIP</h3>
+              </div>
+              <div class="bottom-triangle-blue"></div>
+              <div class="pricing-content">
+                <p class="plus-size">
+                  <em> all features</em> from
+                  <br> PREMIUM plan
+                </p>
+                <p>
+                  Profile Page
+                </p>
+                <p>
+                  Advertisements
+                </p>
+              </div>
+              <div class="choose-btn-container">
+                <p class="price-here-blue">
+                  $
+                  <span>29.99</span>
+                </p>
+                <button class="choose-btn-blue">Choose</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      test2
+    </figure>
+  </li>
+  <li>
+    <figure>
+      test3
+    </figure>
+  </li>
+  <li>
+    <figure>
+      test4
+    </figure>
+  </li>
+</ul>
+</div>
+</div>
+</section>
+
+<!--Proceed to Create Listing-->
+<section id="proceed-btn-section">
+  <div class="uk-container">
+    <div class="proceed-btn-box">
+      <a class="proceed-btn" href="#">Proceed to Create Listing</a>
+    </div>
+  </div>
+</section>
+<!--Proceed to Create Listing-->
+
+<!-- DASHBOARD -->
+
+<!-- SITE MENU AREA-->
+<nav>
+  <!--MOBILE SITE MENU -->
+  <div class="mobile-menu uk-hidden-medium uk-hidden-large">
+    <div class="uk-grid">
+      <div class="logo uk-width-2-3">
+        <a href="#/" title="logo">
+          <img src="assets/images/logos/site-menu-logo.svg" alt="Roaming Healthcare Logo">
+        </a>
+      </div>
+      <div class="menu uk-width-1-3">
+        <a href="#off-canvas-menu" title="menu" data-uk-offcanvas>
+          <span class="uk-icon-bars"></span>
+        </a>
+      </div>
+    </div>
+    <div id="off-canvas-menu" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+        <a href="#/" class="uk-close"></a>
+        <div class="menulist">
+          <ul>
+            <li>
+              <a class="desktop-links" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="desktop-links" href="blog.html">Blog</a>
+            </li>
+            <li class="profile-img-mobile">
+              <figure>
+                <img src="assets/images/profile-img.jpg" alt="profile-img">
+              </figure>
+              <span class="uk-icon-chevron-down"></span>
+            </li>
+            <li class="dashboard-menu">
+              <a href="#/">Dashboard</a>
+              <ul class="subnav">
+                <li><a href="#/">Account Info</a></li>
+                <li><a href="#/">Listing Info</a></li>
+                <li><a href="#/">Blog History</a></li>
+              </ul>
+            </li>
+            <li class="dashboard-menu"><a href="#/">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- END MOBILE SITE MENU -->
+  </div>
+  <!-- DESKTOP SITE MENU -->
+  <div class="desktop-menu uk-hidden-small">
+    <div class="uk-container">
+      <div class="uk-grid">
+        <div class="logo uk-width-2-5">
+          <a href="#/" title="logo">
+            <img src="assets/images/logos/site-menu-logo.svg" alt="Roaming Healthcare Logo">
+          </a>
+        </div>
+        <div class="menulist uk-width-3-5">
+          <ul>
+            <li>
+              <a class="desktop-links active" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="desktop-links" href="blog.html">Blog</a>
+            </li>
+            <li class="profile-img-desktop">
+              <!-- dropdown -->
+              <div data-uk-dropdown="{pos:'bottom-right'}" class="logged">
+
+                <!-- This is the element toggling the dropdown -->
+                <div>
+
+                  <a href="#/" class="proflink">
+                    <figure>
+                      <img src="assets/images/profile-img.jpg" alt="profile-img">
+                    </figure>
+                    <span class="uk-icon-chevron-down"></span>
+                  </a>
+
+                </div>
+
+                <!-- This is the dropdown -->
+                <div class="uk-dropdown">
+                  <ul class="uk-nav uk-nav-dropdown">
+                    <li>
+                      <a href="#/">Dashboard</a>
+                      <ul class="subnav">
+                        <li><a href="#/">Account Info</a></li>
+                        <li><a href="#/">Listing Info</a></li>
+                        <li><a href="#/">Blog History</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#/">Logout</a></li>
+                  </ul>
+                </div>
+
+              </div>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END DESKTOP SITE MENU -->
+</nav>
+
+<!-- END SITE MENU AREA-->
+
+<!--  SCRIPT -->
+<script src="assets/js/templates/dashboard.min.js"></script>
+<!--  SCRIPT -->
+
+</body>
+
+</html>
