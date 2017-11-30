@@ -141,7 +141,7 @@
                                             <button class="msg-btn">Message</button>
                                         </div>
                                         <div class="msg-container uk-width-1-3">
-                                            <button class="more-info-btn">More Info</button>
+                                            <button class="more-info-btn" data-uk-modal="{target:'#layout1-info'}">More Info</button>
                                         </div>
                                     </div>
                                 </div>
@@ -209,7 +209,7 @@
                                                     <button class="msg-btn">Message</button>
                                                 </div>
                                                 <div class="msg-container uk-width-1-3">
-                                                    <button class="more-info-btn">More Info</button>
+                                                    <button class="more-info-btn" data-uk-modal="{target:'#layout1-info'}">More Info</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -868,6 +868,116 @@
         </div>
     </section>
 
+      <!-- MODAL AREA -->
+    <!-- This is the modal for layout 1 -->
+    <div id="layout1-info" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <a class="uk-modal-close uk-close" autofocus></a>
+                <div id="gradient-banner-modal" style="background-image: linear-gradient(41deg, #fe7b00, #3382c4); width: auto;
+            margin: -20px;
+            height: 330px;">
+                </div>
+                <div class="info-content">
+                    <div class="uk-panel">
+                        <figure class="profile-img">
+                            <img src="assets/images/profile-img.jpg" alt="profile">
+                        </figure>
+                        <div class="subscriber-details">
+                            <h1>Grace Rogers</h1>
+                            <p class="mile-away">
+                                <span class="uk-icon-map-marker"></span>
+                                0.3 mi
+                            </p>
+                            <h3 class="uk-panel-title">
+                                Tootsy Dental Practice
+                            </h3>
+                            <p class="profile-address">
+                                937 Sachs, Woodlake, MI
+                            </p>
+                            <div class="dial-container">
+                                <a href="tel:+6494461709" class="contact-number">
+                                    <span class="uk-icon-phone"></span>
+                                    &nbsp;(02) 9072 7359
+                                </a>
+                            </div>
+                            <div class="website-link">
+                                <a href="http://example.com/" class="website-com">
+                                    <span class="uk-icon-globe"></span> website.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-accordion" data-uk-accordion>
+    
+                    <h3 class="uk-accordion-title">Basic Info</h3>
+                    <div class="uk-accordion-content">
+                        <div class="basic-info">
+                            <div class="info-container">
+                                <p>Business Type</p>
+                                <h4>Massage Therapy</h4>
+                            </div>
+                            <div class="info-container">
+                                <p>Address</p>
+                                <h4>937 Sachs, Woodlake, MI</h4>
+                            </div>
+                            <div class="info-container">
+                                <p>Contact</p>
+                                <h4>9-(386)072-7359</h4>
+                            </div>
+                            <div class="info-container">
+                                <p>Email</p>
+                                <h4>gcrawford@blogpad.info</h4>
+                            </div>
+    
+                            <div class="info-container">
+                                <p>Registrations</p>
+                                <h4>Medical Practitioner
+                                    <br> (MED0123456789)</h4>
+                            </div>
+                            <div class="info-container">
+                                <p>Languages</p>
+                                <h4>English, Filipino</h4>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <h3 class="uk-accordion-title">About</h3>
+                    <div class="uk-accordion-content">
+                        <div class="basic-info">
+                            <p class="about-info">
+                                For many years, when people thought of alcohol and drug rehab, the image that almost immediately came to mind was most likely
+                                a group of people, sitting in a circle in folding chairs in a big vacant room. Its true that
+                                group programs still aid many people in their quest to stop drinking and using illegal substances
+                                but most who have fell.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <h3 class="uk-accordion-title">Documents</h3>
+                    <div class="uk-accordion-content">
+                        <div class="basic-info">
+                            <div class="uk-grid uk-grid-small">
+                                    <div class="uk-width-1-2">
+                                            <img src="assets/images/documents/document.jpg" alt="Lisence Image">
+                                         </div>
+                                <div class="uk-width-1-2">
+                                    <h3>Licensed Massage and Bodywork</h3>
+                                    <a href="assets/images/documents/document.jpg" data-uk-lightbox><span class="uk-icon-search-plus"></span> View photo</a>
+                                </div>
+                            </div>
+                            <div class="btn-container">
+                                
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        <!-- End This is the modal for layout 1 -->
+        <!-- END MODAL AREA -->
 
     <!-- END RESULTS SECTION AREA -->
 
@@ -1019,6 +1129,9 @@
             </div>
         </div>
     </section>
+
+
+
     <!-- END FEATURED LISTERS SECTION AREA-->
 
 

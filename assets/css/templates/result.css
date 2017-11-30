@@ -11100,6 +11100,42 @@ html[dir="rtl"] .uk-slider > * {
 .uk-slidenav-contrast:active {
   color: rgba(255, 255, 255, 0.9);
 }
+/* ========================================================================
+   Component: Accordion
+ ========================================================================== */
+/* Sub-object: `uk-accordion-title`
+ ========================================================================== */
+.uk-accordion-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 5px 15px;
+  background: #eee;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+}
+/* Sub-object: `uk-accordion-content`
+ ========================================================================== */
+.uk-accordion-content {
+  padding: 0 15px 15px 15px;
+}
+/*
+ * Micro clearfix to make panels more robust
+ */
+.uk-accordion-content:before,
+.uk-accordion-content:after {
+  content: "";
+  display: table;
+}
+.uk-accordion-content:after {
+  clear: both;
+}
+/*
+ * Remove margin from the last-child
+ */
+.uk-accordion-content > :last-child {
+  margin-bottom: 0;
+}
 /* #hero, #about, #contact, etc. */
 /* SEARCH BANNER AREA */
 #search-banner-white-section {
@@ -13383,5 +13419,169 @@ html[dir="rtl"] .uk-slider > * {
 #results-section .uk-pagination-previous:hover a,
 #results-section .uk-pagination-next:hover a {
   color: #FFF;
+}
+#layout1-info .info-content {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -245px;
+  background-color: #FFF;
+  border-radius: 3px;
+}
+#layout1-info .info-content .uk-panel {
+  padding: 25px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+}
+#layout1-info .info-content .subscriber-details {
+  text-align: center;
+  margin: 0 auto;
+}
+#layout1-info .info-content .profile-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 3px;
+  background-color: #FFF;
+  border: solid 5px #FFF;
+  margin: 0 auto;
+  margin-top: -85px;
+}
+#layout1-info .info-content h1 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  color: #444444;
+  text-transform: initial;
+}
+#layout1-info .info-content h3 {
+  font-family: 'Roboto' !important;
+  font-size: 16px;
+  text-align: left;
+  color: #165C96;
+  margin: 0;
+}
+#layout1-info .info-content p.mile-away {
+  font-family: 'Roboto';
+  font-size: 12px;
+  text-align: right;
+  color: #165C96;
+  margin-top: -46px;
+}
+#layout1-info .info-content p.profile-address {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  text-align: center;
+  color: #444444;
+  margin: 0;
+}
+#layout1-info .info-content .dial-container {
+  text-align: center;
+}
+#layout1-info .info-content .contact-number {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #444444;
+  margin: -10px;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#layout1-info .info-content .contact-number:hover {
+  color: #C45F00;
+}
+#layout1-info .info-content .website-link {
+  text-align: center;
+}
+#layout1-info .info-content .website-com {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.83;
+  text-align: center;
+  color: #444444;
+  margin: 5px;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#layout1-info .info-content .website-com:hover {
+  color: #C45F00;
+}
+#layout1-info .uk-accordion {
+  margin: -20px !important;
+  padding-top: 44px !important;
+}
+#layout1-info .uk-accordion-title {
+  height: 29px;
+  background-color: #444444 !important;
+  margin-top: 0;
+  margin-bottom: 1px;
+  padding: 5px 15px;
+  background: #eee;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: left;
+  color: #FFF;
+  cursor: pointer;
+  text-transform: initial;
+}
+#layout1-info .uk-accordion-content p {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  color: #444444;
+  margin: 0;
+}
+#layout1-info .uk-accordion-content h4 {
+  font-family: 'Roboto' !important;
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+  color: #444444;
+  text-transform: initial;
+  margin: 0;
+}
+#layout1-info .uk-accordion-content .basic-info {
+  padding: 20px;
+}
+#layout1-info .uk-accordion-content .info-container {
+  padding: 5px;
+}
+#layout1-info .uk-accordion-content p.about-info {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.38;
+  text-align: center;
+  color: #444444;
+}
+#layout1-info .uk-accordion-content h3 {
+  font-family: 'Roboto' !important;
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: left;
+  color: #444444;
+  text-transform: initial;
+}
+#layout1-info .uk-accordion-content img {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+}
+#layout1-info .uk-accordion-content a {
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-decoration: none;
+  color: #FE7B00;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#layout1-info .uk-accordion-content a:hover {
+  color: #C45F00;
+  text-decoration: none;
 }
 /*# sourceMappingURL=result.css.map */
