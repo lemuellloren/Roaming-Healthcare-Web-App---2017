@@ -89,17 +89,22 @@
           <div class="change-pass">
             <a href="#/">Click to change password</a>
           </div>
-          <button type="submit" class="save-changes">Save Changes</button>
         </form>
       </div>
       <div class="billing-address">
         <h3>Basic Info</h3>
         <div class="divider-title"></div>
         <form class="uk-form" id="billingAddressForm">
-          <input type="text" placeholder="Street Address" required>
-          <input type="text" placeholder="Country" required>
-          <input type="text" placeholder="State/Province" required>
-          <input type="text" placeholder="City/Municipality" required>
+          <div class="uk-grid">
+            <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-text-right padding-right">
+              <input type="text" placeholder="Street Address" required>
+              <input type="text" placeholder="Country" required>
+            </div> 
+            <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-text-left padding-left">
+              <input type="text" placeholder="State/Province" required>
+              <input type="text" placeholder="City/Municipality" required>
+            </div>     
+          </div>
           <button type="submit" class="save-changes">Save Changes</button>
         </form>
       </div>

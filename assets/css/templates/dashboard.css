@@ -10926,6 +10926,13 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: center;
   color: #747474;
 }
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .uk-tab p,
+  .dashboard .uk-container .uk-tab span {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+}
 .dashboard .uk-container .uk-tab-bottom > li.uk-active > a {
   border-top-color: transparent;
   border-bottom: solid 2px #FE7B00 !important;
@@ -10978,11 +10985,21 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   display: block;
   color: #FE7B00;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .uk-tab > li > a i {
+    width: auto;
+    display: inline-block;
+    padding: 0;
+  }
 }
 .dashboard .uk-container .uk-tab > li.uk-open > a {
   background: transparent;
   outline: none;
+}
+.dashboard .uk-container figure {
+  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   .dashboard .uk-container .uk-tab-bottom {
@@ -11032,12 +11049,15 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   background-color: #C45F00;
 }
 .dashboard .uk-container .upload-photo form#accountForm {
-  padding-top: 25px;
+  padding: 25px 0 50px 0;
   text-align: left;
+  border-bottom: 1px dotted #444444;
 }
 @media only screen and (min-width: 768px) {
   .dashboard .uk-container .upload-photo form#accountForm {
     padding-top: 0;
+    text-align: center;
+    border: 0px;
   }
 }
 .dashboard .uk-container .upload-photo form#accountForm input {
@@ -11087,6 +11107,12 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 .dashboard .uk-container .upload-photo form#accountForm .change-pass {
   padding: 15px 0;
+  text-align: left;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .upload-photo form#accountForm .change-pass {
+    padding-left: 35px;
+  }
 }
 .dashboard .uk-container .upload-photo form#accountForm button {
   width: 159px;
@@ -11130,7 +11156,13 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   opacity: 0;
 }
 .dashboard .uk-container .billing-address {
-  padding-top: 35px;
+  padding: 35px 0 50px 0;
+  border-bottom: 1px dotted #444444;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .billing-address {
+    margin: 0 100px;
+  }
 }
 .dashboard .uk-container .billing-address form#billingAddressForm {
   padding-top: 25px;
@@ -11213,6 +11245,20 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   top: -25%;
   left: -25%;
   opacity: 0;
+}
+.dashboard .uk-container .billing-address .uk-grid {
+  margin: 0px;
+}
+.dashboard .uk-container .billing-address .uk-grid div {
+  padding: 0px;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .billing-address .padding-left {
+    padding-left: 15px !important;
+  }
+  .dashboard .uk-container .billing-address .padding-right {
+    padding-right: 15px !important;
+  }
 }
 .dashboard .uk-container .plan-area {
   padding: 55px 0 0 0;
@@ -11511,7 +11557,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   overflow: hidden;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
-  padding: 8px;
+  width: auto;
+  height: auto;
+  padding: 10px 23px;
   text-decoration: none;
 }
 .dashboard .uk-container .proceed-btn-box .proceed-btn::before {
