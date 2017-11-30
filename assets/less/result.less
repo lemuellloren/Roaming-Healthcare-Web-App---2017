@@ -3,9 +3,8 @@
     // @import '../bower_components/uikit/less/components/slideshow.less';
     // @import '../bower_components/uikit/less/components/dotnav.less';
     @import '../bower_components/uikit/less/components/slider.less';
-    @import '../bower_components/uikit/less/components/slidenav.less'; 
-    @import '../bower_components/uikit/less/components/accordion.less'; 
-    // PAGE FRAMEWORK OVERRIDES
+    @import '../bower_components/uikit/less/components/slidenav.less';
+    @import '../bower_components/uikit/less/components/accordion.less'; // PAGE FRAMEWORK OVERRIDES
     // PAGE SECTION STYLES
     /* #hero, #about, #contact, etc. */
     /* SEARCH BANNER AREA */
@@ -1416,14 +1415,8 @@
                 border-radius: 3px;
             }
         }
-    }
-    
-    
-    
-    
-    ///MODALS CSS
+    } ///MODALS CSS
     //Layout 1
-
     #layout1-info {
         .info-content {
             width: 100%;
@@ -1447,7 +1440,6 @@
                 border: solid 5px @white;
                 margin: 0 auto;
                 margin-top: -85px;
-                
             }
             h1 {
                 font-family: @main-font;
@@ -1530,10 +1522,35 @@
             text-align: left;
             color: @white;
             cursor: pointer;
-            text-transform: initial;
-           
+            text-transform: initial; // span {
+            //     float: right;
+            //     position: relative;
+            //     top: 7px;
+            // }
         }
-        .uk-accordion-content{
+        .uk-close {
+            width: 30px;
+            height: 30px;
+            font-family: material;
+            font-size: 24px;
+            text-align: center;
+            color: #c9c9c9;
+        }
+        .uk-accordion-title {
+            &::before {
+                content: "\f067";
+                font-family: FontAwesome;
+                float: right;
+                position: relative;
+                top: 4px;
+            }
+        }
+        .uk-accordion-title.uk-active {
+            &::before {
+                content: "\f068";
+            }
+        }
+        .uk-accordion-content {
             p {
                 font-family: @secodary-font;
                 font-size: 12px;
@@ -1543,7 +1560,7 @@
                 margin: 0;
             }
             h4 {
-                font-family: @secodary-font !important;                
+                font-family: @secodary-font !important;
                 font-size: @default-font-size;
                 line-height: 1.38;
                 text-align: center;
@@ -1566,7 +1583,7 @@
                 color: @darkgray;
             }
             h3 {
-                font-family: @secodary-font !important; 
+                font-family: @secodary-font !important;
                 font-size: @default-font-size;
                 line-height: 1.38;
                 text-align: left;
@@ -1578,11 +1595,27 @@
             }
             a {
                 font-family: @secodary-font;
-                font-size:14px;
+                font-size: 14px;
                 text-decoration: none;
                 color: @orange;
                 .orange-link();
             }
         }
+        .btn-container {
+            width: auto;
+            text-align: center;
+            padding: 10px 0 0 0;
+            .sms-btn {
+                .btn-blue();
+                width: 100px;
+                height: 30px;
+                border-radius: 100px;
+            }
+            .msg-btn {
+                .btn-orange();
+                width: 100px;
+                height: 30px;
+                border-radius: 100px;
+            }
+        }
     }
-   
