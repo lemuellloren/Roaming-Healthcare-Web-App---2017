@@ -401,7 +401,65 @@
 		.uk-alert{
 			text-align: center;
 		}
-
+		.uk-modal{
+			.uk-close{
+				font-size: @default-font-size + 8;
+				.soft-transition();
+			}
+			h3{
+				margin-top: 25px !important;
+			}
+			form#changePassForm{
+				input{
+					.contact-field();
+					width: 100%;
+					height: 40px;
+					border-radius: 3px;
+					border: solid 1px @gray;
+					@media @width-768 {
+						width: 80%;
+					}
+					&::placeholder {
+						color: @lighergray !important;
+					}
+					font-size: 14px;
+					font-family: @secondary-font;
+					font-weight: normal;
+				}
+				button{
+					.btn-orange();
+					width: auto;
+					height: auto;
+					padding: 10px 28px;
+					margin-top: 20px;
+				}
+			}
+			.confirm-content{
+				font-family: @secondary-font;
+				font-size: @default-font-size;
+				font-weight: normal;
+			}
+			.footer-modal{
+				text-align: center;
+				padding: 25px 0 15px 0;
+			}
+			.modal-button{
+				display: inline-block;
+				width: auto !important;
+				height: auto !important;
+				vertical-align: top;
+			}
+			.confirm{
+				.btn-white();
+				padding: 10px 20px;
+			}
+			.back{
+				.btn-orange();
+				padding: 8px 39px;
+				margin-left: 15px;
+				text-decoration: none;
+			}
+		}
 	}
 }
 //dashboard styles

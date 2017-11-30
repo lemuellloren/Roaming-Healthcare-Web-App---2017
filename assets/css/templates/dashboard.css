@@ -11589,4 +11589,187 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 .dashboard .uk-container .uk-alert {
   text-align: center;
 }
+.dashboard .uk-container .uk-modal .uk-close {
+  font-size: 24px;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .uk-modal h3 {
+  margin-top: 25px !important;
+}
+.dashboard .uk-container .uk-modal form#changePassForm input {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  transition: all 0.4s ease;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 1px #E4E4E4;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+.dashboard .uk-container .uk-modal form#changePassForm input:placeholder {
+  color: #BBBBBB;
+}
+.dashboard .uk-container .uk-modal form#changePassForm input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  box-shadow: 0 5px 20px -6px #FE7B00;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .uk-modal form#changePassForm input {
+    width: 80%;
+  }
+}
+.dashboard .uk-container .uk-modal form#changePassForm input::-webkit-input-placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-container .uk-modal form#changePassForm input:-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-container .uk-modal form#changePassForm input::placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-container .uk-modal form#changePassForm button {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 10px 28px;
+  margin-top: 20px;
+}
+.dashboard .uk-container .uk-modal form#changePassForm button::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .uk-modal form#changePassForm button:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+.dashboard .uk-container .uk-modal form#changePassForm button:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .uk-modal .confirm-content {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+}
+.dashboard .uk-container .uk-modal .footer-modal {
+  text-align: center;
+  padding: 25px 0 15px 0;
+}
+.dashboard .uk-container .uk-modal .modal-button {
+  display: inline-block;
+  width: auto !important;
+  height: auto !important;
+  vertical-align: top;
+}
+.dashboard .uk-container .uk-modal .confirm {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Roboto';
+  transition: all 0.4s ease-in-out 0.1s;
+  padding: 10px 20px;
+}
+.dashboard .uk-container .uk-modal .confirm::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .uk-modal .confirm:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+.dashboard .uk-container .uk-modal .confirm:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .uk-modal .back {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  padding: 8px 39px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.dashboard .uk-container .uk-modal .back::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .uk-modal .back:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+.dashboard .uk-container .uk-modal .back:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
 /*# sourceMappingURL=dashboard.css.map */
