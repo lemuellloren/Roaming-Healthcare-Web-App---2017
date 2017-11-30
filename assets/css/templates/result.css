@@ -10378,10 +10378,30 @@ footer .main-footer .url {
   line-height: 7px;
 }
 footer .main-footer .url a {
-  color: #FFF;
-  font-size: 10px;
-  font-weight: 300;
+  display: inline-block;
+  text-decoration: none !important;
   font-family: 'Roboto';
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: center;
+  color: #FFF;
+}
+footer .main-footer .url a:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #FFF;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+footer .main-footer .url a:hover {
+  color: #FFF;
+}
+footer .main-footer .url a:hover:after {
+  width: 100%;
 }
 footer .main-footer .share-icons {
   text-align: center;
