@@ -10351,7 +10351,7 @@ footer .main-footer .share-icons ul li a:hover {
   font-size: 24px;
   font-weight: 100;
   text-align: center;
-  color: #c9c9c9;
+  color: #C9C9C9;
 }
 #subscribe-modal .subs-modal-header {
   margin-bottom: 15px;
@@ -10449,6 +10449,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 nav .mobile-menu {
   background: #165C96;
@@ -10527,6 +10528,42 @@ nav .mobile-menu .uk-offcanvas-bar .menulist ul li a {
   display: block;
   text-decoration: none;
   transition: all 0.4s ease;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist ul li.profile-img-mobile {
+  text-align: center;
+  padding-top: 12px;
+  margin: 0 17px 10px 17px;
+  border-bottom: 1px solid #FFF;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist ul li.profile-img-mobile figure {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  overflow: hidden;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist ul li.profile-img-mobile span {
+  display: inline-block;
+  margin: 8px 0 0 8px;
+  color: #FFF;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist ul li.dashboard-menu ul.subnav {
+  padding-left: 40px;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist ul li.dashboard-menu ul.subnav a {
+  color: #C9C9C9;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 5px;
+}
+nav .mobile-menu .uk-offcanvas-bar .menulist ul li.dashboard-menu a {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  color: #FFF;
+  font-weight: 200;
+  padding: 5px 20px 5px 30px;
 }
 nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn {
   width: 109.1px;
@@ -10624,6 +10661,62 @@ nav .desktop-menu .uk-container .menulist ul li a {
   text-decoration: none;
   margin: 0 10px;
 }
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop {
+  position: relative;
+  padding-left: 20px;
+}
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged {
+  position: absolute;
+  top: -22px;
+  left: 7px;
+}
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged a.proflink {
+  position: relative;
+  margin: 0;
+}
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged a.proflink figure {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  vertical-align: top;
+  border-radius: 50%;
+  overflow: hidden;
+}
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged a.proflink span {
+  position: absolute;
+  margin-top: -23px;
+  left: 43px;
+}
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown-bottom,
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown {
+  background: #F0F0F0;
+  margin-top: 19px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  left: -140px !important;
+}
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown-bottom li,
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown li {
+  width: 100%;
+}
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown-bottom li a,
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown li a {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  color: #444444;
+  font-weight: 200;
+}
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown-bottom li a:hover,
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown li a:hover {
+  background: transparent;
+}
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown-bottom li ul.subnav a,
+nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown li ul.subnav a {
+  color: #747474;
+  font-size: 14px;
+  font-weight: 200;
+}
 nav .desktop-menu .uk-container .menulist a.list-services-btn {
   width: 109.1px;
   height: 36.6px;
@@ -10700,7 +10793,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   margin-bottom: 10px;
   border: #FFF 1px solid;
   transition: all 0.4s ease;
-  border: solid 1px #c9c9c9;
+  border: solid 1px #C9C9C9;
   height: 40px;
   width: 100%;
 }
