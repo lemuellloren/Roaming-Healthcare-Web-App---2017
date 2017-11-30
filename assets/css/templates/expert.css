@@ -10823,7 +10823,8 @@ nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-
   background: #F0F0F0;
   margin-top: 19px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   left: -140px !important;
 }
 nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown-bottom li,
@@ -11413,7 +11414,8 @@ html[dir="rtl"] .uk-slider > * {
  */
 .uk-dotnav > * > * {
   display: block;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -11584,101 +11586,6 @@ html[dir="rtl"] .uk-slider > * {
 #subscriberContainer .uk-container div.subscriber-details .website-link .website-com:hover {
   color: #C45F00;
 }
-<<<<<<< HEAD
-=======
-#subscriberContainer .uk-container .action-buttons {
-  text-align: center;
-  margin-top: 30px;
-}
-#subscriberContainer .uk-container .action-buttons .sms-btn {
-  width: 110px;
-  height: 37px;
-  border-radius: 3px;
-  border: 1px solid #165C96;
-  background-color: #165C96;
-  font-size: 14px;
-  text-align: center;
-  color: #FFF;
-  position: relative;
-  overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
-  transition: all 0.4s ease-in-out 0.1s;
-  font-family: 'Roboto';
-}
-#subscriberContainer .uk-container .action-buttons .sms-btn::before {
-  content: '';
-  background-color: #053C69;
-  width: 0%;
-  height: 0%;
-  border-radius: 50%;
-  color: white;
-  opacity: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-#subscriberContainer .uk-container .action-buttons .sms-btn:hover {
-  background-color: #053C69;
-  border: 1px solid #053C69;
-}
-#subscriberContainer .uk-container .action-buttons .sms-btn:hover::before {
-  width: 150%;
-  height: 150%;
-  top: -25%;
-  left: -25%;
-  opacity: 0;
-}
-#subscriberContainer .uk-container .action-buttons .msg-btn {
-  width: 159px;
-  height: 50px;
-  border-radius: 3px;
-  border: 1px solid #FE7B00;
-  background-color: #FE7B00;
-  font-size: 14px;
-  text-align: center;
-  color: #FFF;
-  position: relative;
-  overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
-  transition: all 0.4s ease-in-out 0.1s;
-  font-family: 'Roboto';
-}
-#subscriberContainer .uk-container .action-buttons .msg-btn::before {
-  content: '';
-  background-color: #C45F00;
-  width: 0%;
-  height: 0%;
-  border-radius: 50%;
-  color: #FFF;
-  opacity: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-#subscriberContainer .uk-container .action-buttons .msg-btn:hover {
-  background-color: #C45F00;
-  border: 1px solid #C45F00;
-}
-#subscriberContainer .uk-container .action-buttons .msg-btn:hover::before {
-  width: 150%;
-  height: 150%;
-  top: -25%;
-  left: -25%;
-  opacity: 0;
-}
-#subscriberContainer .uk-container .action-buttons .sms-btn,
-#subscriberContainer .uk-container .action-buttons .msg-btn {
-  display: inline-block;
-  width: auto;
-  height: auto;
-  padding: 6px 10px;
-  margin: 0 5px;
-}
->>>>>>> frontend-lem
 #subscriberContainer .uk-container .basic-info {
   text-align: center;
   padding-top: 35px;
@@ -12062,7 +11969,8 @@ html[dir="rtl"] .uk-slider > * {
   background: #444444;
 }
 #subscriberContainer .testimonials .uk-dotnav > * > * {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   background: #fff;
   width: 12px;
   height: 12px;
@@ -12071,6 +11979,7 @@ html[dir="rtl"] .uk-slider > * {
   padding-left: 5px;
 }
 #subscriberContainer .testimonials .uk-dotnav li a {
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #subscriberContainer .action-buttons {
@@ -12088,6 +11997,7 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
 }
@@ -12102,6 +12012,7 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #subscriberContainer .action-buttons .sms-btn:hover {
@@ -12126,6 +12037,7 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
 }
@@ -12140,6 +12052,7 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #subscriberContainer .action-buttons .msg-btn:hover {
