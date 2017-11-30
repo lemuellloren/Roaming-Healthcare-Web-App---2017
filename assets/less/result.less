@@ -1418,6 +1418,9 @@
     } ///MODALS CSS
     //Layout 1
     #layout1-info {
+        .uk-modal-dialog {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+        }
         .info-content {
             width: 226px;
             margin: 0 auto;
@@ -1639,6 +1642,9 @@
 
         //Layout 2
         #layout2-info {
+            .uk-modal-dialog {
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+            }
             .info-content {
                 width: 226px;
                 margin: 0 auto;
@@ -1862,6 +1868,9 @@
 
         //Layout 3
         #layout3-info {
+            .uk-modal-dialog {
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+            }
             .info-content {
                 width: 226px;
                 margin: 0 auto;
@@ -2083,6 +2092,9 @@
 
                 //Layout 4
                 #layout4-info {
+                    .uk-modal-dialog {
+                        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+                    }
                     .info-content {
                         width: 226px;
                         margin: 0 auto;
@@ -2301,3 +2313,115 @@
                         }
                     }
                 }
+
+#sms-layout1 {
+    .uk-modal-dialog {
+        width: 280px;
+        height: 60%;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+    }
+    .sms-div {
+        padding-top: 25px;
+    }
+    .uk-close {
+        font-size: @default-font-size + 8px;
+        text-align: center;
+        color: @gray;
+    }
+    h3 {
+        font-family: @main-font;
+        font-size: @default-font-size + 8px;
+        font-weight: 300;
+        text-align: center;
+        text-transform: initial;
+    }
+    .divider-title {
+        .line-title();
+    }
+    form {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 25px;
+        input, textarea {
+            .contact-field();
+            width: 230px;
+            height: 40px;
+            border-radius: 3px;
+            border: solid 1px @gray;
+            font-family: @secodary-font !important;
+
+            &::placeholder {
+                color: @lighergray;
+            }
+        }
+        textarea {
+            height: 110px;
+        }
+    }
+    .sms-btn-div {
+        margin: 0 auto;
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .sms-btn {
+        .btn-orange();
+        width: 120.1px;
+        height: 36.6px;
+    }
+}
+
+#sms-layout2 {
+    .uk-modal-dialog {
+        width: 280px;
+        height: 60%;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+    }
+    .sms-div {
+        padding-top: 25px;
+    }
+    .uk-close {
+        font-size: @default-font-size + 8px;
+        text-align: center;
+        color: @gray;
+    }
+    h3 {
+        font-family: @main-font;
+        font-size: @default-font-size + 8px;
+        font-weight: 300;
+        text-align: center;
+        text-transform: initial;
+    }
+    .divider-title {
+        .line-title();
+    }
+    form {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 25px;
+        input, textarea {
+            .contact-field();
+            width: 230px;
+            height: 40px;
+            border-radius: 3px;
+            border: solid 1px @gray;
+            font-family: @secodary-font !important;
+
+            &::placeholder {
+                color: @lighergray;
+            }
+        }
+        textarea {
+            height: 110px;
+        }
+    }
+    .sms-btn-div {
+        margin: 0 auto;
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .sms-btn {
+        .btn-orange();
+        width: 120.1px;
+        height: 36.6px;
+    }
+}
