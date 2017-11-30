@@ -139,7 +139,7 @@
             .layout-div-1 {
                 .uk-panel {
                     max-width: 280px;
-                    height: 455px;
+                    // height: 455px;
                     background-color: @white;
                     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
                     margin: 0 auto;
@@ -1419,7 +1419,7 @@
     //Layout 1
     #layout1-info {
         .info-content {
-            width: 100%;
+            width: 226px;
             margin: 0 auto;
             margin-top: -245px;
             background-color: @white;
@@ -1427,6 +1427,11 @@
             .uk-panel {
                 padding: 25px;
                 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+            }
+            br {
+                @media @width-960 {
+                    display: none;
+                }
             }
             .subscriber-details {
                 text-align: center;
@@ -1590,7 +1595,12 @@
                 color: @darkgray;
                 text-transform: initial;
             }
+            .img-div {
+                text-align: right;
+            }
             img {
+                width: 100px;
+                height: auto;
                 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
             }
             a {
@@ -1601,15 +1611,22 @@
                 .orange-link();
             }
         }
+        .uk-grid-divider {
+            &:empty {
+                margin-bottom: -25px !important;
+            }
+        }
         .btn-container {
             width: auto;
             text-align: center;
-            padding: 10px 0 0 0;
+            padding: 30px 0 0 0;
+            height: 60px;
             .sms-btn {
                 .btn-blue();
                 width: 100px;
                 height: 30px;
                 border-radius: 100px;
+                margin-right:16px;
             }
             .msg-btn {
                 .btn-orange();
