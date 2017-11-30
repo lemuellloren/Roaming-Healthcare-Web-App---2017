@@ -89,7 +89,7 @@ h5 {
 }
 
 // global thin line separator
-.separator{
+.separator {
     border-bottom: 1px solid @gray;
 }
 
@@ -1381,10 +1381,12 @@ footer {
             text-align: center;
             line-height: 7px;
             a {
-                color: @white;
+                .link-animation-blue-bg();
+                font-family: @secodary-font;
                 font-size: @default-font-size - 6;
-                font-weight: @font-light;
-                font-family: @secondary-font;
+                line-height: 1.5;
+                text-align: center;
+                color: @white;
             }
         }
         .share-icons {
@@ -1570,7 +1572,6 @@ nav {
                             display: block;
                             text-decoration: none;
                             .soft-transition();
-                            &:hover {}
                         }
                         &.profile-img-mobile{
                             text-align: center;

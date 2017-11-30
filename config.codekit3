@@ -2195,7 +2195,7 @@
 	"\/assets\/bower_components\/uikit\/js\/components\/accordion.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/js\/components\/accordion.js",
 		"oF": 0,
 		"sC": 3,
@@ -2920,7 +2920,7 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/less\/components\/accordion.less",
 		"oF": 0,
 		"oS": 0,
