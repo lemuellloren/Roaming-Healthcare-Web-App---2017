@@ -13304,6 +13304,7 @@ html[dir="rtl"] .uk-slider > * {
 @media only screen and (min-width: 768px) {
   #results-section .pagination-container {
     top: 80px;
+    padding-bottom: 25%;
   }
 }
 #results-section .pagination-container .visit-blog-btn {
