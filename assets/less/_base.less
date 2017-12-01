@@ -1093,8 +1093,11 @@ h5 {
 #breadcrumb-section {
     background-color: @lightgray;
     height: 50px;
-    padding: 100px 0 0 0;
+    padding: 80px 0 0 0;
     text-align: left;
+    @media @width-768 {
+        margin-bottom: -60px;
+    }
     .uk-container {
         margin: 0 auto;
     }
