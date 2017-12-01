@@ -9470,14 +9470,8 @@ h5 {
   color: #444444;
 }
 #featured-listers-section .feat-list-nav {
-  position: relative;
-  top: 30px;
-  float: right;
-}
-@media only screen and (min-width: 768px) {
-  #featured-listers-section .feat-list-nav {
-    top: 50px;
-  }
+  text-align: right;
+  padding: 20px 0 0 0;
 }
 #featured-listers-section .feat-profiles {
   padding-top: 29px;
@@ -9585,12 +9579,7 @@ h5 {
 }
 @media only screen and (min-width: 768px) {
   #blog-call-section {
-    padding: 50px 0 100px 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  #blog-call-section {
-    padding-bottom: 15%;
+    padding: 80px 0 80px 0;
   }
 }
 #blog-call-section h3 {
