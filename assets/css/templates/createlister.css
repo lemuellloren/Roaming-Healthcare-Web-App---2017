@@ -11025,7 +11025,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 @media only screen and (min-width: 768px) {
   #gradient-banner {
-    margin-bottom: -110px;
+    margin-bottom: -250px;
   }
 }
 /* END CREATE LISTER ACCOUNT BANNER SYTLES AREA */
@@ -11117,6 +11117,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border-radius: 3px;
   background-color: #FFF;
   border: solid 1px #E4E4E4;
+  font-family: 'Roboto';
 }
 #lister-account-section form input:placeholder {
   color: #BBBBBB;
