@@ -9338,6 +9338,13 @@ h5 {
 }
 #featured-listers-section .profile-img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 360px;
+}
+#featured-listers-section .uk-panel-teaser {
+  height: 360px;
+  overflow: hidden;
 }
 #featured-listers-section .feat-list-arrow {
   width: 109.1px;
@@ -9397,12 +9404,17 @@ h5 {
 }
 #featured-listers-section .uk-panel.uk-panel-box {
   background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 2px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .uk-panel.uk-panel-box:hover .hover-list {
   opacity: 1;
+}
+#featured-listers-section .uk-panel.uk-panel-box:hover .feat-info {
+  visibility: hidden;
 }
 #featured-listers-section ul {
   display: block;
@@ -9442,8 +9454,6 @@ h5 {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   background-color: rgba(255, 255, 255, 0.9);
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 #featured-listers-section .uk-slidenav {
   font-size: 25px;

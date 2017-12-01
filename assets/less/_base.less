@@ -707,12 +707,19 @@ h5 {
     }
     .profile-img {
         width: 100%;
+        object-fit: cover;
+        height: 360px;
+    }
+    .uk-panel-teaser {
+        height: 360px;
+        overflow: hidden;
     }
     .feat-list-arrow {
         .btn-white();
         width: 37px;
         outline: none;
     }
+   
     .uk-slidenav.uk-slidenav-previous,
     .uk-slidenav.uk-slidenav-next {
         display: block;
@@ -729,11 +736,15 @@ h5 {
     }
     .uk-panel.uk-panel-box {
         background: rgba(255, 255, 255, 0.9);
-        border: 1px solid rgba(0, 0, 0, 0.16);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            margin: 2px;
         .soft-transition();
         &:hover {
             .hover-list {
                 opacity: 1;
+            }
+            .feat-info {
+                visibility: hidden;
             }
         }
     }
@@ -777,7 +788,7 @@ h5 {
     .uk-overlay-panel {
         .soft-transition();
         background-color: rgba(255, 255, 255, 0.9);
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     }
     .uk-slidenav {
         font-size: 25px;
