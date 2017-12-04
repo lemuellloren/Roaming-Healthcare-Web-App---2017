@@ -13157,6 +13157,7 @@ html[dir="rtl"] .uk-slider > * {
   background: #FE7B00;
   padding: 2px 7px;
   border-radius: 5px;
+  margin-right: 5px;
 }
 .dashboard .blog .pagination .pages .active:hover {
   text-decoration: none;
@@ -13165,6 +13166,7 @@ html[dir="rtl"] .uk-slider > * {
   font-family: 'Roboto';
   font-size: 12px;
   color: #FE7B00;
+  padding: 0 2px;
 }
 .dashboard .blog .pagination .pages a:hover {
   text-decoration: none;
