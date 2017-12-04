@@ -43,25 +43,25 @@
  <section class="dashboard">
   <div class="uk-container">
     <ul class="uk-tab uk-tab-grid uk-tab-bottom" data-uk-tab="{connect:'#tab-content', animation: 'fade'}">
-      <li class="uk-width-1-4">
+      <li class="uk-width-1-4 tabs">
         <a id="hide" class="tab-1" href="3">
          <i class="uk-icon-user"></i>
          <span>Account Info</span>
        </a>
      </li>
-     <li class="uk-width-1-4 uk-active">
+     <li class="uk-width-1-4 tabs">
       <a id="show" class="tab-2" href="#">
         <i class="uk-icon-pencil"></i>
         <span>Listing Info</span>
       </a>
     </li>
-    <li class="uk-width-1-4">
+    <li class="uk-width-1-4 tabs uk-active">
       <a id="show" class="tab-3" href="#">
        <i class="uk-icon-history"></i>
        <span>Blog History</span>
      </a>
    </li>
-   <li class="uk-width-1-4">
+   <li class="uk-width-1-4 tabs">
     <a id="show" class="tab-4" href="#">
      <i class="uk-icon-flag"></i>
      <span>Ad Manager</span>
@@ -818,18 +818,179 @@
 </li>
 <li>
   <figure>
-    test3
-  </figure>
-</li>
-<li>
-  <figure>
-    test4
-  </figure>
-</li>
-</ul>
-</div>
+    <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
+    <div class="blog">
+      <div class="uk-grid">
+        <div class="uk-width-small-1-1 uk-width-medium-1-2">
+          <a class="create-post" href="#create-post" data-uk-modal="{center:true}"><i class="uk-icon-pencil"></i> Create Post</a>
+          <div class="mobile-blog-article uk-thumbnail uk-thumbnail-large">
+            <img src="assets/images/blog-call/blog1.jpg" alt="Featured Image">
+            <div class="uk-thumbnail-caption">
+              <article class="uk-article">
+                <h1 class="uk-article-title">
+                  Vitamin B A Complex Mix
+                </h1>
+                <ul class="date-category">
+                  <li>
+                    <p>June 29, 2017</p>
+                  </li>
+                  <li>
+                    <a href="#">#category</a>
+                  </li>
+                </ul>
+                <p class="uk-article-meta">The special thing about headaches is that by outward appearance, you may not appear to suffer
+                  from any disease.
+                </p>
+                <div class="readmore-link">
+                  <a class="blog-call-readmore" href="#create-post" data-uk-modal="{center:true}">Edit</a>
+                </div>
+                <p>by:
+                  <br> Author Name</p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-small-1-1 uk-width-medium-1-2">
+            <div class="mobile-blog-article uk-thumbnail uk-thumbnail-large">
+              <img src="assets/images/blog-call/blog2.jpg" alt="Featured Image">
+              <div class="uk-thumbnail-caption">
+                <article class="uk-article">
+                  <h1 class="uk-article-title">
+                    Keep your body active
+                  </h1>
+                  <ul class="date-category">
+                    <li>
+                      <p>June 29, 2017</p>
+                    </li>
+                    <li>
+                      <a href="#">#category</a>
+                    </li>
+                  </ul>
+                  <p class="uk-article-meta">The special thing about headaches is that by outward appearance, you may not appear to suffer
+                    from any disease.
+                  </p>
+                  <div class="readmore-link">
+                    <a class="blog-call-readmore" href="#create-post" data-uk-modal="{center:true}">Edit</a>
+                  </div>
+                  <p>by:
+                    <br> Author Name</p>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-small-1-1 uk-width-medium-1-2">
+              <div class="mobile-blog-article uk-thumbnail uk-thumbnail-large">
+                <img src="assets/images/blog-call/blog3.jpg" alt="Featured Image">
+                <div class="uk-thumbnail-caption">
+                  <article class="uk-article">
+                    <h1 class="uk-article-title">
+                      Make Sure Your Ice Is Safe And Clean
+                    </h1>
+                    <ul class="date-category">
+                      <li>
+                        <p>June 29, 2017</p>
+                      </li>
+                      <li>
+                        <a href="#">#category</a>
+                      </li>
+                    </ul>
+                    <p class="uk-article-meta">The special thing about headaches is that by outward appearance, you may not appear to suffer
+                      from any disease.
+                    </p>
+                    <div class="readmore-link">
+                      <a class="blog-call-readmore" href="#create-post" data-uk-modal="{center:true}">Edit</a>
+                    </div>
+                    <p>by:
+                      <br> Author Name</p>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-small-1-1 uk-width-medium-1-2">
+                <div class="mobile-blog-article uk-thumbnail uk-thumbnail-large">
+                  <img src="assets/images/blog-call/blog4.jpg" alt="Featured Image">
+                  <div class="uk-thumbnail-caption">
+                    <article class="uk-article">
+                      <h1 class="uk-article-title">
+                        Vitamin B A Complex Mix
+                      </h1>
+                      <ul class="date-category">
+                        <li>
+                          <p>June 29, 2017</p>
+                        </li>
+                        <li>
+                          <a href="#">#category</a>
+                        </li>
+                      </ul>
+                      <p class="uk-article-meta">The special thing about headaches is that by outward appearance, you may not appear to suffer
+                        from any disease.
+                      </p>
+                      <div class="readmore-link">
+                        <a class="blog-call-readmore" href="#create-post" data-uk-modal="{center:true}">Edit</a>
+                      </div>
+                      <p>by:
+                        <br> Author Name</p>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-</div>
+              <div id="create-post" class="uk-modal">
+                <div class="uk-modal-dialog">
+                  <a class="uk-modal-close uk-close" autofocus></a>
+                  <h3>Create Blog Post</h3>
+                  <div class="divider-title"></div>
+                  <form class="uk-form" id="postForm">
+                    <div class="upload-button-container">
+                      <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+                      <a class="upload-button" href="#/">
+                        <i class="uk-icon-picture-o"></i>
+                        Add featured image
+                      </a>
+                    </div>
+                    <input type="text" name="blogTitle" placeholder="Blog Title" required>
+                    <input type="text" name="teaserText" placeholder="Teaser Text" required>
+                    <textarea name="description" data-uk-htmleditor="" rows="20"></textarea>
+                    <input type="text" name="tags" placeholder="Tags (separated by commas)" required>
+                    <div class="checkbox-container">
+                      <label class="check-container">
+                        <p>Can publish</p>
+                        <p class="help-text">Every article is a 'draft' and will only be published once the checkbox is ticked.</p>
+                        <input type="checkbox" name="draft">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+                    <div class="button-container">
+                      <button type="submit" class="publish action-button">Publish</button>
+                      <a href="#/" class="action-button back">Discard</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="pagination">
+                <a class="prev paging-nav" href="#/">Prev</a>
+                <div class="pages">
+                  <a href="#/" class="active">1</a>
+                  ...
+                  <a href="#/">8</a>
+                  <a href="#/">9</a>
+                  <a href="#/">10</a>
+                </div>
+                <a class="next paging-nav" href="#/">Next</a>
+              </div>
+            </div>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            test4
+          </figure>
+        </li>
+      </ul>
+    </div>
+
+  </div>
 
 </section>
 <!-- DASHBOARD -->
@@ -1034,8 +1195,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="uk-cover-background" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6)), url(assets/images/featured/feat-3.jpg);min-height: 100%;background-size: cover;background-position: 50% 0; margin: -19px -25px 0 -25px;">
-                    <img class="uk-invisible" src="assets/images/listing/1x1.jpg" alt="Profile Background">
+                  <div class="uk-cover-background layout-feature-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6)), url(assets/images/featured/feat-3.jpg);min-height: 100%;background-size: cover;background-position: 50% 0; margin: -19px -25px 0 -25px;">
+                    <!-- <img class="uk-invisible" src="assets/images/listing/1x1.jpg" alt="Profile Background"> -->
+                    <div class="upload-icon-container">
+                      <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+                      <span class="uk-icon-camera upload-icon""></span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1101,7 +1266,7 @@
                       </div>
                     </div>
                     <div class="uk-width-4-10">
-                      <div class="lg-cover uk-cover-background layout-2-feature-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6)), url(assets/images/featured/feat-3.jpg);height: 320px;background-size: cover;background-position: 50% 0; margin: -19px -25px 0 -25px;">
+                      <div class="lg-cover uk-cover-background layout-feature-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6)), url(assets/images/featured/feat-3.jpg);height: 320px;background-size: cover;background-position: 50% 0; margin: -19px -25px 0 -25px;">
                         <!-- <img class="uk-invisible" src="assets/images/listing/1x1.jpg" alt="Profile Background"> -->
                         <div class="upload-icon-container">
                           <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
@@ -1388,7 +1553,17 @@
       <!-- END SITE MENU AREA-->
 
       <!--  SCRIPT -->
+
+      
+      <script src="assets/js/codemirror/lib/codemirror.js"></script>
+      <script src="assets/js/codemirror/mode/markdown/markdown.js"></script>
+      <script src="assets/js/codemirror/addon/mode/overlay.js"></script>
+      <script src="assets/js/codemirror/mode/xml/xml.js"></script>
+      <script src="assets/js/codemirror/mode/gfm/gfm.js"></script>
+      <script src="assets/js/_marked.js"></script>
+
       <script src="assets/js/templates/dashboard.min.js"></script>
+
       <!--  SCRIPT -->
 
     </body>
