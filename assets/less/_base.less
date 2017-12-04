@@ -502,42 +502,26 @@ h5 {
 
 #search-banner-section {
     height: auto;
-    margin-bottom: -180px;
-    @media @width-1024 {
-        margin-bottom: -125px;
-    }
     .uk-container {
         margin: 0 auto;
-        margin-bottom: 50px;
     }
     .form-container {
         margin: 0 auto;
         text-align: center;
-        .uk-form-icon {
-            // @media @width-640 {
-            //     padding: 10px;
-            // }
-        }
     }
     .search-banner-container {
-        margin: 95px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        min-height: 100vh;
+        @media @width-767max {
+            padding: 100px 0 150px;
+        }
         .search-banner-title {
             padding-bottom: 20px;
-            @media @width-768 {
-                height: 90px;
-                padding-top: 20%;
-                position: relative;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                padding-bottom: 0;
-            } // @media @width-960 {
-            //     height: 30px;
-            // }
         }
         h1 {
-            // height: 156px;
             font-family: @main-font;
             font-size: 30px;
             font-weight: 300;
@@ -590,14 +574,13 @@ h5 {
                 }
             }
             .find-btn {
-                .btn-orange(); // margin: 0 45px 0 45px;
+                .btn-orange();
             }
         }
         .btn-find-con {
             position: relative;
-            margin-bottom: 400px;
             @media @width-768 {
-                top: 17px; // left: 10px;
+                top: 17px;
             }
         }
     }
@@ -622,13 +605,10 @@ h5 {
     height: auto;
     background-color: @white;
     border-radius: 3px;
-    box-shadow: 0 2px 4px 0 rgba(0,
-        0,
-        0,
-        0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     position: relative;
     z-index: 1;
-    top: -50px;
+    transform: translateY(-50%);
     .uk-container {
         margin: 0 auto;
     }
@@ -648,7 +628,6 @@ h5 {
         }
         p {
             width: auto;
-            height: 154px;
             font-family: @secondary-font;
             font-size: @default-font-size;
             line-height: 1.38;
@@ -665,10 +644,6 @@ h5 {
 
 #about-section {
     position: relative;
-    margin-top: -225px;
-    @media @width-768 {
-        margin-top: -170px;
-    }
     background-color: @blue;
     .uk-grid {
         margin: 0 auto;
@@ -680,8 +655,7 @@ h5 {
         padding: 0 15px;
     }
     .about-container {
-        margin: 95px auto;
-        margin-top: 230px;
+        margin: 0 auto 95px;
     }
     .about-blurb {
         text-align: center;
