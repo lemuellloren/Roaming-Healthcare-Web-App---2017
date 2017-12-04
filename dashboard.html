@@ -1,46 +1,46 @@
-<!DOCTYPE html>
-<html lang="en-AU">
+  <!DOCTYPE html>
+  <html lang="en-AU">
 
-<head>
-  <!-- STANDARD META -->
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <!-- STANDARD META -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Roaming Healthcare</title>
-  <meta name="description" content="">
+    <title>Roaming Healthcare</title>
+    <meta name="description" content="">
 
-  <!-- OPENGRAPH META -->
-  <meta property="og:url" content="https://mysite.com/mypage">
-  <meta property="og:title" content="My Page Title">
-  <meta property="og:description" content="">
-  <meta property="og:image" content="http://mysite.com/assets/logo.jpg">
+    <!-- OPENGRAPH META -->
+    <meta property="og:url" content="https://mysite.com/mypage">
+    <meta property="og:title" content="My Page Title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="http://mysite.com/assets/logo.jpg">
 
-  <!-- FAVICONS -->
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="assets/images/favicons/manifest.json">
-  <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#fe7b00">
-  <meta name="theme-color" content="#ffffff">
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/manifest.json">
+    <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#fe7b00">
+    <meta name="theme-color" content="#ffffff">
 
-  <!-- STYLESHEETS -->
-  <link rel="stylesheet" href="assets/css/templates/dashboard.css">
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="assets/css/templates/dashboard.css">
 
-</head>
+  </head>
 
-<body>
+  <body>
 
 
+   <!-- BANNER AREA -->
+   <section id="gradient-banner" style="background-image: linear-gradient(43deg, #fe7b00, #3382c4); width: auto;
+   height: 355px;">
+ </section>
  <!-- BANNER AREA -->
- <section id="gradient-banner" style="background-image: linear-gradient(43deg, #fe7b00, #3382c4); width: auto;
- height: 355px;">
-</section>
-<!-- BANNER AREA -->
 
-<!-- DASHBOARD -->
+ <!-- DASHBOARD -->
 
-<section class="dashboard">
+ <section class="dashboard">
   <div class="uk-container">
     <ul class="uk-tab uk-tab-grid uk-tab-bottom" data-uk-tab="{connect:'#tab-content', animation: 'fade'}">
       <li class="uk-width-1-4">
@@ -49,7 +49,7 @@
          <span>Account Info</span>
        </a>
      </li>
-     <li class="uk-width-1-4">
+     <li class="uk-width-1-4 uk-active">
       <a id="show" class="tab-2" href="#">
         <i class="uk-icon-pencil"></i>
         <span>Listing Info</span>
@@ -78,14 +78,14 @@
        <div class="upload-photo">
         <!-- upload photo -->
         <div class="upload-icon-container">
-          <input type="file" id="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
-          <span id="upload-icon" class="uk-icon-camera"></span>
+          <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+          <span class="uk-icon-camera upload-icon""></span>
         </div>
         <img id="upload-img" src="assets/images/profile-img.jpg" alt="Your Image Here">
         <!-- upload photo -->
         <form class="uk-form" id="accountForm">
-          <input type="text" placeholder="Full Name" required>
-          <input type="email" placeholder="Email Address" required>
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email Address" required>
           <div class="change-pass">
             <a href="#change-pass" data-uk-modal="{center:true}">Click to change password</a>
           </div>
@@ -97,9 +97,9 @@
             <h3>Change Password</h3>
             <div class="divider-title"></div>
             <form class="uk-form" id="changePassForm">
-             <input type="password" placeholder="Current Password" required>
-             <input type="password" placeholder="New Password" required>
-             <input type="password" placeholder="Re-type New Password" required>
+             <input type="password" name="currentPass" placeholder="Current Password" required>
+             <input type="password" name="newPass" placeholder="New Password" required>
+             <input type="password" name="retypePass" placeholder="Re-type New Password" required>
              <button type="submit" class="save-changes">Save Changes</button>
            </form>
          </div>
@@ -112,12 +112,12 @@
       <form class="uk-form" id="billingAddressForm">
         <div class="uk-grid">
           <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-text-right padding-right">
-            <input type="text" placeholder="Street Address" required>
-            <input type="text" placeholder="Country" required>
+            <input type="text" name="address" placeholder="Street Address" required>
+            <input type="text" name="country" placeholder="Country" required>
           </div> 
           <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-text-left padding-left">
-            <input type="text" placeholder="State/Province" required>
-            <input type="text" placeholder="City/Municipality" required>
+            <input type="text" name="province" placeholder="State/Province" required>
+            <input type="text" name="city" placeholder="City/Municipality" required>
           </div>     
         </div>
         <button type="submit" class="save-changes">Save Changes</button>
@@ -290,8 +290,531 @@
 </li>
 <li>
   <figure>
-    test2
-  </figure>
+    <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
+    <div class="basic-info-container">
+      <h3>Basic Info</h3>
+      <div class="divider-title"></div>
+      <div class="upload-photo-logo">
+        <img id="upload-img" src="assets/images/no-logo.png" alt="Your Image Here">
+        <div class="upload-icon-container">
+          <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+          <span class="uk-icon-camera upload-icon"></span>
+        </div>
+      </div>
+      <form class="uk-form">
+        <div class="help-box">
+          <span class="uk-icon-question-circle" title="Help"></span>
+          <input type="text" name="name" placeholder="Display Name (e.g. Dr. Jon Sn)" required>
+        </div>
+        <p>Business Information</p>
+        <div class="uk-grid">
+          <div class="uk-width-medium-1-2">
+            <input type="text" name="business" placeholder="Business Name" required>
+          </div>
+          <div class="uk-width-medium-1-2">
+            <select>
+              <option disabled selected>Business Type</option>
+              <option>Pharmacy</option>
+              <option>Chiropractic</option>
+              <option>Petmalu</option>
+            </select>
+          </div>
+          <div class="uk-width-medium-1-1">
+            <input type="text" name="address" placeholder="Business Address" required>
+          </div>
+        </div>
+
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d212126.66857326083!2d150.8357076!3d-33.8257507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b218afaa2dbf%3A0xb4e18d4555a9017d!2sSydney+Children&#39;s+Hospital!5e0!3m2!1sen!2sph!4v1511162738692"
+          width="100%" height="488" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="uk-overlay-panel" id="toggle-cover" data-uk-toggle="{target:'#toggle-cover'}"></div>
+        </div>
+        <p>Contact Information</p>
+
+        <div class="uk-grid">
+          <div class="uk-width-medium-1-2">
+            <div class="help-box">
+              <span class="uk-icon-question-circle" title="Help"></span>
+              <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+          </div>
+          <div class="uk-width-medium-1-2">
+            <input type="url" name="website" placeholder="Website Url" required>
+          </div>
+        </div>
+        <input type="tel" name="contact" placeholder="Contact Number" required>
+
+        <div class="basic-info-fields">
+
+         <p>Other Information</p>
+         <div class="registration-s">
+          <p>Registration(s)
+            <span class="uk-icon-question-circle" title="Help"></span>
+          </p>
+        </div>
+
+        <div class="other-information">
+          <table class="uk-table">
+            <tr>
+              <th>Registration Title</th>
+              <th>Rego. Number</th>
+              <th>Actions</th>
+            </tr>
+            <tr>
+              <td class="header">Massage Therapist</td>
+              <td>MT1234567890</td>
+              <td class="actions" width="100">
+                <a href="#edit-reg" data-uk-modal="{center:true}"><i class="uk-icon-pencil"></i></a>
+                <a href="#delete-reg" data-uk-modal="{center:true}"><i class="uk-icon-trash"></i></a>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="input-fields-wrap">
+          <a class="add-field-button" href="#add-reg" data-uk-modal="{center:true}">+ Add registration...</a>
+        </div>
+        <input name="language" type="text" placeholder="Languages (separated by comma)">
+
+        <button type="submit" class="save-changes save-info">Save Changes</button>
+
+      </form>
+
+      <div id="edit-reg" class="uk-modal">
+        <div class="uk-modal-dialog">
+          <a class="uk-modal-close uk-close" autofocus></a>
+          <h3>Edit Registration</h3>
+          <div class="divider-title"></div>
+          <form class="uk-form" id="editRegForm">
+           <input type="text" name="regTitle" placeholder="Registration Title" required>
+           <input type="text" name="regNo" placeholder="Rego Number" required>
+           <button type="submit" class="save-changes-modal">Save Changes</button>
+         </form>
+       </div>
+     </div>
+
+     <div id="add-reg" class="uk-modal">
+      <div class="uk-modal-dialog">
+        <a class="uk-modal-close uk-close" autofocus></a>
+        <h3>Add Registration</h3>
+        <div class="divider-title"></div>
+        <form class="uk-form" id="editRegForm">
+         <input type="text" name="regTitle" placeholder="Registration Title" required>
+         <input type="text" name="regNo" placeholder="Rego Number" required>
+         <button type="submit" class="save-changes-modal">Save Changes</button>
+       </form>
+     </div>
+   </div>
+
+   <div id="delete-reg" class="uk-modal">
+    <div class="uk-modal-dialog">
+      <a class="uk-modal-close uk-close" autofocus></a>
+      <h3>Delete Registration</h3>
+      <div class="divider-title"></div>
+      <div class="confirm-content">
+        Are you sure you want to permanently remove this registration?
+      </div>
+      <div class="footer-modal">
+        <button type="submit" class="modal-button confirm">Confirm</button>
+        <a href="#/" class="modal-button back">Back</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<form id="about" class="uk-form">
+
+  <div class="about-container">
+    <h3>About</h3>
+    <div class="divider-title"></div>
+    <div class="about-area">
+      <textarea name="language" id="business-area" cols="30" rows="10" placeholder="Tell us about your business"></textarea>
+    </div>
+
+    <button type="submit" class="save-changes save-info">Save Changes</button>
+
+  </div>
+</form>
+
+<div class="services">
+
+  <h3>Services</h3>
+  <div class="divider-title"></div>
+
+  <div class="add-service-container">
+    <a class="add-service" href="#add-service" data-uk-modal="{center:true}">Add Service</a>
+  </div>
+
+  <!--slider area desktop-->
+  <div class="services-content uk-hidden-small services-desktop">
+    <div class="uk-slidenav-position" data-uk-slider>
+
+      <div class="uk-slider-container">
+        <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
+          <li>
+            <div class="uk-panel service">
+              <div class="shadow">
+               <h5 class="uk-panel-title">Swedish Massage</h5>
+               <div class="panel-content">
+                <p>This is the description of the service</p>
+                <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="uk-panel service">
+            <div class="shadow">
+             <h5 class="uk-panel-title">Shiatsu Massage</h5>
+             <div class="panel-content">
+              <p>This is the description of the service</p>
+              <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="uk-panel service">
+          <div class="shadow">
+           <h5 class="uk-panel-title">Thai Massage</h5>
+           <div class="panel-content">
+            <p>This is the description of the service</p>
+            <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="service-list-nav">
+  <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="previous">
+    <span class="uk-icon-chevron-left"></span>
+  </button>
+  <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="next">
+    <span class="uk-icon-chevron-right"></span>
+  </button>
+
+</div>
+</div>
+</div>
+<!--slider area desktop-->
+
+<!--slider area mobile-->
+<div class="services-content uk-visible-small services-mobile">
+  <div class="uk-slidenav-position" data-uk-slider>
+
+    <div class="uk-slider-container">
+      <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
+       <li>
+        <div class="uk-panel service">
+          <div class="shadow">
+           <h5 class="uk-panel-title">Swedish Massage</h5>
+           <div class="panel-content">
+            <p>This is the description of the service</p>
+            <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+          </div>
+        </div>
+      </div> 
+      <div class="uk-panel service">
+        <div class="shadow">
+         <h5 class="uk-panel-title">Shiatsu Massage</h5>
+         <div class="panel-content">
+           <p>This is the description of the service</p>
+           <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+         </div>
+       </div>
+     </div>
+     <li>
+      <div class="uk-panel service">
+        <div class="shadow">
+         <h5 class="uk-panel-title">Swedish Massage</h5>
+         <div class="panel-content">
+           <p>This is the description of the service</p>
+           <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+         </div> 
+       </div>
+     </div>
+     <div class="uk-panel service">
+      <div class="shadow">
+       <h5 class="uk-panel-title">Shiatsu Massage</h5>
+       <div class="panel-content">
+         <p>This is the description of the service</p>
+         <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+       </div>
+     </div>
+   </div>
+ </li>
+
+</ul>
+</div>
+
+<div class="service-list-nav">
+  <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="previous">
+    <span class="uk-icon-chevron-left"></span>
+  </button>
+  <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="next">
+    <span class="uk-icon-chevron-right"></span>
+  </button>
+
+</div>
+</div>
+</div>
+<!--slider area mobile-->    
+
+<div id="add-service" class="uk-modal">
+  <div class="uk-modal-dialog">
+    <a class="uk-modal-close uk-close" autofocus></a>
+    <h3>Add Service</h3>
+    <div class="divider-title"></div>
+    <form class="uk-form" id="addService">
+     <input type="text" name="serviceTitle" placeholder="Service Title" required>
+     <input type="text" name="serviceDesc" placeholder="Service Description" required>
+     <button type="submit" class="save-changes-modal">Save Changes</button>
+   </form>
+ </div>
+</div>
+
+<div id="edit-service" class="uk-modal">
+  <div class="uk-modal-dialog">
+    <a class="uk-modal-close uk-close" autofocus></a>
+    <h3>Edit Service</h3>
+    <div class="divider-title"></div>
+    <form class="uk-form" id="editService">
+     <input type="text" name="serviceTitle" placeholder="Service Title" required>
+     <input type="text" name="serviceDesc" placeholder="Service Description" required>
+     <button type="submit" class="save-changes-modal">Save Changes</button>
+   </form>
+ </div>
+</div> 
+
+</div>
+
+<div class="documents">
+
+  <h3>Documents</h3>
+  <div class="divider-title"></div>
+
+  <div class="docs-box">
+    <a class="docs-btn" href="#add-docs" data-uk-modal="{center:true}">Add Document</a>
+  </div>
+
+  <!--slider area desktop-->
+  <div class="services-content uk-hidden-small services-desktop">
+    <div class="uk-slidenav-position" data-uk-slider>
+
+      <div class="uk-slider-container">
+        <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
+          <li>
+            <div class="document">
+              <div class="shadow">
+                <figure class="image uk-overlay uk-overlay-hover">
+                  <img src="assets/images/documents/document.jpg" alt="document">
+                  <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                    <span class="uk-icon-search-plus"></span>View photo
+                  </div>
+                  <a class="uk-position-cover" href="assets/images/documents/document.jpg" data-uk-lightbox title="Licensed Massage and Bodywork Therapist"></a>
+                </figure>
+                <div class="docu-desc">
+                  <p>
+                    Licensed Massage and Bodywork Therapist
+                  </p>
+                  <a href="#edit-docs" data-uk-modal="{center:true}">Edit</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="document">
+              <div class="shadow">
+                <figure class="image uk-overlay uk-overlay-hover">
+                  <img src="assets/images/documents/document.jpg" alt="document">
+                  <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                    <span class="uk-icon-search-plus"></span>View photo
+                  </div>
+                  <a class="uk-position-cover" href="assets/images/documents/document.jpg" data-uk-lightbox title="Licensed Massage and Bodywork Therapist"></a>
+                </figure>
+                <div class="docu-desc">
+                  <p>
+                    Licensed Massage and Bodywork Therapist
+                  </p>
+                  <a href="#edit-docs" data-uk-modal="{center:true}">Edit</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="document">
+              <div class="shadow">
+                <figure class="image uk-overlay uk-overlay-hover">
+                  <img src="assets/images/documents/document.jpg" alt="document">
+                  <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                    <span class="uk-icon-search-plus"></span>View photo
+                  </div>
+                  <a class="uk-position-cover" href="assets/images/documents/document.jpg" data-uk-lightbox title="Licensed Massage and Bodywork Therapist"></a>
+                </figure>
+                <div class="docu-desc">
+                  <p>
+                    Licensed Massage and Bodywork Therapist
+                  </p>
+                  <a href="#edit-docs" data-uk-modal="{center:true}">Edit</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="service-list-nav">
+        <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="previous">
+          <span class="uk-icon-chevron-left"></span>
+        </button>
+        <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="next">
+          <span class="uk-icon-chevron-right"></span>
+        </button>
+
+      </div>
+    </div>
+  </div>
+  <!--slider area desktop-->
+
+  <!--slider area mobile-->
+  <div class="documents-content uk-visible-small services-mobile">
+    <div class="uk-slidenav-position" data-uk-slider>
+
+      <div class="uk-slider-container">
+       <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
+        <li>
+          <div class="document">
+            <div class="shadow">
+              <figure class="image uk-overlay uk-overlay-hover">
+                <img src="assets/images/documents/document.jpg" alt="document">
+                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                  <span class="uk-icon-search-plus"></span>View photo
+                </div>
+                <a class="uk-position-cover" href="assets/images/documents/document.jpg" data-uk-lightbox title="Licensed Massage and Bodywork Therapist"></a>
+              </figure>
+              <div class="docu-desc">
+                <p>
+                  Licensed Massage and Bodywork Therapist
+                </p>
+                <a href="#edit-docs" data-uk-modal="{center:true}">Edit</a>
+              </div>
+            </div>
+          </div>
+          <div class="document">
+            <div class="shadow">
+              <figure class="image uk-overlay uk-overlay-hover">
+                <img src="assets/images/documents/document.jpg" alt="document">
+                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                  <span class="uk-icon-search-plus"></span>View photo
+                </div>
+                <a class="uk-position-cover" href="assets/images/documents/document.jpg" data-uk-lightbox title="Licensed Massage and Bodywork Therapist"></a>
+              </figure>
+              <div class="docu-desc">
+                <p>
+                  Licensed Massage and Bodywork Therapist
+                </p>
+                <a href="#edit-docs" data-uk-modal="{center:true}">Edit</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="document">
+            <div class="shadow">
+              <figure class="image uk-overlay uk-overlay-hover">
+                <img src="assets/images/documents/document.jpg" alt="document">
+                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                  <span class="uk-icon-search-plus"></span>View photo
+                </div>
+                <a class="uk-position-cover" href="assets/images/documents/document.jpg" data-uk-lightbox title="Licensed Massage and Bodywork Therapist"></a>
+              </figure>
+              <div class="docu-desc">
+                <p>
+                  Licensed Massage and Bodywork Therapist
+                </p>
+                <a href="#edit-docs" data-uk-modal="{center:true}">Edit</a>
+              </div>
+            </div>
+          </div>
+          <div class="document">
+            <div class="shadow">
+              <figure class="image uk-overlay uk-overlay-hover">
+                <img src="assets/images/documents/document.jpg" alt="document">
+                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                  <span class="uk-icon-search-plus"></span>View photo
+                </div>
+                <a class="uk-position-cover" href="assets/images/documents/document.jpg" data-uk-lightbox title="Licensed Massage and Bodywork Therapist"></a>
+              </figure>
+              <div class="docu-desc">
+                <p>
+                  Licensed Massage and Bodywork Therapist
+                </p>
+                <a href="#edit-docs" data-uk-modal="{center:true}">Edit</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="service-list-nav">
+      <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="previous">
+        <span class="uk-icon-chevron-left"></span>
+      </button>
+      <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="next">
+        <span class="uk-icon-chevron-right"></span>
+      </button>
+
+    </div>
+  </div>
+</div>
+<!--slider area mobile-->
+
+<div id="add-docs" class="uk-modal">
+  <div class="uk-modal-dialog">
+    <a class="uk-modal-close uk-close" autofocus></a>
+    <h3>Add Document</h3>
+    <div class="divider-title"></div>
+    <form class="uk-form" id="addDocs">
+     <div class="upload-docu">
+      <img id="upload-img" src="assets/images/documents/document.jpg" alt="Your Image Here">
+      <div class="upload-icon-container">
+        <input type="file" class="upload-file-document" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+        <span class="upload-icon-document uk-icon-camera"></span>
+      </div>
+    </div>
+    <input type="text" name="docTitle" placeholder="Document Title" required>
+    <button type="submit" class="save-changes-modal">Save Changes</button>
+  </form>
+</div>
+</div>
+
+<div id="edit-docs" class="uk-modal">
+  <div class="uk-modal-dialog">
+    <a class="uk-modal-close uk-close" autofocus></a>
+    <h3>Edit Document</h3>
+    <div class="divider-title"></div>
+    <form class="uk-form" id="editDocs">
+      <div class="upload-docu">
+        <img id="upload-img" src="assets/images/documents/document.jpg" alt="Your Image Here">
+        <div class="upload-icon-container">
+          <input type="file" class="upload-file-document" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+          <span class="uk-icon-camera upload-icon-document"></span>
+        </div>
+      </div>
+      <input type="text" name="docTitle" placeholder="Document Title" required>
+      <button type="submit" class="save-changes-modal">Save Changes</button>
+    </form>
+  </div>
+</div> 
+
+</div>
+
+</div>
+
+</figure>
 </li>
 <li>
   <figure>
@@ -305,124 +828,569 @@
 </li>
 </ul>
 </div>
-</div>
-</section>
 
+</div>
+
+</section>
 <!-- DASHBOARD -->
 
-<!-- SITE MENU AREA-->
-<nav>
-  <!--MOBILE SITE MENU -->
-  <div class="mobile-menu uk-hidden-medium uk-hidden-large">
+<!-- LISTING LAYOUT -->
+<section class="listing-layout">
+
+  <div class="uk-container">
+
+    <h3>LISTING LAYOUT</h3>
+    <div class="divider-title"></div>
+
     <div class="uk-grid">
-      <div class="logo uk-width-2-3">
-        <a href="#/" title="logo">
-          <img src="assets/images/logos/site-menu-logo.png" alt="Roaming Healthcare">
-        </a>
+     <form action="" class="uk-form">
+      <!--mobile-->
+      <div class="checkbox-container">
+        <label class="check-container">Layout 1
+          <input type="checkbox" name="layout">
+          <span class="checkmark"></span>
+        </label>
       </div>
-      <div class="menu uk-width-1-3">
-        <a href="#off-canvas-menu" title="menu" data-uk-offcanvas>
-          <span class="uk-icon-bars"></span>
-        </a>
-      </div>
-    </div>
-    <div id="off-canvas-menu" class="uk-offcanvas">
-      <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
-        <a href="#/" class="uk-close"></a>
-        <div class="menulist">
-          <ul>
-            <li>
-              <a class="desktop-links" href="index.html">Home</a>
-            </li>
-            <li>
-              <a class="desktop-links" href="blog.html">Blog</a>
-            </li>
-            <li class="profile-img-mobile">
-              <figure>
-                <img src="assets/images/profile-img.jpg" alt="profile-img">
-              </figure>
-              <span class="uk-icon-chevron-down"></span>
-            </li>
-            <li class="dashboard-menu">
-              <a href="#/">Dashboard</a>
-              <ul class="subnav">
-                <li><a href="#/">Account Info</a></li>
-                <li><a href="#/">Listing Info</a></li>
-                <li><a href="#/">Blog History</a></li>
-              </ul>
-            </li>
-            <li class="dashboard-menu"><a href="#/">Logout</a></li>
-          </ul>
+      <div class="layout-div-1  uk-hidden-medium uk-hidden-large">
+        <div class="uk-panel">
+          <figure class="uk-overlay">
+            <img class="profile-img-linear" src="assets/images/listing/1x1.jpg" alt="Profile Background">
+            <figcaption class="uk-overlay-panel">
+              <img class="profile-img" src="assets/images/listing/1x1.jpg" alt="Profile Image">
+            </figcaption>
+          </figure>
+
+          <div class="profile-content">
+            <div class="content-div">
+              <h3 class="uk-panel-title">
+                Tootsy Dental Practice
+              </h3>
+              <p class="info-name">Grace Rogers</p>
+              <p class="mile-away">
+                <span class="uk-icon-map-marker"></span>
+                0.3 mi
+              </p>
+              <div class="readmore-div">
+                <p>Mauris non tempor quam, et lacinia sapien...
+                  <a>read more</a>
+                </p>
+              </div>
+
+              <p class="profile-address">
+                937 Sachs, Woodlake, MI
+              </p>
+              <div class="dial-container">
+                <a href="tel:+6494461709" class="contact-number">
+                  <span class="uk-icon-phone"></span>
+                  &nbsp;(02) 9072 7359
+                </a>
+              </div>
+
+              <div class="website-link">
+                <a href="http://example.com/" class="website-com">
+                  <span class="uk-icon-globe"></span> website.com</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="btn-container">
+              <div class="uk-grid uk-grid-collapse">
+                <div class="sms-container uk-width-1-3">
+                  <button class="sms-btn">Send SMS</button>
+                </div>
+                <div class="msg-container  uk-width-1-3">
+                  <button class="msg-btn">Message</button>
+                </div>
+                <div class="msg-container uk-width-1-3">
+                  <button class="more-info-btn">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--mobile-->
+        <!--desktop-->
+        <div class="layout-div-1 uk-hidden-small">
+          <div class="layout-1-lg">
+            <div class="uk-grid uk-grid-collapse">
+              <div class="uk-width-3-10">
+                <figure class="uk-overlay">
+                  <img class="profile-img-linear" src="assets/images/listing/1x1.jpg" alt="Profile Background">
+                  <figcaption class="uk-overlay-panel">
+                    <img class="profile-img" src="assets/images/listing/1x1.jpg" alt="Profile Image">
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="uk-width-7-10">
+                <div class="profile-content">
+                  <div class="content-div">
+                    <h3 class="uk-panel-title">
+                      Tootsy Dental Practice
+                    </h3>
+                    <p class="info-name">Grace Rogers</p>
+                    <p class="mile-away">
+                      <span class="uk-icon-map-marker"></span>
+                      0.3 mi
+                    </p>
+                    <div class="uk-grid uk-grid-medium">
+                      <div class="uk-width-1-2">
+                        <div class="readmore-div">
+                          <p>
+                            Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum
+                            sed varius at, adipiscing vitae est...
+                          </p>
+                        </div>
+                      </div>
+                      <div class="uk-width-1-2">
+                        <p class="profile-address">
+                          937 Sachs, Woodlake, MI
+                        </p>
+                        <div class="dial-container">
+                          <a href="tel:+6494461709" class="contact-number">
+                            <span class="uk-icon-phone"></span>
+                            &nbsp;(02) 9072 7359
+                          </a>
+                        </div>
+
+                        <div class="website-link">
+                          <a href="http://example.com/" class="website-com">
+                            <span class="uk-icon-globe"></span> website.com</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="btn-container">
+                    <div class="uk-grid uk-grid-collapse">
+                      <div class="sms-container uk-width-1-3">
+                        <button class="sms-btn">Send SMS</button>
+                      </div>
+                      <div class="msg-container  uk-width-1-3">
+                        <button class="msg-btn">Message</button>
+                      </div>
+                      <div class="msg-container uk-width-1-3">
+                        <button class="more-info-btn">More Info</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!--desktop-->
+
+          <div class="checkbox-container">
+            <label class="check-container">Layout 2
+              <input type="checkbox" name="layout">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+
+          <!--mobile-->
+          <div class="layout-div-2 uk-hidden-medium uk-hidden-large">
+            <div class="uk-panel">
+              <div class="uk-text-left profile-content">
+                <p class="info-name">Grace Rogers</p>
+                <p class="mile-away">
+                  <span class="uk-icon-map-marker"></span>
+                  0.3 mi
+                </p>
+                <h3 class="uk-panel-title">
+                  Tootsy Dental Practice
+                </h3>
+
+                <div class="readmore-div">
+                  <p>Mauris non tempor quam, et lacinia sapien...
+                    <a>read more</a>
+                  </p>
+                </div>
+
+                <p class="profile-address">
+                  937 Sachs, Woodlake, MI
+                </p>
+                <div class="dial-container">
+                  <a href="tel:+6494461709" class="contact-number">
+                    <span class="uk-icon-phone"></span>
+                    &nbsp;(02) 9072 7359
+                  </a>
+                </div>
+
+                <div class="website-link">
+                  <a href="http://example.com/" class="website-com">
+                    <span class="uk-icon-globe"></span> website.com</a>
+                  </div>
+                  <div class="sms-container">
+                    <button class="sms-btn">Send SMS</button>
+                  </div>
+                  <div class="btn-container">
+                    <div class="uk-grid uk-grid-small">
+                      <div class="uk-width-1-2">
+                        <button class="msg-btn">Message</button>
+                      </div>
+                      <div class="uk-width-1-2">
+                        <button class="more-info-btn">More Info</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="uk-cover-background" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6)), url(assets/images/featured/feat-3.jpg);min-height: 100%;background-size: cover;background-position: 50% 0; margin: -19px -25px 0 -25px;">
+                    <img class="uk-invisible" src="assets/images/listing/1x1.jpg" alt="Profile Background">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!--mobile-->
+            <!--desktop-->
+            <div class="layout-div-2 uk-hidden-small">
+              <div class="layout-2-lg">
+                <div class="uk-grid uk-grid-collapse">
+                  <div class="uk-width-6-10">
+                    <div class="profile-content">
+                      <div class="content-div">
+                        <p class="info-name">Grace Rogers</p>
+                        <p class="mile-away">
+                          <span class="uk-icon-map-marker"></span>
+                          0.3 mi
+                        </p>
+                        <h3 class="uk-panel-title">
+                          Tootsy Dental Practice
+                        </h3>
+
+                        <div class="uk-grid uk-grid-medium">
+                          <div class="uk-width-1-2">
+                            <div class="readmore-div">
+                              <p>
+                                Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum
+                                sed varius at, adipiscing vitae est...
+                              </p>
+                            </div>
+                          </div>
+                          <div class="uk-width-1-2">
+                            <p class="profile-address">
+                              937 Sachs, Woodlake, MI
+                            </p>
+                            <div class="dial-container">
+                              <a href="tel:+6494461709" class="contact-number">
+                                <span class="uk-icon-phone"></span>
+                                &nbsp;(02) 9072 7359
+                              </a>
+                            </div>
+
+                            <div class="website-link">
+                              <a href="http://example.com/" class="website-com">
+                                <span class="uk-icon-globe"></span> website.com</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="btn-container">
+                            <div class="uk-grid uk-grid-small">
+                              <div class="sms-container uk-width-1-3">
+                                <button class="sms-btn">Send SMS</button>
+                              </div>
+                              <div class="msg-container  uk-width-1-3">
+                                <button class="msg-btn">Message</button>
+                              </div>
+                              <div class="msg-container uk-width-1-3">
+                                <button class="more-info-btn">More Info</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="uk-width-4-10">
+                      <div class="lg-cover uk-cover-background layout-2-feature-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6)), url(assets/images/featured/feat-3.jpg);height: 320px;background-size: cover;background-position: 50% 0; margin: -19px -25px 0 -25px;">
+                        <!-- <img class="uk-invisible" src="assets/images/listing/1x1.jpg" alt="Profile Background"> -->
+                        <div class="upload-icon-container">
+                          <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+                          <span class="uk-icon-camera upload-icon""></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--desktop-->
+              <div class="save-container">
+                <button type="submit" class="save-changes">Save Changes</button>
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- LISTING LAYOUT -->
+
+      <!-- FOOTER AREA -->
+      <footer>
+        <div class="uk-container">
+          <div class="uk-grid footer-container" data-uk-grid-margin>
+            <div class="uk-width-1-1 uk-width-medium-1-3">
+              <div class="footer-navigation">
+                <h6>NAVIGATION</h6>
+                <ul>
+                  <li>
+                    <a href="#/">Home</a>
+                  </li>
+                  <li>
+                    <a href="#/">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#/">Create Listing</a>
+                  </li>
+                  <li>
+                    <a href="#/">Subscriber Login</a>
+                  </li>
+                  <li>
+                    <a href="#/">Privacy Notice</a>
+                  </li>
+                  <li>
+                    <a href="#/">Terms &amp; Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#subscribe-modal" class="subscribe" data-uk-modal="{center:true}">Subscribe to Newsletter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-3">
+              <div class="footer-contact">
+                <h6>GET IN TOUCH</h6>
+                <form action="" method="POST">
+                  <div class="field">
+                    <input type="email" name="email" placeholder="Email Address">
+                  </div>
+                  <div class="field">
+                    <input type="text" name="phone" placeholder="Phone">
+                  </div>
+                  <div class="field">
+                    <textarea name="message" placeholder="Message" rows="4"></textarea>
+                  </div>
+
+                  <button type="submit" class="submit-btn">Submit</button>
+                </form>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-3">
+              <div class="footer-contact-info">
+                <h6>CONTACT US</h6>
+                <p>
+                  awalker@myworks.mil
+                  <br> 7-(221)699-3293
+                  <br> 99 Jenna, Barstow, NH, 51510-3459
+                </p>
+                <ul class="contact-icons">
+                  <li>
+                    <a href="facebook.com" target="_blank" title="contact us on facebook">
+                      <span class="uk-icon-facebook"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="twitter.com" target="_blank" title="contact us on twitter">
+                      <span class="uk-icon-twitter"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="instagram.com" target="_blank" title="contact us on instagram">
+                      <span class="uk-icon-instagram"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="youtube.com" target="_blank" title="contact us on youtube">
+                      <span class="uk-icon-youtube-play"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="plus.google.com/discover" target="_blank" title="contact us on googleplus">
+                      <span class="uk-icon-google-plus"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-footer">
+          <div class="copyright">
+            <img src="assets/images/logos/white-logo.svg" alt="Roaming Healthcare logo">
+            <p>
+              Copyright 2017. All Rights Reserved.
+            </p>
+          </div>
+          <div class="url">
+            <a href="#/">www.roaminghealthcare.com.au</a>
+          </div>
+          <div class="share-icons">
+            <p>Share on</p>
+            <ul>
+              <li>
+                <a href="facebook.com" target="_blank" title="share on facebook">
+                  <span class="uk-icon-facebook"></span>
+                </a>
+              </li>
+              <li>
+                <a href="twitter.com" target="_blank" title="share on twitter">
+                  <span class="uk-icon-twitter"></span>
+                </a>
+              </li>
+              <li>
+                <a href="plus.google.com/discover" target="_blank" title="share on googleplus">
+                  <span class="uk-icon-google-plus"></span>
+                </a>
+              </li>
+              <li>
+                <a href="reddit.com" target="_blank" title="share on reddit">
+                  <span class="uk-icon-reddit-alien"></span>
+                </a>
+              </li>
+              <li>
+                <a href="ph.linkedin.com" target="_blank" title="share on linkedin">
+                  <span class="uk-icon-linkedin"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <!-- This is the subscribe modal -->
+      <div id="subscribe-modal" class="uk-modal">
+        <div class="uk-modal-dialog">
+          <a class="uk-modal-close uk-close" autofocus></a>
+          <div class="uk-modal-header subs-modal-header">
+            <h3>Subscribe to our newsletter!</h3>
+          </div>
+          <div class="subs-container">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <form class="uk-form subs-form">
+              <input type="text" name="email" placeholder="Enter email">
+              <button class="join-now-btn">Join Now</button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- END MOBILE SITE MENU -->
-  </div>
-  <!-- DESKTOP SITE MENU -->
-  <div class="desktop-menu uk-hidden-small">
-    <div class="uk-container">
-      <div class="uk-grid uk-flex-middle">
-        <div class="logo uk-width-2-5">
-          <a href="#/" title="logo">
-            <img src="assets/images/logos/site-menu-logo.png" alt="Roaming Healthcare">
-          </a>
-        </div>
-        <div class="menulist uk-width-3-5">
-          <ul>
-            <li>
-              <a class="desktop-links active" href="index.html">Home</a>
-            </li>
-            <li>
-              <a class="desktop-links" href="blog.html">Blog</a>
-            </li>
-            <li class="profile-img-desktop">
-              <!-- dropdown -->
-              <div data-uk-dropdown="{pos:'bottom-right'}" class="logged">
+      <!-- END This is the subscribe modal -->
+      <!-- END FOOTER AREA -->
 
-                <!-- This is the element toggling the dropdown -->
-                <div>
-
-                  <a href="#/" class="proflink">
+      <!-- SITE MENU AREA-->
+      <nav>
+        <!--MOBILE SITE MENU -->
+        <div class="mobile-menu uk-hidden-medium uk-hidden-large">
+          <div class="uk-grid">
+            <div class="logo uk-width-2-3">
+              <a href="#/" title="logo">
+                <img src="assets/images/logos/site-menu-logo.svg" alt="Roaming Healthcare Logo">
+              </a>
+            </div>
+            <div class="menu uk-width-1-3">
+              <a href="#off-canvas-menu" title="menu" data-uk-offcanvas>
+                <span class="uk-icon-bars"></span>
+              </a>
+            </div>
+          </div>
+          <div id="off-canvas-menu" class="uk-offcanvas">
+            <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+              <a href="#/" class="uk-close"></a>
+              <div class="menulist">
+                <ul>
+                  <li>
+                    <a class="desktop-links" href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a class="desktop-links" href="blog.html">Blog</a>
+                  </li>
+                  <li class="profile-img-mobile">
                     <figure>
                       <img src="assets/images/profile-img.jpg" alt="profile-img">
                     </figure>
                     <span class="uk-icon-chevron-down"></span>
-                  </a>
-
-                </div>
-
-                <!-- This is the dropdown -->
-                <div class="uk-dropdown">
-                  <ul class="uk-nav uk-nav-dropdown">
-                    <li>
-                      <a href="#/">Dashboard</a>
-                      <ul class="subnav">
-                        <li><a href="#/">Account Info</a></li>
-                        <li><a href="#/">Listing Info</a></li>
-                        <li><a href="#/">Blog History</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#/">Logout</a></li>
-                  </ul>
-                </div>
-
+                  </li>
+                  <li class="dashboard-menu">
+                    <a href="#/">Dashboard</a>
+                    <ul class="subnav">
+                      <li><a href="#/">Account Info</a></li>
+                      <li><a href="#/">Listing Info</a></li>
+                      <li><a href="#/">Blog History</a></li>
+                    </ul>
+                  </li>
+                  <li class="dashboard-menu"><a href="#/">Logout</a></li>
+                </ul>
               </div>
-
-            </li>
-          </ul>
+            </div>
+          </div>
+          <!-- END MOBILE SITE MENU -->
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- END DESKTOP SITE MENU -->
-</nav>
+        <!-- DESKTOP SITE MENU -->
+        <div class="desktop-menu uk-hidden-small">
+          <div class="uk-container">
+            <div class="uk-grid">
+              <div class="logo uk-width-2-5">
+                <a href="#/" title="logo">
+                  <img src="assets/images/logos/site-menu-logo.svg" alt="Roaming Healthcare Logo">
+                </a>
+              </div>
+              <div class="menulist uk-width-3-5">
+                <ul>
+                  <li>
+                    <a class="desktop-links active" href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a class="desktop-links" href="blog.html">Blog</a>
+                  </li>
+                  <li class="profile-img-desktop">
+                    <!-- dropdown -->
+                    <div data-uk-dropdown="{pos:'bottom-right'}" class="logged">
 
-<!-- END SITE MENU AREA-->
+                      <!-- This is the element toggling the dropdown -->
+                      <div>
 
-<!--  SCRIPT -->
-<script src="assets/js/templates/dashboard.min.js"></script>
-<!--  SCRIPT -->
+                        <a href="#/" class="proflink">
+                          <figure>
+                            <img src="assets/images/profile-img.jpg" alt="profile-img">
+                          </figure>
+                          <span class="uk-icon-chevron-down"></span>
+                        </a>
 
-</body>
+                      </div>
 
-</html>
+                      <!-- This is the dropdown -->
+                      <div class="uk-dropdown">
+                        <ul class="uk-nav uk-nav-dropdown">
+                          <li>
+                            <a href="#/">Dashboard</a>
+                            <ul class="subnav">
+                              <li><a href="#/">Account Info</a></li>
+                              <li><a href="#/">Listing Info</a></li>
+                              <li><a href="#/">Blog History</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#/">Logout</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END DESKTOP SITE MENU -->
+      </nav>
+
+      <!-- END SITE MENU AREA-->
+
+      <!--  SCRIPT -->
+      <script src="assets/js/templates/dashboard.min.js"></script>
+      <!--  SCRIPT -->
+
+    </body>
+
+    </html>
