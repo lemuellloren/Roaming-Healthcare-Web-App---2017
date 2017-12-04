@@ -10074,7 +10074,7 @@ h5 {
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   position: relative;
-  top: -4px;
+  top: -3px;
   left: -8px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -10816,7 +10816,7 @@ nav .desktop-menu .uk-container .menulist ul li a {
 }
 nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop {
   position: relative;
-  padding-left: 20px;
+  padding-left: 60px;
 }
 nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged {
   position: absolute;
