@@ -9060,37 +9060,34 @@ h5 {
 /* SEARCH BANNER AREA STYLES */
 #search-banner-section {
   height: auto;
-  margin-bottom: -180px;
-}
-@media only screen and (min-width: 1024px) {
-  #search-banner-section {
-    margin-bottom: -125px;
-  }
 }
 #search-banner-section .uk-container {
   margin: 0 auto;
-  margin-bottom: 50px;
 }
 #search-banner-section .form-container {
   margin: 0 auto;
   text-align: center;
 }
 #search-banner-section .search-banner-container {
-  margin: 95px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
+  min-height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+  #search-banner-section .search-banner-container {
+    padding: 100px 0 150px;
+  }
 }
 #search-banner-section .search-banner-container .search-banner-title {
   padding-bottom: 20px;
-}
-@media only screen and (min-width: 768px) {
-  #search-banner-section .search-banner-container .search-banner-title {
-    padding-top: 20%;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 0;
-  }
 }
 #search-banner-section .search-banner-container h1 {
   font-family: 'Montserrat';
@@ -9132,13 +9129,10 @@ h5 {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-<<<<<<< HEAD
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
-=======
   -webkit-transition: all 0.4s ease;
->>>>>>> frontend-lem
   transition: all 0.4s ease;
   color: #BBBBBB;
   width: 260px;
@@ -9215,7 +9209,6 @@ h5 {
 }
 #search-banner-section .search-banner-container .btn-find-con {
   position: relative;
-  margin-bottom: 400px;
 }
 @media only screen and (min-width: 768px) {
   #search-banner-section .search-banner-container .btn-find-con {
@@ -9235,7 +9228,8 @@ h5 {
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 1;
-  top: -50px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 @media only screen and (min-width: 768px) {
   #overlaped-section {
@@ -9252,7 +9246,7 @@ h5 {
 }
 @media only screen and (min-width: 768px) {
   #overlaped-section .overlay-container {
-    margin: 50px 0 0 0;
+    padding: 20px;
   }
 }
 #overlaped-section .overlay-container .divider-title {
@@ -9267,7 +9261,6 @@ h5 {
 }
 #overlaped-section .overlay-container p {
   width: auto;
-  height: 154px;
   font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.38;
@@ -9279,13 +9272,7 @@ h5 {
 /* END ABOUT SECTION OVERLAPED AREA STYLES */
 #about-section {
   position: relative;
-  margin-top: -40px;
   background-color: #165C96;
-}
-@media only screen and (min-width: 768px) {
-  #about-section {
-    margin-top: -170px;
-  }
 }
 #about-section .uk-grid {
   margin: 0 auto;
@@ -9297,8 +9284,7 @@ h5 {
   padding: 0 15px;
 }
 #about-section .about-container {
-  margin: 95px auto;
-  margin-top: 230px;
+  margin: 0 auto 95px;
 }
 #about-section .about-blurb {
   text-align: center;
@@ -10040,13 +10026,9 @@ h5 {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-<<<<<<< HEAD
   font-size: 14px;
-  font-family: 'Roboto';
   font-weight: normal;
-=======
   -webkit-transition: all 0.4s ease;
->>>>>>> frontend-lem
   transition: all 0.4s ease;
   font-family: 'Roboto';
   width: 80%;
@@ -10223,13 +10205,10 @@ footer .footer-contact form .field input {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-<<<<<<< HEAD
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
-=======
   -webkit-transition: all 0.4s ease;
->>>>>>> frontend-lem
   transition: all 0.4s ease;
 }
 footer .footer-contact form .field input:placeholder {
@@ -10260,13 +10239,10 @@ footer .footer-contact form .field textarea {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-<<<<<<< HEAD
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
-=======
   -webkit-transition: all 0.4s ease;
->>>>>>> frontend-lem
   transition: all 0.4s ease;
   padding: 10px 10px;
 }
@@ -10395,6 +10371,11 @@ footer .main-footer .url {
   text-align: center;
   line-height: 7px;
 }
+@media only screen and (min-width: 768px) {
+  footer .main-footer .url {
+    display: none;
+  }
+}
 footer .main-footer .url a {
   display: inline-block;
   text-decoration: none !important;
@@ -10423,7 +10404,11 @@ footer .main-footer .url a:hover:after {
 }
 footer .main-footer .share-icons {
   text-align: center;
-  padding-top: 20px;
+}
+@media only screen and (max-width: 767px) {
+  footer .main-footer .share-icons {
+    padding-top: 20px;
+  }
 }
 footer .main-footer .share-icons p {
   color: #FFF;
@@ -10432,9 +10417,20 @@ footer .main-footer .share-icons p {
   margin: 0;
   font-family: 'Roboto';
 }
+@media only screen and (min-width: 768px) {
+  footer .main-footer .share-icons p {
+    display: inline-block;
+    margin-right: 15px;
+  }
+}
 footer .main-footer .share-icons ul {
   padding: 0;
   list-style: none;
+}
+@media only screen and (min-width: 768px) {
+  footer .main-footer .share-icons ul {
+    display: inline-block;
+  }
 }
 footer .main-footer .share-icons ul li {
   display: inline-block;
@@ -10442,6 +10438,7 @@ footer .main-footer .share-icons ul li {
   margin-right: 5px;
 }
 footer .main-footer .share-icons ul li a {
+  display: block;
   background: #FFF;
   border-radius: 15px;
   padding: 6px;
@@ -10565,13 +10562,9 @@ footer .main-footer .share-icons ul li a:hover {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-<<<<<<< HEAD
   font-size: 14px;
-  font-family: 'Roboto';
   font-weight: normal;
-=======
   -webkit-transition: all 0.4s ease;
->>>>>>> frontend-lem
   transition: all 0.4s ease;
   font-family: 'Roboto';
   width: 100%;
@@ -10776,7 +10769,7 @@ nav .desktop-menu .uk-container .logo img {
 }
 nav .desktop-menu .uk-container .menulist {
   text-align: right;
-  padding: 20px 20px 10px 0;
+  padding: 20px 20px 15px 0;
 }
 nav .desktop-menu .uk-container .menulist ul {
   width: auto;
@@ -10957,13 +10950,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-<<<<<<< HEAD
   font-size: 14px;
-  font-family: 'Roboto';
   font-weight: normal;
-=======
   -webkit-transition: all 0.4s ease;
->>>>>>> frontend-lem
   transition: all 0.4s ease;
   border: solid 1px #C9C9C9;
   height: 40px;
@@ -11358,13 +11347,10 @@ html[dir="rtl"] .uk-slider > * {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-<<<<<<< HEAD
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
-=======
   -webkit-transition: all 0.4s ease;
->>>>>>> frontend-lem
   transition: all 0.4s ease;
   color: #BBBBBB;
   width: 260px;
@@ -11475,12 +11461,9 @@ html[dir="rtl"] .uk-slider > * {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-<<<<<<< HEAD
   font-family: 'Roboto';
   font-weight: normal;
-=======
   -webkit-transition: all 0.4s ease;
->>>>>>> frontend-lem
   transition: all 0.4s ease;
   width: 99px;
   height: 30px;
@@ -14782,12 +14765,14 @@ html[dir="rtl"] .uk-slider > * {
 #sms-layout1 form input,
 #sms-layout1 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 230px;
@@ -14907,12 +14892,14 @@ html[dir="rtl"] .uk-slider > * {
 #sms-layout2 form input,
 #sms-layout2 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 230px;
@@ -15032,12 +15019,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout1 form input,
 #msg-layout1 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 230px;
@@ -15157,12 +15146,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout2 form input,
 #msg-layout2 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 230px;
@@ -15282,12 +15273,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout3 form input,
 #msg-layout3 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 230px;
@@ -15407,12 +15400,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout4 form input,
 #msg-layout4 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 230px;
@@ -15532,12 +15527,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout5 form input,
 #msg-layout5 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 230px;
@@ -15657,12 +15654,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout6 form input,
 #msg-layout6 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 230px;

@@ -9090,19 +9090,6 @@ h5 {
 #search-banner-section .search-banner-container .search-banner-title {
   padding-bottom: 20px;
 }
-<<<<<<< HEAD
-=======
-@media only screen and (min-width: 768px) {
-  #search-banner-section .search-banner-container .search-banner-title {
-    padding-top: 20%;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 0;
-  }
-}
->>>>>>> frontend-lem
 #search-banner-section .search-banner-container h1 {
   font-family: 'Montserrat';
   font-size: 30px;
@@ -9286,10 +9273,6 @@ h5 {
 /* END ABOUT SECTION OVERLAPED AREA STYLES */
 #about-section {
   position: relative;
-<<<<<<< HEAD
-=======
-  margin-top: -40px;
->>>>>>> frontend-lem
   background-color: #165C96;
 }
 #about-section .uk-grid {
@@ -10045,7 +10028,6 @@ h5 {
   margin-bottom: 10px;
   border: #FFF 1px solid;
   font-size: 14px;
-  font-family: 'Roboto';
   font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -10071,6 +10053,9 @@ h5 {
   color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input::placeholder {
@@ -10242,6 +10227,9 @@ footer .footer-contact form .field input::-webkit-input-placeholder {
 footer .footer-contact form .field input:-ms-input-placeholder {
   color: #BBBBBB;
 }
+footer .footer-contact form .field input::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 footer .footer-contact form .field input::placeholder {
   color: #BBBBBB;
 }
@@ -10272,6 +10260,9 @@ footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea::placeholder {
@@ -10573,7 +10564,6 @@ footer .main-footer .share-icons ul li a:hover {
   margin-bottom: 10px;
   border: #FFF 1px solid;
   font-size: 14px;
-  font-family: 'Roboto';
   font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -10962,7 +10952,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   margin-bottom: 10px;
   border: #FFF 1px solid;
   font-size: 14px;
-  font-family: 'Roboto';
   font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -11695,6 +11684,9 @@ html[dir="rtl"] .uk-slider > * {
 .dashboard .uk-container .upload-photo form#accountForm input:-ms-input-placeholder {
   color: #BBBBBB !important;
 }
+.dashboard .uk-container .upload-photo form#accountForm input::-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
 .dashboard .uk-container .upload-photo form#accountForm input::placeholder {
   color: #BBBBBB !important;
 }
@@ -11807,6 +11799,9 @@ html[dir="rtl"] .uk-slider > * {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .billing-address form#billingAddressForm input:-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-container .billing-address form#billingAddressForm input::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .billing-address form#billingAddressForm input::placeholder {
@@ -12292,6 +12287,11 @@ html[dir="rtl"] .uk-slider > * {
 .dashboard .uk-container .basic-info-container form input:-ms-input-placeholder,
 .dashboard .uk-container .basic-info-container form select:-ms-input-placeholder,
 .dashboard .uk-container .basic-info-container form textarea:-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-container .basic-info-container form input::-ms-input-placeholder,
+.dashboard .uk-container .basic-info-container form select::-ms-input-placeholder,
+.dashboard .uk-container .basic-info-container form textarea::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .basic-info-container form input::placeholder,
@@ -13464,6 +13464,9 @@ html[dir="rtl"] .uk-slider > * {
   color: #BBBBBB !important;
 }
 .dashboard .uk-modal form input:-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-modal form input::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-modal form input::placeholder {
