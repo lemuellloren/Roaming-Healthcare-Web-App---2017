@@ -10296,14 +10296,36 @@ footer .main-footer .url {
   }
 }
 footer .main-footer .url a {
-  color: #FFF;
-  font-size: 10px;
-  font-weight: 300;
+  display: inline-block;
+  text-decoration: none !important;
   font-family: 'Roboto';
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: center;
+  color: #FFF;
+}
+footer .main-footer .url a:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #FFF;
+  transition: width 0.3s;
+  transition: all 0.4s ease;
+}
+footer .main-footer .url a:hover {
+  color: #FFF;
+}
+footer .main-footer .url a:hover:after {
+  width: 100%;
 }
 footer .main-footer .share-icons {
   text-align: center;
-  padding-top: 20px;
+}
+@media only screen and (max-width: 767px) {
+  footer .main-footer .share-icons {
+    padding-top: 20px;
+  }
 }
 footer .main-footer .share-icons p {
   color: #FFF;
@@ -10312,9 +10334,20 @@ footer .main-footer .share-icons p {
   margin: 0;
   font-family: 'Roboto';
 }
+@media only screen and (min-width: 768px) {
+  footer .main-footer .share-icons p {
+    display: inline-block;
+    margin-right: 15px;
+  }
+}
 footer .main-footer .share-icons ul {
   padding: 0;
   list-style: none;
+}
+@media only screen and (min-width: 768px) {
+  footer .main-footer .share-icons ul {
+    display: inline-block;
+  }
 }
 footer .main-footer .share-icons ul li {
   display: inline-block;
@@ -10322,6 +10355,7 @@ footer .main-footer .share-icons ul li {
   margin-right: 5px;
 }
 footer .main-footer .share-icons ul li a {
+  display: block;
   background: #FFF;
   border-radius: 15px;
   padding: 6px;
@@ -12763,6 +12797,9 @@ html[dir="rtl"] .uk-slider > * {
   top: -25%;
   left: -25%;
   opacity: 0;
+}
+.listing-layout {
+  display: none;
 }
 .listing-layout h3 {
   font-size: 24px;

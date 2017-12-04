@@ -15,7 +15,15 @@
 (function($) {
 
 	/* page functions go here */
-
+	$('li.tabs a').click(function() {
+		if($(this).attr('class') == 'tab-2'){
+			// console.log('tab2');
+			$('.listing-layout').show();
+		}else{
+			// console.log('not');
+			$('.listing-layout').hide();
+		}
+	});
 
 	//upload photo account
 	$(".upload-icon").click(function () {
