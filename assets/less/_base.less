@@ -39,6 +39,7 @@
 // MAX WIDTH AREA
 @width-320max: ~"only screen and (max-width: 320px)";
 @width-960max: ~"only screen and (max-width: 690px)";
+@width-767max: ~"only screen and (max-width: 767px)";
 
 /* End Media Queries Area */
 
@@ -1250,20 +1251,13 @@ h5 {
 /* SITE FOOTER AREA STYLES */
 
 footer {
-    // .uk-grid.footer-container {
-    //     @media @width-768 {
-    //         margin: 20px;
-    //     }
-    //     @media @width-1366 {
-    //         margin: 0 310px 0 310px;
-    //     }
-    // }
+    background: @gray;
+    padding: 37px 0 0 0;
+
     .uk-container {
         margin: 0 auto;
         padding: 0;
     }
-    background: @gray;
-    padding: 37px 0 0 0;
     h6 {
         font-size: @default-font-size - 2;
         font-weight: @font-light;
@@ -1293,10 +1287,7 @@ footer {
         }
     }
     .footer-contact {
-        padding: 0 30px 0 30px; // @media @width-1366 {
-        //     padding: 0;
-        //     margin: 0 0 0 -100px;
-        // }
+        padding: 0 30px 0 30px;
         form {
             margin-bottom: 35px;
             .field {
@@ -1391,22 +1382,32 @@ footer {
         }
         .share-icons {
             text-align: center;
-            padding-top: 20px;
+            @media @width-767max {
+                padding-top: 20px;
+            }
             p {
                 color: @white;
                 font-size: @default-font-size - 4;
                 font-weight: @font-light;
                 margin: 0;
                 font-family: @secondary-font;
+                @media @width-768 {
+                    display: inline-block;
+                    margin-right: 15px;
+                }
             }
             ul {
                 padding: 0;
                 list-style: none;
+                @media @width-768 {
+                    display: inline-block;
+                }
                 li {
                     display: inline-block;
                     width: auto;
                     margin-right: 5px;
                     a {
+                        display: block;
                         background: @white;
                         border-radius: 15px;
                         padding: 6px;
