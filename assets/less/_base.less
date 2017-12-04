@@ -1371,6 +1371,9 @@ footer {
         .url {
             text-align: center;
             line-height: 7px;
+            @media @width-768 {
+                display: none;
+            }
             a {
                 .link-animation-blue-bg();  
                 font-family: @secondary-font;
