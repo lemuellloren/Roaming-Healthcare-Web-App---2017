@@ -9246,7 +9246,7 @@ h5 {
 }
 @media only screen and (min-width: 768px) {
   #overlaped-section .overlay-container {
-    margin: 50px 0 0 0;
+    padding: 20px;
   }
 }
 #overlaped-section .overlay-container .divider-title {
