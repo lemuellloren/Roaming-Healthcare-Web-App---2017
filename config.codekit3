@@ -5602,6 +5602,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/partner\/logo1.png": {
+		"ft": 32768,
+		"iS": 26596,
+		"oA": 0,
+		"oAP": "\/assets\/images\/partner\/logo1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/partner\/logo2.png": {
+		"ft": 32768,
+		"iS": 6603,
+		"oA": 0,
+		"oAP": "\/assets\/images\/partner\/logo2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/partner\/logo3.png": {
+		"ft": 32768,
+		"iS": 30294,
+		"oA": 0,
+		"oAP": "\/assets\/images\/partner\/logo3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/partner\/logo4.png": {
+		"ft": 32768,
+		"iS": 36301,
+		"oA": 0,
+		"oAP": "\/assets\/images\/partner\/logo4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/profile-img.jpg": {
 		"ft": 16384,
 		"iS": 739837,

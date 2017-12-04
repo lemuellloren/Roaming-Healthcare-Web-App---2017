@@ -9,6 +9,12 @@
 // PAGE SECTION STYLES
 
 /* #hero, #about, #contact, etc. */
+/* SUBSCRIBER HERO BANEER SECTION  AREA STYLES */
+
+
+
+
+/* END SUBSCRIBER HERO BANEER SECTION  AREA STYLES */
 
 
 /* FEATURED SERVICES SECTION  AREA STYLES */
@@ -330,3 +336,35 @@
 
 
 /* END PLAN SECTION  AREA STYLES */
+
+
+#partners-section {
+    background-color: @white;
+    .uk-container {
+        margin: 0 auto;
+    }
+    .plan-container {
+        .section-space-sm();
+        @media @width-768 {
+            .section-space();
+        }
+        h2 {
+            opacity: 0.7;
+            font-family: @secondary-font;
+            font-size: @default-font-size + 4px;
+            text-align: center;
+            color: @darkgray;
+        }
+    }
+    .uk-slidenav-previous {
+        left: -30px;
+    }
+    .uk-slidenav-next {
+        right: -30px;
+    }
+    .uk-slidenav-contrast {
+        color: @darkgray;
+        opacity: 0.1;
+    }
+   
+}
