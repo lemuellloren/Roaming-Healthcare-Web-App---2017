@@ -6,7 +6,7 @@
 // @codekit-prepend '../bower_components/uikit/js/components/lightbox.js'
 // @codekit-prepend '../bower_components/uikit/js/components/slider.js'
 // @codekit-prepend '../bower_components/uikit/js/components/slideshow.js'
-
+// @codekit-prepend '../bower_components/uikit/js/components/htmleditor.js'
 
 // PAGE FUNCTIONS
 // define needed page functions here, when document.readyState === "complete":
@@ -21,12 +21,12 @@
 			$('.listing-layout').show('slow');
 		}else{
 			// console.log('not');
-			$('.listing-layout').hide('slow');
+			$('.listing-layout').hide('fast');
 		}
 	});
 
-	//upload photo account
-	$(".upload-icon").click(function () {
+	//upload photo account, post feature img
+	$(".upload-icon, .upload-button").click(function () {
 		$(this).siblings(".upload-file").trigger('click');
 	});
 

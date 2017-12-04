@@ -5,3 +5,10 @@
 
 // GLOBAL FUNCTIONS
 // define global functions here:
+
+(function($) {
+	
+	/* page functions go here */
+
+})(jQuery);
+
