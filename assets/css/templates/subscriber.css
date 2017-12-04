@@ -11732,4 +11732,311 @@ html[dir="rtl"] .uk-slider > * {
   opacity: 0;
 }
 /* END TESTIMONIALS SECTION  AREA STYLES */
+/* PLAN SECTION  AREA STYLES */
+#plan-section .uk-container {
+  margin: 0 auto;
+}
+#plan-section .plan-container {
+  padding: 50px 0 50px 0;
+}
+@media only screen and (min-width: 768px) {
+  #plan-section .plan-container {
+    padding: 80px 0 80px 0;
+  }
+}
+#plan-section h3 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #165C96;
+  text-transform: initial;
+}
+#plan-section .divider-title {
+  width: 50px;
+  margin: 30px auto auto;
+  border: solid 1px #444444;
+}
+#plan-section .plan-area p {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+  color: #444444;
+}
+#plan-section .plan-subtitle {
+  padding: 0 0 35px 0;
+}
+#plan-section .plan-heading {
+  width: auto;
+  height: 55px;
+  background: #165C96;
+  color: #FFF;
+  position: relative;
+}
+#plan-section .plan-heading h3 {
+  padding: 20px 0 0 0;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+}
+#plan-section .plan-heading-blue {
+  width: auto;
+  height: 55px;
+  background: #165C96;
+  color: #FFF;
+  position: relative;
+}
+#plan-section .plan-heading-blue h3 {
+  padding: 20px 0 0 0;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+}
+#plan-section .plan-heading-orange {
+  width: auto;
+  height: 55px;
+  background: #FE7B00;
+  color: #FFF;
+  position: relative;
+}
+#plan-section .plan-heading-orange h3 {
+  padding: 20px 0 0 0;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+}
+#plan-section .bottom-triangle-orange {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 55px;
+  width: 50%;
+  height: 0;
+  padding-left: 50%;
+  padding-top: 10%;
+  overflow: hidden;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+#plan-section .bottom-triangle-orange:after {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: -1000px;
+  margin-top: -200px;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+  border-top: 200px solid #FE7B00;
+}
+#plan-section .bottom-triangle-blue {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 55px;
+  width: 50%;
+  height: 0;
+  padding-left: 50%;
+  padding-top: 10%;
+  overflow: hidden;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+#plan-section .bottom-triangle-blue:after {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: -1000px;
+  margin-top: -200px;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+  border-top: 200px solid #165C96;
+}
+#plan-section .plan-content {
+  max-width: 250px;
+  height: 500px;
+  background-color: #FFF;
+  border: solid 1px #E4E4E4;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media only screen and (min-width: 960px) {
+  #plan-section .plan-content {
+    max-width: 300px;
+  }
+}
+#plan-section .plan-content .pricing-content {
+  padding: 50px 0 0 0;
+  width: 80%;
+  margin: 0 auto;
+}
+#plan-section .plan-content .pricing-content p,
+#plan-section .plan-content .pricing-content em {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: #444444;
+}
+#plan-section .plan-content .pricing-content .plan-heading {
+  width: auto;
+  height: 55px;
+  background: #165C96;
+  color: #FFF;
+  position: relative;
+}
+#plan-section .plan-content .pricing-content .plan-heading h3 {
+  padding: 20px 0 0 0;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+}
+#plan-section .plan-content .choose-btn-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 0 0 15px 0;
+}
+#plan-section .plan-content .choose-btn-container i {
+  color: #FE7B00;
+  font-size: 12px;
+}
+#plan-section .plan-content .choose-btn-container i span {
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+}
+#plan-section .plan-content .choose-btn-container .current-blue {
+  color: #165C96 !important;
+  font-size: 12px;
+}
+#plan-section .plan-content .choose-btn-container .current-blue span {
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+  color: #165C96;
+}
+#plan-section .plan-content .choose-btn-container .choose-btn-orange {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: 80%;
+  height: 30px;
+}
+#plan-section .plan-content .choose-btn-container .choose-btn-orange::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#plan-section .plan-content .choose-btn-container .choose-btn-orange:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#plan-section .plan-content .choose-btn-container .choose-btn-orange:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#plan-section .plan-content .choose-btn-container .choose-btn-blue {
+  width: 110px;
+  height: 37px;
+  border-radius: 3px;
+  border: 1px solid #165C96;
+  background-color: #165C96;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: 80%;
+  height: 30px;
+}
+#plan-section .plan-content .choose-btn-container .choose-btn-blue::before {
+  content: '';
+  background-color: #053C69;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: white;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#plan-section .plan-content .choose-btn-container .choose-btn-blue:hover {
+  background-color: #053C69;
+  border: 1px solid #053C69;
+}
+#plan-section .plan-content .choose-btn-container .choose-btn-blue:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#plan-section .plan-content .price-here-blue {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: center;
+  color: #165C96;
+}
+#plan-section .plan-content .price-here-blue span {
+  font-size: 30px;
+  font-weight: 300;
+}
+#plan-section .plan-content .price-here-orange {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+}
+#plan-section .plan-content .price-here-orange span {
+  font-size: 30px;
+  font-weight: 300;
+}
+/* END PLAN SECTION  AREA STYLES */
 /*# sourceMappingURL=subscriber.css.map */

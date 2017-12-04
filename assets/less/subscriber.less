@@ -149,9 +149,7 @@
                 color: @darkgray;
             }
         }
-    } // ul.uk-slideshow {
-    //     height: 480px !important;
-    // }
+    }
     .uk-dotnav-contrast {
         >.uk-active {
             >* {
@@ -190,3 +188,145 @@
 
 
 /* END TESTIMONIALS SECTION  AREA STYLES */
+
+
+/* PLAN SECTION  AREA STYLES */
+
+#plan-section {
+    .uk-container {
+        margin: 0 auto;
+    }
+    .plan-container {
+        .section-space-sm();
+        @media @width-768 {
+            .section-space();
+        }
+    }
+    h3 {
+        font-family: @main-font;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        color: @blue;
+        text-transform: initial;
+    }
+    .divider-title {
+        .line-title();
+    }
+    .plan-area {
+        p {
+            font-family: @secondary-font;
+            font-size: 16px;
+            line-height: 1.38;
+            text-align: center;
+            color: @darkgray;
+        }
+    }
+    .plan-subtitle {
+        padding: 0 0 35px 0;
+    }
+    .plan-heading {
+        .plan-title-blue();
+    }
+    .plan-heading-blue {
+        .plan-title-blue();
+    }
+    .plan-heading-orange {
+        .plan-title-orange();
+    }
+    .bottom-triangle-orange {
+        .triangle-down-orange();
+    }
+    .bottom-triangle-blue {
+        .triangle-down-blue();
+    }
+    .plan-content {
+        max-width: 250px;
+        height: 500px;
+        background-color: @white;
+        border: solid 1px @gray;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        @media @width-960 {
+            max-width: 300px;
+        }
+        .pricing-content {
+            padding: 50px 0 0 0;
+            width: 80%;
+            margin: 0 auto;
+            p,
+            em {
+                font-family: @secondary-font;
+                font-size: 14px;
+                font-weight: 300;
+                text-align: center;
+                color: @darkgray;
+            }
+            .plan-heading {
+                .plan-title-blue()
+            }
+        }
+        .choose-btn-container {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            text-align: center;
+            padding: 0 0 15px 0;
+            i {
+                color: @orange;
+                font-size: 12px;
+                span {
+                    font-family: @secondary-font;
+                    font-size: 14px;
+                    text-align: center;
+                    color: @orange;
+                }
+            }
+            .current-blue {
+                color: @blue !important;
+                font-size: 12px;
+                span {
+                    font-family: @secondary-font;
+                    font-size: 14px;
+                    text-align: center;
+                    color: @blue;
+                }
+            }
+            .choose-btn-orange {
+                .btn-orange();
+                width: 80%;
+                height: 30px;
+            }
+            .choose-btn-blue {
+                .btn-blue();
+                width: 80%;
+                height: 30px;
+            }
+        }
+        .price-here-blue {
+            font-family: @main-font;
+            font-size: 14px;
+            text-align: center;
+            color: @blue;
+            span {
+                font-size: 30px;
+                font-weight: 300;
+            }
+        }
+        .price-here-orange {
+            font-family: @main-font;
+            font-size: 14px;
+            text-align: center;
+            color: @orange;
+            span {
+                font-size: 30px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+
+/* END PLAN SECTION  AREA STYLES */
