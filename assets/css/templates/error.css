@@ -9274,7 +9274,7 @@ h5 {
 /* END ABOUT SECTION OVERLAPED AREA STYLES */
 #about-section {
   position: relative;
-  margin-top: -225px;
+  margin-top: -40px;
   background-color: #165C96;
 }
 @media only screen and (min-width: 768px) {

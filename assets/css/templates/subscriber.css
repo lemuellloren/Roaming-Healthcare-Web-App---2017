@@ -9274,7 +9274,7 @@ h5 {
 /* END ABOUT SECTION OVERLAPED AREA STYLES */
 #about-section {
   position: relative;
-  margin-top: -225px;
+  margin-top: -40px;
   background-color: #165C96;
 }
 @media only screen and (min-width: 768px) {
@@ -11518,6 +11518,12 @@ html[dir="rtl"] .uk-slider > * {
   background-color: #F0F0F0;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#subscriber-banner-section .uk-dotnav {
+  bottom: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 #subscriber-banner-section .uk-dotnav > * {
   padding-left: 6px;
