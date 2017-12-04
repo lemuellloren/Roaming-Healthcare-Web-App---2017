@@ -11492,6 +11492,173 @@ html[dir="rtl"] .uk-slider > * {
 }
 /* #hero, #about, #contact, etc. */
 /* SUBSCRIBER HERO BANEER SECTION  AREA STYLES */
+#subscriber-banner-section .uk-dotnav-contrast > .uk-active > * {
+  width: 10px;
+  height: 10px;
+  background-color: #444444;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#subscriber-banner-section .uk-dotnav-contrast > * > * {
+  width: 10px;
+  height: 10px;
+  background-color: #F0F0F0;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#subscriber-banner-section .uk-dotnav > * {
+  padding-left: 6px;
+}
+#subscriber-banner-section .uk-container {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+#subscriber-banner-section .form-container {
+  margin: 0 auto;
+  text-align: center;
+}
+#subscriber-banner-section .subscriber-banner-container {
+  margin: 95px auto;
+  text-align: center;
+}
+#subscriber-banner-section .subscriber-banner-container .search-banner-title {
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  #subscriber-banner-section .subscriber-banner-container .search-banner-title {
+    padding-top: 20%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+  }
+}
+#subscriber-banner-section .subscriber-banner-container h1 {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+}
+#subscriber-banner-section .subscriber-banner-container p {
+  width: 128px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: left;
+  color: #FFF;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+}
+#subscriber-banner-section .subscriber-banner-container ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+@media only screen and (min-width: 768px) {
+  #subscriber-banner-section .subscriber-banner-container ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  #subscriber-banner-section .subscriber-banner-container ul li {
+    padding: 10px;
+  }
+}
+#subscriber-banner-section .subscriber-banner-container form input {
+  width: 93%;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #BBBBBB;
+  width: 260px;
+  height: 50px;
+  padding-left: 50px!important;
+}
+#subscriber-banner-section .subscriber-banner-container form input:placeholder {
+  color: #BBBBBB;
+}
+#subscriber-banner-section .subscriber-banner-container form input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
+@media only screen and (min-width: 768px) {
+  #subscriber-banner-section .subscriber-banner-container form input {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #subscriber-banner-section .subscriber-banner-container form input {
+    width: 310px;
+  }
+}
+#subscriber-banner-section .subscriber-banner-container form .search-input {
+  margin-top: -10px;
+}
+#subscriber-banner-section .subscriber-banner-container form .search-input span {
+  color: #444444;
+  font-size: 20px;
+  top: 56%;
+  left: 5%;
+}
+#subscriber-banner-section .subscriber-banner-container form .find-btn {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+}
+#subscriber-banner-section .subscriber-banner-container form .find-btn::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#subscriber-banner-section .subscriber-banner-container form .find-btn:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#subscriber-banner-section .subscriber-banner-container form .find-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#subscriber-banner-section .subscriber-banner-container .btn-find-con {
+  position: relative;
+  margin-bottom: 400px;
+}
+@media only screen and (min-width: 768px) {
+  #subscriber-banner-section .subscriber-banner-container .btn-find-con {
+    top: 17px;
+  }
+}
 /* END SUBSCRIBER HERO BANEER SECTION  AREA STYLES */
 /* FEATURED SERVICES SECTION  AREA STYLES */
 #featured-services-section {

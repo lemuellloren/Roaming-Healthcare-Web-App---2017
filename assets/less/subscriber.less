@@ -10,6 +10,123 @@
 
 /* #hero, #about, #contact, etc. */
 /* SUBSCRIBER HERO BANEER SECTION  AREA STYLES */
+#subscriber-banner-section {
+    .uk-dotnav-contrast {
+        >.uk-active {
+            >* {
+                width: 10px;
+                height: 10px;
+                background-color: @darkgray;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+    .uk-dotnav-contrast {
+        >* {
+            >* {
+                width: 10px;
+                height: 10px;
+                background-color: @lightgray;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+    .uk-dotnav {
+        >* {
+            padding-left: 6px;
+        }
+    }
+    .uk-container {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .form-container {
+        margin: 0 auto;
+        text-align: center;
+        .uk-form-icon {
+        }
+    }
+    .subscriber-banner-container {
+        margin: 95px auto;
+        text-align: center;
+        .search-banner-title {
+            padding-bottom: 20px;
+            @media @width-768 {
+                // height: 90px;
+                padding-top: 20%;
+                position: relative;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding-bottom: 0;
+            } 
+        }
+        h1 {
+            // height: 156px;
+            font-family: @main-font;
+            font-size: 30px;
+            font-weight: 300;
+            text-align: center;
+            color: @white;
+            text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+        }
+        p {
+            width: 128px;
+            font-family: @secondary-font;
+            font-size: 16px;
+            line-height: 1.38;
+            text-align: left;
+            color: @white;
+            font-weight: @font-regular;
+            margin: 0 0 5px 0;
+        }
+        ul {
+            list-style: none;
+            margin: 0 auto;
+            padding: 0;
+            @media @width-768 {
+                display: inline-flex;
+                li {
+                    padding: 10px;
+                }
+            }
+        }
+        form {
+            input {
+                .contact-field();
+                color: @lighergray;
+                width: 260px;
+                height: 50px;
+                padding-left: 50px!important;
+                @media @width-768 {
+                    width: 200px;
+                }
+                @media @width-960 {
+                    width: 310px;
+                }
+            }
+            .search-input {
+                margin-top: -10px;
+                span {
+                    color: @darkgray;
+                    font-size: 20px;
+                    top: 56%;
+                    left: 5%;
+                }
+            }
+            .find-btn {
+                .btn-orange(); // margin: 0 45px 0 45px;
+            }
+        }
+        .btn-find-con {
+            position: relative;
+            margin-bottom: 400px;
+            @media @width-768 {
+                top: 17px; // left: 10px;
+            }
+        }
+    }
+}
 
 
 
