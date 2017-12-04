@@ -9085,12 +9085,14 @@ h5 {
 }
 #search-banner-section .search-banner-container form input {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   color: #BBBBBB;
   width: 260px;
@@ -9961,12 +9963,14 @@ h5 {
 }
 #blogsearch-section .blogsearch-container form input {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 80%;
   height: 40px;
@@ -10128,12 +10132,14 @@ footer .footer-contact form .field {
 footer .footer-contact form .field input {
   height: 30px;
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
 }
 footer .footer-contact form .field input:placeholder {
@@ -10155,12 +10161,14 @@ footer .footer-contact form .field input::placeholder {
 }
 footer .footer-contact form .field textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   padding: 10px 10px;
 }
@@ -10418,12 +10426,14 @@ footer .main-footer .share-icons ul li a:hover {
 }
 #subscribe-modal .subs-form input {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 100%;
   height: 50px;
@@ -10786,12 +10796,14 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #login-modal .log-in-form.uk-form input {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   border: solid 1px #C9C9C9;
   height: 40px;
@@ -10880,6 +10892,198 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 /* LOGIN MODAL AREA STYLES */
 /* END SITE MENU AREA STYLES */
+/* ========================================================================
+   Component: Slider
+ ========================================================================== */
+/*
+ * RTL Compatibility
+ */
+[data-uk-slider] {
+  direction: ltr;
+}
+html[dir="rtl"] .uk-slider > * {
+  direction: rtl;
+}
+/*
+ * 1. Create position context
+ * 2. Create stacking context to prevent z-index issues with other components
+ * 3. Deactivate browser history navigation in IE11
+ */
+.uk-slider {
+  /* 1 */
+  position: relative;
+  /* 2 */
+  z-index: 0;
+  /* 3 */
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+}
+/*
+ * 1. Reset list style without interfering with grid
+ */
+.uk-slider:not(.uk-grid) {
+  /* 1 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*
+ * Sub-object item
+ * 1. Position items above each other
+ */
+.uk-slider > * {
+  /* 1 */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*
+ * Clip child elements
+ */
+.uk-slider-container {
+  overflow: hidden;
+}
+/*
+ * Dragged
+ */
+.uk-slider:not(.uk-drag) {
+  transition: -webkit-transform 200ms linear;
+  transition: transform 200ms linear;
+  transition: transform 200ms linear, -webkit-transform 200ms linear;
+}
+/*
+ * 1. Makes text unselectable
+ */
+.uk-slider.uk-drag {
+  cursor: col-resize;
+  /* 1 */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*
+ * 1. Prevents images and links from being dragged (default browser behavior)
+ * 2. Disables the default callout shown when you touch and hold a touch target
+ * Currently only works in Webkit
+ */
+.uk-slider a,
+.uk-slider img {
+  /* 1 */
+  -webkit-user-drag: none;
+  user-drag: none;
+  /* 2 */
+  -webkit-touch-callout: none;
+}
+/*
+ * 1. Prevents images and links from being dragged in Firefox
+ */
+.uk-slider img {
+  pointer-events: none;
+}
+/* Modifier: `uk-slider-fullscreen`
+ ========================================================================== */
+.uk-slider-fullscreen,
+.uk-slider-fullscreen > li {
+  height: 100vh;
+}
+/* ========================================================================
+   Component: Slidenav
+ ========================================================================== */
+/*
+ * 1. Required for `a` elements
+ * 2. Dimension
+ * 3. Style
+ */
+.uk-slidenav {
+  /* 1 */
+  display: inline-block;
+  /* 2 */
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  /* 3 */
+  line-height: 60px;
+  color: rgba(50, 50, 50, 0.4);
+  font-size: 60px;
+  text-align: center;
+}
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ * 3. Required for `a` elements
+ * 4. Style
+ */
+.uk-slidenav:hover,
+.uk-slidenav:focus {
+  /* 2 */
+  outline: none;
+  /* 3 */
+  text-decoration: none;
+  /* 4 */
+  color: rgba(50, 50, 50, 0.7);
+  cursor: pointer;
+}
+/* Active */
+.uk-slidenav:active {
+  color: rgba(50, 50, 50, 0.9);
+}
+/*
+ * Icons
+ */
+.uk-slidenav-previous:before {
+  content: "\f104";
+  font-family: FontAwesome;
+}
+.uk-slidenav-next:before {
+  content: "\f105";
+  font-family: FontAwesome;
+}
+/* Sub-object: `uk-slidenav-position`
+ ========================================================================== */
+/*
+ * Create position context
+ */
+.uk-slidenav-position {
+  position: relative;
+}
+/*
+ * Center vertically
+ */
+.uk-slidenav-position .uk-slidenav {
+  display: none;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  margin-top: -30px;
+}
+.uk-slidenav-position:hover .uk-slidenav {
+  display: block;
+}
+.uk-slidenav-position .uk-slidenav-previous {
+  left: 20px;
+}
+.uk-slidenav-position .uk-slidenav-next {
+  right: 20px;
+}
+/* Modifier: `uk-slidenav-contrast`
+ ========================================================================== */
+.uk-slidenav-contrast {
+  color: rgba(255, 255, 255, 0.5);
+}
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ */
+.uk-slidenav-contrast:hover,
+.uk-slidenav-contrast:focus {
+  color: rgba(255, 255, 255, 0.7);
+}
+/* Active */
+.uk-slidenav-contrast:active {
+  color: rgba(255, 255, 255, 0.9);
+}
 /* #hero, #about, #contact, etc. */
 /* FEATURED SERVICES SECTION  AREA STYLES */
 .dashboard {
@@ -11062,12 +11266,14 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 .dashboard .uk-container .upload-photo form#accountForm input {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 100%;
   height: 40px;
@@ -11170,12 +11376,14 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 .dashboard .uk-container .billing-address form#billingAddressForm input {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 100%;
   height: 40px;
@@ -11589,53 +11797,166 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 .dashboard .uk-container .uk-alert {
   text-align: center;
 }
-.dashboard .uk-container .uk-modal .uk-close {
-  font-size: 24px;
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .basic-info-container {
+    padding: 50px 135px 0 135px;
+  }
+}
+.dashboard .uk-container .basic-info-container .upload-photo-logo {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+}
+.dashboard .uk-container .basic-info-container .upload-photo-logo .upload-icon-container {
+  top: 5px;
+  position: absolute;
+  right: 5px;
+}
+.dashboard .uk-container .basic-info-container .upload-photo-logo img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.dashboard .uk-container .basic-info-container .upload-photo-logo span {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FE7B00;
+  color: #FFF;
   transition: all 0.4s ease;
 }
-.dashboard .uk-container .uk-modal h3 {
-  margin-top: 25px !important;
+.dashboard .uk-container .basic-info-container .upload-photo-logo span:hover {
+  background-color: #C45F00;
 }
-.dashboard .uk-container .uk-modal form#changePassForm input {
+.dashboard .uk-container .basic-info-container form input,
+.dashboard .uk-container .basic-info-container form select,
+.dashboard .uk-container .basic-info-container form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 100%;
   height: 40px;
   border-radius: 3px;
   border: solid 1px #E4E4E4;
-  font-size: 14px;
-  font-family: 'Roboto';
-  font-weight: normal;
 }
-.dashboard .uk-container .uk-modal form#changePassForm input:placeholder {
+.dashboard .uk-container .basic-info-container form input:placeholder,
+.dashboard .uk-container .basic-info-container form select:placeholder,
+.dashboard .uk-container .basic-info-container form textarea:placeholder {
   color: #BBBBBB;
 }
-.dashboard .uk-container .uk-modal form#changePassForm input:focus {
+.dashboard .uk-container .basic-info-container form input:focus,
+.dashboard .uk-container .basic-info-container form select:focus,
+.dashboard .uk-container .basic-info-container form textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
   box-shadow: 0 5px 20px -6px #FE7B00;
 }
 @media only screen and (min-width: 768px) {
-  .dashboard .uk-container .uk-modal form#changePassForm input {
-    width: 80%;
+  .dashboard .uk-container .basic-info-container form input,
+  .dashboard .uk-container .basic-info-container form select,
+  .dashboard .uk-container .basic-info-container form textarea {
+    width: 100%;
   }
 }
-.dashboard .uk-container .uk-modal form#changePassForm input::-webkit-input-placeholder {
+.dashboard .uk-container .basic-info-container form input::-webkit-input-placeholder,
+.dashboard .uk-container .basic-info-container form select::-webkit-input-placeholder,
+.dashboard .uk-container .basic-info-container form textarea::-webkit-input-placeholder {
   color: #BBBBBB !important;
 }
-.dashboard .uk-container .uk-modal form#changePassForm input:-ms-input-placeholder {
+.dashboard .uk-container .basic-info-container form input:-ms-input-placeholder,
+.dashboard .uk-container .basic-info-container form select:-ms-input-placeholder,
+.dashboard .uk-container .basic-info-container form textarea:-ms-input-placeholder {
   color: #BBBBBB !important;
 }
-.dashboard .uk-container .uk-modal form#changePassForm input::placeholder {
+.dashboard .uk-container .basic-info-container form input::placeholder,
+.dashboard .uk-container .basic-info-container form select::placeholder,
+.dashboard .uk-container .basic-info-container form textarea::placeholder {
   color: #BBBBBB !important;
 }
-.dashboard .uk-container .uk-modal form#changePassForm button {
+.dashboard .uk-container .basic-info-container form textarea {
+  height: 120px;
+}
+.dashboard .uk-container .basic-info-container form select {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-container .basic-info-container p {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  color: #444444;
+}
+.dashboard .uk-container .basic-info-container .help-box {
+  position: relative;
+}
+.dashboard .uk-container .basic-info-container .help-box span {
+  position: absolute;
+  top: 13px;
+  right: 6px;
+  color: #BBBBBB;
+  padding: 0px 2px 2px 5px;
+  background: #fff;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .help-box span:hover {
+  color: #C45F00;
+}
+.dashboard .uk-container .basic-info-container .map-container {
+  position: relative;
+  padding: 15px 0 15px 0;
+}
+.dashboard .uk-container .basic-info-container .map-container iframe {
+  height: 180px;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .basic-info-container .map-container iframe {
+    height: 200px;
+  }
+}
+.dashboard .uk-container .basic-info-container .basic-info-fields {
+  padding: 15px 0 35px 0;
+  border-bottom: 1px dotted #444444;
+}
+.dashboard .uk-container .basic-info-container .basic-info-fields .other-information {
+  overflow-x: scroll;
+  margin-bottom: 15px;
+}
+.dashboard .uk-container .basic-info-container .basic-info-fields .other-information table {
+  margin: 0;
+  border: 1px solid #C9C9C9;
+}
+.dashboard .uk-container .basic-info-container .basic-info-fields .other-information table th {
+  text-align: center;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border: 1px solid #C9C9C9;
+}
+.dashboard .uk-container .basic-info-container .basic-info-fields .other-information table td {
+  border: 1px solid #C9C9C9;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+.dashboard .uk-container .basic-info-container .basic-info-fields .other-information table td i {
+  padding: 0 3px;
+}
+.dashboard .uk-container .basic-info-container .basic-info-fields .other-information table td i:before {
+  font-size: 18px;
+  color: #FE7B00;
+}
+.dashboard .uk-container .basic-info-container .basic-info-fields button.save-changes {
   width: 159px;
   height: 50px;
   border-radius: 3px;
@@ -11653,7 +11974,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   padding: 10px 28px;
   margin-top: 20px;
 }
-.dashboard .uk-container .uk-modal form#changePassForm button::before {
+.dashboard .uk-container .basic-info-container .basic-info-fields button.save-changes::before {
   content: '';
   background-color: #C45F00;
   width: 0%;
@@ -11666,33 +11987,684 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   left: 50%;
   transition: all 0.4s ease;
 }
-.dashboard .uk-container .uk-modal form#changePassForm button:hover {
+.dashboard .uk-container .basic-info-container .basic-info-fields button.save-changes:hover {
   background-color: #C45F00;
   border: 1px solid #C45F00;
 }
-.dashboard .uk-container .uk-modal form#changePassForm button:hover::before {
+.dashboard .uk-container .basic-info-container .basic-info-fields button.save-changes:hover::before {
   width: 150%;
   height: 150%;
   top: -25%;
   left: -25%;
   opacity: 0;
 }
-.dashboard .uk-container .uk-modal .confirm-content {
+.dashboard .uk-container .basic-info-container .registration-s p {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.57;
+  text-align: left;
+  color: #165C96;
+}
+.dashboard .uk-container .basic-info-container .registration-s p span {
+  font-size: 16px;
+  text-align: center;
+  color: #BBBBBB;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .registration-s p span:hover {
+  color: #C45F00;
+}
+.dashboard .uk-container .basic-info-container .num-list {
+  padding-left: 15px;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .basic-info-container .input-fields-wrap {
+    text-align: left;
+  }
+}
+.dashboard .uk-container .basic-info-container .input-fields-wrap .add-field-button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  text-align: left;
+  color: #165C96;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.dashboard .uk-container .basic-info-container .input-fields-wrap .add-field-button:focus {
+  outline: none;
+}
+.dashboard .uk-container .basic-info-container .input-fields-wrap .add-field-button:hover {
+  text-decoration: none;
+}
+.dashboard .uk-container .basic-info-container .input-fields-wrap .remove_field {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  text-align: left;
+  color: #165C96 !important;
+  text-decoration: none;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .basic-info-container .input-fields-wrap2 {
+    text-align: left;
+  }
+}
+.dashboard .uk-container .basic-info-container .input-fields-wrap2 .add-field-button2 {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  text-align: left;
+  color: #165C96;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.dashboard .uk-container .basic-info-container .input-fields-wrap2 .add-field-button2:focus {
+  outline: none;
+}
+.dashboard .uk-container .basic-info-container .input-fields-wrap2 .remove_field2 {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  text-align: left;
+  color: #165C96 !important;
+  text-decoration: none;
+}
+.dashboard .uk-container .basic-info-container .input-fields-wrap {
+  padding-bottom: 20px;
+}
+.dashboard .uk-container .basic-info-container .input-fields-wrap2 {
+  padding-top: 20px;
+}
+.dashboard .uk-container .basic-info-container .about-area {
+  padding-top: 20px;
+}
+.dashboard .uk-container .basic-info-container .docs-box {
+  text-align: center;
+  padding: 15px 0 20px 0;
+}
+.dashboard .uk-container .basic-info-container .docs-box .docs-btn {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  height: auto;
+  width: auto;
+  padding: 6px 13px;
+  font-weight: normal;
+}
+.dashboard .uk-container .basic-info-container .docs-box .docs-btn::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .docs-box .docs-btn:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+.dashboard .uk-container .basic-info-container .docs-box .docs-btn:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .basic-info-container .docs-box .docs-btn:hover {
+  text-decoration: none;
+}
+.dashboard .uk-container .basic-info-container .about-container {
+  padding: 35px 0;
+  border-bottom: 1px dotted #444444;
+}
+.dashboard .uk-container .basic-info-container .about-container button.save-changes {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 10px 28px;
+  margin-top: 20px;
+}
+.dashboard .uk-container .basic-info-container .about-container button.save-changes::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .about-container button.save-changes:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+.dashboard .uk-container .basic-info-container .about-container button.save-changes:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .basic-info-container .services {
+  padding: 35px 0 85px 0;
+  border-bottom: 1px dotted #444;
+}
+.dashboard .uk-container .basic-info-container .services .add-service-container {
+  padding: 10px 0 20px 0;
+}
+.dashboard .uk-container .basic-info-container .services .add-service-container a.add-service {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 6px 22px;
+}
+.dashboard .uk-container .basic-info-container .services .add-service-container a.add-service::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .services .add-service-container a.add-service:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+.dashboard .uk-container .basic-info-container .services .add-service-container a.add-service:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .basic-info-container .services .add-service-container a.add-service:hover {
+  text-decoration: none;
+}
+.dashboard .uk-container .basic-info-container .services .services-content li {
+  padding: 0px;
+}
+@media only screen and (min-width: 960px) {
+  .dashboard .uk-container .basic-info-container .services .services-content li .service {
+    padding: 0 20px;
+  }
+}
+.dashboard .uk-container .basic-info-container .services .services-content li .service .shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 2px;
+}
+.dashboard .uk-container .basic-info-container .services .services-content li .service .shadow .panel-content {
+  padding-bottom: 20px;
+}
+.dashboard .uk-container .basic-info-container .services .services-content li .service .shadow h5 {
+  background: #444;
+  color: #FFF;
+  font-weight: 300;
+  padding: 5px 10px;
+  text-align: center;
+}
+.dashboard .uk-container .basic-info-container .services .services-content li .service .shadow p {
+  font-size: 16px;
+  padding: 0 10px 0 10px;
+  font-weight: normal;
+  font-family: 'Roboto';
+}
+.dashboard .uk-container .basic-info-container .services .services-content li .service .shadow a {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 6px 20px;
+}
+.dashboard .uk-container .basic-info-container .services .services-content li .service .shadow a::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .services .services-content li .service .shadow a:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+.dashboard .uk-container .basic-info-container .services .services-content li .service .shadow a:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .basic-info-container .services .services-content li .service .shadow a:hover {
+  text-decoration: none;
+}
+.dashboard .uk-container .basic-info-container .services .services-content .service-list-arrow {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Roboto';
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 37px;
+  outline: none;
+}
+.dashboard .uk-container .basic-info-container .services .services-content .service-list-arrow::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .services .services-content .service-list-arrow:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+.dashboard .uk-container .basic-info-container .services .services-content .service-list-arrow:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .basic-info-container .services .services-content .uk-slidenav.uk-slidenav-previous,
+.dashboard .uk-container .basic-info-container .services .services-content .uk-slidenav.uk-slidenav-next {
+  display: block;
+  color: #FE7B00;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .services .services-content .uk-slidenav.uk-slidenav-previous:hover,
+.dashboard .uk-container .basic-info-container .services .services-content .uk-slidenav.uk-slidenav-next:hover {
+  color: #C45F00;
+}
+.dashboard .uk-container .basic-info-container .services .services-content .service-list-nav {
+  position: relative;
+  top: 15px;
+  float: right;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .basic-info-container .services .services-content .service-list-nav {
+    top: 20px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .dashboard .uk-container .basic-info-container .services .services-content .service-list-nav {
+    margin-right: 20px;
+  }
+}
+.dashboard .uk-container .basic-info-container .documents {
+  padding: 35px 0;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li {
+  padding: 0px;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document {
+  margin-bottom: 25px;
+}
+@media only screen and (min-width: 960px) {
+  .dashboard .uk-container .basic-info-container .documents .uk-slider li .document {
+    padding: 0 20px;
+  }
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 3px;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow figure.image {
+  overflow: hidden;
+  height: 130px;
+  margin: 0;
+  width: 100%;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow figure.image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 155px;
+  width: 100%;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow .uk-overlay .uk-overlay-panel {
+  background: rgba(254, 123, 0, 0.8);
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+}
+@media screen and (max-width: 768px) {
+  .dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow .uk-overlay .uk-overlay-panel {
+    opacity: 1;
+  }
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow .uk-overlay .uk-overlay-panel span {
+  padding-right: 10px;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc {
+  padding: 13px 13px 20px 13px;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc p {
+  margin: 0px;
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc a {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 6px 20px;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc a::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc a:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc a:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc a:hover {
+  text-decoration: none;
+}
+.dashboard .uk-container .basic-info-container .documents .service-list-arrow {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Roboto';
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 37px;
+  outline: none;
+}
+.dashboard .uk-container .basic-info-container .documents .service-list-arrow::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .documents .service-list-arrow:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+.dashboard .uk-container .basic-info-container .documents .service-list-arrow:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slidenav.uk-slidenav-previous,
+.dashboard .uk-container .basic-info-container .documents .uk-slidenav.uk-slidenav-next {
+  display: block;
+  color: #FE7B00;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .documents .uk-slidenav.uk-slidenav-previous:hover,
+.dashboard .uk-container .basic-info-container .documents .uk-slidenav.uk-slidenav-next:hover {
+  color: #C45F00;
+}
+.dashboard .uk-container .basic-info-container .documents .service-list-nav {
+  position: relative;
+  top: 10px;
+  float: right;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-container .basic-info-container .documents .service-list-nav {
+    top: 20px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .dashboard .uk-container .basic-info-container .documents .service-list-nav {
+    margin-right: 20px;
+  }
+}
+.dashboard .uk-container .basic-info-container .documents .upload-docu {
+  text-align: center;
+  width: 145px;
+  height: 145px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.dashboard .uk-container .basic-info-container .documents .upload-docu .upload-icon-container {
+  top: 5px;
+  position: absolute;
+  right: 5px;
+}
+.dashboard .uk-container .basic-info-container .documents .upload-docu img {
+  width: 100%;
+  height: 145px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.dashboard .uk-container .basic-info-container .documents .upload-docu span {
+  padding: 8px;
+  border-radius: 3px;
+  background-color: #FE7B00;
+  color: #FFF;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-container .basic-info-container .documents .upload-docu span:hover {
+  background-color: #C45F00;
+}
+.dashboard .uk-modal .uk-close {
+  font-size: 24px;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-modal h3 {
+  margin-top: 25px !important;
+}
+.dashboard .uk-modal form input {
+  width: 93%;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  transition: all 0.4s ease;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 1px #E4E4E4;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+.dashboard .uk-modal form input:placeholder {
+  color: #BBBBBB;
+}
+.dashboard .uk-modal form input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  box-shadow: 0 5px 20px -6px #FE7B00;
+}
+@media only screen and (min-width: 768px) {
+  .dashboard .uk-modal form input {
+    width: 80%;
+  }
+}
+.dashboard .uk-modal form input::-webkit-input-placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-modal form input:-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-modal form input::placeholder {
+  color: #BBBBBB !important;
+}
+.dashboard .uk-modal form button {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 10px 28px;
+  margin: 20px 0;
+}
+.dashboard .uk-modal form button::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.dashboard .uk-modal form button:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+.dashboard .uk-modal form button:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .uk-modal .confirm-content {
   font-family: 'Roboto';
   font-size: 16px;
   font-weight: normal;
 }
-.dashboard .uk-container .uk-modal .footer-modal {
+.dashboard .uk-modal .footer-modal {
   text-align: center;
   padding: 25px 0 15px 0;
 }
-.dashboard .uk-container .uk-modal .modal-button {
+.dashboard .uk-modal .modal-button {
   display: inline-block;
   width: auto !important;
   height: auto !important;
   vertical-align: top;
 }
-.dashboard .uk-container .uk-modal .confirm {
+.dashboard .uk-modal .confirm {
   width: 109.1px;
   height: 36.6px;
   border-radius: 3px;
@@ -11707,7 +12679,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   transition: all 0.4s ease-in-out 0.1s;
   padding: 10px 20px;
 }
-.dashboard .uk-container .uk-modal .confirm::before {
+.dashboard .uk-modal .confirm::before {
   content: '';
   color: #FFF;
   background-color: #FE7B00;
@@ -11720,18 +12692,18 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   left: 50%;
   transition: all 0.4s ease;
 }
-.dashboard .uk-container .uk-modal .confirm:hover {
+.dashboard .uk-modal .confirm:hover {
   background-color: #FE7B00;
   color: #FFF;
 }
-.dashboard .uk-container .uk-modal .confirm:hover::before {
+.dashboard .uk-modal .confirm:hover::before {
   width: 150%;
   height: 150%;
   top: -25%;
   left: -25%;
   opacity: 0;
 }
-.dashboard .uk-container .uk-modal .back {
+.dashboard .uk-modal .back {
   width: 159px;
   height: 50px;
   border-radius: 3px;
@@ -11748,7 +12720,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   margin-left: 15px;
   text-decoration: none;
 }
-.dashboard .uk-container .uk-modal .back::before {
+.dashboard .uk-modal .back::before {
   content: '';
   background-color: #C45F00;
   width: 0%;
@@ -11761,11 +12733,11 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   left: 50%;
   transition: all 0.4s ease;
 }
-.dashboard .uk-container .uk-modal .back:hover {
+.dashboard .uk-modal .back:hover {
   background-color: #C45F00;
   border: 1px solid #C45F00;
 }
-.dashboard .uk-container .uk-modal .back:hover::before {
+.dashboard .uk-modal .back:hover::before {
   width: 150%;
   height: 150%;
   top: -25%;

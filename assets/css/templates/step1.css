@@ -9085,12 +9085,14 @@ h5 {
 }
 #search-banner-section .search-banner-container form input {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   color: #BBBBBB;
   width: 260px;
@@ -9961,12 +9963,14 @@ h5 {
 }
 #blogsearch-section .blogsearch-container form input {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 80%;
   height: 40px;
@@ -10128,12 +10132,14 @@ footer .footer-contact form .field {
 footer .footer-contact form .field input {
   height: 30px;
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
 }
 footer .footer-contact form .field input:placeholder {
@@ -10155,12 +10161,14 @@ footer .footer-contact form .field input::placeholder {
 }
 footer .footer-contact form .field textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   padding: 10px 10px;
 }
@@ -10418,12 +10426,14 @@ footer .main-footer .share-icons ul li a:hover {
 }
 #subscribe-modal .subs-form input {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 100%;
   height: 50px;
@@ -10786,12 +10796,14 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #login-modal .log-in-form.uk-form input {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   border: solid 1px #C9C9C9;
   height: 40px;
@@ -11087,12 +11099,14 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #step1-onboarding-section .upload-photo form input {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 100%;
   height: 40px;
@@ -11466,12 +11480,14 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .basic-info-container form select,
 #step1-onboarding-section .basic-info-container form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 100%;
   height: 40px;

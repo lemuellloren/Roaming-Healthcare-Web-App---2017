@@ -17,14 +17,19 @@
 	/* page functions go here */
 
 
-	//upload photo
-	$("#upload-icon").click(function () {
-		$("#upload-file").trigger('click');
+	//upload photo account
+	$(".upload-icon").click(function () {
+		$(this).siblings(".upload-file").trigger('click');
+	});
+
+	//upload photo document
+	$(".upload-icon-document").click(function () {
+		$(this).siblings(".upload-file-document").trigger('click');
 	});
 
 	//close modal
 	$('.back').click(function(){
-		$("#cancel-acct .uk-modal-close").trigger('click');
+		$(".uk-modal-close").trigger('click');
 	})
 
 })(jQuery);

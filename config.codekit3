@@ -5391,6 +5391,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/no-logo.png": {
+		"ft": 32768,
+		"iS": 2290,
+		"oA": 0,
+		"oAP": "\/assets\/images\/no-logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/profile-img.jpg": {
 		"ft": 16384,
 		"iS": 739837,
