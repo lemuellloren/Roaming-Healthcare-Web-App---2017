@@ -5144,6 +5144,23 @@
 		"oAP": "\/assets\/css\/templates\/step1.css.map",
 		"oF": 0
 		},
+	"\/assets\/css\/templates\/subscriber.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/templates\/subscriber-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/templates\/subscriber.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/templates\/subscriber.css.map",
+		"oF": 0
+		},
 	"\/assets\/css\/templates\/verifyemail.css": {
 		"aP": 1,
 		"bl": 0,
@@ -6002,6 +6019,23 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/step1.min.js.map",
+		"oF": 0
+		},
+	"\/assets\/js\/templates\/subscriber.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/subscriber.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/assets\/js\/templates\/subscriber.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/templates\/subscriber.min.js.map",
 		"oF": 0
 		},
 	"\/assets\/js\/templates\/verifyemail.min.js": {
