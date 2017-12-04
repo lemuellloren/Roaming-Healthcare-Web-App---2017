@@ -10290,6 +10290,11 @@ footer .main-footer .url {
   text-align: center;
   line-height: 7px;
 }
+@media only screen and (min-width: 768px) {
+  footer .main-footer .url {
+    display: none;
+  }
+}
 footer .main-footer .url a {
   color: #FFF;
   font-size: 10px;
@@ -10629,7 +10634,7 @@ nav .desktop-menu .uk-container .logo img {
 }
 nav .desktop-menu .uk-container .menulist {
   text-align: right;
-  padding: 20px 20px 10px 0;
+  padding: 20px 20px 15px 0;
 }
 nav .desktop-menu .uk-container .menulist ul {
   width: auto;

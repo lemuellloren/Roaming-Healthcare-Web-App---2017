@@ -5,6 +5,10 @@
 // import any framework components that are used in this page only:
 // @codekit-prepend '../bower_components/uikit/js/components/slider.js'
 // @codekit-prepend '../bower_components/uikit/js/components/slideshow.js'
+// @codekit-prepend '../bower_components/uikit/js/components/accordion.js'
+// @codekit-prepend '../bower_components/uikit/js/components/lightbox.js'
+
+
 
 
 
@@ -15,7 +19,12 @@
 (function($) {
     
     /* page functions go here */
-    
+    $('.modalSelector').on({
+        
+            'hide.uk.modal': function(){
+                var accordion = UIkit.accordion($('.uk-accordion'), { showfirst:false });
+            }
+        });
  
 })(jQuery);
 
