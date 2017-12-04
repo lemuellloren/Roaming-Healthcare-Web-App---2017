@@ -1,0 +1,438 @@
+// BASE IMPORT
+@import '_base';
+// PAGE FRAMEWORK COMPONENT IMPORT
+@import '../bower_components/uikit/less/components/slideshow.less';
+@import '../bower_components/uikit/less/components/dotnav.less';
+@import '../bower_components/uikit/less/components/slider.less';
+@import '../bower_components/uikit/less/components/slidenav.less';
+// PAGE FRAMEWORK OVERRIDES
+// PAGE SECTION STYLES
+
+/* #hero, #about, #contact, etc. */
+
+
+/* SUBSCRIBER HERO BANEER SECTION  AREA STYLES */
+
+#subscriber-banner-section {
+    .subscriber-background {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+    }
+
+    .uk-dotnav-contrast {
+        >.uk-active {
+            >* {
+                width: 10px;
+                height: 10px;
+                background-color: @darkgray;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+    .uk-dotnav-contrast {
+        >* {
+            >* {
+                width: 10px;
+                height: 10px;
+                background-color: @lightgray;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+    .uk-dotnav {
+        bottom: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        >* {
+            padding-left: 6px;
+        }
+    }
+    .uk-container {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    h1 {
+        font-family: Montserrat;
+        font-size: @default-font-size + 14px;
+        font-weight: 300;
+        text-align: center;
+        color: @white;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+    }
+   
+    p {
+        font-family: @secondary-font;
+        font-size: @default-font-size + 2px;
+        text-align: center;
+        color: @white;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+    }
+    .btn-container {
+        padding: 20px 0 20px 0;
+        .btn-join {
+            .btn-orange();
+        }
+    }
+    .subscriber-banner-container {
+        text-align: center;
+    }
+}
+
+
+/* END SUBSCRIBER HERO BANEER SECTION  AREA STYLES */
+
+
+/* FEATURED SERVICES SECTION  AREA STYLES */
+
+#featured-services-section {
+    background-color: @lightgray;
+    .section-space-sm();
+    @media @width-768 {
+        .section-space();
+    }
+    text-align: center;
+    .uk-container {
+        margin: 0 auto;
+    }
+    .featured-container {
+        h3 {
+            font-size: 24px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .divider-title {
+            .line-title();
+        }
+        .featured-grid-container {
+            margin-top: 30px;
+            margin-bottom: -31px;
+            @media @width-1366 {
+                margin-bottom: -15px;
+            }
+        }
+        h5 {
+            background: transparent;
+            border: 2px solid @white;
+            padding: 14px 20px!important;
+            width: auto;
+            margin: 0 20px 0 20px;
+            font-family: @main-font;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            color: @white;
+        }
+        .feautured-list {
+            margin: 0 0 20px 0;
+        }
+        .uk-overlay-panel {
+            background-color: rgba(255, 255, 255, 0.9);
+            .soft-transition();
+        }
+        .feat-content-hvr {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 2px solid @blue;
+            height: 100%;
+            .feat-title-hvr {
+                border: 0 !important;
+                padding: 0 !important;
+                font-family: @main-font;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                color: @blue;
+                margin: 0;
+            }
+            p {
+                font-family: @secondary-font;
+                font-size: 16px;
+                line-height: 1.38;
+                text-align: center;
+                color: @darkgray;
+            }
+            .feat-content-area {
+                margin: 15px;
+                @media @width-768 {
+                    text-align: center;
+                    margin: 0 auto;
+                    padding: 50px 20px 50px 20px;
+                }
+            }
+            .feat-services-btn {
+                text-align: center;
+                .feat-search-brn {
+                    .btn-orange();
+                    width: 109.1px;
+                    height: 36.6px;
+                    margin: 0 35px 0 35px;
+                }
+            }
+        }
+    }
+}
+
+
+/* END FEATURED SERVICES SECTION  AREA STYLES */
+
+
+/* TESTIMONIALS SECTION  AREA STYLES */
+
+#testimonial-section {
+    background-color: @white;
+    height: auto;
+    .uk-container {
+        margin: 0 auto;
+    }
+    .testimonials-container {
+        .section-space-sm();
+        .testimonial-img {
+            text-align: center;
+            img {
+                width: 80px;
+                height: 80px;
+                border-radius: 100px;
+                object-fit: cover;
+            }
+        }
+        .comment-div {
+            padding: 25px 0 25px 0;
+            p {
+                font-family: @main-font;
+                font-size: @default-font-size + 2px;
+                font-weight: 300;
+                line-height: 1.5;
+                text-align: center;
+                color: @darkgray;
+            }
+        }
+        .testimonial-name {
+            h4 {
+                font-family: @secondary-font !important;
+                font-size: @default-font-size + 8px;
+                text-align: center;
+                color: @blue;
+                text-transform: initial;
+            }
+            p {
+                font-family: @secondary-font;
+                font-size: 1@default-font-size + 2px;
+                text-align: center;
+                color: @darkgray;
+            }
+        }
+    }
+    .uk-dotnav-contrast {
+        >.uk-active {
+            >* {
+                width: 10px;
+                height: 10px;
+                background-color: @darkgray;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+    .uk-dotnav-contrast {
+        >* {
+            >* {
+                width: 10px;
+                height: 10px;
+                background-color: @lightgray;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+    .uk-dotnav {
+        >* {
+            padding-left: 6px;
+        }
+    }
+    .list-btn-div {
+        padding: 20px 0 0 0;
+        text-align: center;
+        .list-btn {
+            .btn-white();
+            width: 159px;
+            height: 50px;
+        }
+    }
+}
+
+
+/* END TESTIMONIALS SECTION  AREA STYLES */
+
+
+/* PLAN SECTION  AREA STYLES */
+
+#plan-section {
+    .uk-container {
+        margin: 0 auto;
+    }
+    .plan-container {
+        .section-space-sm();
+        @media @width-768 {
+            .section-space();
+        }
+    }
+    h3 {
+        font-family: @main-font;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        color: @blue;
+        text-transform: initial;
+    }
+    .divider-title {
+        .line-title();
+    }
+    .plan-area {
+        p {
+            font-family: @secondary-font;
+            font-size: 16px;
+            line-height: 1.38;
+            text-align: center;
+            color: @darkgray;
+        }
+    }
+    .plan-subtitle {
+        padding: 0 0 35px 0;
+    }
+    .plan-heading {
+        .plan-title-blue();
+    }
+    .plan-heading-blue {
+        .plan-title-blue();
+    }
+    .plan-heading-orange {
+        .plan-title-orange();
+    }
+    .bottom-triangle-orange {
+        .triangle-down-orange();
+    }
+    .bottom-triangle-blue {
+        .triangle-down-blue();
+    }
+    .plan-content {
+        max-width: 250px;
+        height: 500px;
+        background-color: @white;
+        border: solid 1px @gray;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        @media @width-960 {
+            max-width: 300px;
+        }
+        .pricing-content {
+            padding: 50px 0 0 0;
+            width: 80%;
+            margin: 0 auto;
+            p,
+            em {
+                font-family: @secondary-font;
+                font-size: 14px;
+                font-weight: 300;
+                text-align: center;
+                color: @darkgray;
+            }
+            .plan-heading {
+                .plan-title-blue()
+            }
+        }
+        .choose-btn-container {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            text-align: center;
+            padding: 0 0 15px 0;
+            i {
+                color: @orange;
+                font-size: 12px;
+                span {
+                    font-family: @secondary-font;
+                    font-size: 14px;
+                    text-align: center;
+                    color: @orange;
+                }
+            }
+            .current-blue {
+                color: @blue !important;
+                font-size: 12px;
+                span {
+                    font-family: @secondary-font;
+                    font-size: 14px;
+                    text-align: center;
+                    color: @blue;
+                }
+            }
+            .choose-btn-orange {
+                .btn-orange();
+                width: 80%;
+                height: 30px;
+            }
+            .choose-btn-blue {
+                .btn-blue();
+                width: 80%;
+                height: 30px;
+            }
+        }
+        .price-here-blue {
+            font-family: @main-font;
+            font-size: 14px;
+            text-align: center;
+            color: @blue;
+            span {
+                font-size: 30px;
+                font-weight: 300;
+            }
+        }
+        .price-here-orange {
+            font-family: @main-font;
+            font-size: 14px;
+            text-align: center;
+            color: @orange;
+            span {
+                font-size: 30px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+
+/* END PLAN SECTION  AREA STYLES */
+
+#partners-section {
+    background-color: @white;
+    .uk-container {
+        margin: 0 auto;
+    }
+    .plan-container {
+        .section-space-sm();
+        @media @width-768 {
+            .section-space();
+        }
+        h2 {
+            opacity: 0.7;
+            font-family: @secondary-font;
+            font-size: @default-font-size + 4px;
+            text-align: center;
+            color: @darkgray;
+        }
+    }
+    .uk-slidenav-previous {
+        left: -30px;
+    }
+    .uk-slidenav-next {
+        right: -30px;
+    }
+    .uk-slidenav-contrast {
+        color: @darkgray;
+        opacity: 0.1;
+    }
+}

@@ -43,6 +43,7 @@
 
 /* End Media Queries Area */
 
+
 // FRAMEWORK OVERRIDES
 html {
     font-family: @main-font;
@@ -93,8 +94,13 @@ h5 {
 .separator {
     border-bottom: 1px solid @gray;
 }
-
-
+//section spacing
+.section-space() {
+    padding: 80px 0 80px 0;
+}
+.section-space-sm() {
+    padding: 50px 0 50px 0;
+}
 /* Contact Field Area Styles */
 
 .contact-field() {
@@ -201,17 +207,7 @@ h5 {
         text-align: center;
         color: @white;
     }
-    // &::after {
-    //     content: "";
-    //     position: absolute;
-    //     bottom: -25px;
-    //     left: 3px;
-    //     width: 0;
-    //     height: 0;
-    //     border-left: 100px solid transparent;
-    //     border-right: 100px solid transparent;
-    //     border-top: 25px solid @blue;
-    // }
+ 
 }
 
 .plan-title-orange() {
@@ -228,17 +224,6 @@ h5 {
         text-align: center;
         color: @white;
     }
-    // &::after {
-    //     content: "";
-    //     position: absolute;
-    //     bottom: -25px;
-    //     left: 3px;
-    //     width: 0;
-    //     height: 0;
-    //     border-left: 100px solid transparent;
-    //     border-right: 100px solid transparent;
-    //     border-top: 25px solid @orange;
-    // }
 }
 
 
@@ -586,7 +571,6 @@ h5 {
     }
 }
 
-
 /* END SEARCH BANNER AREA STYLES */
 
 
@@ -688,7 +672,7 @@ h5 {
 
 #featured-listers-section {
     background-color: @white;
-    padding: 80px 0 100px 0;
+    .section-space-sm();
     .uk-container {
         margin: 0 auto;
     }
@@ -704,12 +688,19 @@ h5 {
     }
     .profile-img {
         width: 100%;
+        object-fit: cover;
+        height: 360px;
+    }
+    .uk-panel-teaser {
+        height: 360px;
+        overflow: hidden;
     }
     .feat-list-arrow {
         .btn-white();
         width: 37px;
         outline: none;
     }
+   
     .uk-slidenav.uk-slidenav-previous,
     .uk-slidenav.uk-slidenav-next {
         display: block;
@@ -726,11 +717,15 @@ h5 {
     }
     .uk-panel.uk-panel-box {
         background: rgba(255, 255, 255, 0.9);
-        border: 1px solid rgba(0, 0, 0, 0.16);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            margin: 2px;
         .soft-transition();
         &:hover {
             .hover-list {
                 opacity: 1;
+            }
+            .feat-info {
+                visibility: hidden;
             }
         }
     }
@@ -774,7 +769,7 @@ h5 {
     .uk-overlay-panel {
         .soft-transition();
         background-color: rgba(255, 255, 255, 0.9);
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     }
     .uk-slidenav {
         font-size: 25px;
@@ -800,12 +795,8 @@ h5 {
         }
     }
     .feat-list-nav {
-        position: relative;
-        top: 30px;
-        float: right;
-        @media @width-768 {
-            top: 50px;
-        }
+        text-align: right;
+        padding: 20px 0 0 0;
     }
     .feat-profiles {
         padding-top: 29px;
@@ -838,12 +829,9 @@ h5 {
 
 #blog-call-section {
     background-color: @lightgray;
-    padding: 20% 0 25% 0;
+    .section-space-sm();
     @media @width-768 {
-        padding: 50px 0 100px 0;
-    }
-    @media @width-1024 {
-        padding-bottom: 15%;
+        .section-space();
     }
     height: auto;
     h3 {
@@ -921,10 +909,8 @@ h5 {
         }
     }
     .visit-blog-container {
-        position: relative;
         text-align: center;
-        top: 25px;
-        bottom: 0;
+        .section-space-sm();
         @media @width-768 {
             top: 80px;
         }
@@ -1019,9 +1005,8 @@ h5 {
 /* SUBSCRIBER CALL TO ACTION  AREA STYLES */
 
 #subscriber-cta-section {
-    padding: 25px 0 25px 0;
     .subscriber-cta-container {
-        padding: 80px 0 80px 0;
+        padding: 98px 0 98px 0;
         @media @width-960 {
             padding: 50px 0 50px 0;
         }
@@ -1077,14 +1062,14 @@ h5 {
         margin: 0 auto;
         padding: 30px 0 30px 0;
         width: 256px;
-        height: 213.2px;
+        // height: 213.2px;
         @media @width-768 {
             width: auto;
-            height: 116px;
+            .section-space();
         }
     }
     .ads-lg {
-        padding-bottom: 25px;
+       padding: 0;
     }
 }
 
@@ -1100,8 +1085,11 @@ h5 {
 #breadcrumb-section {
     background-color: @lightgray;
     height: 50px;
-    padding: 100px 0 0 0;
+    padding: 80px 0 0 0;
     text-align: left;
+    @media @width-768 {
+        margin-bottom: -60px;
+    }
     .uk-container {
         margin: 0 auto;
     }
@@ -1162,6 +1150,7 @@ h5 {
             padding: 20px 0 0 0;
             input {
                 .contact-field();
+                font-family: @secondary-font;
                 width: 80%;
                 height: 40px;
                 @media @width-768 {
@@ -1417,7 +1406,7 @@ footer {
         text-align: center;
         line-height: 1;
         color: @white;
-        text-transform: uppercase;
+        text-transform: initial;
         margin: 36px;
         @media @width-768 {
             margin: 60px;
@@ -1445,6 +1434,9 @@ footer {
         padding: 20px;
         height: 130px !important;
         background-image: linear-gradient(to top, @blue, #3382c4);
+        @media @width-768 {
+            padding: 1px;
+        }
     }
     @media @width-768 {
         .subs-container {
@@ -1467,6 +1459,7 @@ footer {
         text-align: center;
         input {
             .contact-field();
+            font-family: @secondary-font;
             width: 100%;
             height: 50px;
             border: solid 1px @gray;
@@ -1716,11 +1709,13 @@ nav {
         text-align: center;
         color: @blue;
         padding-top: 30px;
-        text-transform: uppercase;
+        text-transform: initial;
     }
     .uk-modal-dialog {
-        background-color: @white;
         height: 370px;
+        width: 272px;
+        background-color: @white;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     }
     .divider-title {
         .line-title();
@@ -1737,6 +1732,7 @@ nav {
             border: solid 1px @lightergray;
             height: 40px;
             width: 100%;
+            font-family: @secondary-font;
         }
         a {
             .orange-link();

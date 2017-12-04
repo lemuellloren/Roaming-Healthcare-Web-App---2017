@@ -657,7 +657,7 @@
                                             <span class="uk-icon-globe"></span> website.com</a>
                                     </div>
                                     <div class="msg-cirle-container">
-                                        <button class="msg-btn-circle">Message</button>
+                                        <button class="msg-btn-circle" data-uk-modal="{target:'#msg-layout6', center:'true'}">Message</button>
                                     </div>
                                 </div>
                             </div>
@@ -700,7 +700,7 @@
 
                                 </div>
                                 <div class="msg-container">
-                                    <button class="msg-btn">Message</button>
+                                    <button class="msg-btn" data-uk-modal="{target:'#msg-layout5', center:'true'}">Message</button>
                                 </div>
                             </div>
                         </div>
@@ -1470,6 +1470,27 @@
     </div>
 </div>
 <!-- This is the modal of msg layout 5 -->
+
+<!-- This is the modal of msg layout 6 -->
+<div id="msg-layout6" class="uk-modal">
+   <div class="uk-modal-dialog">
+       <a class="uk-modal-close uk-close" autofocus></a>
+       <div class="sms-div">
+           <h3>Send Message</h3>
+           <div class="divider-title"></div>
+           <form class="uk-form">
+               <input type="text" placeholder="Your Name" required>
+               <input type="text" placeholder="Complete Address" required>
+               <input type="tel" placeholder="Mobile Number" required>
+               <textarea name="message" id="message-area" cols="30" rows="10" placeholder="Message"></textarea>
+           </form>
+           <div class="sms-btn-div">
+               <button class="sms-btn">Send message</button>
+           </div>
+       </div>
+   </div>
+</div>
+<!-- This is the modal of msg layout 6 -->
     <!-- END SEND MESSAGE MODAL AREA -->
 
 
@@ -1977,8 +1998,6 @@ background-position: 50% 0;">
     <!-- END FOOTER AREA -->
 
 
-
-
     <!-- SITE MENU AREA-->
     <nav>
         <!--MOBILE SITE MENU -->
@@ -2001,7 +2020,7 @@ background-position: 50% 0;">
                     <div class="menulist">
                         <ul>
                             <li>
-                                <a class="desktop-links" href="#/">Home</a>
+                                <a class="desktop-links" href="index.html">Home</a>
                             </li>
                             <li>
                                 <a class="desktop-links" href="blog.html">Blog</a>
@@ -2028,7 +2047,7 @@ background-position: 50% 0;">
                     <div class="menulist uk-width-3-5">
                         <ul>
                             <li>
-                                <a class="desktop-links active" href="#">Home</a>
+                                <a class="desktop-links active" href="index.html">Home</a>
                             </li>
                             <li>
                                 <a class="desktop-links" href="blog.html">Blog</a>

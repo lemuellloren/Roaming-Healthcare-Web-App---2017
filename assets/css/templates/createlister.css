@@ -9089,6 +9089,19 @@ h5 {
 #search-banner-section .search-banner-container .search-banner-title {
   padding-bottom: 20px;
 }
+<<<<<<< HEAD
+=======
+@media only screen and (min-width: 768px) {
+  #search-banner-section .search-banner-container .search-banner-title {
+    padding-top: 20%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+  }
+}
+>>>>>>> frontend-lem
 #search-banner-section .search-banner-container h1 {
   font-family: 'Montserrat';
   font-size: 30px;
@@ -9272,6 +9285,10 @@ h5 {
 /* END ABOUT SECTION OVERLAPED AREA STYLES */
 #about-section {
   position: relative;
+<<<<<<< HEAD
+=======
+  margin-top: -40px;
+>>>>>>> frontend-lem
   background-color: #165C96;
 }
 #about-section .uk-grid {
@@ -9311,7 +9328,7 @@ h5 {
 /* FEATURED LISTERS SECTION AREA STYLES */
 #featured-listers-section {
   background-color: #FFF;
-  padding: 80px 0 100px 0;
+  padding: 50px 0 50px 0;
 }
 #featured-listers-section .uk-container {
   margin: 0 auto;
@@ -9329,6 +9346,13 @@ h5 {
 }
 #featured-listers-section .profile-img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 360px;
+}
+#featured-listers-section .uk-panel-teaser {
+  height: 360px;
+  overflow: hidden;
 }
 #featured-listers-section .feat-list-arrow {
   width: 109.1px;
@@ -9388,12 +9412,17 @@ h5 {
 }
 #featured-listers-section .uk-panel.uk-panel-box {
   background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 2px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .uk-panel.uk-panel-box:hover .hover-list {
   opacity: 1;
+}
+#featured-listers-section .uk-panel.uk-panel-box:hover .feat-info {
+  visibility: hidden;
 }
 #featured-listers-section ul {
   display: block;
@@ -9433,8 +9462,6 @@ h5 {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   background-color: rgba(255, 255, 255, 0.9);
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 #featured-listers-section .uk-slidenav {
   font-size: 25px;
@@ -9461,14 +9488,8 @@ h5 {
   color: #444444;
 }
 #featured-listers-section .feat-list-nav {
-  position: relative;
-  top: 30px;
-  float: right;
-}
-@media only screen and (min-width: 768px) {
-  #featured-listers-section .feat-list-nav {
-    top: 50px;
-  }
+  text-align: right;
+  padding: 20px 0 0 0;
 }
 #featured-listers-section .feat-profiles {
   padding-top: 29px;
@@ -9571,17 +9592,12 @@ h5 {
 /* END FEATURED LISTERS SECTION AREA STYLES */
 #blog-call-section {
   background-color: #F0F0F0;
-  padding: 20% 0 25% 0;
+  padding: 50px 0 50px 0;
   height: auto;
 }
 @media only screen and (min-width: 768px) {
   #blog-call-section {
-    padding: 50px 0 100px 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  #blog-call-section {
-    padding-bottom: 15%;
+    padding: 80px 0 80px 0;
   }
 }
 #blog-call-section h3 {
@@ -9700,10 +9716,8 @@ h5 {
   color: #adadad;
 }
 #blog-call-section .visit-blog-container {
-  position: relative;
   text-align: center;
-  top: 25px;
-  bottom: 0;
+  padding: 50px 0 50px 0;
 }
 @media only screen and (min-width: 768px) {
   #blog-call-section .visit-blog-container {
@@ -9840,11 +9854,8 @@ h5 {
 }
 /* BLOG CALL SECTION AREA STYLES */
 /* SUBSCRIBER CALL TO ACTION  AREA STYLES */
-#subscriber-cta-section {
-  padding: 25px 0 25px 0;
-}
 #subscriber-cta-section .subscriber-cta-container {
-  padding: 80px 0 80px 0;
+  padding: 98px 0 98px 0;
   text-align: center;
 }
 @media only screen and (min-width: 960px) {
@@ -9936,16 +9947,15 @@ h5 {
   margin: 0 auto;
   padding: 30px 0 30px 0;
   width: 256px;
-  height: 213.2px;
 }
 @media only screen and (min-width: 768px) {
   #adver-section .adver-img {
     width: auto;
-    height: 116px;
+    padding: 80px 0 80px 0;
   }
 }
 #adver-section .ads-lg {
-  padding-bottom: 25px;
+  padding: 0;
 }
 /* END ADS AREA STYLES */
 /* END BLOG CALL SECTION AREA STYLES */
@@ -9953,8 +9963,13 @@ h5 {
 #breadcrumb-section {
   background-color: #F0F0F0;
   height: 50px;
-  padding: 100px 0 0 0;
+  padding: 80px 0 0 0;
   text-align: left;
+}
+@media only screen and (min-width: 768px) {
+  #breadcrumb-section {
+    margin-bottom: -60px;
+  }
 }
 #breadcrumb-section .uk-container {
   margin: 0 auto;
@@ -10033,6 +10048,7 @@ h5 {
   font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  font-family: 'Roboto';
   width: 80%;
   height: 40px;
 }
@@ -10453,7 +10469,7 @@ footer .main-footer .share-icons ul li a:hover {
   text-align: center;
   line-height: 1;
   color: #FFF;
-  text-transform: uppercase;
+  text-transform: initial;
   margin: 36px;
 }
 @media only screen and (min-width: 768px) {
@@ -10484,6 +10500,11 @@ footer .main-footer .share-icons ul li a:hover {
   height: 130px !important;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#165C96), to(#3382c4));
   background-image: linear-gradient(to top, #165C96, #3382c4);
+}
+@media only screen and (min-width: 768px) {
+  #subscribe-modal .subs-modal-header {
+    padding: 1px;
+  }
 }
 @media only screen and (min-width: 768px) {
   #subscribe-modal .subs-container {
@@ -10555,6 +10576,7 @@ footer .main-footer .share-icons ul li a:hover {
   font-weight: normal;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  font-family: 'Roboto';
   width: 100%;
   height: 50px;
   border: solid 1px #E4E4E4;
@@ -10909,11 +10931,14 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-align: center;
   color: #165C96;
   padding-top: 30px;
-  text-transform: uppercase;
+  text-transform: initial;
 }
 #login-modal .uk-modal-dialog {
-  background-color: #FFF;
   height: 370px;
+  width: 272px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 #login-modal .divider-title {
   width: 50px;
@@ -10943,6 +10968,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border: solid 1px #C9C9C9;
   height: 40px;
   width: 100%;
+  font-family: 'Roboto';
 }
 #login-modal .log-in-form.uk-form input:placeholder {
   color: #BBBBBB;
@@ -11040,7 +11066,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 @media only screen and (min-width: 768px) {
   #gradient-banner {
-    margin-bottom: -110px;
+    margin-bottom: -250px;
   }
 }
 /* END CREATE LISTER ACCOUNT BANNER SYTLES AREA */
@@ -11135,6 +11161,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border-radius: 3px;
   background-color: #FFF;
   border: solid 1px #E4E4E4;
+  font-family: 'Roboto';
 }
 #lister-account-section form input:placeholder {
   color: #BBBBBB;
