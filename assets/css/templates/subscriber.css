@@ -11492,6 +11492,19 @@ html[dir="rtl"] .uk-slider > * {
 }
 /* #hero, #about, #contact, etc. */
 /* SUBSCRIBER HERO BANEER SECTION  AREA STYLES */
+#subscriber-banner-section .subscriber-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
 #subscriber-banner-section .uk-dotnav-contrast > .uk-active > * {
   width: 10px;
   height: 10px;
@@ -11527,6 +11540,9 @@ html[dir="rtl"] .uk-slider > * {
   text-align: center;
   color: #FFF;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+}
+#subscriber-banner-section .btn-container {
+  padding: 20px 0 20px 0;
 }
 #subscriber-banner-section .btn-container .btn-join {
   width: 159px;

@@ -5677,6 +5677,57 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/searchbanner\/search-banner-bg0.png": {
+		"ft": 32768,
+		"iS": 3025864,
+		"oA": 0,
+		"oAP": "\/assets\/images\/searchbanner\/search-banner-bg0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/searchbanner\/search-banner-bg1.jpg": {
+		"ft": 16384,
+		"iS": 360080,
+		"oA": 0,
+		"oAP": "\/assets\/images\/searchbanner\/search-banner-bg1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/searchbanner\/search-banner-bg2.jpg": {
+		"ft": 16384,
+		"iS": 377756,
+		"oA": 0,
+		"oAP": "\/assets\/images\/searchbanner\/search-banner-bg2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/searchbanner\/search-banner-bg3.jpg": {
+		"ft": 16384,
+		"iS": 2115959,
+		"oA": 0,
+		"oAP": "\/assets\/images\/searchbanner\/search-banner-bg3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/searchbanner\/search-banner-bg4.jpg": {
+		"ft": 16384,
+		"iS": 571521,
+		"oA": 0,
+		"oAP": "\/assets\/images\/searchbanner\/search-banner-bg4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/subs-cta\/cta-bg.jpg": {
 		"ft": 16384,
 		"iS": 363764,
