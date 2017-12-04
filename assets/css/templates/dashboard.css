@@ -13476,8 +13476,9 @@ html[dir="rtl"] .uk-slider > * {
     margin-top: 0px;
   }
 }
-.listing-layout .layout-div-2 .layout-2-feature-img {
+.listing-layout .layout-div-2 .layout-feature-img {
   position: relative;
+  min-height: 205px !important;
 }
 .listing-layout .layout-div-2 .upload-icon-container {
   top: 10px;

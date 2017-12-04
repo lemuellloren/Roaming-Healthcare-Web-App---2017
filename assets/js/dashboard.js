@@ -18,10 +18,10 @@
 	$('li.tabs a').click(function() {
 		if($(this).attr('class') == 'tab-2'){
 			// console.log('tab2');
-			$('.listing-layout').show();
+			$('.listing-layout').show('slow');
 		}else{
 			// console.log('not');
-			$('.listing-layout').hide();
+			$('.listing-layout').hide('slow');
 		}
 	});
 
