@@ -5110,6 +5110,23 @@
 		"oAP": "\/assets\/css\/templates\/home.css.map",
 		"oF": 0
 		},
+	"\/assets\/css\/templates\/legal.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/templates\/legal-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/templates\/legal.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/templates\/legal.css.map",
+		"oF": 0
+		},
 	"\/assets\/css\/templates\/result.css": {
 		"aP": 1,
 		"bl": 0,
@@ -5882,6 +5899,16 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/assets\/js\/legal.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/legal.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/assets\/js\/result.js": {
 		"ft": 64,
 		"ma": 1,
@@ -6080,6 +6107,23 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/home.min.js.map",
+		"oF": 0
+		},
+	"\/assets\/js\/templates\/legal.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/legal.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/assets\/js\/templates\/legal.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/templates\/legal.min.js.map",
 		"oF": 0
 		},
 	"\/assets\/js\/templates\/result.min.js": {
@@ -6330,6 +6374,23 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/assets\/less\/legal.less": {
+		"aP": 1,
+		"bl": 1,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/css\/templates\/legal.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
 	"\/assets\/less\/result.less": {
 		"aP": 1,
 		"bl": 1,
@@ -6460,6 +6521,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/legal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/legal.html",
 		"oF": 0
 		},
 	"\/readme.md": {
