@@ -9017,38 +9017,34 @@ h5 {
 /* SEARCH BANNER AREA STYLES */
 #search-banner-section {
   height: auto;
-  margin-bottom: -180px;
-}
-@media only screen and (min-width: 1024px) {
-  #search-banner-section {
-    margin-bottom: -125px;
-  }
 }
 #search-banner-section .uk-container {
   margin: 0 auto;
-  margin-bottom: 50px;
 }
 #search-banner-section .form-container {
   margin: 0 auto;
   text-align: center;
 }
 #search-banner-section .search-banner-container {
-  margin: 95px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
+  min-height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+  #search-banner-section .search-banner-container {
+    padding: 100px 0 150px;
+  }
 }
 #search-banner-section .search-banner-container .search-banner-title {
   padding-bottom: 20px;
-}
-@media only screen and (min-width: 768px) {
-  #search-banner-section .search-banner-container .search-banner-title {
-    height: 90px;
-    padding-top: 20%;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 0;
-  }
 }
 #search-banner-section .search-banner-container h1 {
   font-family: 'Montserrat';
@@ -9166,7 +9162,6 @@ h5 {
 }
 #search-banner-section .search-banner-container .btn-find-con {
   position: relative;
-  margin-bottom: 400px;
 }
 @media only screen and (min-width: 768px) {
   #search-banner-section .search-banner-container .btn-find-con {
@@ -9185,7 +9180,8 @@ h5 {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 1;
-  top: -50px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 @media only screen and (min-width: 768px) {
   #overlaped-section {
@@ -9202,7 +9198,7 @@ h5 {
 }
 @media only screen and (min-width: 768px) {
   #overlaped-section .overlay-container {
-    margin: 50px 0 0 0;
+    padding: 20px;
   }
 }
 #overlaped-section .overlay-container .divider-title {
@@ -9217,7 +9213,6 @@ h5 {
 }
 #overlaped-section .overlay-container p {
   width: auto;
-  height: 154px;
   font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.38;
@@ -9229,13 +9224,7 @@ h5 {
 /* END ABOUT SECTION OVERLAPED AREA STYLES */
 #about-section {
   position: relative;
-  margin-top: -225px;
   background-color: #165C96;
-}
-@media only screen and (min-width: 768px) {
-  #about-section {
-    margin-top: -170px;
-  }
 }
 #about-section .uk-grid {
   margin: 0 auto;
@@ -9247,8 +9236,7 @@ h5 {
   padding: 0 15px;
 }
 #about-section .about-container {
-  margin: 95px auto;
-  margin-top: 230px;
+  margin: 0 auto 95px;
 }
 #about-section .about-blurb {
   text-align: center;
@@ -10290,6 +10278,11 @@ footer .main-footer .url {
   text-align: center;
   line-height: 7px;
 }
+@media only screen and (min-width: 768px) {
+  footer .main-footer .url {
+    display: none;
+  }
+}
 footer .main-footer .url a {
   display: inline-block;
   text-decoration: none !important;
@@ -10305,9 +10298,7 @@ footer .main-footer .url a:after {
   width: 0;
   height: 3px;
   background: #FFF;
-  -webkit-transition: width 0.3s;
   transition: width 0.3s;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .main-footer .url a:hover {
@@ -10318,7 +10309,11 @@ footer .main-footer .url a:hover:after {
 }
 footer .main-footer .share-icons {
   text-align: center;
-  padding-top: 20px;
+}
+@media only screen and (max-width: 767px) {
+  footer .main-footer .share-icons {
+    padding-top: 20px;
+  }
 }
 footer .main-footer .share-icons p {
   color: #FFF;
@@ -10327,9 +10322,20 @@ footer .main-footer .share-icons p {
   margin: 0;
   font-family: 'Roboto';
 }
+@media only screen and (min-width: 768px) {
+  footer .main-footer .share-icons p {
+    display: inline-block;
+    margin-right: 15px;
+  }
+}
 footer .main-footer .share-icons ul {
   padding: 0;
   list-style: none;
+}
+@media only screen and (min-width: 768px) {
+  footer .main-footer .share-icons ul {
+    display: inline-block;
+  }
 }
 footer .main-footer .share-icons ul li {
   display: inline-block;
@@ -10337,6 +10343,7 @@ footer .main-footer .share-icons ul li {
   margin-right: 5px;
 }
 footer .main-footer .share-icons ul li a {
+  display: block;
   background: #FFF;
   border-radius: 15px;
   padding: 6px;
@@ -10649,7 +10656,7 @@ nav .desktop-menu .uk-container .logo img {
 }
 nav .desktop-menu .uk-container .menulist {
   text-align: right;
-  padding: 20px 20px 10px 0;
+  padding: 20px 20px 15px 0;
 }
 nav .desktop-menu .uk-container .menulist ul {
   width: auto;
@@ -10693,7 +10700,7 @@ nav .desktop-menu .uk-container .menulist ul li a {
 }
 nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop {
   position: relative;
-  padding-left: 20px;
+  padding-left: 60px;
 }
 nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged {
   position: absolute;
@@ -13331,8 +13338,7 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
 }
 #layout1-info .uk-modal-dialog {
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #layout1-info .info-content {
   width: 226px;
@@ -13343,8 +13349,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 #layout1-info .info-content .uk-panel {
   padding: 25px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 @media only screen and (min-width: 960px) {
   #layout1-info .info-content br {
@@ -13406,7 +13411,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #444444;
   margin: -10px;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout1-info .info-content .contact-number:hover {
@@ -13424,7 +13428,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #444444;
   margin: 5px;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout1-info .info-content .website-com:hover {
@@ -13511,15 +13514,13 @@ html[dir="rtl"] .uk-slider > * {
 #layout1-info .uk-accordion-content img {
   width: 100px;
   height: auto;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #layout1-info .uk-accordion-content a {
   font-family: 'Roboto';
   font-size: 14px;
   text-decoration: none;
   color: #FE7B00;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout1-info .uk-accordion-content a:hover {
@@ -13546,7 +13547,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 100px;
@@ -13565,7 +13565,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout1-info .btn-container .sms-btn:hover {
@@ -13590,7 +13589,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 100px;
@@ -13608,7 +13606,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout1-info .btn-container .msg-btn:hover {
@@ -13623,8 +13620,7 @@ html[dir="rtl"] .uk-slider > * {
   opacity: 0;
 }
 #layout2-info .uk-modal-dialog {
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #layout2-info .info-content {
   width: 226px;
@@ -13635,8 +13631,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 #layout2-info .info-content .uk-panel {
   padding: 25px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 @media only screen and (min-width: 960px) {
   #layout2-info .info-content br {
@@ -13698,7 +13693,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #444444;
   margin: -10px;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout2-info .info-content .contact-number:hover {
@@ -13716,7 +13710,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #444444;
   margin: 5px;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout2-info .info-content .website-com:hover {
@@ -13803,15 +13796,13 @@ html[dir="rtl"] .uk-slider > * {
 #layout2-info .uk-accordion-content img {
   width: 100px;
   height: auto;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #layout2-info .uk-accordion-content a {
   font-family: 'Roboto';
   font-size: 14px;
   text-decoration: none;
   color: #FE7B00;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout2-info .uk-accordion-content a:hover {
@@ -13838,7 +13829,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 100px;
@@ -13857,7 +13847,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout2-info .btn-container .sms-btn:hover {
@@ -13882,7 +13871,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 100px;
@@ -13900,7 +13888,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout2-info .btn-container .msg-btn:hover {
@@ -13915,8 +13902,7 @@ html[dir="rtl"] .uk-slider > * {
   opacity: 0;
 }
 #layout3-info .uk-modal-dialog {
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #layout3-info .info-content {
   width: 226px;
@@ -13927,8 +13913,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 #layout3-info .info-content .uk-panel {
   padding: 25px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 @media only screen and (min-width: 960px) {
   #layout3-info .info-content br {
@@ -13990,7 +13975,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #444444;
   margin: -10px;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout3-info .info-content .contact-number:hover {
@@ -14008,7 +13992,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #444444;
   margin: 5px;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout3-info .info-content .website-com:hover {
@@ -14095,15 +14078,13 @@ html[dir="rtl"] .uk-slider > * {
 #layout3-info .uk-accordion-content img {
   width: 100px;
   height: auto;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #layout3-info .uk-accordion-content a {
   font-family: 'Roboto';
   font-size: 14px;
   text-decoration: none;
   color: #FE7B00;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout3-info .uk-accordion-content a:hover {
@@ -14130,7 +14111,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 100px;
@@ -14149,7 +14129,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout3-info .btn-container .sms-btn:hover {
@@ -14174,7 +14153,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 100px;
@@ -14192,7 +14170,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout3-info .btn-container .msg-btn:hover {
@@ -14207,8 +14184,7 @@ html[dir="rtl"] .uk-slider > * {
   opacity: 0;
 }
 #layout4-info .uk-modal-dialog {
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #layout4-info .info-content {
   width: 226px;
@@ -14219,8 +14195,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 #layout4-info .info-content .uk-panel {
   padding: 25px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 @media only screen and (min-width: 960px) {
   #layout4-info .info-content br {
@@ -14282,7 +14257,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #444444;
   margin: -10px;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout4-info .info-content .contact-number:hover {
@@ -14300,7 +14274,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #444444;
   margin: 5px;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout4-info .info-content .website-com:hover {
@@ -14387,15 +14360,13 @@ html[dir="rtl"] .uk-slider > * {
 #layout4-info .uk-accordion-content img {
   width: 100px;
   height: auto;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #layout4-info .uk-accordion-content a {
   font-family: 'Roboto';
   font-size: 14px;
   text-decoration: none;
   color: #FE7B00;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout4-info .uk-accordion-content a:hover {
@@ -14422,7 +14393,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 100px;
@@ -14441,7 +14411,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout4-info .btn-container .sms-btn:hover {
@@ -14466,7 +14435,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 100px;
@@ -14484,7 +14452,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #layout4-info .btn-container .msg-btn:hover {
@@ -14501,8 +14468,7 @@ html[dir="rtl"] .uk-slider > * {
 #sms-layout1 .uk-modal-dialog {
   width: 280px;
   height: 60%;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #sms-layout1 .sms-div {
   padding-top: 25px;
@@ -14532,13 +14498,14 @@ html[dir="rtl"] .uk-slider > * {
 #sms-layout1 form input,
 #sms-layout1 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-  -webkit-transition: all 0.4s ease;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 230px;
   height: 40px;
@@ -14554,8 +14521,7 @@ html[dir="rtl"] .uk-slider > * {
 #sms-layout1 form textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #sms-layout1 form input::-webkit-input-placeholder,
 #sms-layout1 form textarea::-webkit-input-placeholder {
@@ -14563,10 +14529,6 @@ html[dir="rtl"] .uk-slider > * {
 }
 #sms-layout1 form input:-ms-input-placeholder,
 #sms-layout1 form textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#sms-layout1 form input::-ms-input-placeholder,
-#sms-layout1 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #sms-layout1 form input::placeholder,
@@ -14592,7 +14554,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 120.1px;
@@ -14609,7 +14570,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #sms-layout1 .sms-btn:hover {
@@ -14626,8 +14586,7 @@ html[dir="rtl"] .uk-slider > * {
 #sms-layout2 .uk-modal-dialog {
   width: 280px;
   height: 60%;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #sms-layout2 .sms-div {
   padding-top: 25px;
@@ -14657,13 +14616,14 @@ html[dir="rtl"] .uk-slider > * {
 #sms-layout2 form input,
 #sms-layout2 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-  -webkit-transition: all 0.4s ease;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 230px;
   height: 40px;
@@ -14679,8 +14639,7 @@ html[dir="rtl"] .uk-slider > * {
 #sms-layout2 form textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #sms-layout2 form input::-webkit-input-placeholder,
 #sms-layout2 form textarea::-webkit-input-placeholder {
@@ -14688,10 +14647,6 @@ html[dir="rtl"] .uk-slider > * {
 }
 #sms-layout2 form input:-ms-input-placeholder,
 #sms-layout2 form textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#sms-layout2 form input::-ms-input-placeholder,
-#sms-layout2 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #sms-layout2 form input::placeholder,
@@ -14717,7 +14672,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 120.1px;
@@ -14734,7 +14688,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #sms-layout2 .sms-btn:hover {
@@ -14751,8 +14704,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout1 .uk-modal-dialog {
   width: 280px;
   height: 60%;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #msg-layout1 .sms-div {
   padding-top: 25px;
@@ -14782,13 +14734,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout1 form input,
 #msg-layout1 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-  -webkit-transition: all 0.4s ease;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 230px;
   height: 40px;
@@ -14804,8 +14757,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout1 form textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #msg-layout1 form input::-webkit-input-placeholder,
 #msg-layout1 form textarea::-webkit-input-placeholder {
@@ -14813,10 +14765,6 @@ html[dir="rtl"] .uk-slider > * {
 }
 #msg-layout1 form input:-ms-input-placeholder,
 #msg-layout1 form textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#msg-layout1 form input::-ms-input-placeholder,
-#msg-layout1 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #msg-layout1 form input::placeholder,
@@ -14842,7 +14790,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 120.1px;
@@ -14859,7 +14806,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #msg-layout1 .sms-btn:hover {
@@ -14876,8 +14822,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout2 .uk-modal-dialog {
   width: 280px;
   height: 60%;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #msg-layout2 .sms-div {
   padding-top: 25px;
@@ -14907,13 +14852,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout2 form input,
 #msg-layout2 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-  -webkit-transition: all 0.4s ease;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 230px;
   height: 40px;
@@ -14929,8 +14875,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout2 form textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #msg-layout2 form input::-webkit-input-placeholder,
 #msg-layout2 form textarea::-webkit-input-placeholder {
@@ -14938,10 +14883,6 @@ html[dir="rtl"] .uk-slider > * {
 }
 #msg-layout2 form input:-ms-input-placeholder,
 #msg-layout2 form textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#msg-layout2 form input::-ms-input-placeholder,
-#msg-layout2 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #msg-layout2 form input::placeholder,
@@ -14967,7 +14908,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 120.1px;
@@ -14984,7 +14924,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #msg-layout2 .sms-btn:hover {
@@ -15001,8 +14940,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout3 .uk-modal-dialog {
   width: 280px;
   height: 60%;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #msg-layout3 .sms-div {
   padding-top: 25px;
@@ -15032,13 +14970,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout3 form input,
 #msg-layout3 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-  -webkit-transition: all 0.4s ease;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 230px;
   height: 40px;
@@ -15054,8 +14993,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout3 form textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #msg-layout3 form input::-webkit-input-placeholder,
 #msg-layout3 form textarea::-webkit-input-placeholder {
@@ -15063,10 +15001,6 @@ html[dir="rtl"] .uk-slider > * {
 }
 #msg-layout3 form input:-ms-input-placeholder,
 #msg-layout3 form textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#msg-layout3 form input::-ms-input-placeholder,
-#msg-layout3 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #msg-layout3 form input::placeholder,
@@ -15092,7 +15026,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 120.1px;
@@ -15109,7 +15042,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #msg-layout3 .sms-btn:hover {
@@ -15126,8 +15058,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout4 .uk-modal-dialog {
   width: 280px;
   height: 60%;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #msg-layout4 .sms-div {
   padding-top: 25px;
@@ -15157,13 +15088,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout4 form input,
 #msg-layout4 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-  -webkit-transition: all 0.4s ease;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 230px;
   height: 40px;
@@ -15179,8 +15111,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout4 form textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #msg-layout4 form input::-webkit-input-placeholder,
 #msg-layout4 form textarea::-webkit-input-placeholder {
@@ -15188,10 +15119,6 @@ html[dir="rtl"] .uk-slider > * {
 }
 #msg-layout4 form input:-ms-input-placeholder,
 #msg-layout4 form textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#msg-layout4 form input::-ms-input-placeholder,
-#msg-layout4 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #msg-layout4 form input::placeholder,
@@ -15217,7 +15144,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 120.1px;
@@ -15234,7 +15160,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #msg-layout4 .sms-btn:hover {
@@ -15251,8 +15176,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout5 .uk-modal-dialog {
   width: 280px;
   height: 60%;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #msg-layout5 .sms-div {
   padding-top: 25px;
@@ -15282,13 +15206,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout5 form input,
 #msg-layout5 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-  -webkit-transition: all 0.4s ease;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 230px;
   height: 40px;
@@ -15304,8 +15229,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout5 form textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #msg-layout5 form input::-webkit-input-placeholder,
 #msg-layout5 form textarea::-webkit-input-placeholder {
@@ -15313,10 +15237,6 @@ html[dir="rtl"] .uk-slider > * {
 }
 #msg-layout5 form input:-ms-input-placeholder,
 #msg-layout5 form textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#msg-layout5 form input::-ms-input-placeholder,
-#msg-layout5 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #msg-layout5 form input::placeholder,
@@ -15342,7 +15262,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 120.1px;
@@ -15359,7 +15278,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #msg-layout5 .sms-btn:hover {
@@ -15376,8 +15294,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout6 .uk-modal-dialog {
   width: 280px;
   height: 60%;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #msg-layout6 .sms-div {
   padding-top: 25px;
@@ -15407,13 +15324,14 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout6 form input,
 #msg-layout6 form textarea {
   width: 93%;
-  font-size: 12px;
   padding: 5px 10px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
-  -webkit-transition: all 0.4s ease;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
   transition: all 0.4s ease;
   width: 230px;
   height: 40px;
@@ -15429,8 +15347,7 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout6 form textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #msg-layout6 form input::-webkit-input-placeholder,
 #msg-layout6 form textarea::-webkit-input-placeholder {
@@ -15438,10 +15355,6 @@ html[dir="rtl"] .uk-slider > * {
 }
 #msg-layout6 form input:-ms-input-placeholder,
 #msg-layout6 form textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#msg-layout6 form input::-ms-input-placeholder,
-#msg-layout6 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #msg-layout6 form input::placeholder,
@@ -15467,7 +15380,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 120.1px;
@@ -15484,7 +15396,6 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #msg-layout6 .sms-btn:hover {
