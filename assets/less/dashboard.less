@@ -14,6 +14,13 @@
 /* FEATURED SERVICES SECTION  AREA STYLES */
 
 //dashboard styles
+.save-button() {
+	.btn-orange();
+	width: auto;
+	height: auto;
+	padding: 10px 28px;
+	margin-top: 20px;
+}
 .dashboard{
 	padding: 25px 0 0 0;
 	max-width: 85%;
@@ -27,6 +34,23 @@
 	margin-top: -240px;
 	@media @width-768 {
 		max-width: 70%;
+	}
+	.ad-manager-container {
+		form {
+			text-align: left;
+			input {
+				width: 350px;
+			}
+			button {
+				.save-button();
+			}
+		}
+		.ad-img-large {
+			width: 942px;
+		}
+		.ad-img-small {
+			width: 320px;
+		}
 	}
 	.uk-container {
 

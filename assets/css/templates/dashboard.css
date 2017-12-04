@@ -11263,7 +11263,8 @@ html[dir="rtl"] .uk-slider > * {
  */
 .uk-htmleditor-navbar-nav > li > a {
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
   /* 1 */
   height: 40px;
@@ -11350,7 +11351,8 @@ html[dir="rtl"] .uk-slider > * {
  ========================================================================== */
 .uk-htmleditor-code,
 .uk-htmleditor-preview {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .uk-htmleditor-preview {
   padding: 20px;
@@ -11388,7 +11390,8 @@ html[dir="rtl"] .uk-slider > * {
  ========================================================================== */
 .uk-htmleditor .CodeMirror {
   padding: 10px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /* #hero, #about, #contact, etc. */
 /* FEATURED SERVICES SECTION  AREA STYLES */
@@ -11408,6 +11411,62 @@ html[dir="rtl"] .uk-slider > * {
   .dashboard {
     max-width: 70%;
   }
+}
+.dashboard .ad-manager-container form {
+  text-align: left;
+}
+.dashboard .ad-manager-container form input {
+  width: 350px;
+}
+.dashboard .ad-manager-container form button {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 10px 28px;
+  margin-top: 20px;
+}
+.dashboard .ad-manager-container form button::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.dashboard .ad-manager-container form button:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+.dashboard .ad-manager-container form button:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.dashboard .ad-manager-container .ad-img-large {
+  width: 942px;
+}
+.dashboard .ad-manager-container .ad-img-small {
+  width: 320px;
 }
 .dashboard .uk-container {
   margin: 0 auto;
@@ -12943,6 +13002,7 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: auto;
@@ -12962,6 +13022,7 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .dashboard .blog a.create-post:hover {
@@ -12983,7 +13044,8 @@ html[dir="rtl"] .uk-slider > * {
 }
 .dashboard .blog .uk-thumbnail {
   padding: 0px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 25px;
   border: 0px;
   width: 100%;
@@ -13036,6 +13098,7 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   text-decoration: none;
@@ -13052,6 +13115,7 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .dashboard .blog .uk-article .blog-call-readmore:hover {
@@ -13115,6 +13179,7 @@ html[dir="rtl"] .uk-slider > * {
   line-height: 1.38;
   text-align: left;
   color: #444444;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .dashboard .blog .checkbox-container .check-container input {
@@ -13182,6 +13247,7 @@ html[dir="rtl"] .uk-slider > * {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   padding: 10px 30px;
@@ -13198,6 +13264,7 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .dashboard .blog button.publish:hover {
@@ -13223,6 +13290,7 @@ html[dir="rtl"] .uk-slider > * {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   padding: 8px 30px;
   margin-left: 15px;
@@ -13239,6 +13307,7 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .dashboard .blog a.back:hover {
@@ -13264,6 +13333,7 @@ html[dir="rtl"] .uk-slider > * {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   width: auto;
   height: auto;
@@ -13283,6 +13353,7 @@ html[dir="rtl"] .uk-slider > * {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .dashboard .blog .pagination .paging-nav:hover {
