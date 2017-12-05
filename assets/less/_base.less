@@ -1625,9 +1625,7 @@ nav {
                         .soft-transition();
                         padding: 5px 0px;
                         text-decoration: none;
-                            margin: 0 10px; // &.active {
-                            //     border-bottom: solid 2px @white;
-                            // }
+                            margin: 0 10px;
                         } 
                         &.profile-img-desktop{
                             position: relative;
@@ -1765,6 +1763,47 @@ nav {
     }
 }
 
+.pagination{
+    .paging-nav{
+        .btn-white();
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        vertical-align: top;
+        padding: 0px 11px;
+        font-size: 12px;
+        display: inline-block;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    .pages{
+        display: inline-block;
+        width: auto;
+        padding: 0 10px;
+        color: @orange;
+        .active{
+            color: @white;
+            background: @orange;
+            padding: 2px 7px;
+            border-radius: 5px;
+            margin-right: 5px;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        a{
+            font-family: @secondary-font;
+            font-size: @default-font-size - 4;
+            color: @orange;
+            padding: 0 2px;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
 
 /* LOGIN MODAL AREA STYLES */
 
