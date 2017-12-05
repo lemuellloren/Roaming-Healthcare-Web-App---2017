@@ -9087,8 +9087,10 @@ h5 {
     padding: 100px 0 150px;
   }
 }
-#search-banner-section .search-banner-container .search-banner-title {
-  padding-bottom: 20px;
+@media only screen and (max-width: 767px) {
+  #search-banner-section .search-banner-container .search-banner-title {
+    padding-bottom: 20px;
+  }
 }
 #search-banner-section .search-banner-container h1 {
   font-family: 'Montserrat';
