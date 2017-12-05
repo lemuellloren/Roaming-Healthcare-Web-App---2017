@@ -4942,7 +4942,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/legal.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/legal.css.map",
@@ -4991,7 +4990,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/subscriber.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/subscriber.css.map",
@@ -5420,8 +5418,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/logos\/white-logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -5446,13 +5444,17 @@
 		"oT": 1,
 		"q": 100
 		},
-<<<<<<< HEAD
 	"\/assets\/images\/no-logo.png": {
 		"ft": 32768,
 		"iS": 2290,
 		"oA": 0,
 		"oAP": "\/assets\/images\/no-logo.png",
-=======
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/partner\/logo1.png": {
 		"ft": 32768,
 		"iS": 26596,
@@ -5491,7 +5493,6 @@
 		"iS": 36301,
 		"oA": 0,
 		"oAP": "\/assets\/images\/partner\/logo4.png",
->>>>>>> frontend-lem
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5777,21 +5778,7 @@
 		"sC": 3,
 		"tS": 1
 		},
-<<<<<<< HEAD
 	"\/assets\/js\/codemirror\/addon\/display\/placeholder.js": {
-=======
-	"\/assets\/js\/legal.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/legal.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/assets\/js\/result.js": {
->>>>>>> frontend-lem
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
@@ -5809,21 +5796,7 @@
 		"sC": 3,
 		"tS": 1
 		},
-<<<<<<< HEAD
 	"\/assets\/js\/codemirror\/addon\/edit\/closebrackets.js": {
-=======
-	"\/assets\/js\/subscriber.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/subscriber.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/assets\/js\/templates\/article.min.js": {
->>>>>>> frontend-lem
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
@@ -5923,35 +5896,7 @@
 		"sC": 3,
 		"tS": 1
 		},
-<<<<<<< HEAD
 	"\/assets\/js\/codemirror\/addon\/fold\/indent-fold.js": {
-=======
-	"\/assets\/js\/templates\/home.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/templates\/home.min.js.map",
-		"oF": 0
-		},
-	"\/assets\/js\/templates\/legal.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/legal.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/assets\/js\/templates\/legal.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/js\/templates\/legal.min.js.map",
-		"oF": 0
-		},
-	"\/assets\/js\/templates\/result.min.js": {
->>>>>>> frontend-lem
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
@@ -10334,6 +10279,15 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/assets\/js\/legal.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/legal.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/assets\/js\/result.js": {
 		"ft": 64,
 		"mi": 1,
@@ -10348,6 +10302,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/templates\/step1.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/assets\/js\/subscriber.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/subscriber.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10517,6 +10480,21 @@
 		"oAP": "\/assets\/js\/templates\/home.min.js.map",
 		"oF": 0
 		},
+	"\/assets\/js\/templates\/legal.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/templates\/legal.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/assets\/js\/templates\/legal.min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/templates\/legal.min.js.map",
+		"oF": 0
+		},
 	"\/assets\/js\/templates\/result.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -10549,7 +10527,6 @@
 		},
 	"\/assets\/js\/templates\/subscriber.min.js": {
 		"ft": 64,
-		"ma": 1,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/templates\/subscriber.min.min.js",
@@ -10558,7 +10535,6 @@
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/subscriber.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/subscriber.min.js.map",
@@ -10900,7 +10876,6 @@
 		"oF": 0
 		},
 	"\/legal.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/legal.html",
@@ -10937,7 +10912,6 @@
 		"oF": 0
 		},
 	"\/subscriber.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/subscriber.html",
