@@ -9181,6 +9181,7 @@ h5 {
   -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
+  cursor: pointer;
 }
 #search-banner-section .search-banner-container form .find-btn::before {
   content: '';
@@ -10053,6 +10054,9 @@ h5 {
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
   color: #BBBBBB;
 }
+#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 #blogsearch-section .blogsearch-container form input::placeholder {
   color: #BBBBBB;
 }
@@ -10222,6 +10226,9 @@ footer .footer-contact form .field input::-webkit-input-placeholder {
 footer .footer-contact form .field input:-ms-input-placeholder {
   color: #BBBBBB;
 }
+footer .footer-contact form .field input::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 footer .footer-contact form .field input::placeholder {
   color: #BBBBBB;
 }
@@ -10252,6 +10259,9 @@ footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea::placeholder {
@@ -14790,6 +14800,10 @@ html[dir="rtl"] .uk-slider > * {
 #sms-layout1 form textarea:-ms-input-placeholder {
   color: #BBBBBB;
 }
+#sms-layout1 form input::-ms-input-placeholder,
+#sms-layout1 form textarea::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 #sms-layout1 form input::placeholder,
 #sms-layout1 form textarea::placeholder {
   color: #BBBBBB;
@@ -14911,6 +14925,10 @@ html[dir="rtl"] .uk-slider > * {
 }
 #sms-layout2 form input:-ms-input-placeholder,
 #sms-layout2 form textarea:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+#sms-layout2 form input::-ms-input-placeholder,
+#sms-layout2 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #sms-layout2 form input::placeholder,
@@ -15036,6 +15054,10 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout1 form textarea:-ms-input-placeholder {
   color: #BBBBBB;
 }
+#msg-layout1 form input::-ms-input-placeholder,
+#msg-layout1 form textarea::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 #msg-layout1 form input::placeholder,
 #msg-layout1 form textarea::placeholder {
   color: #BBBBBB;
@@ -15157,6 +15179,10 @@ html[dir="rtl"] .uk-slider > * {
 }
 #msg-layout2 form input:-ms-input-placeholder,
 #msg-layout2 form textarea:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+#msg-layout2 form input::-ms-input-placeholder,
+#msg-layout2 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #msg-layout2 form input::placeholder,
@@ -15282,6 +15308,10 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout3 form textarea:-ms-input-placeholder {
   color: #BBBBBB;
 }
+#msg-layout3 form input::-ms-input-placeholder,
+#msg-layout3 form textarea::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 #msg-layout3 form input::placeholder,
 #msg-layout3 form textarea::placeholder {
   color: #BBBBBB;
@@ -15403,6 +15433,10 @@ html[dir="rtl"] .uk-slider > * {
 }
 #msg-layout4 form input:-ms-input-placeholder,
 #msg-layout4 form textarea:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+#msg-layout4 form input::-ms-input-placeholder,
+#msg-layout4 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #msg-layout4 form input::placeholder,
@@ -15528,6 +15562,10 @@ html[dir="rtl"] .uk-slider > * {
 #msg-layout5 form textarea:-ms-input-placeholder {
   color: #BBBBBB;
 }
+#msg-layout5 form input::-ms-input-placeholder,
+#msg-layout5 form textarea::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 #msg-layout5 form input::placeholder,
 #msg-layout5 form textarea::placeholder {
   color: #BBBBBB;
@@ -15649,6 +15687,10 @@ html[dir="rtl"] .uk-slider > * {
 }
 #msg-layout6 form input:-ms-input-placeholder,
 #msg-layout6 form textarea:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+#msg-layout6 form input::-ms-input-placeholder,
+#msg-layout6 form textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #msg-layout6 form input::placeholder,

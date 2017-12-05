@@ -15,8 +15,7 @@
 (function($) {
     
     /* page functions go here */
-    
+ 
  
 })(jQuery);
-
 

@@ -9181,6 +9181,7 @@ h5 {
   -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
+  cursor: pointer;
 }
 #search-banner-section .search-banner-container form .find-btn::before {
   content: '';
@@ -10053,6 +10054,9 @@ h5 {
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
   color: #BBBBBB;
 }
+#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 #blogsearch-section .blogsearch-container form input::placeholder {
   color: #BBBBBB;
 }
@@ -10222,6 +10226,9 @@ footer .footer-contact form .field input::-webkit-input-placeholder {
 footer .footer-contact form .field input:-ms-input-placeholder {
   color: #BBBBBB;
 }
+footer .footer-contact form .field input::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 footer .footer-contact form .field input::placeholder {
   color: #BBBBBB;
 }
@@ -10252,6 +10259,9 @@ footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea::placeholder {
@@ -11154,6 +11164,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #BBBBBB;
 }
 #lister-account-section form input:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+#lister-account-section form input::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #lister-account-section form input::placeholder {
