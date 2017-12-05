@@ -10062,9 +10062,6 @@ h5 {
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
   color: #BBBBBB;
 }
-#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
-  color: #BBBBBB;
-}
 #blogsearch-section .blogsearch-container form input::placeholder {
   color: #BBBBBB;
 }
@@ -10237,9 +10234,6 @@ footer .footer-contact form .field input::-webkit-input-placeholder {
 footer .footer-contact form .field input:-ms-input-placeholder {
   color: #BBBBBB;
 }
-footer .footer-contact form .field input::-ms-input-placeholder {
-  color: #BBBBBB;
-}
 footer .footer-contact form .field input::placeholder {
   color: #BBBBBB;
 }
@@ -10273,9 +10267,6 @@ footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-footer .footer-contact form .field textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea::placeholder {
@@ -11065,6 +11056,81 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #C45F00;
   text-decoration: none;
 }
+.pagination .paging-nav {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Roboto';
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  vertical-align: top;
+  padding: 0px 11px;
+  font-size: 12px;
+  display: inline-block;
+}
+.pagination .paging-nav::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.pagination .paging-nav:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+.pagination .paging-nav:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+.pagination .paging-nav:hover {
+  text-decoration: none;
+}
+.pagination .pages {
+  display: inline-block;
+  width: auto;
+  padding: 0 10px;
+  color: #FE7B00;
+}
+.pagination .pages .active {
+  color: #FFF;
+  background: #FE7B00;
+  padding: 2px 7px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.pagination .pages .active:hover {
+  text-decoration: none;
+}
+.pagination .pages a {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #FE7B00;
+  padding: 0 2px;
+}
+.pagination .pages a:hover {
+  text-decoration: none;
+}
 /* LOGIN MODAL AREA STYLES */
 /* END SITE MENU AREA STYLES */
 /* ========================================================================
@@ -11724,9 +11790,6 @@ html[dir="rtl"] .uk-slider > * {
 .dashboard .uk-container .upload-photo form#accountForm input:-ms-input-placeholder {
   color: #BBBBBB !important;
 }
-.dashboard .uk-container .upload-photo form#accountForm input::-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
 .dashboard .uk-container .upload-photo form#accountForm input::placeholder {
   color: #BBBBBB !important;
 }
@@ -11842,9 +11905,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .billing-address form#billingAddressForm input:-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
-.dashboard .uk-container .billing-address form#billingAddressForm input::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .billing-address form#billingAddressForm input::placeholder {
@@ -12333,11 +12393,6 @@ html[dir="rtl"] .uk-slider > * {
 .dashboard .uk-container .basic-info-container form input:-ms-input-placeholder,
 .dashboard .uk-container .basic-info-container form select:-ms-input-placeholder,
 .dashboard .uk-container .basic-info-container form textarea:-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
-.dashboard .uk-container .basic-info-container form input::-ms-input-placeholder,
-.dashboard .uk-container .basic-info-container form select::-ms-input-placeholder,
-.dashboard .uk-container .basic-info-container form textarea::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .basic-info-container form input::placeholder,
@@ -13393,80 +13448,6 @@ html[dir="rtl"] .uk-slider > * {
   left: -25%;
   opacity: 0;
 }
-.dashboard .blog .pagination .paging-nav {
-  width: 109.1px;
-  height: 36.6px;
-  border-radius: 3px;
-  border: solid 1px #FE7B00;
-  background-color: #FFF;
-  font-size: 14px;
-  text-align: center;
-  color: #FE7B00;
-  position: relative;
-  overflow: hidden;
-  font-family: 'Roboto';
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
-  transition: all 0.4s ease-in-out 0.1s;
-  width: auto;
-  height: auto;
-  vertical-align: top;
-  padding: 0px 11px;
-  font-size: 12px;
-  display: inline-block;
-}
-.dashboard .blog .pagination .paging-nav::before {
-  content: '';
-  color: #FFF;
-  background-color: #FE7B00;
-  width: 0%;
-  height: 0%;
-  border-radius: 50%;
-  opacity: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-.dashboard .blog .pagination .paging-nav:hover {
-  background-color: #FE7B00;
-  color: #FFF;
-}
-.dashboard .blog .pagination .paging-nav:hover::before {
-  width: 150%;
-  height: 150%;
-  top: -25%;
-  left: -25%;
-  opacity: 0;
-}
-.dashboard .blog .pagination .paging-nav:hover {
-  text-decoration: none;
-}
-.dashboard .blog .pagination .pages {
-  display: inline-block;
-  width: auto;
-  padding: 0 10px;
-  color: #FE7B00;
-}
-.dashboard .blog .pagination .pages .active {
-  color: #FFF;
-  background: #FE7B00;
-  padding: 2px 7px;
-  border-radius: 5px;
-  margin-right: 5px;
-}
-.dashboard .blog .pagination .pages .active:hover {
-  text-decoration: none;
-}
-.dashboard .blog .pagination .pages a {
-  font-family: 'Roboto';
-  font-size: 12px;
-  color: #FE7B00;
-  padding: 0 2px;
-}
-.dashboard .blog .pagination .pages a:hover {
-  text-decoration: none;
-}
 .dashboard .uk-modal .uk-close {
   font-size: 24px;
   -webkit-transition: all 0.4s ease;
@@ -13513,9 +13494,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #BBBBBB !important;
 }
 .dashboard .uk-modal form input:-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
-.dashboard .uk-modal form input::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-modal form input::placeholder {
