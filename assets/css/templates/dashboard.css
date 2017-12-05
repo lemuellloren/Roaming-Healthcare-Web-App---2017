@@ -9135,6 +9135,7 @@ h5 {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   color: #BBBBBB;
@@ -10033,6 +10034,7 @@ h5 {
   border: #FFF 1px solid;
   font-size: 14px;
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-family: 'Roboto';
@@ -10216,6 +10218,7 @@ footer .footer-contact form .field input {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -10253,6 +10256,7 @@ footer .footer-contact form .field textarea {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   padding: 10px 10px;
@@ -10578,6 +10582,7 @@ footer .main-footer .share-icons ul li a:hover {
   border: #FFF 1px solid;
   font-size: 14px;
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-family: 'Roboto';
@@ -10971,6 +10976,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border: #FFF 1px solid;
   font-size: 14px;
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border: solid 1px #C9C9C9;
@@ -11771,6 +11777,7 @@ html[dir="rtl"] .uk-slider > * {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 100%;
@@ -11891,6 +11898,7 @@ html[dir="rtl"] .uk-slider > * {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 100%;
@@ -12370,6 +12378,7 @@ html[dir="rtl"] .uk-slider > * {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 100%;
@@ -13485,6 +13494,7 @@ html[dir="rtl"] .uk-slider > * {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 100%;
