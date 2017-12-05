@@ -9135,8 +9135,11 @@ h5 {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  -webkit-box-shadow: 2px 2px 2px 0px #444444;
+          box-shadow: 2px 2px 2px 0px #444444;
   color: #BBBBBB;
   width: 260px;
   height: 50px;
@@ -9187,6 +9190,8 @@ h5 {
   -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
+  -webkit-box-shadow: 2px 2px 2px 0px #444444;
+          box-shadow: 2px 2px 2px 0px #444444;
   cursor: pointer;
 }
 #search-banner-section .search-banner-container form .find-btn::before {
@@ -9964,6 +9969,7 @@ h5 {
   margin: 0 auto;
 }
 #breadcrumb-section a {
+  display: inline-block;
   font-family: 'Roboto';
   font-size: 12px;
   text-align: center;
@@ -9990,8 +9996,10 @@ h5 {
   text-decoration: none;
 }
 #breadcrumb-section .uk-breadcrumb > li:nth-child(n+2)::before {
-  content: "\203A";
   /* chevron-right */
+  content: "\203A";
+  display: inline-block;
+  vertical-align: top;
   font-size: 20px;
 }
 /* END BREADCRUMB AREA STYLES */
@@ -10033,6 +10041,7 @@ h5 {
   border: #FFF 1px solid;
   font-size: 14px;
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-family: 'Roboto';
@@ -10176,12 +10185,31 @@ footer .footer-navigation ul li {
   margin-bottom: 5px;
 }
 footer .footer-navigation ul li a {
+  display: inline-block;
+  text-decoration: none !important;
   color: #444444;
   font-size: 12px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   text-decoration: none;
   font-weight: 300;
+}
+footer .footer-navigation ul li a:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #444444;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+footer .footer-navigation ul li a:hover {
+  color: #444444;
+}
+footer .footer-navigation ul li a:hover:after {
+  width: 100%;
 }
 footer .footer-navigation ul li a.subscribe {
   color: #FE7B00;
@@ -10213,6 +10241,7 @@ footer .footer-contact form .field input {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -10247,6 +10276,7 @@ footer .footer-contact form .field textarea {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   padding: 10px 10px;
@@ -10569,6 +10599,7 @@ footer .main-footer .share-icons ul li a:hover {
   border: #FFF 1px solid;
   font-size: 14px;
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-family: 'Roboto';
@@ -10601,6 +10632,8 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1000;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 nav .mobile-menu {
   background: #165C96;
@@ -10960,6 +10993,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border: #FFF 1px solid;
   font-size: 14px;
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border: solid 1px #C9C9C9;
@@ -11516,7 +11550,33 @@ html[dir="rtl"] .uk-slider > * {
   text-align: left;
 }
 .dashboard .ad-manager-container form input {
-  width: 350px;
+  width: 93%;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  font-size: 14px;
+  font-weight: normal;
+  border-bottom: 2px solid #FFF;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border: solid 1px #C9C9C9;
+  font-family: 'Roboto';
+  width: 355px;
+  height: 39px;
+}
+.dashboard .ad-manager-container form input:placeholder {
+  color: #BBBBBB;
+}
+.dashboard .ad-manager-container form input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
+.dashboard .ad-manager-container form input:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 .dashboard .ad-manager-container form button {
   width: 159px;
@@ -11585,6 +11645,16 @@ html[dir="rtl"] .uk-slider > * {
 }
 .dashboard .ad-manager-container .img-placeholder .upload-icon:hover {
   background-color: #C45F00;
+}
+.dashboard .uk-form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: left;
+  color: #444444;
 }
 .dashboard .uk-container {
   margin: 0 auto;
@@ -11760,6 +11830,7 @@ html[dir="rtl"] .uk-slider > * {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 100%;
@@ -11877,6 +11948,7 @@ html[dir="rtl"] .uk-slider > * {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 100%;
@@ -12353,6 +12425,7 @@ html[dir="rtl"] .uk-slider > * {
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: normal;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 100%;
@@ -13463,6 +13536,7 @@ html[dir="rtl"] .uk-slider > * {
   border-radius: 5px;
   margin-bottom: 10px;
   border: #FFF 1px solid;
+  border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 100%;

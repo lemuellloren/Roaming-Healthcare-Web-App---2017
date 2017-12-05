@@ -113,6 +113,7 @@ h5 {
     font-size: 14px;
     font-family: @secondary-font;
     font-weight: normal;
+    border-bottom: 2px solid @white;
     .soft-transition();
     &:placeholder {
         color: @lighergray;
@@ -541,8 +542,12 @@ h5 {
             }
         }
         form {
+            .drop-shadow() {
+                box-shadow: 2px 2px 2px 0px #444444;
+            }
             input {
                 .contact-field();
+                .drop-shadow();
                 color: @lighergray;
                 width: 260px;
                 height: 50px;
@@ -565,6 +570,7 @@ h5 {
             }
             .find-btn {
                 .btn-orange();
+                .drop-shadow();
                 cursor: pointer;
             }
         }
@@ -1097,6 +1103,7 @@ h5 {
         margin: 0 auto;
     }
     a {
+        display: inline-block;
         font-family: @secondary-font;
         font-size: 12px;
         text-align: center;
@@ -1116,8 +1123,10 @@ h5 {
         font-size: 12px;
     }
     .uk-breadcrumb>li:nth-child(n+2)::before {
-        content: "\203A";
         /* chevron-right */
+        content: "\203A";
+        display: inline-block;
+        vertical-align: top;
         font-size: 20px;
     }
 }
@@ -1241,6 +1250,7 @@ footer {
             li {
                 margin-bottom: 5px;
                 a {
+                    .link-animation-gray-bg();
                     color: @darkgray;
                     font-size: @default-font-size - 4;
                     .soft-transition();
@@ -1486,6 +1496,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     .mobile-menu {
         background: @blue;
         .logo {
