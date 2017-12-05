@@ -9878,6 +9878,7 @@ h5 {
   margin: 0 auto;
 }
 #breadcrumb-section a {
+  display: inline-block;
   font-family: 'Roboto';
   font-size: 12px;
   text-align: center;
@@ -9902,8 +9903,10 @@ h5 {
   text-decoration: none;
 }
 #breadcrumb-section .uk-breadcrumb > li:nth-child(n+2)::before {
-  content: "\203A";
   /* chevron-right */
+  content: "\203A";
+  display: inline-block;
+  vertical-align: top;
   font-size: 20px;
 }
 /* END BREADCRUMB AREA STYLES */

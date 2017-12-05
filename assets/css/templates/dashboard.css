@@ -9965,6 +9965,7 @@ h5 {
   margin: 0 auto;
 }
 #breadcrumb-section a {
+  display: inline-block;
   font-family: 'Roboto';
   font-size: 12px;
   text-align: center;
@@ -9991,8 +9992,10 @@ h5 {
   text-decoration: none;
 }
 #breadcrumb-section .uk-breadcrumb > li:nth-child(n+2)::before {
-  content: "\203A";
   /* chevron-right */
+  content: "\203A";
+  display: inline-block;
+  vertical-align: top;
   font-size: 20px;
 }
 /* END BREADCRUMB AREA STYLES */
@@ -10062,9 +10065,6 @@ h5 {
   color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input::placeholder {
@@ -10240,9 +10240,6 @@ footer .footer-contact form .field input::-webkit-input-placeholder {
 footer .footer-contact form .field input:-ms-input-placeholder {
   color: #BBBBBB;
 }
-footer .footer-contact form .field input::-ms-input-placeholder {
-  color: #BBBBBB;
-}
 footer .footer-contact form .field input::placeholder {
   color: #BBBBBB;
 }
@@ -10277,9 +10274,6 @@ footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-footer .footer-contact form .field textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea::placeholder {
@@ -11844,9 +11838,6 @@ html[dir="rtl"] .uk-slider > * {
 .dashboard .uk-container .upload-photo form#accountForm input:-ms-input-placeholder {
   color: #BBBBBB !important;
 }
-.dashboard .uk-container .upload-photo form#accountForm input::-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
 .dashboard .uk-container .upload-photo form#accountForm input::placeholder {
   color: #BBBBBB !important;
 }
@@ -11963,9 +11954,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .billing-address form#billingAddressForm input:-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
-.dashboard .uk-container .billing-address form#billingAddressForm input::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .billing-address form#billingAddressForm input::placeholder {
@@ -12455,11 +12443,6 @@ html[dir="rtl"] .uk-slider > * {
 .dashboard .uk-container .basic-info-container form input:-ms-input-placeholder,
 .dashboard .uk-container .basic-info-container form select:-ms-input-placeholder,
 .dashboard .uk-container .basic-info-container form textarea:-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
-.dashboard .uk-container .basic-info-container form input::-ms-input-placeholder,
-.dashboard .uk-container .basic-info-container form select::-ms-input-placeholder,
-.dashboard .uk-container .basic-info-container form textarea::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .basic-info-container form input::placeholder,
@@ -13562,9 +13545,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #BBBBBB !important;
 }
 .dashboard .uk-modal form input:-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
-.dashboard .uk-modal form input::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-modal form input::placeholder {
