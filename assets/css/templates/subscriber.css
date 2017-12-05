@@ -10471,6 +10471,7 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1000;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 nav .mobile-menu {
   background: #165C96;
