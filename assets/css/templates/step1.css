@@ -10061,6 +10061,9 @@ h5 {
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
   color: #BBBBBB;
 }
+#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 #blogsearch-section .blogsearch-container form input::placeholder {
   color: #BBBBBB;
 }
@@ -10233,6 +10236,9 @@ footer .footer-contact form .field input::-webkit-input-placeholder {
 footer .footer-contact form .field input:-ms-input-placeholder {
   color: #BBBBBB;
 }
+footer .footer-contact form .field input::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 footer .footer-contact form .field input::placeholder {
   color: #BBBBBB;
 }
@@ -10266,6 +10272,9 @@ footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea::placeholder {
@@ -10600,6 +10609,8 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1000;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 nav .mobile-menu {
   background: #165C96;
@@ -11382,6 +11393,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .upload-photo form input:-ms-input-placeholder {
   color: #BBBBBB !important;
 }
+#step1-onboarding-section .upload-photo form input::-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
 #step1-onboarding-section .upload-photo form input::placeholder {
   color: #BBBBBB !important;
 }
@@ -11449,6 +11463,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #BBBBBB !important;
 }
 #step1-onboarding-section .biling-address form#billingAddressForm input:-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .biling-address form#billingAddressForm input::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 #step1-onboarding-section .biling-address form#billingAddressForm input::placeholder {
@@ -11848,6 +11865,11 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .basic-info-container form input:-ms-input-placeholder,
 #step1-onboarding-section .basic-info-container form select:-ms-input-placeholder,
 #step1-onboarding-section .basic-info-container form textarea:-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .basic-info-container form input::-ms-input-placeholder,
+#step1-onboarding-section .basic-info-container form select::-ms-input-placeholder,
+#step1-onboarding-section .basic-info-container form textarea::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 #step1-onboarding-section .basic-info-container form input::placeholder,
