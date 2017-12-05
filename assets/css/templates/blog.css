@@ -9086,8 +9086,10 @@ h5 {
     padding: 100px 0 150px;
   }
 }
-#search-banner-section .search-banner-container .search-banner-title {
-  padding-bottom: 20px;
+@media only screen and (max-width: 767px) {
+  #search-banner-section .search-banner-container .search-banner-title {
+    padding-bottom: 20px;
+  }
 }
 #search-banner-section .search-banner-container h1 {
   font-family: 'Montserrat';
@@ -9396,8 +9398,7 @@ h5 {
 }
 #featured-listers-section .uk-panel.uk-panel-box {
   background: rgba(255, 255, 255, 0.9);
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 2px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -11533,9 +11534,6 @@ html[dir="rtl"] .uk-slider > * {
   margin-bottom: 40px;
 }
 @media only screen and (min-width: 960px) {
-  #featured-blog-section .uk-overlay-panel {
-    top: 200px;
-  }
 }
 #featured-blog-section .uk-panel {
   width: auto;
@@ -11553,7 +11551,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 @media only screen and (min-width: 768px) {
   #featured-blog-section .uk-panel {
-    top: 50%;
+    top: 37%;
     width: 600px;
     height: 180px;
     margin: 0 auto;

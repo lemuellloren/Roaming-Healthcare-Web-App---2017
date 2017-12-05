@@ -9086,8 +9086,10 @@ h5 {
     padding: 100px 0 150px;
   }
 }
-#search-banner-section .search-banner-container .search-banner-title {
-  padding-bottom: 20px;
+@media only screen and (max-width: 767px) {
+  #search-banner-section .search-banner-container .search-banner-title {
+    padding-bottom: 20px;
+  }
 }
 #search-banner-section .search-banner-container h1 {
   font-family: 'Montserrat';
@@ -9396,8 +9398,7 @@ h5 {
 }
 #featured-listers-section .uk-panel.uk-panel-box {
   background: rgba(255, 255, 255, 0.9);
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 2px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -11322,11 +11323,51 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   text-transform: initial;
   padding-top: 60px;
 }
-#step1-onboarding-section .biling-address .billing-btn-container {
+#step1-onboarding-section .biling-address form#billingAddressForm {
+  padding-top: 25px;
   text-align: center;
-  padding: 30px 0 0 0;
 }
-#step1-onboarding-section .biling-address .billing-btn-container .billing-btn {
+#step1-onboarding-section .biling-address form#billingAddressForm input {
+  width: 93%;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: normal;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 1px #E4E4E4;
+}
+#step1-onboarding-section .biling-address form#billingAddressForm input:placeholder {
+  color: #BBBBBB;
+}
+#step1-onboarding-section .biling-address form#billingAddressForm input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .biling-address form#billingAddressForm input {
+    width: 80%;
+  }
+}
+#step1-onboarding-section .biling-address form#billingAddressForm input::-webkit-input-placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .biling-address form#billingAddressForm input:-ms-input-placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .biling-address form#billingAddressForm input::placeholder {
+  color: #BBBBBB !important;
+}
+#step1-onboarding-section .biling-address form#billingAddressForm button {
   width: 159px;
   height: 50px;
   border-radius: 3px;
@@ -11340,9 +11381,12 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
-  height: 30px;
+  width: auto;
+  height: auto;
+  padding: 10px 28px;
+  margin-top: 20px;
 }
-#step1-onboarding-section .biling-address .billing-btn-container .billing-btn::before {
+#step1-onboarding-section .biling-address form#billingAddressForm button::before {
   content: '';
   background-color: #C45F00;
   width: 0%;
@@ -11356,16 +11400,30 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-#step1-onboarding-section .biling-address .billing-btn-container .billing-btn:hover {
+#step1-onboarding-section .biling-address form#billingAddressForm button:hover {
   background-color: #C45F00;
   border: 1px solid #C45F00;
 }
-#step1-onboarding-section .biling-address .billing-btn-container .billing-btn:hover::before {
+#step1-onboarding-section .biling-address form#billingAddressForm button:hover::before {
   width: 150%;
   height: 150%;
   top: -25%;
   left: -25%;
   opacity: 0;
+}
+#step1-onboarding-section .biling-address .uk-grid {
+  margin: 0px;
+}
+#step1-onboarding-section .biling-address .uk-grid div {
+  padding: 0px;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .biling-address .padding-left {
+    padding-left: 15px !important;
+  }
+  #step1-onboarding-section .biling-address .padding-right {
+    padding-right: 15px !important;
+  }
 }
 #step1-onboarding-section .plan-area {
   padding: 55px 0 0 0;

@@ -9087,8 +9087,10 @@ h5 {
     padding: 100px 0 150px;
   }
 }
-#search-banner-section .search-banner-container .search-banner-title {
-  padding-bottom: 20px;
+@media only screen and (max-width: 767px) {
+  #search-banner-section .search-banner-container .search-banner-title {
+    padding-bottom: 20px;
+  }
 }
 #search-banner-section .search-banner-container h1 {
   font-family: 'Montserrat';
@@ -9397,8 +9399,7 @@ h5 {
 }
 #featured-listers-section .uk-panel.uk-panel-box {
   background: rgba(255, 255, 255, 0.9);
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 2px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -11483,6 +11484,24 @@ html[dir="rtl"] .uk-slider > * {
 .dashboard .ad-manager-container .ad-img-small {
   width: 320px;
 }
+.dashboard .ad-manager-container .img-placeholder {
+  position: relative;
+  display: inline-block;
+}
+.dashboard .ad-manager-container .img-placeholder .upload-icon {
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FE7B00;
+  color: #FFF;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.dashboard .ad-manager-container .img-placeholder .upload-icon:hover {
+  background-color: #C45F00;
+}
 .dashboard .uk-container {
   margin: 0 auto;
   padding-bottom: 30px;
@@ -12215,8 +12234,6 @@ html[dir="rtl"] .uk-slider > * {
   height: 100px;
   position: relative;
   margin: 0 auto 30px auto;
-}
-@media only screen and (min-width: 768px) {
 }
 .dashboard .uk-container .basic-info-container .upload-photo-logo .upload-icon-container {
   top: 5px;

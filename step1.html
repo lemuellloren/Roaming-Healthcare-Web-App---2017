@@ -74,231 +74,251 @@
                                     <input type="email" placeholder="Email Address" required>
                                 </form>
                             </div>
-                            <div class="biling-address">
-                                <h3>Billing Address</h3>
-                                <div class="divider-title"></div>
-                                <div class="billing-btn-container">
-                                    <button class="billing-btn">Add Billing Address</button>
-                                </div>
+                            <img id="upload-img" src="http://placehold.jp/150x150.png" alt="Your Image Here">
+                            <!-- upload photo -->
+                            <form class="uk-form">
+                                <input type="text" placeholder="Full Name" required>
+                                <input type="email" placeholder="Email Address" required>
+                            </form>
+                        </div>
+                        <div class="biling-address">
+                            <h3>Billing Address</h3>
+                            <div class="divider-title"></div>
+                            <!-- <div class="billing-btn-container">
+                                <button class="billing-btn">Add Billing Address</button>
+                            </div> -->
+                            <form class="uk-form" id="billingAddressForm">
+                                <div class="uk-grid">
+                                  <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-text-right padding-right">
+                                    <input type="text" name="address" placeholder="Street Address" required>
+                                    <input type="text" name="country" placeholder="Country" required>
+                                </div> 
+                                <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-text-left padding-left">
+                                    <input type="text" name="province" placeholder="State/Province" required>
+                                    <input type="text" name="city" placeholder="City/Municipality" required>
+                                </div>     
                             </div>
-                            <div class="plan-area">
-                                <h3>Upgrade Your Plan</h3>
-                                <div class="divider-title"></div>
-                                <p>
-                                    Find the perfect plan for you — 100% satisfaction guaranteed.
-                                </p>
-                                <div class="uk-grid uk-grid-collapse">
-                                    <div class="uk-width-1-1 uk-width-large-1-4">
-                                        <div class="plan-content">
-                                            <div class="plan-heading-orange">
-                                                <h3>FREE</h3>
-                                            </div>
-                                            <div class="bottom-triangle-orange"></div>
-                                            <div class="pricing-content">
-                                                <p>
-                                                    Company Name
-                                                </p>
-                                                <p>
-                                                    Contact Name
-                                                </p>
-                                                <p>
-                                                    Service Type
-                                                </p>
-                                                <p>
-                                                    Languages Spoken
-                                                </p>
-                                                <p>
-                                                    Professional Credentials
-                                                </p>
-                                                <p>
-                                                    Address &amp; Phone
-                                                </p>
-                                                <p>
-                                                    Link to Website
-                                                </p>
-
-                                            </div>
-                                            <div class="choose-btn-container">
-                                                <p class="price-here-orange">
-                                                    $
-                                                    <span>0</span>
-                                                </p>
-                                                <!-- <button class="choose-btn-orange">Choose</button> -->
-                                                <i class="uk-icon-check">
-                                                    <span> Current plan</span>
-                                                </i>
-                                            </div>
-                                        </div>
+                            <button type="submit" class="save-changes">Save Changes</button>
+                        </form>
+                    </div>
+                    <div class="plan-area">
+                        <h3>Upgrade Your Plan</h3>
+                        <div class="divider-title"></div>
+                        <p>
+                            Find the perfect plan for you — 100% satisfaction guaranteed.
+                        </p>
+                        <div class="uk-grid uk-grid-collapse">
+                            <div class="uk-width-1-1 uk-width-large-1-4">
+                                <div class="plan-content">
+                                    <div class="plan-heading-orange">
+                                        <h3>FREE</h3>
                                     </div>
-                                    <div class="uk-width-1-1 uk-width-large-1-4">
-                                        <div class="plan-content">
-                                            <div class="plan-heading">
-                                                <h3>BASIC</h3>
-                                            </div>
-                                            <div class="bottom-triangle-blue"></div>
-                                            <div class="pricing-content">
-                                                <p>
-                                                    <em>all features </em> from
-                                                    <br> FREE plan
-                                                </p>
-                                                <p>
-                                                    Send Direct Messages
-                                                </p>
-                                                <p>
-                                                    Full Service Description
-                                                </p>
-                                                <p>
-                                                    Logo/Image Layouts
-                                                </p>
-                                                <p>
-                                                    View More Modal
-                                                </p>
+                                    <div class="bottom-triangle-orange"></div>
+                                    <div class="pricing-content">
+                                        <p>
+                                            Company Name
+                                        </p>
+                                        <p>
+                                            Contact Name
+                                        </p>
+                                        <p>
+                                            Service Type
+                                        </p>
+                                        <p>
+                                            Languages Spoken
+                                        </p>
+                                        <p>
+                                            Professional Credentials
+                                        </p>
+                                        <p>
+                                            Address &amp; Phone
+                                        </p>
+                                        <p>
+                                            Link to Website
+                                        </p>
 
-                                            </div>
-                                            <div class="choose-btn-container">
-                                                <p class="price-here-blue">
-                                                    $
-                                                    <span>9.99</span>
-                                                </p>
-                                                <button class="choose-btn-blue">Choose</button>
-                                                <!-- <i class="uk-icon-check current-blue"><span> Current plan</span></i> -->
-                                            </div>
-                                        </div>
                                     </div>
-                                    <div class="uk-width-1-1 uk-width-large-1-4">
-                                        <div class="plan-content">
-                                            <div class="plan-heading">
-                                                <h3>PREMIUM</h3>
-                                            </div>
-                                            <div class="bottom-triangle-blue"></div>
-                                            <div class="pricing-content">
-                                                <p>
-                                                    <em> all features</em> from
-                                                    <br> BASIC plan
-                                                </p>
-                                                <p>
-                                                    Feature Image Layout
-                                                </p>
-                                                <p>
-                                                    Service Type
-                                                </p>
-                                                <p>
-                                                    Blog Articles
-                                                </p>
-
-                                            </div>
-                                            <div class="choose-btn-container">
-                                                <p class="price-here-blue">
-                                                    $
-                                                    <span>19.99</span>
-                                                </p>
-                                                <button class="choose-btn-blue">Choose</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="uk-width-1-1 uk-width-large-1-4">
-                                        <div class="plan-content">
-                                            <div class="plan-heading">
-                                                <h3>VIP</h3>
-                                            </div>
-                                            <div class="bottom-triangle-blue"></div>
-                                            <div class="pricing-content">
-                                                <p>
-                                                    <em> all features</em> from
-                                                    <br> PREMIUM plan
-                                                </p>
-                                                <p>
-                                                    Profile Page
-                                                </p>
-                                                <p>
-                                                    Advertisements
-                                                </p>
-                                            </div>
-                                            <div class="choose-btn-container">
-                                                <p class="price-here-blue">
-                                                    $
-                                                    <span>29.99</span>
-                                                </p>
-                                                <button class="choose-btn-blue">Choose</button>
-                                            </div>
-                                        </div>
+                                    <div class="choose-btn-container">
+                                        <p class="price-here-orange">
+                                            $
+                                            <span>0</span>
+                                        </p>
+                                        <!-- <button class="choose-btn-orange">Choose</button> -->
+                                        <i class="uk-icon-check">
+                                            <span> Current plan</span>
+                                        </i>
                                     </div>
                                 </div>
                             </div>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <div class="basic-info-container">
-                                <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
-                                <h3>Basic Info</h3>
-                                <div class="divider-title"></div>
-
-                                <form class="uk-form">
-                                    <div class="help-box">
-                                        <span class="uk-icon-question-circle" title="Help"></span>
-                                        <input type="text" placeholder="Display Name (e.g. Dr. Jon Sn)" required>
+                            <div class="uk-width-1-1 uk-width-large-1-4">
+                                <div class="plan-content">
+                                    <div class="plan-heading">
+                                        <h3>BASIC</h3>
                                     </div>
-                                    <p>Business Information</p>
-                                    <div class="uk-grid">
-                                        <div class="uk-width-medium-1-2">
-                                            <input type="text" placeholder="Business Name" required>
-                                        </div>
-                                        <div class="uk-width-medium-1-2">
-                                            <select>
-                                                <option disabled selected>Business Type</option>
-                                                <option>Pharmacy</option>
-                                                <option>Chiropractic</option>
-                                                <option>Petmalu</option>
-                                            </select>
-                                        </div>
-                                    </div>
+                                    <div class="bottom-triangle-blue"></div>
+                                    <div class="pricing-content">
+                                        <p>
+                                            <em>all features </em> from
+                                            <br> FREE plan
+                                        </p>
+                                        <p>
+                                            Send Direct Messages
+                                        </p>
+                                        <p>
+                                            Full Service Description
+                                        </p>
+                                        <p>
+                                            Logo/Image Layouts
+                                        </p>
+                                        <p>
+                                            View More Modal
+                                        </p>
 
-                                    <div class="map-container">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d212126.66857326083!2d150.8357076!3d-33.8257507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b218afaa2dbf%3A0xb4e18d4555a9017d!2sSydney+Children&#39;s+Hospital!5e0!3m2!1sen!2sph!4v1511162738692"
-                                            width="100%" height="488" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                        <div class="uk-overlay-panel" id="toggle-cover" data-uk-toggle="{target:'#toggle-cover'}"></div>
                                     </div>
-                                    <p>Contact Information</p>
-
-                                    <div class="uk-grid">
-                                        <div class="uk-width-medium-1-2">
-                                            <div class="help-box">
-                                                <span class="uk-icon-question-circle" title="Help"></span>
-                                                <input type="email" placeholder="Email Address" required>
-                                            </div>
-                                        </div>
-                                        <div class="uk-width-medium-1-2">
-                                            <input type="url" placeholder="Website Url" required>
-                                        </div>
+                                    <div class="choose-btn-container">
+                                        <p class="price-here-blue">
+                                            $
+                                            <span>9.99</span>
+                                        </p>
+                                        <button class="choose-btn-blue">Choose</button>
+                                        <!-- <i class="uk-icon-check current-blue"><span> Current plan</span></i> -->
                                     </div>
-                                    <input type="tel" placeholder="Contact Number" required>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1 uk-width-large-1-4">
+                                <div class="plan-content">
+                                    <div class="plan-heading">
+                                        <h3>PREMIUM</h3>
+                                    </div>
+                                    <div class="bottom-triangle-blue"></div>
+                                    <div class="pricing-content">
+                                        <p>
+                                            <em> all features</em> from
+                                            <br> BASIC plan
+                                        </p>
+                                        <p>
+                                            Feature Image Layout
+                                        </p>
+                                        <p>
+                                            Service Type
+                                        </p>
+                                        <p>
+                                            Blog Articles
+                                        </p>
 
-                                    <p>Other Information</p>
-                                    <div class="registration-s">
-                                        <p>Registration(s)
-                                            <span class="uk-icon-question-circle" title="Help"></span>
+                                    </div>
+                                    <div class="choose-btn-container">
+                                        <p class="price-here-blue">
+                                            $
+                                            <span>19.99</span>
+                                        </p>
+                                        <button class="choose-btn-blue">Choose</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1 uk-width-large-1-4">
+                                <div class="plan-content">
+                                    <div class="plan-heading">
+                                        <h3>VIP</h3>
+                                    </div>
+                                    <div class="bottom-triangle-blue"></div>
+                                    <div class="pricing-content">
+                                        <p>
+                                            <em> all features</em> from
+                                            <br> PREMIUM plan
+                                        </p>
+                                        <p>
+                                            Profile Page
+                                        </p>
+                                        <p>
+                                            Advertisements
                                         </p>
                                     </div>
-
-                                    <div class="uk-grid">
-                                        <div class="uk-width-medium-1-2">
-                                            <ol class="num-list">
-                                                <li>
-                                                    <input type="text" placeholder="Title" required>
-
-                                                </li>
-                                            </ol>
-                                        </div>
-                                        <div class="uk-width-medium-1-2">
-                                            <input type="text" placeholder="Reg. No." required>
-                                        </div>
+                                    <div class="choose-btn-container">
+                                        <p class="price-here-blue">
+                                            $
+                                            <span>29.99</span>
+                                        </p>
+                                        <button class="choose-btn-blue">Choose</button>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <div class="basic-info-container">
+                        <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
+                        <h3>Basic Info</h3>
+                        <div class="divider-title"></div>
+
+                        <form class="uk-form">
+                            <div class="help-box">
+                                <span class="uk-icon-question-circle" title="Help"></span>
+                                <input type="text" placeholder="Display Name (e.g. Dr. Jon Sn)" required>
+                            </div>
+                            <p>Business Information</p>
+                            <div class="uk-grid">
+                                <div class="uk-width-medium-1-2">
+                                    <input type="text" placeholder="Business Name" required>
+                                </div>
+                                <div class="uk-width-medium-1-2">
+                                    <select>
+                                        <option disabled selected>Business Type</option>
+                                        <option>Pharmacy</option>
+                                        <option>Chiropractic</option>
+                                        <option>Petmalu</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d212126.66857326083!2d150.8357076!3d-33.8257507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b218afaa2dbf%3A0xb4e18d4555a9017d!2sSydney+Children&#39;s+Hospital!5e0!3m2!1sen!2sph!4v1511162738692"
+                                width="100%" height="488" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <div class="uk-overlay-panel" id="toggle-cover" data-uk-toggle="{target:'#toggle-cover'}"></div>
+                            </div>
+                            <p>Contact Information</p>
+
+                            <div class="uk-grid">
+                                <div class="uk-width-medium-1-2">
+                                    <div class="help-box">
+                                        <span class="uk-icon-question-circle" title="Help"></span>
+                                        <input type="email" placeholder="Email Address" required>
+                                    </div>
+                                </div>
+                                <div class="uk-width-medium-1-2">
+                                    <input type="url" placeholder="Website Url" required>
+                                </div>
+                            </div>
+                            <input type="tel" placeholder="Contact Number" required>
+
+                            <p>Other Information</p>
+                            <div class="registration-s">
+                                <p>Registration(s)
+                                    <span class="uk-icon-question-circle" title="Help"></span>
+                                </p>
+                            </div>
+
+                            <div class="uk-grid">
+                                <div class="uk-width-medium-1-2">
+                                    <ol class="num-list">
+                                        <li>
+                                            <input type="text" placeholder="Title" required>
+
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="uk-width-medium-1-2">
+                                    <input type="text" placeholder="Reg. No." required>
+                                </div>
+                            </div>
 
 
 
-                                    <div class="input-fields-wrap">
-                                        <button class="add-field-button">+ Add more...</button>
+                            <div class="input-fields-wrap">
+                                <button class="add-field-button">+ Add more...</button>
                                         <!-- <div>
                                             <input type="text" name="mytext[]">
                                         </div> -->
