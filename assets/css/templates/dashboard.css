@@ -9151,6 +9151,9 @@ h5 {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+#search-banner-section .search-banner-container form input:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 @media only screen and (min-width: 768px) {
   #search-banner-section .search-banner-container form input {
     width: 200px;
@@ -10045,6 +10048,9 @@ h5 {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+#blogsearch-section .blogsearch-container form input:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 @media only screen and (min-width: 768px) {
   #blogsearch-section .blogsearch-container form input {
     width: 391.4px;
@@ -10222,6 +10228,9 @@ footer .footer-contact form .field input:focus {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+footer .footer-contact form .field input:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 footer .footer-contact form .field input::-webkit-input-placeholder {
   color: #BBBBBB;
 }
@@ -10256,6 +10265,9 @@ footer .footer-contact form .field textarea:focus {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+footer .footer-contact form .field textarea:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
@@ -10581,6 +10593,9 @@ footer .main-footer .share-icons ul li a:hover {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#subscribe-modal .subs-form input:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 @media only screen and (min-width: 768px) {
   #subscribe-modal .subs-form input {
@@ -10969,6 +10984,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#login-modal .log-in-form.uk-form input:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 #login-modal .log-in-form.uk-form a {
   -webkit-transition: all 0.4s ease;
@@ -11692,6 +11710,9 @@ html[dir="rtl"] .uk-slider > * {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+.dashboard .uk-container .upload-photo form#accountForm input:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 @media only screen and (min-width: 768px) {
   .dashboard .uk-container .upload-photo form#accountForm input {
     width: 80%;
@@ -11808,6 +11829,9 @@ html[dir="rtl"] .uk-slider > * {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+.dashboard .uk-container .billing-address form#billingAddressForm input:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 @media only screen and (min-width: 768px) {
   .dashboard .uk-container .billing-address form#billingAddressForm input {
@@ -12288,6 +12312,11 @@ html[dir="rtl"] .uk-slider > * {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+.dashboard .uk-container .basic-info-container form input:hover,
+.dashboard .uk-container .basic-info-container form select:hover,
+.dashboard .uk-container .basic-info-container form textarea:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 @media only screen and (min-width: 768px) {
   .dashboard .uk-container .basic-info-container form input,
@@ -13471,6 +13500,9 @@ html[dir="rtl"] .uk-slider > * {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+.dashboard .uk-modal form input:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 @media only screen and (min-width: 768px) {
   .dashboard .uk-modal form input {

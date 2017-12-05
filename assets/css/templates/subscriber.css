@@ -9091,6 +9091,9 @@ h5 {
   outline: inherit;
   box-shadow: 0 5px 20px -6px #FE7B00;
 }
+#search-banner-section .search-banner-container form input:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 @media only screen and (min-width: 768px) {
   #search-banner-section .search-banner-container form input {
     width: 200px;
@@ -9953,6 +9956,9 @@ h5 {
   outline: inherit;
   box-shadow: 0 5px 20px -6px #FE7B00;
 }
+#blogsearch-section .blogsearch-container form input:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 @media only screen and (min-width: 768px) {
   #blogsearch-section .blogsearch-container form input {
     width: 391.4px;
@@ -10114,6 +10120,9 @@ footer .footer-contact form .field input:focus {
   outline: inherit;
   box-shadow: 0 5px 20px -6px #FE7B00;
 }
+footer .footer-contact form .field input:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 footer .footer-contact form .field input::placeholder {
   color: #BBBBBB;
 }
@@ -10137,6 +10146,9 @@ footer .footer-contact form .field textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
   box-shadow: 0 5px 20px -6px #FE7B00;
+}
+footer .footer-contact form .field textarea:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 footer .footer-contact form .field textarea::placeholder {
   color: #BBBBBB;
@@ -10442,6 +10454,9 @@ footer .main-footer .share-icons ul li a:hover {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
   box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#subscribe-modal .subs-form input:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 @media only screen and (min-width: 768px) {
   #subscribe-modal .subs-form input {
@@ -10814,6 +10829,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
   box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#login-modal .log-in-form.uk-form input:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 #login-modal .log-in-form.uk-form a {
   transition: all 0.4s ease;

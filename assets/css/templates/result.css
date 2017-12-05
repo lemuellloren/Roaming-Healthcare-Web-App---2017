@@ -9150,6 +9150,9 @@ h5 {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+#search-banner-section .search-banner-container form input:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 @media only screen and (min-width: 768px) {
   #search-banner-section .search-banner-container form input {
     width: 200px;
@@ -10044,6 +10047,9 @@ h5 {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+#blogsearch-section .blogsearch-container form input:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 @media only screen and (min-width: 768px) {
   #blogsearch-section .blogsearch-container form input {
     width: 391.4px;
@@ -10221,6 +10227,9 @@ footer .footer-contact form .field input:focus {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+footer .footer-contact form .field input:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 footer .footer-contact form .field input::-webkit-input-placeholder {
   color: #BBBBBB;
 }
@@ -10255,6 +10264,9 @@ footer .footer-contact form .field textarea:focus {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+footer .footer-contact form .field textarea:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
@@ -10580,6 +10592,9 @@ footer .main-footer .share-icons ul li a:hover {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#subscribe-modal .subs-form input:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 @media only screen and (min-width: 768px) {
   #subscribe-modal .subs-form input {
@@ -10968,6 +10983,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#login-modal .log-in-form.uk-form input:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 #login-modal .log-in-form.uk-form a {
   -webkit-transition: all 0.4s ease;
@@ -11368,6 +11386,9 @@ html[dir="rtl"] .uk-slider > * {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+#search-banner-white-section .search-banner-container form input:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 @media only screen and (min-width: 768px) {
   #search-banner-white-section .search-banner-container form input {
     width: 200px;
@@ -11483,6 +11504,9 @@ html[dir="rtl"] .uk-slider > * {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#results-section .sort-div select:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 #results-section .results-container {
   padding: 80px 0 0 0;
@@ -14793,6 +14817,10 @@ html[dir="rtl"] .uk-slider > * {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+#sms-layout1 form input:hover,
+#sms-layout1 form textarea:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 #sms-layout1 form input::-webkit-input-placeholder,
 #sms-layout1 form textarea::-webkit-input-placeholder {
   color: #BBBBBB;
@@ -14919,6 +14947,10 @@ html[dir="rtl"] .uk-slider > * {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#sms-layout2 form input:hover,
+#sms-layout2 form textarea:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 #sms-layout2 form input::-webkit-input-placeholder,
 #sms-layout2 form textarea::-webkit-input-placeholder {
@@ -15047,6 +15079,10 @@ html[dir="rtl"] .uk-slider > * {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+#msg-layout1 form input:hover,
+#msg-layout1 form textarea:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 #msg-layout1 form input::-webkit-input-placeholder,
 #msg-layout1 form textarea::-webkit-input-placeholder {
   color: #BBBBBB;
@@ -15173,6 +15209,10 @@ html[dir="rtl"] .uk-slider > * {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#msg-layout2 form input:hover,
+#msg-layout2 form textarea:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 #msg-layout2 form input::-webkit-input-placeholder,
 #msg-layout2 form textarea::-webkit-input-placeholder {
@@ -15301,6 +15341,10 @@ html[dir="rtl"] .uk-slider > * {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+#msg-layout3 form input:hover,
+#msg-layout3 form textarea:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 #msg-layout3 form input::-webkit-input-placeholder,
 #msg-layout3 form textarea::-webkit-input-placeholder {
   color: #BBBBBB;
@@ -15427,6 +15471,10 @@ html[dir="rtl"] .uk-slider > * {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#msg-layout4 form input:hover,
+#msg-layout4 form textarea:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 #msg-layout4 form input::-webkit-input-placeholder,
 #msg-layout4 form textarea::-webkit-input-placeholder {
@@ -15555,6 +15603,10 @@ html[dir="rtl"] .uk-slider > * {
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
 }
+#msg-layout5 form input:hover,
+#msg-layout5 form textarea:hover {
+  border-bottom: 2px solid #FE7B00;
+}
 #msg-layout5 form input::-webkit-input-placeholder,
 #msg-layout5 form textarea::-webkit-input-placeholder {
   color: #BBBBBB;
@@ -15681,6 +15733,10 @@ html[dir="rtl"] .uk-slider > * {
   outline: inherit;
   -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
           box-shadow: 0 5px 20px -6px #FE7B00;
+}
+#msg-layout6 form input:hover,
+#msg-layout6 form textarea:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 #msg-layout6 form input::-webkit-input-placeholder,
 #msg-layout6 form textarea::-webkit-input-placeholder {
