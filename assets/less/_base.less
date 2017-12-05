@@ -651,7 +651,7 @@ h5 {
         p {
             color: @white;
             font-size: @default-font-size;
-            font-weight: @font-regular; // width: 180px;
+            font-weight: @font-regular;
         }
         span {
             width: 24px;
@@ -709,16 +709,14 @@ h5 {
         &:hover {
             color: @hvr-orange;
         }
-    } // .uk-slidenav-previous {
-    //     left: 100px;
-    // }
+    }
     .hover-list {
         opacity: 0;
     }
     .uk-panel.uk-panel-box {
         background: rgba(255, 255, 255, 0.9);
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-            margin: 2px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        margin: 2px;
         .soft-transition();
         &:hover {
             .hover-list {
@@ -1062,7 +1060,6 @@ h5 {
         margin: 0 auto;
         padding: 30px 0 30px 0;
         width: 256px;
-        // height: 213.2px;
         @media @width-768 {
             width: auto;
             .section-space();
