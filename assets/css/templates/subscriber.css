@@ -9079,6 +9079,7 @@ h5 {
   font-weight: normal;
   border-bottom: 2px solid #FFF;
   transition: all 0.4s ease;
+  box-shadow: 2px 2px 2px 0px #444444;
   color: #BBBBBB;
   width: 260px;
   height: 50px;
@@ -9127,6 +9128,7 @@ h5 {
   overflow: hidden;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
+  box-shadow: 2px 2px 2px 0px #444444;
   cursor: pointer;
 }
 #search-banner-section .search-banner-container form .find-btn::before {

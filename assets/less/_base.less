@@ -542,8 +542,12 @@ h5 {
             }
         }
         form {
+            .drop-shadow() {
+                box-shadow: 2px 2px 2px 0px #444444;
+            }
             input {
                 .contact-field();
+                .drop-shadow();
                 color: @lighergray;
                 width: 260px;
                 height: 50px;
@@ -566,6 +570,7 @@ h5 {
             }
             .find-btn {
                 .btn-orange();
+                .drop-shadow();
                 cursor: pointer;
             }
         }

@@ -9138,6 +9138,8 @@ h5 {
   border-bottom: 2px solid #FFF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  -webkit-box-shadow: 2px 2px 2px 0px #444444;
+          box-shadow: 2px 2px 2px 0px #444444;
   color: #BBBBBB;
   width: 260px;
   height: 50px;
@@ -9188,6 +9190,8 @@ h5 {
   -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
+  -webkit-box-shadow: 2px 2px 2px 0px #444444;
+          box-shadow: 2px 2px 2px 0px #444444;
   cursor: pointer;
 }
 #search-banner-section .search-banner-container form .find-btn::before {
