@@ -9984,10 +9984,9 @@ h5 {
   text-decoration: none;
 }
 #breadcrumb-section .uk-breadcrumb > li:nth-child(n+2)::before {
-  content: "\f054";
+  content: "\203A";
   /* chevron-right */
-  font-family: Fontawesome;
-  font-size: 12px;
+  font-size: 20px;
 }
 /* END BREADCRUMB AREA STYLES */
 /* BLOG SEARCH AREA STYLES */
@@ -10052,9 +10051,6 @@ h5 {
   color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
   color: #BBBBBB;
 }
 #blogsearch-section .blogsearch-container form input::placeholder {
@@ -10226,9 +10222,6 @@ footer .footer-contact form .field input::-webkit-input-placeholder {
 footer .footer-contact form .field input:-ms-input-placeholder {
   color: #BBBBBB;
 }
-footer .footer-contact form .field input::-ms-input-placeholder {
-  color: #BBBBBB;
-}
 footer .footer-contact form .field input::placeholder {
   color: #BBBBBB;
 }
@@ -10259,9 +10252,6 @@ footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-footer .footer-contact form .field textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea::placeholder {
@@ -11294,9 +11284,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .upload-photo form input:-ms-input-placeholder {
   color: #BBBBBB !important;
 }
-#step1-onboarding-section .upload-photo form input::-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
 #step1-onboarding-section .upload-photo form input::placeholder {
   color: #BBBBBB !important;
 }
@@ -11698,11 +11685,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .basic-info-container form input:-ms-input-placeholder,
 #step1-onboarding-section .basic-info-container form select:-ms-input-placeholder,
 #step1-onboarding-section .basic-info-container form textarea:-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
-#step1-onboarding-section .basic-info-container form input::-ms-input-placeholder,
-#step1-onboarding-section .basic-info-container form select::-ms-input-placeholder,
-#step1-onboarding-section .basic-info-container form textarea::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 #step1-onboarding-section .basic-info-container form input::placeholder,
