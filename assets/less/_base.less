@@ -895,7 +895,13 @@ h5 {
                     font-family: @secondary-font;
                     font-size: 12px;
                     text-align: right;
-                    color: #165c96;
+                    color: @blue;
+                    .soft-transition();
+                }
+                a {
+                    &:hover {
+                        .orange-link();
+                    }
                 }
             }
         }
