@@ -9984,10 +9984,9 @@ h5 {
   text-decoration: none;
 }
 #breadcrumb-section .uk-breadcrumb > li:nth-child(n+2)::before {
-  content: "\f054";
+  content: "\203A";
   /* chevron-right */
-  font-family: Fontawesome;
-  font-size: 12px;
+  font-size: 20px;
 }
 /* END BREADCRUMB AREA STYLES */
 /* BLOG SEARCH AREA STYLES */
@@ -10054,9 +10053,6 @@ h5 {
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
   color: #BBBBBB;
 }
-#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
-  color: #BBBBBB;
-}
 #blogsearch-section .blogsearch-container form input::placeholder {
   color: #BBBBBB;
 }
@@ -10074,7 +10070,7 @@ h5 {
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   position: relative;
-  top: -4px;
+  top: -3px;
   left: -8px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -10226,9 +10222,6 @@ footer .footer-contact form .field input::-webkit-input-placeholder {
 footer .footer-contact form .field input:-ms-input-placeholder {
   color: #BBBBBB;
 }
-footer .footer-contact form .field input::-ms-input-placeholder {
-  color: #BBBBBB;
-}
 footer .footer-contact form .field input::placeholder {
   color: #BBBBBB;
 }
@@ -10259,9 +10252,6 @@ footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-footer .footer-contact form .field textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea::placeholder {
@@ -10816,7 +10806,7 @@ nav .desktop-menu .uk-container .menulist ul li a {
 }
 nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop {
   position: relative;
-  padding-left: 20px;
+  padding-left: 60px;
 }
 nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged {
   position: absolute;
@@ -11511,6 +11501,9 @@ html[dir="rtl"] .uk-slider > * {
 }
 /* #hero, #about, #contact, etc. */
 /* SUBSCRIBER HERO BANEER SECTION  AREA STYLES */
+#subscriber-banner-section {
+  height: 100vh;
+}
 #subscriber-banner-section .subscriber-background {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11539,7 +11532,7 @@ html[dir="rtl"] .uk-slider > * {
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 #subscriber-banner-section .uk-dotnav {
-  bottom: 100px;
+  bottom: 166px;
   position: absolute;
   left: 0;
   right: 0;
