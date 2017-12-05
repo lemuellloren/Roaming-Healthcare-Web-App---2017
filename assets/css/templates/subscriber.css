@@ -10082,11 +10082,28 @@ footer .footer-navigation ul li {
   margin-bottom: 5px;
 }
 footer .footer-navigation ul li a {
+  display: inline-block;
+  text-decoration: none !important;
   color: #444444;
   font-size: 12px;
   transition: all 0.4s ease;
   text-decoration: none;
   font-weight: 300;
+}
+footer .footer-navigation ul li a:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #444444;
+  transition: width 0.3s;
+  transition: all 0.4s ease;
+}
+footer .footer-navigation ul li a:hover {
+  color: #444444;
+}
+footer .footer-navigation ul li a:hover:after {
+  width: 100%;
 }
 footer .footer-navigation ul li a.subscribe {
   color: #FE7B00;
