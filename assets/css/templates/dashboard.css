@@ -11533,7 +11533,33 @@ html[dir="rtl"] .uk-slider > * {
   text-align: left;
 }
 .dashboard .ad-manager-container form input {
-  width: 350px;
+  width: 93%;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: #FFF 1px solid;
+  font-size: 14px;
+  font-weight: normal;
+  border-bottom: 2px solid #FFF;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border: solid 1px #C9C9C9;
+  font-family: 'Roboto';
+  width: 355px;
+  height: 39px;
+}
+.dashboard .ad-manager-container form input:placeholder {
+  color: #BBBBBB;
+}
+.dashboard .ad-manager-container form input:focus {
+  border-bottom: #FE7B00 1px solid;
+  outline: inherit;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
+}
+.dashboard .ad-manager-container form input:hover {
+  border-bottom: 2px solid #FE7B00;
 }
 .dashboard .ad-manager-container form button {
   width: 159px;
@@ -11602,6 +11628,16 @@ html[dir="rtl"] .uk-slider > * {
 }
 .dashboard .ad-manager-container .img-placeholder .upload-icon:hover {
   background-color: #C45F00;
+}
+.dashboard .uk-form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: left;
+  color: #444444;
 }
 .dashboard .uk-container {
   margin: 0 auto;
