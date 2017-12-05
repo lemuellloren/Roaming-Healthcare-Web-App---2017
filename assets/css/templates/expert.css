@@ -11754,7 +11754,6 @@ html[dir="rtl"] .uk-slider > * {
   }
 }
 #subscriberContainer .uk-container .basic-info .tabled-info table.info td {
-  display: inline-block;
   vertical-align: top;
 }
 #subscriberContainer .uk-container .basic-info .tabled-info table.info td p {
