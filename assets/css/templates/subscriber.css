@@ -11501,6 +11501,9 @@ html[dir="rtl"] .uk-slider > * {
 }
 /* #hero, #about, #contact, etc. */
 /* SUBSCRIBER HERO BANEER SECTION  AREA STYLES */
+#subscriber-banner-section {
+  height: 100vh;
+}
 #subscriber-banner-section .subscriber-background {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11529,7 +11532,7 @@ html[dir="rtl"] .uk-slider > * {
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 #subscriber-banner-section .uk-dotnav {
-  bottom: 100px;
+  bottom: 166px;
   position: absolute;
   left: 0;
   right: 0;
