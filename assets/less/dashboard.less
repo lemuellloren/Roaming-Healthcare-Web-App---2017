@@ -49,7 +49,11 @@
 		form {
 			text-align: left;
 			input {
-				width: 350px;
+				.contact-field();
+				border: solid 1px @lightergray;
+				font-family: @secondary-font;
+				width: 355px;
+				height: 39px;
 			}
 			button {
 				.save-button();
@@ -72,6 +76,16 @@
 				right: 10px;
 			}
 		}
+	}
+	 .uk-form-label {
+		display: block;
+		margin-bottom: 5px;
+		font-weight: 400;
+		font-family: @secondary-font;
+		font-size: @default-font-size;
+		line-height: 1.38;
+		text-align: left;
+		color: @darkgray;
 	}
 	.uk-container {
 
