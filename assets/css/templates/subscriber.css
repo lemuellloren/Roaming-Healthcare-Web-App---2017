@@ -12110,6 +12110,7 @@ html[dir="rtl"] .uk-slider > * {
   }
 }
 #partners-section .plan-container h2 {
+  margin-bottom: 0;
   opacity: 0.7;
   font-family: 'Roboto';
   font-size: 20px;
@@ -12125,5 +12126,14 @@ html[dir="rtl"] .uk-slider > * {
 #partners-section .uk-slidenav-contrast {
   color: #444444;
   opacity: 0.1;
+}
+@media only screen and (min-width: 768px) {
+  #partners-section .partner-logo-div li {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+#partners-section .partner-logo-div figure {
+  margin: 0;
 }
 /*# sourceMappingURL=subscriber.css.map */
