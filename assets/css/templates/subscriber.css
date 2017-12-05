@@ -9958,18 +9958,6 @@ h5 {
     width: 391.4px;
   }
 }
-<<<<<<< HEAD
-#blogsearch-section .blogsearch-container form input::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-#blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
-  color: #BBBBBB;
-}
-=======
->>>>>>> 5c1f852740d57661c78ef2cbc7ef496568283563
 #blogsearch-section .blogsearch-container form input::placeholder {
   color: #BBBBBB;
 }
@@ -9986,7 +9974,7 @@ h5 {
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   position: relative;
-  top: -3px;
+  top: -4px;
   left: -8px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -10126,9 +10114,6 @@ footer .footer-contact form .field input:focus {
   outline: inherit;
   box-shadow: 0 5px 20px -6px #FE7B00;
 }
-footer .footer-contact form .field input::-ms-input-placeholder {
-  color: #BBBBBB;
-}
 footer .footer-contact form .field input::placeholder {
   color: #BBBBBB;
 }
@@ -10152,9 +10137,6 @@ footer .footer-contact form .field textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
   box-shadow: 0 5px 20px -6px #FE7B00;
-}
-footer .footer-contact form .field textarea::-ms-input-placeholder {
-  color: #BBBBBB;
 }
 footer .footer-contact form .field textarea::placeholder {
   color: #BBBBBB;
