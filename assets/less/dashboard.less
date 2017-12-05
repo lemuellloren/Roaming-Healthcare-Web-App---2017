@@ -21,6 +21,16 @@
 	padding: 10px 28px;
 	margin-top: 20px;
 }
+.upload-span-button() {
+	padding: 10px;
+	border-radius: 3px;
+	background-color: @orange;
+	color: @white;
+	.soft-transition();
+	&:hover {
+		background-color: @hvr-orange;
+	}
+}
 .dashboard{
 	padding: 25px 0 0 0;
 	max-width: 85%;
@@ -50,6 +60,17 @@
 		}
 		.ad-img-small {
 			width: 320px;
+		}
+		.img-placeholder {
+			position: relative;
+			display: inline-block;
+			
+			.upload-icon {
+				.upload-span-button();
+				position: absolute;
+				top: 10px;
+				right: 10px;
+			}
 		}
 	}
 	.uk-container {
@@ -193,14 +214,7 @@
 				box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 			}
 			span {
-				padding: 10px;
-				border-radius: 3px;
-				background-color: @orange;
-				color: @white;
-				.soft-transition();
-				&:hover {
-					background-color: @hvr-orange;
-				}
+				.upload-span-button();
 			}
 			form#accountForm{
 				padding: 25px 0 50px 0;
@@ -427,22 +441,16 @@
 			text-align: center;
 		}
 		.basic-info-container {
-			// padding: 30px 0 0 0;
 			@media @width-768{
 				padding: 50px 135px 0 135px;
 			}	
 
 			.upload-photo-logo{
-				// margin-top: -15px;
 				text-align: center;
 				width: 100px;
 				height: 100px;
 				position: relative;
 				margin: 0 auto 30px auto;
-				@media @width-768 {
-					// display: inline-flex;
-					// padding-top: 40px;
-				}
 				.upload-icon-container {
 					top: 5px;
 					position: absolute;
@@ -466,7 +474,6 @@
 			}
 
 			form {
-				// padding-top: 25px;
 				input,
 				select,
 				textarea {
