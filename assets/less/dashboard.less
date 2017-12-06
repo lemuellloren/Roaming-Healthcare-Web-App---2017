@@ -76,6 +76,67 @@
 				right: 10px;
 			}
 		}
+		.ad-calendar {
+			@gutter: 20px;
+			position: relative;
+			width: 200px;
+			max-width: 100%;
+		    text-align: center;
+		    background-color: #e4e4e4;
+
+		    &-date {
+				font-size: @default-font-size;
+		    }
+		    &-count {
+		    	margin-bottom: 0;
+		    	line-height: 1;
+				color: @orange;
+				font-size: 48px;
+
+				&:after {
+					content: "clicks";
+					display: block;
+					font-size: @default-font-size;
+					color: @darkgray;
+				}
+		    }
+		    &-prev, &-next {
+		    	&-disabled {
+		    		color: @lighergray;
+		    	}
+		    	&:before {
+					position: absolute;
+					top: @gutter;
+		    	}
+		    }
+		    &-prev:before {
+		    	content: "\2039";
+		    	left: @gutter/2;
+		    }
+		    &-next:before {
+		    	content: "\203A";
+		    	right: @gutter/2;
+		    }
+		    li {
+		    	padding-top: @gutter;
+		    	padding-bottom: @gutter;
+		    }
+		    .uk-slidenav {
+		    	width: auto;
+		    	height: auto;
+		    	margin-top: 0;
+		    	top: @gutter;
+		    	line-height: 16px;
+		    	font-size: 30px;
+
+		    	&-previous {
+		    		left: @gutter/2;
+		    	}
+		    	&-next {
+		    		right: @gutter/2;
+		    	}
+		    }
+		}
 	}
 	 .uk-form-label {
 		display: block;

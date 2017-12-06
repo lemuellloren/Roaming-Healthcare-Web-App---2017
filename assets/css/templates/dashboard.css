@@ -10082,9 +10082,6 @@ h5 {
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
   color: #BBBBBB;
 }
-#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
-  color: #BBBBBB;
-}
 #blogsearch-section .blogsearch-container form input::placeholder {
   color: #BBBBBB;
 }
@@ -10277,9 +10274,6 @@ footer .footer-contact form .field input::-webkit-input-placeholder {
 footer .footer-contact form .field input:-ms-input-placeholder {
   color: #BBBBBB;
 }
-footer .footer-contact form .field input::-ms-input-placeholder {
-  color: #BBBBBB;
-}
 footer .footer-contact form .field input::placeholder {
   color: #BBBBBB;
 }
@@ -10314,9 +10308,6 @@ footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-footer .footer-contact form .field textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea::placeholder {
@@ -11718,6 +11709,63 @@ html[dir="rtl"] .uk-slider > * {
 .dashboard .ad-manager-container .img-placeholder .upload-icon:hover {
   background-color: #C45F00;
 }
+.dashboard .ad-manager-container .ad-calendar {
+  position: relative;
+  width: 200px;
+  max-width: 100%;
+  text-align: center;
+  background-color: #e4e4e4;
+}
+.dashboard .ad-manager-container .ad-calendar-date {
+  font-size: 16px;
+}
+.dashboard .ad-manager-container .ad-calendar-count {
+  margin-bottom: 0;
+  line-height: 1;
+  color: #FE7B00;
+  font-size: 48px;
+}
+.dashboard .ad-manager-container .ad-calendar-count:after {
+  content: "clicks";
+  display: block;
+  font-size: 16px;
+  color: #444444;
+}
+.dashboard .ad-manager-container .ad-calendar-prev-disabled,
+.dashboard .ad-manager-container .ad-calendar-next-disabled {
+  color: #BBBBBB;
+}
+.dashboard .ad-manager-container .ad-calendar-prev:before,
+.dashboard .ad-manager-container .ad-calendar-next:before {
+  position: absolute;
+  top: 20px;
+}
+.dashboard .ad-manager-container .ad-calendar-prev:before {
+  content: "\2039";
+  left: 10px;
+}
+.dashboard .ad-manager-container .ad-calendar-next:before {
+  content: "\203A";
+  right: 10px;
+}
+.dashboard .ad-manager-container .ad-calendar li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dashboard .ad-manager-container .ad-calendar .uk-slidenav {
+  width: auto;
+  height: auto;
+  margin-top: 0;
+  top: 20px;
+  line-height: 16px;
+  font-size: 30px;
+}
+.dashboard .ad-manager-container .ad-calendar .uk-slidenav-previous {
+  left: 10px;
+}
+.dashboard .ad-manager-container .ad-calendar .uk-slidenav-next {
+  right: 10px;
+}
 .dashboard .uk-form-label {
   display: block;
   margin-bottom: 5px;
@@ -11933,9 +11981,6 @@ html[dir="rtl"] .uk-slider > * {
 .dashboard .uk-container .upload-photo form#accountForm input:-ms-input-placeholder {
   color: #BBBBBB !important;
 }
-.dashboard .uk-container .upload-photo form#accountForm input::-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
 .dashboard .uk-container .upload-photo form#accountForm input::placeholder {
   color: #BBBBBB !important;
 }
@@ -12052,9 +12097,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .billing-address form#billingAddressForm input:-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
-.dashboard .uk-container .billing-address form#billingAddressForm input::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .billing-address form#billingAddressForm input::placeholder {
@@ -12544,11 +12586,6 @@ html[dir="rtl"] .uk-slider > * {
 .dashboard .uk-container .basic-info-container form input:-ms-input-placeholder,
 .dashboard .uk-container .basic-info-container form select:-ms-input-placeholder,
 .dashboard .uk-container .basic-info-container form textarea:-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
-.dashboard .uk-container .basic-info-container form input::-ms-input-placeholder,
-.dashboard .uk-container .basic-info-container form select::-ms-input-placeholder,
-.dashboard .uk-container .basic-info-container form textarea::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-container .basic-info-container form input::placeholder,
@@ -13651,9 +13688,6 @@ html[dir="rtl"] .uk-slider > * {
   color: #BBBBBB !important;
 }
 .dashboard .uk-modal form input:-ms-input-placeholder {
-  color: #BBBBBB !important;
-}
-.dashboard .uk-modal form input::-ms-input-placeholder {
   color: #BBBBBB !important;
 }
 .dashboard .uk-modal form input::placeholder {
