@@ -512,9 +512,9 @@ h5 {
     background-color: @white;
     border-radius: 3px;
     box-shadow: 0 2px 4px 0 rgba(0,
-    0,
-    0,
-    0.2);
+        0,
+        0,
+        0.2);
     position: relative;
     z-index: 1;
     transform: translateY(-50%);
@@ -765,6 +765,19 @@ h5 {
         padding-top: 5px;
         position: relative;
         text-align: left;
+        @media @width-767max{
+            width: 100%;
+            select{
+                width: 100% !important;
+            }
+        }
+        i{
+            @media @width-767max{
+                position: absolute;
+                right: 10px;
+                top: 12px;
+            }
+        }
     }
 
     h3 {

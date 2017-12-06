@@ -9370,6 +9370,21 @@ h5 {
   position: relative;
   text-align: left;
 }
+@media only screen and (max-width: 767px) {
+  #blog-call-section .uk-form-select {
+    width: 100%;
+  }
+  #blog-call-section .uk-form-select select {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #blog-call-section .uk-form-select i {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+  }
+}
 #blog-call-section h3 {
   font-family: 'Montserrat';
   font-size: 24px;
