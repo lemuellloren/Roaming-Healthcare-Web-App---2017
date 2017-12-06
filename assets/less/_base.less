@@ -211,7 +211,7 @@ h5 {
         text-align: center;
         color: @white;
     }
- 
+
 }
 
 .plan-title-orange() {
@@ -712,7 +712,7 @@ h5 {
         width: 37px;
         outline: none;
     }
-   
+
     .uk-slidenav.uk-slidenav-previous,
     .uk-slidenav.uk-slidenav-next {
         display: block;
@@ -1078,8 +1078,8 @@ h5 {
         }
     }
     .ads-lg {
-       padding: 0;
-    }
+     padding: 0;
+ }
 }
 
 
@@ -1579,66 +1579,68 @@ nav {
                             }
                         }
                         &.dashboard-menu{
+                            text-align: left;
                             ul.subnav{
                                 padding-left: 40px;
-                                a{
-                                 color: @lightergray;
-                                 font-size: @default-font-size - 2;
-                                 font-weight: @font-lighter;
-                                 padding: 5px;
-                             }
-                         }
-                         a{
-                            display: block;
-                            text-align: left;
-                            font-size: @default-font-size;
-                            color: @white;
-                            font-weight: @font-lighter;
-                            padding: 5px 20px 5px 30px;
+                                li{
+                                    a{
+                                        color: @lightergray;
+                                        font-size: @default-font-size - 2;
+                                        font-weight: @font-lighter;
+                                        padding: 5px;
+                                    }
+                                }
+                            }
+                            a{
+                                .link-animation-blue-bg();
+                                font-size: @default-font-size;
+                                color: @white;
+                                font-weight: @font-lighter;
+                                padding: 5px 20px 5px 30px;
+                            }
                         }
                     }
                 }
-            }
-            a.list-services-btn {
-                .btn-transparent-blue();
-                padding: 8px;
-                text-decoration: none;
+                a.list-services-btn {
+                    .btn-transparent-blue();
+                    padding: 8px;
+                    text-decoration: none;
+                }
             }
         }
     }
-}
-.desktop-menu {
-    background: @blue;
-    .uk-container {
-        margin: 0 auto;
-        .logo {
-            padding: 10px 0 10px 20px;
-            img {
-                width: 240px;
+    .desktop-menu {
+        background: @blue;
+        .uk-container {
+            margin: 0 auto;
+            .logo {
+                padding: 10px 0 10px 20px;
+                img {
+                    width: 240px;
+                }
             }
-        }
-        .menulist {
-            text-align: right;
-            padding: 20px 20px 15px 0;
-            ul {
-                width: auto;
-                display: inline-block;
-                list-style: none;
-                margin: 0;
-                li {
-                    display: inline-block;
+            .menulist {
+                text-align: right;
+                padding: 20px 20px 15px 0;
+                ul {
                     width: auto;
-                    .desktop-links {
-                        .link-animation-blue-bg();
-                    }
-                    a {
-                        font-weight: @font-lighter;
-                        color: @white;
-                        font-size: @default-font-size;
-                        text-align: center;
-                        .soft-transition();
-                        padding: 5px 0px;
-                        text-decoration: none;
+                    display: inline-block;
+                    list-style: none;
+                    margin: 0;
+                    li {
+                        display: inline-block;
+                        width: auto;
+                        .desktop-links {
+                            .link-animation-blue-bg();
+                        }
+                        a {
+                            font-weight: @font-lighter;
+                            color: @white;
+                            font-size: @default-font-size;
+                            text-align: center;
+                            .soft-transition();
+                            padding: 5px 0px;
+                            text-decoration: none;
                             margin: 0 10px;
                         } 
                         &.profile-img-desktop{
@@ -1673,9 +1675,10 @@ nav {
                                     left: -140px !important;
                                     li{
                                         width: 100%;
+                                        text-align: left;
                                         a{
-                                            display: block;
-                                            text-align: left;
+                                            .link-animation-gray-bg();
+                                            // display: block;
                                             font-size: @default-font-size;
                                             color: @darkgray;
                                             font-weight: @font-lighter;
