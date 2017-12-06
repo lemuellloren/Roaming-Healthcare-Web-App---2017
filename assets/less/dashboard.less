@@ -7,6 +7,7 @@
 @import '../bower_components/uikit/less/components/slidenav.less';
 @import '../htmleditor/codemirror.css';
 @import '../bower_components/uikit/less/components/htmleditor.less';
+@import '../bower_components/uikit/less/components/form-select.less';
 // @import '../bower_components/uikit/less/components/dotnav.less';
 /* #hero, #about, #contact, etc. */
 
@@ -138,7 +139,7 @@
 		    }
 		}
 	}
-	 .uk-form-label {
+	.uk-form-label {
 		display: block;
 		margin-bottom: 5px;
 		font-weight: 400;
@@ -409,7 +410,7 @@
 			.triangle-down-blue();
 		}
 		.plan-content {
-			max-width: 205px;
+			// max-width: 205px;
 			height: 500px;
 			background-color: @white;
 			border: solid 1px @gray;
@@ -519,7 +520,21 @@
 			@media @width-768{
 				padding: 50px 135px 0 135px;
 			}	
-
+			.uk-form-select{
+				width: 100%;
+				height: 40px;
+				border-radius: 3px;
+				border: solid 1px #E4E4E4;
+				background: #fff;
+				padding-top: 5px;
+				position: relative;
+				text-align: left;
+				i{
+					position: absolute;
+					right: 10px;
+					top: 12px;
+				}
+			}
 			.upload-photo-logo{
 				text-align: center;
 				width: 100px;
