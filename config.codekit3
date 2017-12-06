@@ -30,13 +30,6 @@
 		"oAP": "\/.gitlab-ci.yml",
 		"oF": 0
 		},
-	"\/article.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/article.html",
-		"oF": 0
-		},
 	"\/assets\/bower_components\/jquery\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -11563,20 +11556,6 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/blog.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/blog.html",
-		"oF": 0
-		},
-	"\/blogsearch.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/blogsearch.html",
-		"oF": 0
-		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -11584,13 +11563,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"\/createlister.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/createlister.html",
-		"oF": 0
 		},
 	"\/dashboard.html": {
 		"cB": 0,
@@ -11618,13 +11590,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/finalstep.html",
-		"oF": 0
-		},
-	"\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/legal.html": {
