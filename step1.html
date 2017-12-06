@@ -261,110 +261,114 @@
                                     <input type="text" placeholder="Business Name" required>
                                 </div>
                                 <div class="uk-width-medium-1-2">
-                                    <select>
-                                        <option disabled selected>Business Type</option>
-                                        <option>Pharmacy</option>
-                                        <option>Chiropractic</option>
-                                        <option>Petmalu</option>
-                                    </select>
-                                </div>
-                            </div>
+                                    <div class="uk-button uk-form-select" data-uk-form-select>
+                                        <span>Business Type</span>
+                                        <i class="uk-icon-caret-down absolute"></i>
+                                        <select>
+                                           <option>Business Type</option>
+                                           <option>Pharmacy</option>
+                                           <option>Chiropractic</option>
+                                           <option>Petmalu</option>
+                                       </select>
+                                   </div>
+                               </div>
+                           </div>
 
-                            <div class="map-container">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d212126.66857326083!2d150.8357076!3d-33.8257507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b218afaa2dbf%3A0xb4e18d4555a9017d!2sSydney+Children&#39;s+Hospital!5e0!3m2!1sen!2sph!4v1511162738692"
-                                width="100%" height="488" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                <div class="uk-overlay-panel" id="toggle-cover" data-uk-toggle="{target:'#toggle-cover'}"></div>
-                            </div>
-                            <p>Contact Information</p>
-
-                            <div class="uk-grid">
-                                <div class="uk-width-medium-1-2">
-                                    <div class="help-box">
-                                        <span class="uk-icon-question-circle" title="Help"></span>
-                                        <input type="email" placeholder="Email Address" required>
-                                    </div>
-                                </div>
-                                <div class="uk-width-medium-1-2">
-                                    <input type="url" placeholder="Website Url" required>
-                                </div>
-                            </div>
-                            <input type="tel" placeholder="Contact Number" required>
-
-                            <div class="basic-info-fields">
-
-                                <p>Other Information</p>
-                                <div class="registration-s">
-                                    <p>Registration(s)
-                                        <span class="uk-icon-question-circle" title="Help"></span>
-                                    </p>
-                                </div>
-
-                                <div class="other-information">
-                                  <table class="uk-table">
-                                    <tr>
-                                      <th>Registration Title</th>
-                                      <th>Rego. Number</th>
-                                      <th>Actions</th>
-                                  </tr>
-                                  <tr>
-                                      <td class="header">Massage Therapist</td>
-                                      <td>MT1234567890</td>
-                                      <td class="actions" width="100">
-                                        <a href="#edit-reg" data-uk-modal="{center:true}"><i class="uk-icon-pencil"></i></a>
-                                        <a href="#delete-reg" data-uk-modal="{center:true}"><i class="uk-icon-trash"></i></a>
-                                    </td>
-                                </tr>
-                            </table>
+                           <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d212126.66857326083!2d150.8357076!3d-33.8257507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b218afaa2dbf%3A0xb4e18d4555a9017d!2sSydney+Children&#39;s+Hospital!5e0!3m2!1sen!2sph!4v1511162738692"
+                            width="100%" height="488" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <div class="uk-overlay-panel" id="toggle-cover" data-uk-toggle="{target:'#toggle-cover'}"></div>
                         </div>
+                        <p>Contact Information</p>
 
-                        <div class="input-fields-wrap">
-                          <a class="add-field-button" href="#add-reg" data-uk-modal="{center:true}">+ Add registration...</a>
-                      </div>
-                      <input name="language" type="text" placeholder="Languages (separated by comma)">
+                        <div class="uk-grid">
+                            <div class="uk-width-medium-1-2">
+                                <div class="help-box">
+                                    <span class="uk-icon-question-circle" title="Help"></span>
+                                    <input type="email" placeholder="Email Address" required>
+                                </div>
+                            </div>
+                            <div class="uk-width-medium-1-2">
+                                <input type="url" placeholder="Website Url" required>
+                            </div>
+                        </div>
+                        <input type="tel" placeholder="Contact Number" required>
 
-                      <button type="submit" class="save-changes save-info">Save Changes</button>
+                        <div class="basic-info-fields">
 
-                  </form>
+                            <p>Other Information</p>
+                            <div class="registration-s">
+                                <p>Registration(s)
+                                    <span class="uk-icon-question-circle" title="Help"></span>
+                                </p>
+                            </div>
 
-                  <div id="edit-reg" class="uk-modal">
-                    <div class="uk-modal-dialog">
-                      <a class="uk-modal-close uk-close" autofocus></a>
-                      <h3>Edit Registration</h3>
-                      <div class="divider-title"></div>
-                      <form class="uk-form" id="editRegForm">
-                       <input type="text" name="regTitle" placeholder="Registration Title" required>
-                       <input type="text" name="regNo" placeholder="Rego Number" required>
-                       <button type="submit" class="save-changes-modal">Save Changes</button>
-                   </form>
-               </div>
-           </div>
+                            <div class="other-information">
+                              <table class="uk-table">
+                                <tr>
+                                  <th>Registration Title</th>
+                                  <th>Rego. Number</th>
+                                  <th>Actions</th>
+                              </tr>
+                              <tr>
+                                  <td class="header">Massage Therapist</td>
+                                  <td>MT1234567890</td>
+                                  <td class="actions" width="100">
+                                    <a href="#edit-reg" data-uk-modal="{center:true}"><i class="uk-icon-pencil"></i></a>
+                                    <a href="#delete-reg" data-uk-modal="{center:true}"><i class="uk-icon-trash"></i></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
 
-           <div id="add-reg" class="uk-modal">
-              <div class="uk-modal-dialog">
-                <a class="uk-modal-close uk-close" autofocus></a>
-                <h3>Add Registration</h3>
-                <div class="divider-title"></div>
-                <form class="uk-form" id="editRegForm">
-                 <input type="text" name="regTitle" placeholder="Registration Title" required>
-                 <input type="text" name="regNo" placeholder="Rego Number" required>
-                 <button type="submit" class="save-changes-modal">Save Changes</button>
-             </form>
+                    <div class="input-fields-wrap">
+                      <a class="add-field-button" href="#add-reg" data-uk-modal="{center:true}">+ Add registration...</a>
+                  </div>
+                  <input name="language" type="text" placeholder="Languages (separated by comma)">
+
+                  <button type="submit" class="save-changes save-info">Save Changes</button>
+
+              </form>
+
+              <div id="edit-reg" class="uk-modal">
+                <div class="uk-modal-dialog">
+                  <a class="uk-modal-close uk-close" autofocus></a>
+                  <h3>Edit Registration</h3>
+                  <div class="divider-title"></div>
+                  <form class="uk-form" id="editRegForm">
+                     <input type="text" name="regTitle" placeholder="Registration Title" required>
+                     <input type="text" name="regNo" placeholder="Rego Number" required>
+                     <button type="submit" class="save-changes-modal">Save Changes</button>
+                 </form>
+             </div>
          </div>
-     </div>
 
-     <div id="delete-reg" class="uk-modal">
-        <div class="uk-modal-dialog">
-          <a class="uk-modal-close uk-close" autofocus></a>
-          <h3>Delete Registration</h3>
-          <div class="divider-title"></div>
-          <div class="confirm-content">
-            Are you sure you want to permanently remove this registration?
-        </div>
-        <div class="footer-modal">
-            <button type="submit" class="modal-button confirm">Confirm</button>
-            <a href="#/" class="modal-button back">Back</a>
-        </div>
+         <div id="add-reg" class="uk-modal">
+          <div class="uk-modal-dialog">
+            <a class="uk-modal-close uk-close" autofocus></a>
+            <h3>Add Registration</h3>
+            <div class="divider-title"></div>
+            <form class="uk-form" id="editRegForm">
+               <input type="text" name="regTitle" placeholder="Registration Title" required>
+               <input type="text" name="regNo" placeholder="Rego Number" required>
+               <button type="submit" class="save-changes-modal">Save Changes</button>
+           </form>
+       </div>
+   </div>
+
+   <div id="delete-reg" class="uk-modal">
+    <div class="uk-modal-dialog">
+      <a class="uk-modal-close uk-close" autofocus></a>
+      <h3>Delete Registration</h3>
+      <div class="divider-title"></div>
+      <div class="confirm-content">
+        Are you sure you want to permanently remove this registration?
     </div>
+    <div class="footer-modal">
+        <button type="submit" class="modal-button confirm">Confirm</button>
+        <a href="#/" class="modal-button back">Back</a>
+    </div>
+</div>
 </div>
 
 </div>
@@ -394,41 +398,41 @@
 
 <!--slider area desktop-->
 <div class="services-content uk-hidden-small services-desktop">
-    <div class="uk-slidenav-position" data-uk-slider>
+    <div class="uk-slidenav-position" id="services-slider-desktop" data-uk-slider="{infinite: false}">
 
       <div class="uk-slider-container">
         <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
           <li class="uk-active">
             <div class="uk-panel service">
               <div class="shadow">
-                 <h5 class="uk-panel-title">Swedish Massage</h5>
-                 <div class="panel-content">
-                    <p>This is the description of the service</p>
-                    <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
-                </div>
+               <h5 class="uk-panel-title">Swedish Massage</h5>
+               <div class="panel-content">
+                <p>This is the description of the service</p>
+                <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
             </div>
         </div>
-    </li>
-    <li>
-      <div class="uk-panel service">
-        <div class="shadow">
-           <h5 class="uk-panel-title">Shiatsu Massage</h5>
-           <div class="panel-content">
-              <p>This is the description of the service</p>
-              <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
-          </div>
-      </div>
+    </div>
+</li>
+<li>
+  <div class="uk-panel service">
+    <div class="shadow">
+     <h5 class="uk-panel-title">Shiatsu Massage</h5>
+     <div class="panel-content">
+      <p>This is the description of the service</p>
+      <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
   </div>
+</div>
+</div>
 </li>
 <li>
     <div class="uk-panel service">
       <div class="shadow">
-         <h5 class="uk-panel-title">Thai Massage</h5>
-         <div class="panel-content">
-            <p>This is the description of the service</p>
-            <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
-        </div>
+       <h5 class="uk-panel-title">Thai Massage</h5>
+       <div class="panel-content">
+        <p>This is the description of the service</p>
+        <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
     </div>
+</div>
 </div>
 </li>
 </ul>
@@ -449,46 +453,46 @@
 
 <!--slider area mobile-->
 <div class="services-content uk-visible-small services-mobile">
-  <div class="uk-slidenav-position" data-uk-slider>
+  <div class="uk-slidenav-position" id="services-slider-mobile" data-uk-slider="{infinite: false}">
 
     <div class="uk-slider-container">
       <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
-         <li>
-            <div class="uk-panel service">
-              <div class="shadow">
-                 <h5 class="uk-panel-title">Swedish Massage</h5>
-                 <div class="panel-content">
-                    <p>This is the description of the service</p>
-                    <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
-                </div>
-            </div>
-        </div> 
+       <li>
         <div class="uk-panel service">
-            <div class="shadow">
-               <h5 class="uk-panel-title">Shiatsu Massage</h5>
-               <div class="panel-content">
-                 <p>This is the description of the service</p>
-                 <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
-             </div>
-         </div>
-     </div>
-     <li>
-      <div class="uk-panel service">
-        <div class="shadow">
+          <div class="shadow">
            <h5 class="uk-panel-title">Swedish Massage</h5>
            <div class="panel-content">
-             <p>This is the description of the service</p>
-             <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
-         </div> 
-     </div>
- </div>
- <div class="uk-panel service">
-  <div class="shadow">
+            <p>This is the description of the service</p>
+            <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+        </div>
+    </div>
+</div> 
+<div class="uk-panel service">
+    <div class="shadow">
      <h5 class="uk-panel-title">Shiatsu Massage</h5>
      <div class="panel-content">
        <p>This is the description of the service</p>
        <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
    </div>
+</div>
+</div>
+<li>
+  <div class="uk-panel service">
+    <div class="shadow">
+     <h5 class="uk-panel-title">Swedish Massage</h5>
+     <div class="panel-content">
+       <p>This is the description of the service</p>
+       <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+   </div> 
+</div>
+</div>
+<div class="uk-panel service">
+  <div class="shadow">
+   <h5 class="uk-panel-title">Shiatsu Massage</h5>
+   <div class="panel-content">
+     <p>This is the description of the service</p>
+     <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+ </div>
 </div>
 </div>
 </li>
@@ -515,10 +519,10 @@
     <h3>Add Service</h3>
     <div class="divider-title"></div>
     <form class="uk-form" id="addService">
-       <input type="text" name="serviceTitle" placeholder="Service Title" required>
-       <input type="text" name="serviceDesc" placeholder="Service Description" required>
-       <button type="submit" class="save-changes-modal">Save Changes</button>
-   </form>
+     <input type="text" name="serviceTitle" placeholder="Service Title" required>
+     <input type="text" name="serviceDesc" placeholder="Service Description" required>
+     <button type="submit" class="save-changes-modal">Save Changes</button>
+ </form>
 </div>
 </div>
 
@@ -528,10 +532,10 @@
     <h3>Edit Service</h3>
     <div class="divider-title"></div>
     <form class="uk-form" id="editService">
-       <input type="text" name="serviceTitle" placeholder="Service Title" required>
-       <input type="text" name="serviceDesc" placeholder="Service Description" required>
-       <button type="submit" class="save-changes-modal">Save Changes</button>
-   </form>
+     <input type="text" name="serviceTitle" placeholder="Service Title" required>
+     <input type="text" name="serviceDesc" placeholder="Service Description" required>
+     <button type="submit" class="save-changes-modal">Save Changes</button>
+ </form>
 </div>
 </div> 
 
@@ -548,7 +552,7 @@
 
 <!--slider area desktop-->
 <div class="services-content uk-hidden-small services-desktop">
-    <div class="uk-slidenav-position" data-uk-slider>
+    <div class="uk-slidenav-position" id="docs-slider-desktop" data-uk-slider="{infinite: false}">
 
       <div class="uk-slider-container">
         <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
@@ -627,29 +631,29 @@
 
 <!--slider area mobile-->
 <div class="documents-content uk-visible-small services-mobile">
-    <div class="uk-slidenav-position" data-uk-slider>
+    <div class="uk-slidenav-position" id="docs-slider-mobile" data-uk-slider="{infinite: false}">
 
       <div class="uk-slider-container">
-       <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
-        <li>
-          <div class="document">
-            <div class="shadow">
-              <figure class="image uk-overlay uk-overlay-hover">
-                <img src="assets/images/documents/document.jpg" alt="document">
-                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
-                  <span class="uk-icon-search-plus"></span>View photo
-              </div>
-              <a class="uk-position-cover" href="assets/images/documents/document.jpg" data-uk-lightbox title="Licensed Massage and Bodywork Therapist"></a>
-          </figure>
-          <div class="docu-desc">
-            <p>
-              Licensed Massage and Bodywork Therapist
-          </p>
-          <a href="#edit-docs" data-uk-modal="{center:true}">Edit</a>
+         <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
+            <li>
+              <div class="document">
+                <div class="shadow">
+                  <figure class="image uk-overlay uk-overlay-hover">
+                    <img src="assets/images/documents/document.jpg" alt="document">
+                    <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                      <span class="uk-icon-search-plus"></span>View photo
+                  </div>
+                  <a class="uk-position-cover" href="assets/images/documents/document.jpg" data-uk-lightbox title="Licensed Massage and Bodywork Therapist"></a>
+              </figure>
+              <div class="docu-desc">
+                <p>
+                  Licensed Massage and Bodywork Therapist
+              </p>
+              <a href="#edit-docs" data-uk-modal="{center:true}">Edit</a>
+          </div>
       </div>
   </div>
-</div>
-<div class="document">
+  <div class="document">
     <div class="shadow">
       <figure class="image uk-overlay uk-overlay-hover">
         <img src="assets/images/documents/document.jpg" alt="document">
@@ -725,15 +729,15 @@
     <h3>Add Document</h3>
     <div class="divider-title"></div>
     <form class="uk-form" id="addDocs">
-     <div class="upload-docu">
-      <img id="upload-img" src="assets/images/documents/document.jpg" alt="Your Image Here">
-      <div class="upload-icon-container">
-        <input type="file" class="upload-file-document" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
-        <span class="upload-icon-document uk-icon-camera"></span>
+       <div class="upload-docu">
+          <img id="upload-img" src="assets/images/documents/document.jpg" alt="Your Image Here">
+          <div class="upload-icon-container">
+            <input type="file" class="upload-file-document" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+            <span class="upload-icon-document uk-icon-camera"></span>
+        </div>
     </div>
-</div>
-<input type="text" name="docTitle" placeholder="Document Title" required>
-<button type="submit" class="save-changes-modal">Save Changes</button>
+    <input type="text" name="docTitle" placeholder="Document Title" required>
+    <button type="submit" class="save-changes-modal">Save Changes</button>
 </form>
 </div>
 </div>
