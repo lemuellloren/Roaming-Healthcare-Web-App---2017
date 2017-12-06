@@ -25,6 +25,12 @@
 		}
 	});
 
+	//allows only one listing layout
+	$('input[name="layout"]').on('change', function() {
+		$('input[name="layout"]').not(this).prop('checked', false); 
+		console.log('test');
+	});
+
 	//upload photo account, post feature img
 	$(".upload-icon, .upload-button").click(function () {
 		$(this).siblings(".upload-file").trigger('click');
