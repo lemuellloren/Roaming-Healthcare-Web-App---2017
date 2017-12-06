@@ -895,7 +895,13 @@ h5 {
                     font-family: @secondary-font;
                     font-size: 12px;
                     text-align: right;
-                    color: #165c96;
+                    color: @blue;
+                    .soft-transition();
+                }
+                a {
+                    &:hover {
+                        .orange-link();
+                    }
                 }
             }
         }
@@ -1323,7 +1329,7 @@ footer {
                     }
                     &:hover {
                         background: @orange;
-                        span {}
+                        span {} 
                     }
                 }
             }
@@ -1343,6 +1349,10 @@ footer {
                 font-weight: @font-light;
                 margin: 0;
                 font-family: @secondary-font;
+                @media @width-768 {
+                    text-indent: 13px;
+                    margin-top: -10px;                
+                }
             }
         }
         .url {
