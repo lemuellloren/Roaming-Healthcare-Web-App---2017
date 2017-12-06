@@ -51,7 +51,7 @@
        <span>Account Info</span>
      </a>
    </li>
-   <li class="uk-width-1-4 tabs uk-active">
+   <li class="uk-width-1-4 tabs">
     <a id="show" class="tab-2" href="#">
       <i class="uk-icon-pencil"></i>
       <span>Listing Info</span>
@@ -454,10 +454,10 @@
 
   <!--slider area desktop-->
   <div class="services-content uk-hidden-small services-desktop">
-    <div class="uk-slidenav-position" data-uk-slider>
+    <div class="uk-slidenav-position" id="services-slider-desktop" data-uk-slider="{infinite: false}">
 
       <div class="uk-slider-container">
-        <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
+        <ul class="uk-slider uk-grid-width-medium-1-2">
           <li>
             <div class="uk-panel service">
               <div class="shadow">
@@ -491,7 +491,29 @@
         </div>
       </div>
     </li>
-  </ul>
+    <li>
+      <div class="uk-panel service">
+        <div class="shadow">
+         <h5 class="uk-panel-title">Thai Massage</h5>
+         <div class="panel-content">
+          <p>This is the description of the service</p>
+          <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li class="uk-width-1-2">
+    <div class="uk-panel service">
+      <div class="shadow">
+       <h5 class="uk-panel-title">Thai Massage</h5>
+       <div class="panel-content">
+        <p>This is the description of the service</p>
+        <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+      </div>
+    </div>
+  </div>
+</li>
+</ul>
 </div>
 
 <div class="service-list-nav">
@@ -509,10 +531,10 @@
 
 <!--slider area mobile-->
 <div class="services-content uk-visible-small services-mobile">
-  <div class="uk-slidenav-position" data-uk-slider>
+  <div class="uk-slidenav-position" id="services-slider-mobile" data-uk-slider="{infinite: false}">
 
     <div class="uk-slider-container">
-      <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
+      <ul class="uk-slider uk-grid-width-medium-1-1">
        <li>
         <div class="uk-panel service">
           <div class="shadow">
@@ -607,8 +629,8 @@
   </div>
 
   <!--slider area desktop-->
-  <div class="services-content uk-hidden-small services-desktop">
-    <div class="uk-slidenav-position" data-uk-slider>
+  <div class="documents-content uk-hidden-small services-desktop">
+    <div class="uk-slidenav-position" id="docs-slider-desktop" data-uk-slider="{infinite: false}">
 
       <div class="uk-slider-container">
         <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
@@ -687,7 +709,7 @@
 
   <!--slider area mobile-->
   <div class="documents-content uk-visible-small services-mobile">
-    <div class="uk-slidenav-position" data-uk-slider>
+    <div class="uk-slidenav-position" id="docs-slider-mobile" data-uk-slider="{infinite: false}">
 
       <div class="uk-slider-container">
        <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
