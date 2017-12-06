@@ -7,6 +7,7 @@
 // @codekit-prepend '../bower_components/uikit/js/components/slider.js'
 // @codekit-prepend '../bower_components/uikit/js/components/slideshow.js'
 // @codekit-prepend '../bower_components/uikit/js/components/htmleditor.js'
+// @codekit-prepend '../bower_components/uikit/js/components/form-select.js'
 
 // PAGE FUNCTIONS
 // define needed page functions here, when document.readyState === "complete":

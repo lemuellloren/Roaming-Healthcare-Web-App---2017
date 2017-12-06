@@ -9368,6 +9368,16 @@ h5 {
     padding: 80px 0 80px 0;
   }
 }
+#blog-call-section .uk-form-select {
+  width: auto;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 1px #E4E4E4;
+  background: #fff;
+  padding-top: 5px;
+  position: relative;
+  text-align: left;
+}
 #blog-call-section h3 {
   font-family: 'Montserrat';
   font-size: 24px;
@@ -11392,6 +11402,40 @@ html[dir="rtl"] .uk-slider > * {
 /* Active */
 .uk-slidenav-contrast:active {
   color: rgba(255, 255, 255, 0.9);
+}
+/* ========================================================================
+   Component: Form select
+ ========================================================================== */
+/*
+ * 1. Behave like form elements
+ * 2. Create position context for dropdowns
+ * 3. Clip content
+ */
+.uk-form-select {
+  /* 1 */
+  display: inline-block;
+  vertical-align: middle;
+  /* 2 */
+  position: relative;
+  /* 3 */
+  overflow: hidden;
+}
+/*
+ * 1. Required for Firefox
+ * 1. Required for Webkit to make `height` work
+ */
+.uk-form-select select {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  /* 1 */
+  left: 0;
+  /* 2 */
+  -webkit-appearance: none;
 }
 /* #hero, #about, #contact, etc. */
 /* FEATURED SERVICES SECTION  AREA STYLES */

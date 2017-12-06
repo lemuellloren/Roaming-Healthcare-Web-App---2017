@@ -9368,6 +9368,16 @@ h5 {
     padding: 80px 0 80px 0;
   }
 }
+#blog-call-section .uk-form-select {
+  width: auto;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 1px #E4E4E4;
+  background: #fff;
+  padding-top: 5px;
+  position: relative;
+  text-align: left;
+}
 #blog-call-section h3 {
   font-family: 'Montserrat';
   font-size: 24px;
