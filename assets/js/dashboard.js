@@ -39,7 +39,7 @@
 	$('.back').click(function(){
 		$(".uk-modal-close").trigger('click');
 	})
-
+ 
 })(jQuery);
 
 
