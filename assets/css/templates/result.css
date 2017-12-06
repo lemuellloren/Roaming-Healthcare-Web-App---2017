@@ -14639,7 +14639,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 #sms-layout1 .uk-modal-dialog {
   width: 280px;
-  height: 60%;
+  height: auto;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
 }
 #sms-layout1 .sms-div {
