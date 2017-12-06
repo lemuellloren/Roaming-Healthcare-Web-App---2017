@@ -5,7 +5,7 @@
 // import any framework components that are used in this page only:
 // @codekit-prepend '../bower_components/uikit/js/components/slider.js'
 // @codekit-prepend '../bower_components/uikit/js/components/slideshow.js'
-
+// @codekit-prepend '../bower_components/uikit/js/components/form-select.js'
 
 
 // PAGE FUNCTIONS
@@ -13,14 +13,26 @@
 
 
 (function($) {
-    
-    /* page functions go here */
-  
-$("#upload-icon").click(function () {
-    $("#upload-file").trigger('click');
-});
 
-$(document).ready(function() {
+    /* page functions go here */
+
+    //slider init when tab was clicked
+    $('.uk-tab').on('change.uk.tab', function(e, active, prev){
+        if( $(active).children('.tab-2').length ){
+           setTimeout(function(){
+            var services = UIkit.slider('#services-slider-desktop, #services-slider-mobile, #docs-slider-desktop, #docs-slider-mobile', {
+                infinite: false
+            });
+            services.init();
+        }, 500);
+       }
+   });
+
+    $("#upload-icon").click(function () {
+        $("#upload-file").trigger('click');
+    });
+
+    $(document).ready(function() {
     var max_fields      = 10; //maximum input boxes allowed
     var wrapper         = $(".input-fields-wrap"); //Fields wrapper
     var add_button      = $(".add-field-button"); //Add button ID
@@ -60,7 +72,7 @@ $(document).ready(function() {
     })
 });
  //hideshow
-$(document).ready(function(){
+ $(document).ready(function(){
     $("#hide").click(function(){
         $('.proceed-btn').show();
         $(".listing-layout").hide();
@@ -80,7 +92,7 @@ function readURL(input) {
 
         reader.onload = function (e) {
             $('#upload-img')
-                .attr('src', e.target.result);
+            .attr('src', e.target.result);
         };
 
         reader.readAsDataURL(input.files[0]);

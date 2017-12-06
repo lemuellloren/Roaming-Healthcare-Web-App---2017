@@ -9379,6 +9379,21 @@ h5 {
   position: relative;
   text-align: left;
 }
+@media only screen and (max-width: 767px) {
+  #blog-call-section .uk-form-select {
+    width: 100%;
+  }
+  #blog-call-section .uk-form-select select {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #blog-call-section .uk-form-select i {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+  }
+}
 #blog-call-section h3 {
   font-family: 'Montserrat';
   font-size: 24px;
@@ -12235,6 +12250,7 @@ html[dir="rtl"] .uk-slider > * {
   padding-top: 5px;
   position: relative;
   text-align: left;
+  margin-bottom: 10px;
 }
 .dashboard .uk-container .basic-info-container .uk-form-select i {
   position: absolute;
@@ -12691,6 +12707,9 @@ html[dir="rtl"] .uk-slider > * {
 }
 .dashboard .uk-container .basic-info-container .services .services-content li {
   padding: 0px;
+}
+.dashboard .uk-container .basic-info-container .services .services-content li .service {
+  margin-bottom: 20px;
 }
 @media only screen and (min-width: 960px) {
   .dashboard .uk-container .basic-info-container .services .services-content li .service {
@@ -13633,7 +13652,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 .listing-layout .layout-div-1 .uk-panel {
   max-width: 280px;
-  height: 455px;
+  height: auto;
   background-color: #FFF;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   margin: 0 auto;
