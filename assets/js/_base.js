@@ -8,7 +8,7 @@
 
 (function($) {
 	
-	/* page functions go here */
+	/* page functions go here */ 
 
 })(jQuery);
 

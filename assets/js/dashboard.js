@@ -52,7 +52,7 @@
 		if( $(active).children('.tab-4').length ){
 			setTimeout(function(){
 				var slider = UIkit.slider('#ad-calendar-slider', {
-					infinite: false
+					center: true
 				});
 				slider.init();
 			}, 500);

@@ -160,7 +160,8 @@ video {
   max-width: 100%;
   height: auto;
   /* 2 */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*
  * Preserve original dimensions
@@ -308,7 +309,8 @@ dd {
  */
 hr {
   /* 1 */
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   height: 0;
   /* 2 */
   margin: 15px 0;
@@ -661,13 +663,15 @@ iframe {
   -ms-flex: none;
   -webkit-box-flex: 0;
           flex: none;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
 }
 /* Even grid cell widths
  ========================================================================== */
 [class*='uk-grid-width'] > * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
 }
 .uk-grid-width-1-2 > * {
@@ -790,7 +794,8 @@ iframe {
 /* Sub-objects: `uk-width-*`
  ========================================================================== */
 [class*='uk-width'] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
 }
 /*
@@ -1450,7 +1455,8 @@ iframe {
  ========================================================================== */
 .uk-block {
   position: relative;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -1999,7 +2005,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  */
 .uk-navbar-nav > li > a {
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
   /* 1 */
   height: 40px;
@@ -2057,7 +2064,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-navbar-content,
 .uk-navbar-brand,
 .uk-navbar-toggle {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: block;
   height: 40px;
   padding: 0 15px;
@@ -2372,7 +2380,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   line-height: 20px;
   text-decoration: none;
   /* 1 */
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   /* 2 */
   text-align: center;
 }
@@ -2761,6 +2770,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 }
 .uk-thumbnav > * > * > img {
   opacity: 0.7;
+  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 /*
@@ -2958,7 +2968,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-form select,
 .uk-form textarea {
   /* 1 */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 2 */
   margin: 0;
   /* 3 */
@@ -3064,7 +3075,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  * Removes `box-shadow` for invalid controls in Firefox.
  */
 .uk-form :invalid {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*
  * Vertical alignment
@@ -3119,7 +3131,10 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   -webkit-transition: all 0.2s linear;
   -webkit-transition-property: border, background, color, box-shadow, padding;
   transition: all 0.2s linear;
+  -webkit-transition-property: border, background, color, padding, -webkit-box-shadow;
+  transition-property: border, background, color, padding, -webkit-box-shadow;
   transition-property: border, background, color, box-shadow, padding;
+  transition-property: border, background, color, box-shadow, padding, -webkit-box-shadow;
 }
 .uk-form select:focus,
 .uk-form textarea:focus,
@@ -3462,7 +3477,8 @@ select.uk-form-width-mini {
   text-transform: none;
   /* 7 */
   display: inline-block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0 12px;
   background: #eee;
   vertical-align: middle;
@@ -3733,7 +3749,8 @@ select.uk-form-width-mini {
 /* Modifier: `uk-icon-button`
  ========================================================================== */
 .uk-icon-button {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: inline-block;
   width: 35px;
   height: 35px;
@@ -5957,7 +5974,8 @@ select.uk-form-width-mini {
   background: transparent;
   /* 8 */
   display: inline-block;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   width: 20px;
   line-height: 20px;
   text-align: center;
@@ -6031,7 +6049,8 @@ a.uk-badge:hover {
 /* Modifier: `uk-badge-notification`;
  ========================================================================== */
 .uk-badge-notification {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   min-width: 18px;
   border-radius: 500px;
   font-size: 12px;
@@ -6142,7 +6161,8 @@ a.uk-badge:hover {
   /* 2 */
   max-width: 100%;
   /* 3 */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 3 */
   margin: 0;
   /* 4 */
@@ -6330,8 +6350,11 @@ a.uk-thumbnail:focus {
 .uk-overlay-grayscale,
 .uk-overlay-blur,
 [class*='uk-overlay-slide'] {
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition-property: opacity, -webkit-transform, -webkit-filter;
   transition-property: opacity, -webkit-transform, -webkit-filter;
   transition-property: opacity, transform, filter;
   transition-property: opacity, transform, filter, -webkit-transform, -webkit-filter;
@@ -6340,7 +6363,8 @@ a.uk-thumbnail:focus {
 .uk-overlay-active .uk-overlay-scale,
 .uk-overlay-active .uk-overlay-spin,
 .uk-overlay-active [class*='uk-overlay-slide'] {
-  transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
 }
 /*
  * Fade
@@ -6445,6 +6469,7 @@ a.uk-thumbnail:focus {
   background: rgba(0, 0, 0, 0.3);
   /* 3 */
   opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
   -webkit-transform: translate3d(0, 0, 0);
 }
@@ -6505,7 +6530,8 @@ a.uk-thumbnail:focus {
 .uk-overlay-area-content {
   /* 1 */
   display: inline-block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   vertical-align: middle;
   /* 2 */
@@ -6549,6 +6575,7 @@ a.uk-thumbnail:focus {
   color: #fff;
   /* 3 */
   opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
   -webkit-transform: translate3d(0, 0, 0);
 }
@@ -7293,7 +7320,8 @@ a.uk-thumbnail:focus {
   position: absolute;
   z-index: 970;
   /* 3 */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 4 */
   width: 200px;
 }
@@ -7495,6 +7523,7 @@ a.uk-thumbnail:focus {
   background: rgba(0, 0, 0, 0.6);
   /* 5 */
   opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
   /* 6 */
   -ms-touch-action: cross-slide-y pinch-zoom double-tap-zoom;
@@ -7528,7 +7557,8 @@ a.uk-thumbnail:focus {
   /* 1 */
   position: relative;
   /* 2 */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 50px auto;
   padding: 20px;
   width: 600px;
@@ -7540,6 +7570,7 @@ a.uk-thumbnail:focus {
   opacity: 0;
   -webkit-transform: translateY(-100px);
   transform: translateY(-100px);
+  -webkit-transition: opacity 0.3s linear, -webkit-transform 0.3s ease-out;
   transition: opacity 0.3s linear, -webkit-transform 0.3s ease-out;
   transition: opacity 0.3s linear, transform 0.3s ease-out;
   transition: opacity 0.3s linear, transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
@@ -7614,6 +7645,7 @@ a.uk-thumbnail:focus {
   padding: 0;
   width: 100%;
   max-width: 100%;
+  -webkit-transition: opacity 0.3s linear;
   transition: opacity 0.3s linear;
 }
 /*
@@ -7729,6 +7761,7 @@ a.uk-thumbnail:focus {
   /* 1 */
   position: fixed;
   /* 2 */
+  -webkit-transition: margin-left 0.3s ease-in-out;
   transition: margin-left 0.3s ease-in-out;
   /* 3 */
   margin-left: 0;
@@ -7760,6 +7793,7 @@ a.uk-thumbnail:focus {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   /* 4 */
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -7781,12 +7815,15 @@ a.uk-thumbnail:focus {
 /* Offcanvase modes
  ========================================================================== */
 .uk-offcanvas-bar[mode='none'] {
+  -webkit-transition: none;
   transition: none;
 }
 .uk-offcanvas-bar[mode='reveal'] {
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
   clip: rect(0, 0, 100vh, 0);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, clip 0.3s ease-in-out;
+  -webkit-transition: clip 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: clip 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, clip 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, clip 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -7799,6 +7836,7 @@ a.uk-thumbnail:focus {
 .uk-offcanvas-bar-flip[mode='reveal'] > * {
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -7964,7 +8002,8 @@ a.uk-thumbnail:focus {
 /* Container
  ========================================================================== */
 .uk-container {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 980px;
   padding: 0 25px;
 }
@@ -8108,7 +8147,8 @@ a.uk-thumbnail:focus {
  * More robust if padding and border are used
  */
 [class*='uk-height'] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*
  * Useful to extend the `html` and `body` element to the full height of the page.
@@ -8131,7 +8171,8 @@ a.uk-thumbnail:focus {
  */
 .uk-responsive-width,
 .uk-responsive-height {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*
  * Responsiveness: Sets a maximum width relative to the parent and auto scales the height
@@ -8303,7 +8344,8 @@ a.uk-thumbnail:focus {
  * Box with scrolling enabled
  */
 .uk-scrollable-box {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 170px;
   padding: 10px;
   border: 1px solid #ddd;
@@ -8925,7 +8967,8 @@ a.uk-thumbnail:focus {
   *:after {
     background: transparent !important;
     color: black !important;
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     text-shadow: none !important;
   }
   a,
@@ -9022,7 +9065,8 @@ h5 {
   height: auto;
   background-color: #FFF;
   border-radius: 3px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 1;
   -webkit-transform: translateY(-50%);
@@ -9146,6 +9190,7 @@ h5 {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   width: 37px;
   outline: none;
@@ -9161,6 +9206,7 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .feat-list-arrow:hover {
@@ -9178,6 +9224,7 @@ h5 {
 #featured-listers-section .uk-slidenav.uk-slidenav-next {
   display: block;
   color: #FE7B00;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .uk-slidenav.uk-slidenav-previous:hover,
@@ -9191,6 +9238,7 @@ h5 {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 2px;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .uk-panel.uk-panel-box:hover .hover-list {
@@ -9227,12 +9275,14 @@ h5 {
   color: #444444;
 }
 #featured-listers-section .feat-listers-cover {
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .feat-listers-cover:hover .feat-info {
   display: none;
 }
 #featured-listers-section .uk-overlay-panel {
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   background-color: rgba(255, 255, 255, 0.9);
 }
@@ -9243,6 +9293,7 @@ h5 {
   border: solid 2px #FE7B00;
 }
 #featured-listers-section .feat-content-hvr {
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .feat-content-hvr h5 {
@@ -9289,6 +9340,7 @@ h5 {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 109.1px;
@@ -9306,6 +9358,7 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .feat-profiles .feat-listers-sms-btn:hover {
@@ -9331,6 +9384,7 @@ h5 {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
 }
 #featured-listers-section .feat-profiles .feat-listers-info-btn::before {
@@ -9344,6 +9398,7 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .feat-profiles .feat-listers-info-btn:hover {
@@ -9378,21 +9433,6 @@ h5 {
   position: relative;
   text-align: left;
 }
-@media only screen and (max-width: 767px) {
-  #blog-call-section .uk-form-select {
-    width: 100%;
-  }
-  #blog-call-section .uk-form-select select {
-    width: 100% !important;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #blog-call-section .uk-form-select i {
-    position: absolute;
-    right: 10px;
-    top: 12px;
-  }
-}
 #blog-call-section h3 {
   font-family: 'Montserrat';
   font-size: 24px;
@@ -9410,7 +9450,8 @@ h5 {
 #blog-call-section .mobile-blog-article {
   margin-top: 25px;
   padding: 0;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 #blog-call-section .mobile-blog-call {
   text-align: center;
@@ -9451,10 +9492,12 @@ h5 {
   font-size: 12px;
   text-align: right;
   color: #165C96;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blog-call-section .uk-article .date-category li a:hover {
   color: #FE7B00;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blog-call-section .uk-article .date-category li a:hover:hover {
@@ -9472,6 +9515,7 @@ h5 {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   text-decoration: none;
@@ -9488,6 +9532,7 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blog-call-section .uk-article .blog-call-readmore:hover {
@@ -9535,6 +9580,7 @@ h5 {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   background-color: #F0F0F0;
   padding: 10px 25px 10px 25px;
@@ -9551,6 +9597,7 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blog-call-section .visit-blog-container .visit-blog-btn:hover {
@@ -9586,6 +9633,7 @@ h5 {
 }
 #blog-call-section .uk-pagination-previous,
 #blog-call-section .uk-pagination-next {
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blog-call-section .uk-pagination-previous:hover,
@@ -9623,6 +9671,7 @@ h5 {
   font-size: 14px;
   font-style: italic;
   color: #FE7B00;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   text-decoration: none;
 }
@@ -9699,6 +9748,7 @@ h5 {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 220px;
@@ -9715,6 +9765,7 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #subscriber-cta-section .subscriber-cta-container .cta-btn .cta-join-btn:hover {
@@ -9774,6 +9825,7 @@ h5 {
   text-align: center;
   color: #444444;
   text-decoration: none;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #breadcrumb-section a:active {
@@ -9784,6 +9836,7 @@ h5 {
 }
 #breadcrumb-section span {
   color: #FE7B00;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-family: 'Roboto';
   font-size: 12px;
@@ -9802,6 +9855,7 @@ h5 {
 /* END BREADCRUMB AREA STYLES */
 /* BLOG SEARCH AREA STYLES */
 #blogsearch-section {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#165c96), to(#3382c4));
   background-image: linear-gradient(to top, #165c96, #3382c4);
 }
 #blogsearch-section .uk-container {
@@ -9838,6 +9892,7 @@ h5 {
   font-size: 14px;
   font-weight: normal;
   border-bottom: 2px solid #FFF;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-family: 'Roboto';
   width: 80%;
@@ -9849,7 +9904,8 @@ h5 {
 #blogsearch-section .blogsearch-container form input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  box-shadow: 0 5px 20px -6px #FE7B00;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #blogsearch-section .blogsearch-container form input:hover {
   border-bottom: 2px solid #FE7B00;
@@ -9865,6 +9921,9 @@ h5 {
 #blogsearch-section .blogsearch-container form input:-ms-input-placeholder {
   color: #BBBBBB;
 }
+#blogsearch-section .blogsearch-container form input::-ms-input-placeholder {
+  color: #BBBBBB;
+}
 #blogsearch-section .blogsearch-container form input::placeholder {
   color: #BBBBBB;
 }
@@ -9878,6 +9937,7 @@ h5 {
   text-align: center;
   color: #FFF;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   position: relative;
@@ -9902,6 +9962,7 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blogsearch-section .blogsearch-container form .blogsearch-btn:hover {
@@ -9938,6 +9999,7 @@ h5 {
   font-family: 'Roboto';
   font-size: 14px;
   text-align: right;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blogsearch-section .blogsearch-container .categories a:hover {
@@ -9980,6 +10042,7 @@ footer .footer-navigation ul li a {
   text-decoration: none !important;
   color: #444444;
   font-size: 12px;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   text-decoration: none;
   font-weight: 300;
@@ -9990,7 +10053,9 @@ footer .footer-navigation ul li a:after {
   width: 0;
   height: 3px;
   background: #444444;
+  -webkit-transition: width 0.3s;
   transition: width 0.3s;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .footer-navigation ul li a:hover {
@@ -10001,6 +10066,7 @@ footer .footer-navigation ul li a:hover:after {
 }
 footer .footer-navigation ul li a.subscribe {
   color: #FE7B00;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .footer-navigation ul li a.subscribe:hover {
@@ -10029,6 +10095,7 @@ footer .footer-contact form .field input {
   font-family: 'Roboto';
   font-weight: normal;
   border-bottom: 2px solid #FFF;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .footer-contact form .field input:placeholder {
@@ -10037,7 +10104,8 @@ footer .footer-contact form .field input:placeholder {
 footer .footer-contact form .field input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  box-shadow: 0 5px 20px -6px #FE7B00;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
 }
 footer .footer-contact form .field input:hover {
   border-bottom: 2px solid #FE7B00;
@@ -10046,6 +10114,9 @@ footer .footer-contact form .field input::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field input:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field input::-ms-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field input::placeholder {
@@ -10062,6 +10133,7 @@ footer .footer-contact form .field textarea {
   font-family: 'Roboto';
   font-weight: normal;
   border-bottom: 2px solid #FFF;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   padding: 10px 10px;
 }
@@ -10071,7 +10143,8 @@ footer .footer-contact form .field textarea:placeholder {
 footer .footer-contact form .field textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  box-shadow: 0 5px 20px -6px #FE7B00;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
 }
 footer .footer-contact form .field textarea:hover {
   border-bottom: 2px solid #FE7B00;
@@ -10080,6 +10153,9 @@ footer .footer-contact form .field textarea::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+footer .footer-contact form .field textarea::-ms-input-placeholder {
   color: #BBBBBB;
 }
 footer .footer-contact form .field textarea::placeholder {
@@ -10097,6 +10173,7 @@ footer .footer-contact form .submit-btn {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   background-color: #E4E4E4;
 }
@@ -10111,6 +10188,7 @@ footer .footer-contact form .submit-btn::before {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .footer-contact form .submit-btn:hover {
@@ -10155,6 +10233,7 @@ footer .footer-contact-info ul li a {
   background: #444444;
   border-radius: 15px;
   padding: 6px;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .footer-contact-info ul li a span {
@@ -10217,7 +10296,9 @@ footer .main-footer .url a:after {
   width: 0;
   height: 3px;
   background: #FFF;
+  -webkit-transition: width 0.3s;
   transition: width 0.3s;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .main-footer .url a:hover {
@@ -10266,6 +10347,7 @@ footer .main-footer .share-icons ul li a {
   background: #FFF;
   border-radius: 15px;
   padding: 6px;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .main-footer .share-icons ul li a span {
@@ -10312,6 +10394,7 @@ footer .main-footer .share-icons ul li a:hover {
   margin: -20px -20px 15px -20px;
   padding: 20px;
   height: 130px !important;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#165C96), to(#3382c4));
   background-image: linear-gradient(to top, #165C96, #3382c4);
 }
 @media only screen and (min-width: 768px) {
@@ -10334,6 +10417,7 @@ footer .main-footer .share-icons ul li a:hover {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 100%;
@@ -10350,6 +10434,7 @@ footer .main-footer .share-icons ul li a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #subscribe-modal .join-now-btn:hover {
@@ -10385,6 +10470,7 @@ footer .main-footer .share-icons ul li a:hover {
   font-size: 14px;
   font-weight: normal;
   border-bottom: 2px solid #FFF;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-family: 'Roboto';
   width: 100%;
@@ -10397,7 +10483,8 @@ footer .main-footer .share-icons ul li a:hover {
 #subscribe-modal .subs-form input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  box-shadow: 0 5px 20px -6px #FE7B00;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #subscribe-modal .subs-form input:hover {
   border-bottom: 2px solid #FE7B00;
@@ -10415,7 +10502,8 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 nav .mobile-menu {
   background: #165C96;
@@ -10434,6 +10522,7 @@ nav .mobile-menu .menu {
 nav .mobile-menu .menu a span {
   position: relative;
   top: 7px;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-size: 26px;
   color: #FFF;
@@ -10452,6 +10541,7 @@ nav .mobile-menu .uk-offcanvas-bar .uk-close {
   font-size: 24px;
   color: #DC6A00;
   opacity: 1;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .mobile-menu .uk-offcanvas-bar .uk-close:hover {
@@ -10476,7 +10566,9 @@ nav .mobile-menu .uk-offcanvas-bar .menulist ul li .desktop-links:after {
   width: 0;
   height: 3px;
   background: #FFF;
+  -webkit-transition: width 0.3s;
   transition: width 0.3s;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .mobile-menu .uk-offcanvas-bar .menulist ul li .desktop-links:hover {
@@ -10493,6 +10585,7 @@ nav .mobile-menu .uk-offcanvas-bar .menulist ul li a {
   text-align: center;
   display: block;
   text-decoration: none;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .mobile-menu .uk-offcanvas-bar .menulist ul li.profile-img-mobile {
@@ -10540,7 +10633,9 @@ nav .mobile-menu .uk-offcanvas-bar .menulist ul li.dashboard-menu a:after {
   width: 0;
   height: 3px;
   background: #FFF;
+  -webkit-transition: width 0.3s;
   transition: width 0.3s;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .mobile-menu .uk-offcanvas-bar .menulist ul li.dashboard-menu a:hover {
@@ -10560,6 +10655,7 @@ nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   padding: 8px;
   text-decoration: none;
@@ -10575,6 +10671,7 @@ nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn::before {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn:hover {
@@ -10626,7 +10723,9 @@ nav .desktop-menu .uk-container .menulist ul li .desktop-links:after {
   width: 0;
   height: 3px;
   background: #FFF;
+  -webkit-transition: width 0.3s;
   transition: width 0.3s;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .desktop-menu .uk-container .menulist ul li .desktop-links:hover {
@@ -10640,6 +10739,7 @@ nav .desktop-menu .uk-container .menulist ul li a {
   color: #FFF;
   font-size: 16px;
   text-align: center;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   padding: 5px 0px;
   text-decoration: none;
@@ -10676,7 +10776,8 @@ nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-
   background: #F0F0F0;
   margin-top: 19px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   left: -140px !important;
 }
 nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown-bottom li,
@@ -10699,7 +10800,9 @@ nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-
   width: 0;
   height: 3px;
   background: #444444;
+  -webkit-transition: width 0.3s;
   transition: width 0.3s;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown-bottom li a:hover,
@@ -10731,6 +10834,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   padding: 8px;
   text-decoration: none;
@@ -10746,6 +10850,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn::before {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .desktop-menu .uk-container .menulist a.list-services-btn:hover {
@@ -10774,7 +10879,8 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   height: 370px;
   width: 272px;
   background-color: #FFF;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 #login-modal .divider-title {
   width: 50px;
@@ -10799,6 +10905,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-size: 14px;
   font-weight: normal;
   border-bottom: 2px solid #FFF;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border: solid 1px #C9C9C9;
   height: 40px;
@@ -10811,12 +10918,14 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #login-modal .log-in-form.uk-form input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  box-shadow: 0 5px 20px -6px #FE7B00;
+  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
+          box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #login-modal .log-in-form.uk-form input:hover {
   border-bottom: 2px solid #FE7B00;
 }
 #login-modal .log-in-form.uk-form a {
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   float: right;
   margin-top: -51px;
@@ -10845,6 +10954,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #FFF;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 109.1px;
@@ -10861,6 +10971,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #login-modal .log-in-form.uk-form .login-btn-container .login-btn:hover {
@@ -10883,6 +10994,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #login-modal .login-account a {
   color: #FE7B00;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #login-modal .login-account a:hover {
@@ -10901,6 +11013,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   background-color: transparent;
   width: auto;
@@ -10921,6 +11034,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .pagination .paging-nav:hover {
@@ -10964,184 +11078,659 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 /* LOGIN MODAL AREA STYLES */
 /* END SITE MENU AREA STYLES */
+/* ========================================================================
+   Component: Slideshow
+ ========================================================================== */
+/*
+ * 1. Create position context
+ * 2. Create stacking context to prevent z-index issues with other components
+ * 3. Set width because child elements are positioned absolute. Height is set via JS
+ * 4. Reset list style
+ * 5. Clip child elements
+ * 6. Deactivate browser history navigation in IE11
+ */
+.uk-slideshow {
+  /* 1 */
+  position: relative;
+  /* 2 */
+  z-index: 0;
+  /* 3 */
+  width: 100%;
+  /* 4 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* 5 */
+  overflow: hidden;
+  /* 6 */
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+}
+/*
+ * Sub-object item
+ * 1. Position items above each other
+ * 2. Expand to parent container width
+ * 3. Hide by default
+ */
+.uk-slideshow > li {
+  /* 1 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* 2 */
+  width: 100%;
+  /* 3 */
+  opacity: 0;
+}
+/*
+ * Active
+ * 1. Stack at first
+ * 2. Show slide
+ */
+.uk-slideshow > .uk-active {
+  /* 1 */
+  z-index: 10;
+  /* 2 */
+  opacity: 1;
+}
+/*
+ * Hide default images which is only relevant to keep existing proportions
+ */
+.uk-slideshow > li > img {
+  visibility: hidden;
+}
+/*
+ * Pointer for controls
+ */
+[data-uk-slideshow-slide] {
+  cursor: pointer;
+}
+/* Modifier: `uk-slideshow-fullscreen`
+ ========================================================================== */
+.uk-slideshow-fullscreen,
+.uk-slideshow-fullscreen > li {
+  height: 100vh;
+}
+/* Animations
+ ========================================================================== */
+/*
+ * Fade
+ */
+.uk-slideshow-fade-in {
+  -webkit-animation: uk-fade 0.5s linear;
+  animation: uk-fade 0.5s linear;
+}
+.uk-slideshow-fade-out {
+  -webkit-animation: uk-fade 0.5s linear reverse;
+  animation: uk-fade 0.5s linear reverse;
+}
+/*
+ * Scroll
+ */
+.uk-slideshow-scroll-forward-in {
+  -webkit-animation: uk-slide-right 0.5s ease-in-out;
+  animation: uk-slide-right 0.5s ease-in-out;
+}
+.uk-slideshow-scroll-forward-out {
+  -webkit-animation: uk-slide-left 0.5s ease-in-out reverse;
+  animation: uk-slide-left 0.5s ease-in-out reverse;
+}
+.uk-slideshow-scroll-backward-in {
+  -webkit-animation: uk-slide-left 0.5s ease-in-out;
+  animation: uk-slide-left 0.5s ease-in-out;
+}
+.uk-slideshow-scroll-backward-out {
+  -webkit-animation: uk-slide-right 0.5s ease-in-out reverse;
+  animation: uk-slide-right 0.5s ease-in-out reverse;
+}
+/*
+ * Scale
+ */
+.uk-slideshow-scale-out {
+  -webkit-animation: uk-fade-scale-15 0.5s ease-in-out reverse;
+  animation: uk-fade-scale-15 0.5s ease-in-out reverse;
+}
+/*
+ * Swipe
+ */
+.uk-slideshow-swipe-forward-in {
+  -webkit-animation: uk-slide-left-33 0.5s ease-in-out;
+  animation: uk-slide-left-33 0.5s ease-in-out;
+}
+.uk-slideshow-swipe-forward-out {
+  -webkit-animation: uk-slide-left 0.5s ease-in-out reverse;
+  animation: uk-slide-left 0.5s ease-in-out reverse;
+}
+.uk-slideshow-swipe-backward-in {
+  -webkit-animation: uk-slide-right-33 0.5s ease-in-out;
+  animation: uk-slide-right-33 0.5s ease-in-out;
+}
+.uk-slideshow-swipe-backward-out {
+  -webkit-animation: uk-slide-right 0.5s ease-in-out reverse;
+  animation: uk-slide-right 0.5s ease-in-out reverse;
+}
+.uk-slideshow-swipe-forward-in:before,
+.uk-slideshow-swipe-backward-in:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-animation: uk-fade 0.5s ease-in-out reverse;
+  animation: uk-fade 0.5s ease-in-out reverse;
+}
+/* ========================================================================
+   Component: Dotnav
+ ========================================================================== */
+/*
+ * 1. Gutter
+ * 2. Remove default list style
+ */
+.uk-dotnav {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /* 1 */
+  margin-left: -15px;
+  margin-top: -15px;
+  /* 2 */
+  padding: 0;
+  list-style: none;
+}
+/*
+ * 1. Space is allocated solely based on content dimensions
+ * 2. Horizontal gutter is using `padding` so `uk-width-*` classes can be applied
+ */
+.uk-dotnav > * {
+  /* 1 */
+  -ms-flex: none;
+  -webkit-box-flex: 0;
+          flex: none;
+  /* 2 */
+  padding-left: 15px;
+  margin-top: 15px;
+}
+/*
+ * DEPRECATED IE9 Support
+ */
+.uk-dotnav:before,
+.uk-dotnav:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+}
+.uk-dotnav:after {
+  clear: both;
+}
+.uk-dotnav > * {
+  float: left;
+}
+/* Items
+ ========================================================================== */
+/*
+ * Items
+ * 1. Hide text if present
+ */
+.uk-dotnav > * > * {
+  display: block;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(50, 50, 50, 0.1);
+  /* 1 */
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ */
+.uk-dotnav > * > :hover,
+.uk-dotnav > * > :focus {
+  background: rgba(50, 50, 50, 0.4);
+  /* 2 */
+  outline: none;
+}
+/* OnClick */
+.uk-dotnav > * > :active {
+  background: rgba(50, 50, 50, 0.6);
+}
+/* Active */
+.uk-dotnav > .uk-active > * {
+  background: rgba(50, 50, 50, 0.4);
+}
+/* Modifier: `uk-dotnav-contrast`
+ ========================================================================== */
+.uk-dotnav-contrast > * > * {
+  background: rgba(255, 255, 255, 0.4);
+}
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ */
+.uk-dotnav-contrast > * > :hover,
+.uk-dotnav-contrast > * > :focus {
+  background: rgba(255, 255, 255, 0.7);
+}
+/* OnClick */
+.uk-dotnav-contrast > * > :active {
+  background: rgba(255, 255, 255, 0.9);
+}
+/* Active */
+.uk-dotnav-contrast > .uk-active > * {
+  background: rgba(255, 255, 255, 0.9);
+}
+/* Modifier: 'uk-dotnav-vertical'
+ ========================================================================== */
+/*
+ * DEPRECATED
+ */
+.uk-dotnav-vertical {
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+/*
+ * DEPRECATED IE9 Support
+ */
+.uk-dotnav-vertical > * {
+  float: none;
+}
+/* ========================================================================
+   Component: Slider
+ ========================================================================== */
+/*
+ * RTL Compatibility
+ */
+[data-uk-slider] {
+  direction: ltr;
+}
+html[dir="rtl"] .uk-slider > * {
+  direction: rtl;
+}
+/*
+ * 1. Create position context
+ * 2. Create stacking context to prevent z-index issues with other components
+ * 3. Deactivate browser history navigation in IE11
+ */
+.uk-slider {
+  /* 1 */
+  position: relative;
+  /* 2 */
+  z-index: 0;
+  /* 3 */
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+}
+/*
+ * 1. Reset list style without interfering with grid
+ */
+.uk-slider:not(.uk-grid) {
+  /* 1 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*
+ * Sub-object item
+ * 1. Position items above each other
+ */
+.uk-slider > * {
+  /* 1 */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*
+ * Clip child elements
+ */
+.uk-slider-container {
+  overflow: hidden;
+}
+/*
+ * Dragged
+ */
+.uk-slider:not(.uk-drag) {
+  -webkit-transition: -webkit-transform 200ms linear;
+  transition: -webkit-transform 200ms linear;
+  transition: transform 200ms linear;
+  transition: transform 200ms linear, -webkit-transform 200ms linear;
+}
+/*
+ * 1. Makes text unselectable
+ */
+.uk-slider.uk-drag {
+  cursor: col-resize;
+  /* 1 */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*
+ * 1. Prevents images and links from being dragged (default browser behavior)
+ * 2. Disables the default callout shown when you touch and hold a touch target
+ * Currently only works in Webkit
+ */
+.uk-slider a,
+.uk-slider img {
+  /* 1 */
+  -webkit-user-drag: none;
+  user-drag: none;
+  /* 2 */
+  -webkit-touch-callout: none;
+}
+/*
+ * 1. Prevents images and links from being dragged in Firefox
+ */
+.uk-slider img {
+  pointer-events: none;
+}
+/* Modifier: `uk-slider-fullscreen`
+ ========================================================================== */
+.uk-slider-fullscreen,
+.uk-slider-fullscreen > li {
+  height: 100vh;
+}
+/* ========================================================================
+   Component: Slidenav
+ ========================================================================== */
+/*
+ * 1. Required for `a` elements
+ * 2. Dimension
+ * 3. Style
+ */
+.uk-slidenav {
+  /* 1 */
+  display: inline-block;
+  /* 2 */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  /* 3 */
+  line-height: 60px;
+  color: rgba(50, 50, 50, 0.4);
+  font-size: 60px;
+  text-align: center;
+}
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ * 3. Required for `a` elements
+ * 4. Style
+ */
+.uk-slidenav:hover,
+.uk-slidenav:focus {
+  /* 2 */
+  outline: none;
+  /* 3 */
+  text-decoration: none;
+  /* 4 */
+  color: rgba(50, 50, 50, 0.7);
+  cursor: pointer;
+}
+/* Active */
+.uk-slidenav:active {
+  color: rgba(50, 50, 50, 0.9);
+}
+/*
+ * Icons
+ */
+.uk-slidenav-previous:before {
+  content: "\f104";
+  font-family: FontAwesome;
+}
+.uk-slidenav-next:before {
+  content: "\f105";
+  font-family: FontAwesome;
+}
+/* Sub-object: `uk-slidenav-position`
+ ========================================================================== */
+/*
+ * Create position context
+ */
+.uk-slidenav-position {
+  position: relative;
+}
+/*
+ * Center vertically
+ */
+.uk-slidenav-position .uk-slidenav {
+  display: none;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  margin-top: -30px;
+}
+.uk-slidenav-position:hover .uk-slidenav {
+  display: block;
+}
+.uk-slidenav-position .uk-slidenav-previous {
+  left: 20px;
+}
+.uk-slidenav-position .uk-slidenav-next {
+  right: 20px;
+}
+/* Modifier: `uk-slidenav-contrast`
+ ========================================================================== */
+.uk-slidenav-contrast {
+  color: rgba(255, 255, 255, 0.5);
+}
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ */
+.uk-slidenav-contrast:hover,
+.uk-slidenav-contrast:focus {
+  color: rgba(255, 255, 255, 0.7);
+}
+/* Active */
+.uk-slidenav-contrast:active {
+  color: rgba(255, 255, 255, 0.9);
+}
 /* #hero, #about, #contact, etc. */
 /* FEATURED SERVICES SECTION  AREA STYLES */
-/* CREATE LISTER ACCOUNT BANNER SYTLES AREA */
-#gradient-banner {
-  margin-bottom: -175px;
-}
 @media only screen and (min-width: 768px) {
-  #gradient-banner {
-    margin-bottom: -110px;
+  #breadcrumb-section {
+    margin-bottom: 0;
   }
 }
-/* END CREATE LISTER ACCOUNT BANNER SYTLES AREA */
-/* CREATE LISTER ACCOUNT  SYTLES AREA */
-#lister-account-section {
-  padding: 50px 0 50px 0;
-  max-width: 85%;
-  margin: 0 auto;
+/* FEATURED BLOG AREA STYLES */
+/* FEATURED ARTICLE SYTLES AREA */
+#article-section {
   height: auto;
-  background-color: #FFF;
-  border-radius: 3px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  position: relative;
-  top: -50px;
+}
+#article-section .article-container {
+  padding: 0;
 }
 @media only screen and (min-width: 768px) {
-  #lister-account-section {
-    max-width: 60%;
+  #article-section .article-container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    max-width: 1127px;
+    padding: 0 25px;
+    margin: 0 auto;
+    padding: 0 0 80px 0;
   }
 }
-#lister-account-section .uk-container {
+#article-section .uk-container {
   margin: 0 auto;
+  padding-top: 20px;
 }
-#lister-account-section h3 {
+#article-section .uk-panel-box {
+  background: #FFF;
+}
+@media only screen and (min-width: 768px) {
+  #article-section .uk-panel-box {
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+@media only screen and (min-width: 768px) {
+  #article-section .uk-panel-box .uk-panel-teaser {
+    height: 450px;
+    overflow: hidden;
+  }
+}
+#article-section .uk-panel-box .uk-panel-teaser img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  #article-section .uk-panel-box .uk-panel-teaser img {
+    height: 550px;
+  }
+}
+#article-section h1 {
   font-family: 'Montserrat';
-  font-size: 24px;
-  font-weight: 300;
-  text-align: center;
-  color: #165C96;
+  font-size: 22px;
+  text-align: left;
+  color: #444444;
+  line-height: 1.3;
+  margin-bottom: 5px;
 }
-#lister-account-section p {
+#article-section p {
   font-family: 'Roboto';
-  font-size: 12px;
-  line-height: 1.33;
-  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
   color: #444444;
 }
-@media only screen and (min-width: 768px) {
-  #lister-account-section p {
-    margin: 0 auto;
-    padding-top: 20px;
-  }
+#article-section .date-category {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 25px 0px -50px;
 }
-@media only screen and (min-width: 1024px) {
-  #lister-account-section p {
-    width: 70%;
-  }
+#article-section .date-category li {
+  padding-left: 20px;
 }
-#lister-account-section a {
-  color: #FE7B00;
-  transition: all 0.4s ease;
-}
-#lister-account-section a:hover {
-  color: #C45F00;
-  text-decoration: none;
-}
-#lister-account-section .divider-title {
-  width: 50px;
-  margin: 30px auto auto;
-  border: solid 1px #444444;
-}
-#lister-account-section .login-lister-account {
-  padding-top: 15px;
-}
-#lister-account-section form {
-  text-align: center;
-  padding-top: 25px;
-}
-@media only screen and (min-width: 768px) {
-  #lister-account-section form {
-    margin: 0 auto;
-    width: 70%;
-  }
-}
-#lister-account-section form input {
-  width: 93%;
-  padding: 5px 10px;
-  border: 0;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  border: #FFF 1px solid;
-  font-size: 14px;
-  font-weight: normal;
-  border-bottom: 2px solid #FFF;
-  transition: all 0.4s ease;
-  font-size: 12px;
-  width: 100%;
-  height: 45px;
-  border-radius: 3px;
-  background-color: #FFF;
-  border: solid 1px #E4E4E4;
+#article-section .date-category li p,
+#article-section .date-category li a {
   font-family: 'Roboto';
+  font-size: 12px;
+  text-align: right;
+  color: #165c96;
+  text-decoration: none;
+  margin-top: 1px;
 }
-#lister-account-section form input:placeholder {
-  color: #BBBBBB;
+#article-section .older-post {
+  text-align: center;
+  padding: 30px 0 30px 0;
 }
-#lister-account-section form input:focus {
-  border-bottom: #FE7B00 1px solid;
-  outline: inherit;
-  box-shadow: 0 5px 20px -6px #FE7B00;
-}
-#lister-account-section form input:hover {
-  border-bottom: 2px solid #FE7B00;
-}
-#lister-account-section form input::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-#lister-account-section form input:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-#lister-account-section form input::placeholder {
-  color: #BBBBBB;
-}
-@media only screen and (min-width: 1024px) {
-  #lister-account-section form input {
-    width: 70%;
-  }
-}
-#lister-account-section form img {
-  padding: 0 0 10px 0;
-}
-@media only screen and (min-width: 768px) {
-  #lister-account-section form img {
-    width: 70%;
-  }
-}
-#lister-account-section form .create-btn {
-  width: 159px;
-  height: 50px;
+#article-section .older-post .olderpost-btn {
+  width: 109.1px;
+  height: 36.6px;
   border-radius: 3px;
-  border: 1px solid #FE7B00;
-  background-color: #FE7B00;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
   font-size: 14px;
   text-align: center;
-  color: #FFF;
+  color: #FE7B00;
   position: relative;
   overflow: hidden;
-  transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
-  width: 100%;
+  -webkit-transition: all 0.4s ease-in-out 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  padding: 8px;
+  text-decoration: none;
 }
-#lister-account-section form .create-btn::before {
+#article-section .older-post .olderpost-btn::before {
   content: '';
-  background-color: #C45F00;
+  color: #FFF;
+  background-color: #FE7B00;
   width: 0%;
   height: 0%;
   border-radius: 50%;
-  color: #FFF;
   opacity: 1;
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-#lister-account-section form .create-btn:hover {
-  background-color: #C45F00;
-  border: 1px solid #C45F00;
+#article-section .older-post .olderpost-btn:hover {
+  background-color: #FE7B00;
+  color: #FFF;
 }
-#lister-account-section form .create-btn:hover::before {
+#article-section .older-post .olderpost-btn:hover::before {
   width: 150%;
   height: 150%;
   top: -25%;
   left: -25%;
   opacity: 0;
 }
-@media only screen and (min-width: 1024px) {
-  #lister-account-section form .create-btn {
-    width: 70%;
-  }
+#article-section .quote-article {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
 }
-/* END CREATE LISTER ACCOUNT  SYTLES AREA */
-/*# sourceMappingURL=createlister.css.map */
+#article-section .quote-article p {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #444444;
+}
+#article-section .quote-article span {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.71;
+}
+#article-section .article-share-icons {
+  text-align: center;
+  padding-top: 20px;
+}
+#article-section .article-share-icons p {
+  color: #444444;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  font-family: 'Roboto';
+  text-align: center;
+}
+#article-section .article-share-icons ul {
+  padding: 0;
+  list-style: none;
+}
+#article-section .article-share-icons ul li {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+}
+#article-section .article-share-icons ul li a {
+  background: #444444;
+  border-radius: 15px;
+  padding: 6px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#article-section .article-share-icons ul li a span {
+  width: 20px;
+  text-align: center;
+  color: #FFF;
+}
+#article-section .article-share-icons ul li a:hover {
+  background: #FE7B00;
+}
+#article-section .disqus-container {
+  padding: 30px 0 30px 0;
+}
+/* END FEATURED ARTICLE SYTLES AREA */
+/*# sourceMappingURL=article.css.map */
