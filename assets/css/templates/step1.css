@@ -160,8 +160,7 @@ video {
   max-width: 100%;
   height: auto;
   /* 2 */
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 /*
  * Preserve original dimensions
@@ -309,8 +308,7 @@ dd {
  */
 hr {
   /* 1 */
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   height: 0;
   /* 2 */
   margin: 15px 0;
@@ -663,15 +661,13 @@ iframe {
   -ms-flex: none;
   -webkit-box-flex: 0;
           flex: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
 }
 /* Even grid cell widths
  ========================================================================== */
 [class*='uk-grid-width'] > * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
 }
 .uk-grid-width-1-2 > * {
@@ -794,8 +790,7 @@ iframe {
 /* Sub-objects: `uk-width-*`
  ========================================================================== */
 [class*='uk-width'] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
 }
 /*
@@ -1455,8 +1450,7 @@ iframe {
  ========================================================================== */
 .uk-block {
   position: relative;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -2005,8 +1999,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  */
 .uk-navbar-nav > li > a {
   display: block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   /* 1 */
   height: 40px;
@@ -2064,8 +2057,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-navbar-content,
 .uk-navbar-brand,
 .uk-navbar-toggle {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: block;
   height: 40px;
   padding: 0 15px;
@@ -2380,8 +2372,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   line-height: 20px;
   text-decoration: none;
   /* 1 */
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 2 */
   text-align: center;
 }
@@ -2770,7 +2761,6 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 }
 .uk-thumbnav > * > * > img {
   opacity: 0.7;
-  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 /*
@@ -2968,8 +2958,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-form select,
 .uk-form textarea {
   /* 1 */
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 2 */
   margin: 0;
   /* 3 */
@@ -3075,8 +3064,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  * Removes `box-shadow` for invalid controls in Firefox.
  */
 .uk-form :invalid {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 /*
  * Vertical alignment
@@ -3131,10 +3119,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   -webkit-transition: all 0.2s linear;
   -webkit-transition-property: border, background, color, box-shadow, padding;
   transition: all 0.2s linear;
-  -webkit-transition-property: border, background, color, padding, -webkit-box-shadow;
-  transition-property: border, background, color, padding, -webkit-box-shadow;
   transition-property: border, background, color, box-shadow, padding;
-  transition-property: border, background, color, box-shadow, padding, -webkit-box-shadow;
 }
 .uk-form select:focus,
 .uk-form textarea:focus,
@@ -3477,8 +3462,7 @@ select.uk-form-width-mini {
   text-transform: none;
   /* 7 */
   display: inline-block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0 12px;
   background: #eee;
   vertical-align: middle;
@@ -3749,8 +3733,7 @@ select.uk-form-width-mini {
 /* Modifier: `uk-icon-button`
  ========================================================================== */
 .uk-icon-button {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: inline-block;
   width: 35px;
   height: 35px;
@@ -5974,8 +5957,7 @@ select.uk-form-width-mini {
   background: transparent;
   /* 8 */
   display: inline-block;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   width: 20px;
   line-height: 20px;
   text-align: center;
@@ -6049,8 +6031,7 @@ a.uk-badge:hover {
 /* Modifier: `uk-badge-notification`;
  ========================================================================== */
 .uk-badge-notification {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   min-width: 18px;
   border-radius: 500px;
   font-size: 12px;
@@ -6161,8 +6142,7 @@ a.uk-badge:hover {
   /* 2 */
   max-width: 100%;
   /* 3 */
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 3 */
   margin: 0;
   /* 4 */
@@ -6350,11 +6330,8 @@ a.uk-thumbnail:focus {
 .uk-overlay-grayscale,
 .uk-overlay-blur,
 [class*='uk-overlay-slide'] {
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-  -webkit-transition-property: opacity, -webkit-transform, -webkit-filter;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
   transition-property: opacity, -webkit-transform, -webkit-filter;
   transition-property: opacity, transform, filter;
   transition-property: opacity, transform, filter, -webkit-transform, -webkit-filter;
@@ -6363,8 +6340,7 @@ a.uk-thumbnail:focus {
 .uk-overlay-active .uk-overlay-scale,
 .uk-overlay-active .uk-overlay-spin,
 .uk-overlay-active [class*='uk-overlay-slide'] {
-  -webkit-transition-duration: 0.8s;
-          transition-duration: 0.8s;
+  transition-duration: 0.8s;
 }
 /*
  * Fade
@@ -6469,7 +6445,6 @@ a.uk-thumbnail:focus {
   background: rgba(0, 0, 0, 0.3);
   /* 3 */
   opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
   -webkit-transform: translate3d(0, 0, 0);
 }
@@ -6530,8 +6505,7 @@ a.uk-thumbnail:focus {
 .uk-overlay-area-content {
   /* 1 */
   display: inline-block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   vertical-align: middle;
   /* 2 */
@@ -6575,7 +6549,6 @@ a.uk-thumbnail:focus {
   color: #fff;
   /* 3 */
   opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
   -webkit-transform: translate3d(0, 0, 0);
 }
@@ -7320,8 +7293,7 @@ a.uk-thumbnail:focus {
   position: absolute;
   z-index: 970;
   /* 3 */
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 4 */
   width: 200px;
 }
@@ -7523,7 +7495,6 @@ a.uk-thumbnail:focus {
   background: rgba(0, 0, 0, 0.6);
   /* 5 */
   opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
   /* 6 */
   -ms-touch-action: cross-slide-y pinch-zoom double-tap-zoom;
@@ -7557,8 +7528,7 @@ a.uk-thumbnail:focus {
   /* 1 */
   position: relative;
   /* 2 */
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 50px auto;
   padding: 20px;
   width: 600px;
@@ -7570,7 +7540,6 @@ a.uk-thumbnail:focus {
   opacity: 0;
   -webkit-transform: translateY(-100px);
   transform: translateY(-100px);
-  -webkit-transition: opacity 0.3s linear, -webkit-transform 0.3s ease-out;
   transition: opacity 0.3s linear, -webkit-transform 0.3s ease-out;
   transition: opacity 0.3s linear, transform 0.3s ease-out;
   transition: opacity 0.3s linear, transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
@@ -7645,7 +7614,6 @@ a.uk-thumbnail:focus {
   padding: 0;
   width: 100%;
   max-width: 100%;
-  -webkit-transition: opacity 0.3s linear;
   transition: opacity 0.3s linear;
 }
 /*
@@ -7761,7 +7729,6 @@ a.uk-thumbnail:focus {
   /* 1 */
   position: fixed;
   /* 2 */
-  -webkit-transition: margin-left 0.3s ease-in-out;
   transition: margin-left 0.3s ease-in-out;
   /* 3 */
   margin-left: 0;
@@ -7793,7 +7760,6 @@ a.uk-thumbnail:focus {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   /* 4 */
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -7815,15 +7781,12 @@ a.uk-thumbnail:focus {
 /* Offcanvase modes
  ========================================================================== */
 .uk-offcanvas-bar[mode='none'] {
-  -webkit-transition: none;
   transition: none;
 }
 .uk-offcanvas-bar[mode='reveal'] {
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
   clip: rect(0, 0, 100vh, 0);
-  -webkit-transition: -webkit-transform 0.3s ease-in-out, clip 0.3s ease-in-out;
-  -webkit-transition: clip 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: clip 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, clip 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, clip 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -7836,7 +7799,6 @@ a.uk-thumbnail:focus {
 .uk-offcanvas-bar-flip[mode='reveal'] > * {
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -8002,8 +7964,7 @@ a.uk-thumbnail:focus {
 /* Container
  ========================================================================== */
 .uk-container {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   max-width: 980px;
   padding: 0 25px;
 }
@@ -8147,8 +8108,7 @@ a.uk-thumbnail:focus {
  * More robust if padding and border are used
  */
 [class*='uk-height'] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 /*
  * Useful to extend the `html` and `body` element to the full height of the page.
@@ -8171,8 +8131,7 @@ a.uk-thumbnail:focus {
  */
 .uk-responsive-width,
 .uk-responsive-height {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 /*
  * Responsiveness: Sets a maximum width relative to the parent and auto scales the height
@@ -8344,8 +8303,7 @@ a.uk-thumbnail:focus {
  * Box with scrolling enabled
  */
 .uk-scrollable-box {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 170px;
   padding: 10px;
   border: 1px solid #ddd;
@@ -8967,8 +8925,7 @@ a.uk-thumbnail:focus {
   *:after {
     background: transparent !important;
     color: black !important;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
     text-shadow: none !important;
   }
   a,
@@ -9135,10 +9092,8 @@ h5 {
   font-family: 'Roboto';
   font-weight: normal;
   border-bottom: 2px solid #FFF;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  -webkit-box-shadow: 2px 2px 2px 0px #444444;
-          box-shadow: 2px 2px 2px 0px #444444;
+  box-shadow: 2px 2px 2px 0px #444444;
   color: #BBBBBB;
   width: 260px;
   height: 50px;
@@ -9150,8 +9105,7 @@ h5 {
 #search-banner-section .search-banner-container form input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #search-banner-section .search-banner-container form input:hover {
   border-bottom: 2px solid #FE7B00;
@@ -9186,11 +9140,9 @@ h5 {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
-  -webkit-box-shadow: 2px 2px 2px 0px #444444;
-          box-shadow: 2px 2px 2px 0px #444444;
+  box-shadow: 2px 2px 2px 0px #444444;
   cursor: pointer;
 }
 #search-banner-section .search-banner-container form .find-btn::before {
@@ -9204,7 +9156,6 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #search-banner-section .search-banner-container form .find-btn:hover {
@@ -9235,8 +9186,7 @@ h5 {
   height: auto;
   background-color: #FFF;
   border-radius: 3px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 1;
   -webkit-transform: translateY(-50%);
@@ -9360,7 +9310,6 @@ h5 {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   width: 37px;
   outline: none;
@@ -9376,7 +9325,6 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .feat-list-arrow:hover {
@@ -9394,7 +9342,6 @@ h5 {
 #featured-listers-section .uk-slidenav.uk-slidenav-next {
   display: block;
   color: #FE7B00;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .uk-slidenav.uk-slidenav-previous:hover,
@@ -9408,7 +9355,6 @@ h5 {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 2px;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .uk-panel.uk-panel-box:hover .hover-list {
@@ -9445,14 +9391,12 @@ h5 {
   color: #444444;
 }
 #featured-listers-section .feat-listers-cover {
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .feat-listers-cover:hover .feat-info {
   display: none;
 }
 #featured-listers-section .uk-overlay-panel {
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   background-color: rgba(255, 255, 255, 0.9);
 }
@@ -9463,7 +9407,6 @@ h5 {
   border: solid 2px #FE7B00;
 }
 #featured-listers-section .feat-content-hvr {
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .feat-content-hvr h5 {
@@ -9510,7 +9453,6 @@ h5 {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 109.1px;
@@ -9528,7 +9470,6 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .feat-profiles .feat-listers-sms-btn:hover {
@@ -9554,7 +9495,6 @@ h5 {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
 }
 #featured-listers-section .feat-profiles .feat-listers-info-btn::before {
@@ -9568,7 +9508,6 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #featured-listers-section .feat-profiles .feat-listers-info-btn:hover {
@@ -9610,8 +9549,7 @@ h5 {
 #blog-call-section .mobile-blog-article {
   margin-top: 25px;
   padding: 0;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 #blog-call-section .mobile-blog-call {
   text-align: center;
@@ -9664,7 +9602,6 @@ h5 {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   text-decoration: none;
@@ -9681,7 +9618,6 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blog-call-section .uk-article .blog-call-readmore:hover {
@@ -9729,7 +9665,6 @@ h5 {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   background-color: #F0F0F0;
   padding: 10px 25px 10px 25px;
@@ -9746,7 +9681,6 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blog-call-section .visit-blog-container .visit-blog-btn:hover {
@@ -9782,7 +9716,6 @@ h5 {
 }
 #blog-call-section .uk-pagination-previous,
 #blog-call-section .uk-pagination-next {
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blog-call-section .uk-pagination-previous:hover,
@@ -9820,7 +9753,6 @@ h5 {
   font-size: 14px;
   font-style: italic;
   color: #FE7B00;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   text-decoration: none;
 }
@@ -9897,7 +9829,6 @@ h5 {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 220px;
@@ -9914,7 +9845,6 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #subscriber-cta-section .subscriber-cta-container .cta-btn .cta-join-btn:hover {
@@ -9974,7 +9904,6 @@ h5 {
   text-align: center;
   color: #444444;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #breadcrumb-section a:active {
@@ -9985,7 +9914,6 @@ h5 {
 }
 #breadcrumb-section span {
   color: #FE7B00;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-family: 'Roboto';
   font-size: 12px;
@@ -10004,7 +9932,6 @@ h5 {
 /* END BREADCRUMB AREA STYLES */
 /* BLOG SEARCH AREA STYLES */
 #blogsearch-section {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#165c96), to(#3382c4));
   background-image: linear-gradient(to top, #165c96, #3382c4);
 }
 #blogsearch-section .uk-container {
@@ -10041,7 +9968,6 @@ h5 {
   font-size: 14px;
   font-weight: normal;
   border-bottom: 2px solid #FFF;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-family: 'Roboto';
   width: 80%;
@@ -10053,8 +9979,7 @@ h5 {
 #blogsearch-section .blogsearch-container form input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #blogsearch-section .blogsearch-container form input:hover {
   border-bottom: 2px solid #FE7B00;
@@ -10083,7 +10008,6 @@ h5 {
   text-align: center;
   color: #FFF;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   position: relative;
@@ -10108,7 +10032,6 @@ h5 {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blogsearch-section .blogsearch-container form .blogsearch-btn:hover {
@@ -10145,7 +10068,6 @@ h5 {
   font-family: 'Roboto';
   font-size: 14px;
   text-align: right;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #blogsearch-section .blogsearch-container .categories a:hover {
@@ -10188,7 +10110,6 @@ footer .footer-navigation ul li a {
   text-decoration: none !important;
   color: #444444;
   font-size: 12px;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   text-decoration: none;
   font-weight: 300;
@@ -10199,9 +10120,7 @@ footer .footer-navigation ul li a:after {
   width: 0;
   height: 3px;
   background: #444444;
-  -webkit-transition: width 0.3s;
   transition: width 0.3s;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .footer-navigation ul li a:hover {
@@ -10212,7 +10131,6 @@ footer .footer-navigation ul li a:hover:after {
 }
 footer .footer-navigation ul li a.subscribe {
   color: #FE7B00;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .footer-navigation ul li a.subscribe:hover {
@@ -10241,7 +10159,6 @@ footer .footer-contact form .field input {
   font-family: 'Roboto';
   font-weight: normal;
   border-bottom: 2px solid #FFF;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .footer-contact form .field input:placeholder {
@@ -10250,8 +10167,7 @@ footer .footer-contact form .field input:placeholder {
 footer .footer-contact form .field input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 footer .footer-contact form .field input:hover {
   border-bottom: 2px solid #FE7B00;
@@ -10276,7 +10192,6 @@ footer .footer-contact form .field textarea {
   font-family: 'Roboto';
   font-weight: normal;
   border-bottom: 2px solid #FFF;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   padding: 10px 10px;
 }
@@ -10286,8 +10201,7 @@ footer .footer-contact form .field textarea:placeholder {
 footer .footer-contact form .field textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 footer .footer-contact form .field textarea:hover {
   border-bottom: 2px solid #FE7B00;
@@ -10313,7 +10227,6 @@ footer .footer-contact form .submit-btn {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   background-color: #E4E4E4;
 }
@@ -10328,7 +10241,6 @@ footer .footer-contact form .submit-btn::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .footer-contact form .submit-btn:hover {
@@ -10373,7 +10285,6 @@ footer .footer-contact-info ul li a {
   background: #444444;
   border-radius: 15px;
   padding: 6px;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .footer-contact-info ul li a span {
@@ -10425,9 +10336,7 @@ footer .main-footer .url a:after {
   width: 0;
   height: 3px;
   background: #FFF;
-  -webkit-transition: width 0.3s;
   transition: width 0.3s;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .main-footer .url a:hover {
@@ -10476,7 +10385,6 @@ footer .main-footer .share-icons ul li a {
   background: #FFF;
   border-radius: 15px;
   padding: 6px;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 footer .main-footer .share-icons ul li a span {
@@ -10523,7 +10431,6 @@ footer .main-footer .share-icons ul li a:hover {
   margin: -20px -20px 15px -20px;
   padding: 20px;
   height: 130px !important;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#165C96), to(#3382c4));
   background-image: linear-gradient(to top, #165C96, #3382c4);
 }
 @media only screen and (min-width: 768px) {
@@ -10546,7 +10453,6 @@ footer .main-footer .share-icons ul li a:hover {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 100%;
@@ -10563,7 +10469,6 @@ footer .main-footer .share-icons ul li a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #subscribe-modal .join-now-btn:hover {
@@ -10599,7 +10504,6 @@ footer .main-footer .share-icons ul li a:hover {
   font-size: 14px;
   font-weight: normal;
   border-bottom: 2px solid #FFF;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-family: 'Roboto';
   width: 100%;
@@ -10612,8 +10516,7 @@ footer .main-footer .share-icons ul li a:hover {
 #subscribe-modal .subs-form input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #subscribe-modal .subs-form input:hover {
   border-bottom: 2px solid #FE7B00;
@@ -10631,8 +10534,7 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1000;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 nav .mobile-menu {
   background: #165C96;
@@ -10651,7 +10553,6 @@ nav .mobile-menu .menu {
 nav .mobile-menu .menu a span {
   position: relative;
   top: 7px;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-size: 26px;
   color: #FFF;
@@ -10670,7 +10571,6 @@ nav .mobile-menu .uk-offcanvas-bar .uk-close {
   font-size: 24px;
   color: #DC6A00;
   opacity: 1;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .mobile-menu .uk-offcanvas-bar .uk-close:hover {
@@ -10695,9 +10595,7 @@ nav .mobile-menu .uk-offcanvas-bar .menulist ul li .desktop-links:after {
   width: 0;
   height: 3px;
   background: #FFF;
-  -webkit-transition: width 0.3s;
   transition: width 0.3s;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .mobile-menu .uk-offcanvas-bar .menulist ul li .desktop-links:hover {
@@ -10714,7 +10612,6 @@ nav .mobile-menu .uk-offcanvas-bar .menulist ul li a {
   text-align: center;
   display: block;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .mobile-menu .uk-offcanvas-bar .menulist ul li.profile-img-mobile {
@@ -10764,7 +10661,6 @@ nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   padding: 8px;
   text-decoration: none;
@@ -10780,7 +10676,6 @@ nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .mobile-menu .uk-offcanvas-bar .menulist a.list-services-btn:hover {
@@ -10832,9 +10727,7 @@ nav .desktop-menu .uk-container .menulist ul li .desktop-links:after {
   width: 0;
   height: 3px;
   background: #FFF;
-  -webkit-transition: width 0.3s;
   transition: width 0.3s;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .desktop-menu .uk-container .menulist ul li .desktop-links:hover {
@@ -10848,7 +10741,6 @@ nav .desktop-menu .uk-container .menulist ul li a {
   color: #FFF;
   font-size: 16px;
   text-align: center;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   padding: 5px 0px;
   text-decoration: none;
@@ -10885,8 +10777,7 @@ nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-
   background: #F0F0F0;
   margin-top: 19px;
   border-radius: 5px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   left: -140px !important;
 }
 nav .desktop-menu .uk-container .menulist ul li.profile-img-desktop .logged .uk-dropdown-bottom li,
@@ -10922,7 +10813,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   padding: 8px;
   text-decoration: none;
@@ -10938,7 +10828,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 nav .desktop-menu .uk-container .menulist a.list-services-btn:hover {
@@ -10967,8 +10856,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   height: 370px;
   width: 272px;
   background-color: #FFF;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 #login-modal .divider-title {
   width: 50px;
@@ -10993,7 +10881,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-size: 14px;
   font-weight: normal;
   border-bottom: 2px solid #FFF;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border: solid 1px #C9C9C9;
   height: 40px;
@@ -11006,14 +10893,12 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #login-modal .log-in-form.uk-form input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #login-modal .log-in-form.uk-form input:hover {
   border-bottom: 2px solid #FE7B00;
 }
 #login-modal .log-in-form.uk-form a {
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   float: right;
   margin-top: -51px;
@@ -11042,7 +10927,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 109.1px;
@@ -11059,7 +10943,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #login-modal .log-in-form.uk-form .login-btn-container .login-btn:hover {
@@ -11082,7 +10965,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #login-modal .login-account a {
   color: #FE7B00;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #login-modal .login-account a:hover {
@@ -11101,7 +10983,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: relative;
   overflow: hidden;
   font-family: 'Roboto';
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   background-color: transparent;
   width: auto;
@@ -11122,7 +11003,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .pagination .paging-nav:hover {
@@ -11166,6 +11046,198 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 /* LOGIN MODAL AREA STYLES */
 /* END SITE MENU AREA STYLES */
+/* ========================================================================
+   Component: Slider
+ ========================================================================== */
+/*
+ * RTL Compatibility
+ */
+[data-uk-slider] {
+  direction: ltr;
+}
+html[dir="rtl"] .uk-slider > * {
+  direction: rtl;
+}
+/*
+ * 1. Create position context
+ * 2. Create stacking context to prevent z-index issues with other components
+ * 3. Deactivate browser history navigation in IE11
+ */
+.uk-slider {
+  /* 1 */
+  position: relative;
+  /* 2 */
+  z-index: 0;
+  /* 3 */
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+}
+/*
+ * 1. Reset list style without interfering with grid
+ */
+.uk-slider:not(.uk-grid) {
+  /* 1 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*
+ * Sub-object item
+ * 1. Position items above each other
+ */
+.uk-slider > * {
+  /* 1 */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*
+ * Clip child elements
+ */
+.uk-slider-container {
+  overflow: hidden;
+}
+/*
+ * Dragged
+ */
+.uk-slider:not(.uk-drag) {
+  transition: -webkit-transform 200ms linear;
+  transition: transform 200ms linear;
+  transition: transform 200ms linear, -webkit-transform 200ms linear;
+}
+/*
+ * 1. Makes text unselectable
+ */
+.uk-slider.uk-drag {
+  cursor: col-resize;
+  /* 1 */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*
+ * 1. Prevents images and links from being dragged (default browser behavior)
+ * 2. Disables the default callout shown when you touch and hold a touch target
+ * Currently only works in Webkit
+ */
+.uk-slider a,
+.uk-slider img {
+  /* 1 */
+  -webkit-user-drag: none;
+  user-drag: none;
+  /* 2 */
+  -webkit-touch-callout: none;
+}
+/*
+ * 1. Prevents images and links from being dragged in Firefox
+ */
+.uk-slider img {
+  pointer-events: none;
+}
+/* Modifier: `uk-slider-fullscreen`
+ ========================================================================== */
+.uk-slider-fullscreen,
+.uk-slider-fullscreen > li {
+  height: 100vh;
+}
+/* ========================================================================
+   Component: Slidenav
+ ========================================================================== */
+/*
+ * 1. Required for `a` elements
+ * 2. Dimension
+ * 3. Style
+ */
+.uk-slidenav {
+  /* 1 */
+  display: inline-block;
+  /* 2 */
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  /* 3 */
+  line-height: 60px;
+  color: rgba(50, 50, 50, 0.4);
+  font-size: 60px;
+  text-align: center;
+}
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ * 3. Required for `a` elements
+ * 4. Style
+ */
+.uk-slidenav:hover,
+.uk-slidenav:focus {
+  /* 2 */
+  outline: none;
+  /* 3 */
+  text-decoration: none;
+  /* 4 */
+  color: rgba(50, 50, 50, 0.7);
+  cursor: pointer;
+}
+/* Active */
+.uk-slidenav:active {
+  color: rgba(50, 50, 50, 0.9);
+}
+/*
+ * Icons
+ */
+.uk-slidenav-previous:before {
+  content: "\f104";
+  font-family: FontAwesome;
+}
+.uk-slidenav-next:before {
+  content: "\f105";
+  font-family: FontAwesome;
+}
+/* Sub-object: `uk-slidenav-position`
+ ========================================================================== */
+/*
+ * Create position context
+ */
+.uk-slidenav-position {
+  position: relative;
+}
+/*
+ * Center vertically
+ */
+.uk-slidenav-position .uk-slidenav {
+  display: none;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  margin-top: -30px;
+}
+.uk-slidenav-position:hover .uk-slidenav {
+  display: block;
+}
+.uk-slidenav-position .uk-slidenav-previous {
+  left: 20px;
+}
+.uk-slidenav-position .uk-slidenav-next {
+  right: 20px;
+}
+/* Modifier: `uk-slidenav-contrast`
+ ========================================================================== */
+.uk-slidenav-contrast {
+  color: rgba(255, 255, 255, 0.5);
+}
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ */
+.uk-slidenav-contrast:hover,
+.uk-slidenav-contrast:focus {
+  color: rgba(255, 255, 255, 0.7);
+}
+/* Active */
+.uk-slidenav-contrast:active {
+  color: rgba(255, 255, 255, 0.9);
+}
 /* #hero, #about, #contact, etc. */
 /* FEATURED SERVICES SECTION  AREA STYLES */
 /* VERIFY EMAIL BANNER SYTLES AREA */
@@ -11186,7 +11258,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   height: auto;
   background-color: #FFF;
   border-radius: 3px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   top: -50px;
@@ -11219,7 +11290,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 100%;
@@ -11236,7 +11306,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #step1-onboarding-section .dashboard-btn-container .goto-dashboard:hover {
@@ -11354,15 +11423,13 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .upload-photo img {
   max-width: 150px;
   height: 150px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 #step1-onboarding-section .upload-photo span {
   padding: 10px;
   border-radius: 3px;
   background-color: #FE7B00;
   color: #FFF;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #step1-onboarding-section .upload-photo span:hover {
@@ -11387,7 +11454,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-family: 'Roboto';
   font-weight: normal;
   border-bottom: 2px solid #FFF;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 100%;
   height: 40px;
@@ -11400,8 +11466,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .upload-photo form input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #step1-onboarding-section .upload-photo form input:hover {
   border-bottom: 2px solid #FE7B00;
@@ -11457,7 +11522,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-family: 'Roboto';
   font-weight: normal;
   border-bottom: 2px solid #FFF;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 100%;
   height: 40px;
@@ -11470,8 +11534,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .biling-address form#billingAddressForm input:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #step1-onboarding-section .biling-address form#billingAddressForm input:hover {
   border-bottom: 2px solid #FE7B00;
@@ -11501,7 +11564,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: auto;
@@ -11520,7 +11582,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #step1-onboarding-section .biling-address form#billingAddressForm button:hover {
@@ -11613,12 +11674,10 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   padding-left: 50%;
   padding-top: 10%;
   overflow: hidden;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
 }
 #step1-onboarding-section .bottom-triangle-orange:after {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   content: "";
   display: block;
   width: 0;
@@ -11639,12 +11698,10 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   padding-left: 50%;
   padding-top: 10%;
   overflow: hidden;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
 }
 #step1-onboarding-section .bottom-triangle-blue:after {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   content: "";
   display: block;
   width: 0;
@@ -11736,7 +11793,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 80%;
@@ -11753,7 +11809,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #step1-onboarding-section .plan-content .choose-btn-container .choose-btn-orange:hover {
@@ -11778,7 +11833,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 80%;
@@ -11795,7 +11849,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #step1-onboarding-section .plan-content .choose-btn-container .choose-btn-blue:hover {
@@ -11829,8 +11882,37 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-size: 30px;
   font-weight: 300;
 }
-#step1-onboarding-section .basic-info-container form {
-  padding-top: 25px;
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .basic-info-container {
+    padding: 50px 0 0 0;
+  }
+}
+#step1-onboarding-section .basic-info-container .upload-photo-logo {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 0 auto 30px auto;
+}
+#step1-onboarding-section .basic-info-container .upload-photo-logo .upload-icon-container {
+  top: 5px;
+  position: absolute;
+  right: 5px;
+}
+#step1-onboarding-section .basic-info-container .upload-photo-logo img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#step1-onboarding-section .basic-info-container .upload-photo-logo span {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FE7B00;
+  color: #FFF;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .basic-info-container .upload-photo-logo span:hover {
+  background-color: #C45F00;
 }
 #step1-onboarding-section .basic-info-container form input,
 #step1-onboarding-section .basic-info-container form select,
@@ -11845,7 +11927,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-family: 'Roboto';
   font-weight: normal;
   border-bottom: 2px solid #FFF;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   width: 100%;
   height: 40px;
@@ -11862,8 +11943,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 #step1-onboarding-section .basic-info-container form textarea:focus {
   border-bottom: #FE7B00 1px solid;
   outline: inherit;
-  -webkit-box-shadow: 0 5px 20px -6px #FE7B00;
-          box-shadow: 0 5px 20px -6px #FE7B00;
+  box-shadow: 0 5px 20px -6px #FE7B00;
 }
 #step1-onboarding-section .basic-info-container form input:hover,
 #step1-onboarding-section .basic-info-container form select:hover,
@@ -11913,13 +11993,15 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   top: 13px;
   right: 6px;
   color: #BBBBBB;
-  -webkit-transition: all 0.4s ease;
+  padding: 0px 2px 2px 5px;
+  background: #fff;
   transition: all 0.4s ease;
 }
 #step1-onboarding-section .basic-info-container .help-box span:hover {
   color: #C45F00;
 }
 #step1-onboarding-section .basic-info-container .map-container {
+  position: relative;
   padding: 15px 0 15px 0;
 }
 #step1-onboarding-section .basic-info-container .map-container iframe {
@@ -11929,6 +12011,86 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   #step1-onboarding-section .basic-info-container .map-container iframe {
     height: 200px;
   }
+}
+#step1-onboarding-section .basic-info-container .basic-info-fields {
+  padding: 15px 0 35px 0;
+  border-bottom: 1px dotted #444444;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .basic-info-container .basic-info-fields {
+    padding: 15px 0 60px 0;
+  }
+}
+#step1-onboarding-section .basic-info-container .basic-info-fields .other-information {
+  overflow-x: scroll;
+  margin-bottom: 15px;
+}
+#step1-onboarding-section .basic-info-container .basic-info-fields .other-information table {
+  margin: 0;
+  border: 1px solid #C9C9C9;
+}
+#step1-onboarding-section .basic-info-container .basic-info-fields .other-information table th {
+  text-align: center;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border: 1px solid #C9C9C9;
+}
+#step1-onboarding-section .basic-info-container .basic-info-fields .other-information table td {
+  border: 1px solid #C9C9C9;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+#step1-onboarding-section .basic-info-container .basic-info-fields .other-information table td i {
+  padding: 0 3px;
+}
+#step1-onboarding-section .basic-info-container .basic-info-fields .other-information table td i:before {
+  font-size: 18px;
+  color: #FE7B00;
+}
+#step1-onboarding-section .basic-info-container .basic-info-fields button.save-changes {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 10px 28px;
+  margin-top: 20px;
+}
+#step1-onboarding-section .basic-info-container .basic-info-fields button.save-changes::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .basic-info-container .basic-info-fields button.save-changes:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#step1-onboarding-section .basic-info-container .basic-info-fields button.save-changes:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
 }
 #step1-onboarding-section .basic-info-container .registration-s p {
   font-family: 'Roboto';
@@ -11941,7 +12103,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   font-size: 16px;
   text-align: center;
   color: #BBBBBB;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #step1-onboarding-section .basic-info-container .registration-s p span:hover {
@@ -11968,6 +12129,9 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #step1-onboarding-section .basic-info-container .input-fields-wrap .add-field-button:focus {
   outline: none;
+}
+#step1-onboarding-section .basic-info-container .input-fields-wrap .add-field-button:hover {
+  text-decoration: none;
 }
 #step1-onboarding-section .basic-info-container .input-fields-wrap .remove_field {
   font-family: 'Roboto';
@@ -12017,7 +12181,8 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
 }
 #step1-onboarding-section .basic-info-container .docs-box {
   text-align: center;
-  padding: 30px 0 0 0;
+  padding: 15px 0 20px 0;
+  margin-top: 20px;
 }
 #step1-onboarding-section .basic-info-container .docs-box .docs-btn {
   width: 159px;
@@ -12030,10 +12195,12 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
-  height: 30px;
+  height: auto;
+  width: auto;
+  padding: 6px 13px;
+  font-weight: normal;
 }
 #step1-onboarding-section .basic-info-container .docs-box .docs-btn::before {
   content: '';
@@ -12046,7 +12213,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #step1-onboarding-section .basic-info-container .docs-box .docs-btn:hover {
@@ -12059,6 +12225,448 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   top: -25%;
   left: -25%;
   opacity: 0;
+}
+#step1-onboarding-section .basic-info-container .docs-box .docs-btn:hover {
+  text-decoration: none;
+}
+#step1-onboarding-section .basic-info-container .documents {
+  padding: 35px 0;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li {
+  padding: 0px;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document {
+  margin-bottom: 25px;
+}
+@media only screen and (min-width: 960px) {
+  #step1-onboarding-section .basic-info-container .documents .uk-slider li .document {
+    padding: 0 10px;
+  }
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 3px;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow figure.image {
+  overflow: hidden;
+  height: 130px;
+  margin: 0;
+  width: 100%;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow figure.image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 155px;
+  width: 100%;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow .uk-overlay .uk-overlay-panel {
+  background: rgba(254, 123, 0, 0.8);
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+}
+@media screen and (max-width: 768px) {
+  #step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow .uk-overlay .uk-overlay-panel {
+    opacity: 1;
+  }
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow .uk-overlay .uk-overlay-panel span {
+  padding-right: 10px;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc {
+  padding: 13px 13px 20px 13px;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc p {
+  margin: 0px;
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc a {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 6px 20px;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc a::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc a:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc a:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slider li .document .shadow div.docu-desc a:hover {
+  text-decoration: none;
+}
+#step1-onboarding-section .basic-info-container .documents .service-list-arrow {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Roboto';
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 37px;
+  outline: none;
+}
+#step1-onboarding-section .basic-info-container .documents .service-list-arrow::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .basic-info-container .documents .service-list-arrow:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+#step1-onboarding-section .basic-info-container .documents .service-list-arrow:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slidenav.uk-slidenav-previous,
+#step1-onboarding-section .basic-info-container .documents .uk-slidenav.uk-slidenav-next {
+  display: block;
+  color: #FE7B00;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .basic-info-container .documents .uk-slidenav.uk-slidenav-previous:hover,
+#step1-onboarding-section .basic-info-container .documents .uk-slidenav.uk-slidenav-next:hover {
+  color: #C45F00;
+}
+#step1-onboarding-section .basic-info-container .documents .service-list-nav {
+  position: relative;
+  top: 10px;
+  float: right;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .basic-info-container .documents .service-list-nav {
+    top: 20px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #step1-onboarding-section .basic-info-container .documents .service-list-nav {
+    margin-right: 20px;
+  }
+}
+#step1-onboarding-section .basic-info-container .documents .upload-docu {
+  text-align: center;
+  width: 145px;
+  height: 145px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#step1-onboarding-section .basic-info-container .documents .upload-docu .upload-icon-container {
+  top: 5px;
+  position: absolute;
+  right: 5px;
+}
+#step1-onboarding-section .basic-info-container .documents .upload-docu img {
+  width: 100%;
+  height: 145px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#step1-onboarding-section .basic-info-container .documents .upload-docu span {
+  padding: 8px;
+  border-radius: 3px;
+  background-color: #FE7B00;
+  color: #FFF;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .basic-info-container .documents .upload-docu span:hover {
+  background-color: #C45F00;
+}
+#step1-onboarding-section .about-container {
+  padding: 35px 0;
+  border-bottom: 1px dotted #444444;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .about-container {
+    padding: 60px 0;
+  }
+}
+#step1-onboarding-section .about-container button.save-changes {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 10px 28px;
+  margin-top: 20px;
+}
+#step1-onboarding-section .about-container button.save-changes::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .about-container button.save-changes:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#step1-onboarding-section .about-container button.save-changes:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#step1-onboarding-section .services {
+  padding: 35px 0 85px 0;
+  border-bottom: 1px dotted #444;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .services {
+    padding: 60px 0 105px 0;
+  }
+}
+#step1-onboarding-section .services .add-service-container {
+  padding: 10px 0 20px 0;
+  margin-top: 20px;
+}
+#step1-onboarding-section .services .add-service-container a.add-service {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 6px 22px;
+}
+#step1-onboarding-section .services .add-service-container a.add-service::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .services .add-service-container a.add-service:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#step1-onboarding-section .services .add-service-container a.add-service:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#step1-onboarding-section .services .add-service-container a.add-service:hover {
+  text-decoration: none;
+}
+#step1-onboarding-section .services .services-content li {
+  padding: 0px;
+}
+@media only screen and (min-width: 960px) {
+  #step1-onboarding-section .services .services-content li .service {
+    padding: 0 10px;
+  }
+}
+#step1-onboarding-section .services .services-content li .service .shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 2px;
+}
+#step1-onboarding-section .services .services-content li .service .shadow .panel-content {
+  padding-bottom: 20px;
+}
+#step1-onboarding-section .services .services-content li .service .shadow h5 {
+  background: #444;
+  color: #FFF;
+  font-weight: 300;
+  padding: 5px 10px;
+  text-align: center;
+}
+#step1-onboarding-section .services .services-content li .service .shadow p {
+  font-size: 16px;
+  padding: 0 10px 0 10px;
+  font-weight: normal;
+  font-family: 'Roboto';
+}
+#step1-onboarding-section .services .services-content li .service .shadow a {
+  width: 159px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #FE7B00;
+  background-color: #FE7B00;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out 0.1s;
+  font-family: 'Roboto';
+  width: auto;
+  height: auto;
+  padding: 6px 20px;
+}
+#step1-onboarding-section .services .services-content li .service .shadow a::before {
+  content: '';
+  background-color: #C45F00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .services .services-content li .service .shadow a:hover {
+  background-color: #C45F00;
+  border: 1px solid #C45F00;
+}
+#step1-onboarding-section .services .services-content li .service .shadow a:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#step1-onboarding-section .services .services-content li .service .shadow a:hover {
+  text-decoration: none;
+}
+#step1-onboarding-section .services .services-content .service-list-arrow {
+  width: 109.1px;
+  height: 36.6px;
+  border-radius: 3px;
+  border: solid 1px #FE7B00;
+  background-color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  color: #FE7B00;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Roboto';
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 37px;
+  outline: none;
+}
+#step1-onboarding-section .services .services-content .service-list-arrow::before {
+  content: '';
+  color: #FFF;
+  background-color: #FE7B00;
+  width: 0%;
+  height: 0%;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .services .services-content .service-list-arrow:hover {
+  background-color: #FE7B00;
+  color: #FFF;
+}
+#step1-onboarding-section .services .services-content .service-list-arrow:hover::before {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  opacity: 0;
+}
+#step1-onboarding-section .services .services-content .uk-slidenav.uk-slidenav-previous,
+#step1-onboarding-section .services .services-content .uk-slidenav.uk-slidenav-next {
+  display: block;
+  color: #FE7B00;
+  transition: all 0.4s ease;
+}
+#step1-onboarding-section .services .services-content .uk-slidenav.uk-slidenav-previous:hover,
+#step1-onboarding-section .services .services-content .uk-slidenav.uk-slidenav-next:hover {
+  color: #C45F00;
+}
+#step1-onboarding-section .services .services-content .service-list-nav {
+  position: relative;
+  top: 15px;
+  float: right;
+}
+@media only screen and (min-width: 768px) {
+  #step1-onboarding-section .services .services-content .service-list-nav {
+    top: 20px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #step1-onboarding-section .services .services-content .service-list-nav {
+    margin-right: 20px;
+  }
 }
 #proceed-btn-section {
   text-align: center;
@@ -12079,7 +12687,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   padding: 8px;
@@ -12096,7 +12703,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #proceed-btn-section .proceed-btn-box .proceed-btn:hover {
@@ -12151,7 +12757,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   line-height: 1.38;
   text-align: left;
   color: #444444;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #listing-section .checkbox-container .check-container input {
@@ -12201,8 +12806,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   width: 212px;
   height: 320px;
   background-color: #FFF;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   margin: 0 auto;
 }
 #listing-section .layout-container-1 .profile-img-blur {
@@ -12210,7 +12814,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   height: 153px;
   -webkit-filter: blur(2px);
           filter: blur(2px);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(67%, rgba(62, 62, 62, 0.45)), to(rgba(0, 0, 0, 0.6)));
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(62, 62, 62, 0.45) 67%, rgba(0, 0, 0, 0.6));
 }
 #listing-section .layout-container-1 .profile-img {
@@ -12220,8 +12823,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   margin: auto;
   border-radius: 100px;
   background-color: #FFF;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
   border: solid 3px #FFF;
 }
 #listing-section .layout-container-1 .info-name {
@@ -12265,7 +12867,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #444444;
   margin: -10px;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #listing-section .layout-container-1 .profile-content .contact-number:hover {
@@ -12280,7 +12881,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #444444;
   margin: 5px;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #listing-section .layout-container-1 .profile-content .website-com:hover {
@@ -12303,7 +12903,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 212px;
@@ -12321,7 +12920,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #listing-section .layout-container-1 .profile-content .msg-container .msg-btn:hover {
@@ -12339,8 +12937,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   width: 212px;
   height: 320px;
   background-color: #FFF;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   margin: 0 auto;
 }
 #listing-section .layout-container-2 ul {
@@ -12372,8 +12969,7 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   height: 70px;
   border-radius: 100px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
   border: solid 3px #ffffff;
 }
 #listing-section .layout-container-2 .uk-panel-title {
@@ -12406,7 +13002,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   margin: -10px;
   text-decoration: none;
   margin: 0 auto;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #listing-section .layout-container-2 .profile-content .contact-number2:hover {
@@ -12427,7 +13022,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #444444;
   margin: 5px;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #listing-section .layout-container-2 .profile-content .website-com:hover {
@@ -12449,7 +13043,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   height: 40px;
@@ -12466,7 +13059,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #listing-section .layout-container-2 .profile-content .msg-cirle-container .msg-btn-circle:hover {
@@ -12497,7 +13089,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   color: #FFF;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
   transition: all 0.4s ease-in-out 0.1s;
   font-family: 'Roboto';
   width: 191px;
@@ -12514,7 +13105,6 @@ nav .desktop-menu .uk-container .menulist a.list-services-btn:hover::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 #listing-section .publish-btn-container .publish-btn:hover {
