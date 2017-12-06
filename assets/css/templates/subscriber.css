@@ -10275,8 +10275,17 @@ footer .main-footer {
 footer .main-footer .copyright {
   text-align: center;
 }
+footer .main-footer .copyright table {
+  margin: 0 auto;
+}
 footer .main-footer .copyright img {
-  width: 220px;
+  width: 50px;
+  height: 36.7px;
+}
+footer .main-footer .copyright h2 {
+  color: #FFF;
+  font-size: 18px;
+  text-align: left;
 }
 footer .main-footer .copyright p {
   color: #FFF;
@@ -10284,12 +10293,8 @@ footer .main-footer .copyright p {
   font-weight: 300;
   margin: 0;
   font-family: 'Roboto';
-}
-@media only screen and (min-width: 768px) {
-  footer .main-footer .copyright p {
-    text-indent: 13px;
-    margin-top: -10px;
-  }
+  margin-top: -20px;
+  text-align: left;
 }
 footer .main-footer .url {
   text-align: center;
