@@ -7,31 +7,27 @@
 		"uuidString": "6E6A60E7-0179-4FCB-858B-D757DAEC3F52"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "25900",
 "files": {
 	"\/.git-ftp-ignore": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.git-ftp-ignore",
 		"oF": 0
 		},
 	"\/.gitignore": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/.gitlab-ci.yml": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitlab-ci.yml",
 		"oF": 0
 		},
 	"\/article.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/article.html",
@@ -74,14 +70,12 @@
 		"tS": 1
 		},
 	"\/assets\/bower_components\/jquery\/dist\/jquery.min.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/bower_components\/jquery\/dist\/jquery.min.map",
 		"oF": 0
 		},
 	"\/assets\/bower_components\/jquery\/MIT-LICENSE.txt": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/bower_components\/jquery\/MIT-LICENSE.txt",
@@ -758,7 +752,6 @@
 		"tS": 1
 		},
 	"\/assets\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.map",
@@ -2261,28 +2254,24 @@
 		"oS": 3
 		},
 	"\/assets\/bower_components\/uikit\/fonts\/fontawesome-webfont.ttf": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/bower_components\/uikit\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/assets\/bower_components\/uikit\/fonts\/fontawesome-webfont.woff": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/bower_components\/uikit\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/assets\/bower_components\/uikit\/fonts\/fontawesome-webfont.woff2": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/bower_components\/uikit\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/assets\/bower_components\/uikit\/fonts\/FontAwesome.otf": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/bower_components\/uikit\/fonts\/FontAwesome.otf",
@@ -2372,7 +2361,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/assets\/bower_components\/uikit\/js\/components\/form-select.js",
 		"oF": 0,
 		"sC": 3,
@@ -4109,10 +4098,10 @@
 		"sU": 0
 		},
 	"\/assets\/bower_components\/uikit\/README.md": {
-		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
+		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -4920,21 +4909,18 @@
 		"uL": 1
 		},
 	"\/assets\/css\/fonts\/fontawesome-webfont.ttf": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/assets\/css\/fonts\/fontawesome-webfont.woff": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/assets\/css\/fonts\/fontawesome-webfont.woff2": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/fonts\/fontawesome-webfont.woff2",
@@ -4961,7 +4947,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/article.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/article.css.map",
@@ -4978,7 +4963,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/blog.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/blog.css.map",
@@ -4995,7 +4979,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/blogsearch.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/blogsearch.css.map",
@@ -5012,7 +4995,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/createlister.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/createlister.css.map",
@@ -5029,7 +5011,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/createsubscriberaccount.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/createsubscriberaccount.css.map",
@@ -5046,7 +5027,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/dashboard.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/dashboard.css.map",
@@ -5063,7 +5043,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/error.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/error.css.map",
@@ -5080,7 +5059,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/expert.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/expert.css.map",
@@ -5097,7 +5075,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/finalstep.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/finalstep.css.map",
@@ -5114,7 +5091,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/home.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/home.css.map",
@@ -5131,7 +5107,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/legal.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/legal.css.map",
@@ -5148,7 +5123,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/result.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/result.css.map",
@@ -5165,7 +5139,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/step1.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/step1.css.map",
@@ -5182,7 +5155,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/subscriber.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/subscriber.css.map",
@@ -5199,7 +5171,6 @@
 		"oS": 3
 		},
 	"\/assets\/css\/templates\/verifyemail.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/templates\/verifyemail.css.map",
@@ -5408,7 +5379,6 @@
 		"q": 100
 		},
 	"\/assets\/images\/favicons\/browserconfig.xml": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/favicons\/browserconfig.xml",
@@ -5437,7 +5407,6 @@
 		"q": 100
 		},
 	"\/assets\/images\/favicons\/favicon.ico": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/favicons\/favicon.ico",
@@ -5620,7 +5589,7 @@
 		},
 	"\/assets\/images\/logos\/white-logo.png": {
 		"ft": 32768,
-		"iS": 13919,
+		"iS": 2847,
 		"oA": 0,
 		"oAP": "\/assets\/images\/logos\/white-logo.png",
 		"oF": 0,
@@ -5846,7 +5815,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/_base-min.js",
+		"oAP": "\/assets\/js\/_base.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -5856,64 +5825,90 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/_marked-min.js",
+		"oAP": "\/assets\/js\/_marked.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/article-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/article-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/article.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/article-min.js",
+		"oAP": "\/assets\/js\/article.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/blog-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/blog-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/blog.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/blog-min.js",
+		"oAP": "\/assets\/js\/blog.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/blogsearch-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/blogsearch-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/blogsearch.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/blogsearch-min.js",
+		"oAP": "\/assets\/js\/blogsearch.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/.editorconfig": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/.editorconfig",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/.gitattributes": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/.gitattributes",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/.npmignore": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/.npmignore",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/.travis.yml": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/.travis.yml",
@@ -5924,7 +5919,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/comment\/comment-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/comment\/comment.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -5934,7 +5929,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/comment\/continuecomment-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/comment\/continuecomment.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -5954,7 +5949,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/dialog\/dialog-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/dialog\/dialog.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -5964,7 +5959,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/display\/autorefresh-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/display\/autorefresh.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -5984,7 +5979,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/display\/fullscreen-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/display\/fullscreen.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -5994,7 +5989,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/display\/panel-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/display\/panel.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6004,7 +5999,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/display\/placeholder-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/display\/placeholder.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6014,7 +6009,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/display\/rulers-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/display\/rulers.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6024,7 +6019,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/closebrackets-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/closebrackets.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6034,7 +6029,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/closetag-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/closetag.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6044,7 +6039,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/continuelist-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/continuelist.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6054,7 +6049,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/matchbrackets-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/matchbrackets.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6064,7 +6059,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/matchtags-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/matchtags.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6074,7 +6069,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/trailingspace-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/edit\/trailingspace.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6084,7 +6079,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/brace-fold-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/brace-fold.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6094,7 +6089,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/comment-fold-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/comment-fold.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6104,7 +6099,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/foldcode-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/foldcode.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6124,7 +6119,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/foldgutter-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/foldgutter.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6134,7 +6129,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/indent-fold-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/indent-fold.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6144,7 +6139,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/markdown-fold-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/markdown-fold.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6154,7 +6149,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/xml-fold-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/fold\/xml-fold.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6164,7 +6159,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/anyword-hint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/anyword-hint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6174,7 +6169,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/css-hint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/css-hint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6184,7 +6179,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/html-hint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/html-hint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6194,7 +6189,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/javascript-hint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/javascript-hint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6214,7 +6209,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/show-hint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/show-hint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6224,7 +6219,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/sql-hint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/sql-hint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6234,7 +6229,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/xml-hint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/hint\/xml-hint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6244,7 +6239,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/coffeescript-lint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/coffeescript-lint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6254,7 +6249,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/css-lint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/css-lint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6264,7 +6259,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/html-lint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/html-lint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6274,7 +6269,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/javascript-lint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/javascript-lint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6284,7 +6279,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/json-lint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/json-lint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6304,7 +6299,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/lint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/lint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6314,7 +6309,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/yaml-lint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/lint\/yaml-lint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6334,7 +6329,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/merge\/merge-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/merge\/merge.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6344,7 +6339,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/mode\/loadmode-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/mode\/loadmode.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6354,7 +6349,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/mode\/multiplex-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/mode\/multiplex.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6364,7 +6359,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/mode\/multiplex_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/mode\/multiplex_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6374,7 +6369,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/mode\/overlay-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/mode\/overlay.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6384,7 +6379,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/mode\/simple-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/mode\/simple.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6394,7 +6389,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/runmode\/colorize-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/runmode\/colorize.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6404,7 +6399,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/runmode\/runmode-standalone-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/runmode\/runmode-standalone.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6414,7 +6409,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/runmode\/runmode-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/runmode\/runmode.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6424,7 +6419,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/runmode\/runmode.node-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/runmode\/runmode.node.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6434,7 +6429,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/scroll\/annotatescrollbar-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/scroll\/annotatescrollbar.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6444,7 +6439,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/scroll\/scrollpastend-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/scroll\/scrollpastend.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6464,7 +6459,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/scroll\/simplescrollbars-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/scroll\/simplescrollbars.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6474,7 +6469,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/search\/jump-to-line-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/search\/jump-to-line.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6484,7 +6479,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/search\/match-highlighter-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/search\/match-highlighter.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6504,7 +6499,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/search\/matchesonscrollbar-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/search\/matchesonscrollbar.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6514,7 +6509,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/search\/search-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/search\/search.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6524,7 +6519,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/search\/searchcursor-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/search\/searchcursor.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6534,7 +6529,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/selection\/active-line-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/selection\/active-line.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6544,7 +6539,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/selection\/mark-selection-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/selection\/mark-selection.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6554,7 +6549,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/selection\/selection-pointer-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/selection\/selection-pointer.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6574,7 +6569,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/tern\/tern-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/tern\/tern.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6584,7 +6579,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/tern\/worker-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/tern\/worker.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -6594,48 +6589,42 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/addon\/wrap\/hardwrap-min.js",
+		"oAP": "\/assets\/js\/codemirror\/addon\/wrap\/hardwrap.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/AUTHORS": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/AUTHORS",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/bin\/authors.sh": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/bin\/authors.sh",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/bin\/compress": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/bin\/compress",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/bin\/lint": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/bin\/lint",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/bin\/release": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/bin\/release",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/bin\/source-highlight": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/bin\/source-highlight",
@@ -6646,16 +6635,16 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/bin\/upload-release-min.js",
+		"oAP": "\/assets\/js\/codemirror\/bin\/upload-release.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/CHANGELOG.md": {
-		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
+		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -6670,10 +6659,10 @@
 		"uCM": 0
 		},
 	"\/assets\/js\/codemirror\/CONTRIBUTING.md": {
-		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
+		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -6688,308 +6677,264 @@
 		"uCM": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/activeline.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/activeline.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/anywordhint.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/anywordhint.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/bidi.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/bidi.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/btree.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/btree.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/buffers.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/buffers.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/changemode.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/changemode.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/closebrackets.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/closebrackets.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/closetag.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/closetag.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/complete.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/complete.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/emacs.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/emacs.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/folding.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/folding.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/fullscreen.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/fullscreen.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/hardwrap.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/hardwrap.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/html5complete.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/html5complete.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/indentwrap.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/indentwrap.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/lint.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/lint.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/loadmode.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/loadmode.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/marker.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/marker.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/markselection.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/markselection.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/matchhighlighter.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/matchhighlighter.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/matchtags.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/matchtags.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/merge.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/merge.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/multiplex.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/multiplex.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/mustache.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/mustache.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/panel.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/panel.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/placeholder.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/placeholder.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/preview.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/preview.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/requirejs.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/requirejs.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/resize.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/resize.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/rulers.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/rulers.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/runmode.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/runmode.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/search.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/search.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/simplemode.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/simplemode.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/simplescrollbars.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/simplescrollbars.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/spanaffectswrapping_shim.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/spanaffectswrapping_shim.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/sublime.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/sublime.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/tern.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/tern.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/theme.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/theme.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/trailingspace.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/trailingspace.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/variableheight.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/variableheight.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/vim.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/vim.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/visibletabs.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/visibletabs.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/widget.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/widget.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/demo\/xmlcomplete.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/demo\/xmlcomplete.html",
@@ -7000,7 +6945,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/doc\/activebookmark-min.js",
+		"oAP": "\/assets\/js\/codemirror\/doc\/activebookmark.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7016,7 +6961,6 @@
 		"oS": 3
 		},
 	"\/assets\/js\/codemirror\/doc\/internals.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/doc\/internals.html",
@@ -7044,49 +6988,42 @@
 		"prP": 0
 		},
 	"\/assets\/js\/codemirror\/doc\/manual.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/doc\/manual.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/doc\/realworld.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/doc\/realworld.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/doc\/releases.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/doc\/releases.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/doc\/reporting.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/doc\/reporting.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/doc\/upgrade_v2.2.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/doc\/upgrade_v2.2.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/doc\/upgrade_v3.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/doc\/upgrade_v3.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/doc\/upgrade_v4.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/doc\/upgrade_v4.html",
@@ -7104,7 +7041,6 @@
 		"q": 100
 		},
 	"\/assets\/js\/codemirror\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/index.html",
@@ -7115,7 +7051,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/keymap\/emacs-min.js",
+		"oAP": "\/assets\/js\/codemirror\/keymap\/emacs.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7125,7 +7061,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/keymap\/sublime-min.js",
+		"oAP": "\/assets\/js\/codemirror\/keymap\/sublime.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7135,7 +7071,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/keymap\/vim-min.js",
+		"oAP": "\/assets\/js\/codemirror\/keymap\/vim.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7155,13 +7091,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/lib\/codemirror-min.js",
+		"oAP": "\/assets\/js\/codemirror\/lib\/codemirror.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/LICENSE": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/LICENSE",
@@ -7172,13 +7107,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/apl\/apl-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/apl\/apl.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/apl\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/apl\/index.html",
@@ -7189,13 +7123,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/asciiarmor\/asciiarmor-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/asciiarmor\/asciiarmor.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/asciiarmor\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/asciiarmor\/index.html",
@@ -7206,13 +7139,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/asn.1\/asn.1-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/asn.1\/asn.1.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/asn.1\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/asn.1\/index.html",
@@ -7223,13 +7155,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/asterisk\/asterisk-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/asterisk\/asterisk.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/asterisk\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/asterisk\/index.html",
@@ -7240,13 +7171,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/brainfuck\/brainfuck-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/brainfuck\/brainfuck.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/brainfuck\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/brainfuck\/index.html",
@@ -7257,20 +7187,18 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/clike\/clike-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/clike\/clike.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/clike\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/clike\/index.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/mode\/clike\/scala.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/clike\/scala.html",
@@ -7281,7 +7209,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/clike\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/clike\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7291,13 +7219,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/clojure\/clojure-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/clojure\/clojure.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/clojure\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/clojure\/index.html",
@@ -7308,13 +7235,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/cmake\/cmake-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/cmake\/cmake.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/cmake\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/cmake\/index.html",
@@ -7325,13 +7251,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/cobol\/cobol-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/cobol\/cobol.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/cobol\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/cobol\/index.html",
@@ -7342,13 +7267,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/coffeescript\/coffeescript-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/coffeescript\/coffeescript.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/coffeescript\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/coffeescript\/index.html",
@@ -7359,13 +7283,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/commonlisp\/commonlisp-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/commonlisp\/commonlisp.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/commonlisp\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/commonlisp\/index.html",
@@ -7376,13 +7299,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/crystal\/crystal-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/crystal\/crystal.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/crystal\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/crystal\/index.html",
@@ -7393,13 +7315,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/css\/css-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/css\/css.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/css\/gss.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/css\/gss.html",
@@ -7410,20 +7331,18 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/css\/gss_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/css\/gss_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/css\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/css\/index.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/mode\/css\/less.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/css\/less.html",
@@ -7434,13 +7353,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/css\/less_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/css\/less_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/css\/scss.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/css\/scss.html",
@@ -7451,7 +7369,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/css\/scss_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/css\/scss_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7461,7 +7379,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/css\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/css\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7471,13 +7389,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/cypher\/cypher-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/cypher\/cypher.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/cypher\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/cypher\/index.html",
@@ -7488,7 +7405,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/cypher\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/cypher\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7498,13 +7415,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/d\/d-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/d\/d.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/d\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/d\/index.html",
@@ -7515,7 +7431,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/d\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/d\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7525,13 +7441,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/dart\/dart-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/dart\/dart.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/dart\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/dart\/index.html",
@@ -7542,13 +7457,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/diff\/diff-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/diff\/diff.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/diff\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/diff\/index.html",
@@ -7559,13 +7473,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/django\/django-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/django\/django.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/django\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/django\/index.html",
@@ -7576,13 +7489,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/dockerfile\/dockerfile-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/dockerfile\/dockerfile.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/dockerfile\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/dockerfile\/index.html",
@@ -7593,13 +7505,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/dtd\/dtd-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/dtd\/dtd.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/dtd\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/dtd\/index.html",
@@ -7610,13 +7521,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/dylan\/dylan-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/dylan\/dylan.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/dylan\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/dylan\/index.html",
@@ -7627,7 +7537,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/dylan\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/dylan\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7637,13 +7547,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/ebnf\/ebnf-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/ebnf\/ebnf.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/ebnf\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/ebnf\/index.html",
@@ -7654,13 +7563,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/ecl\/ecl-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/ecl\/ecl.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/ecl\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/ecl\/index.html",
@@ -7671,13 +7579,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/eiffel\/eiffel-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/eiffel\/eiffel.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/eiffel\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/eiffel\/index.html",
@@ -7688,13 +7595,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/elm\/elm-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/elm\/elm.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/elm\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/elm\/index.html",
@@ -7705,13 +7611,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/erlang\/erlang-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/erlang\/erlang.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/erlang\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/erlang\/index.html",
@@ -7722,13 +7627,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/factor\/factor-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/factor\/factor.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/factor\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/factor\/index.html",
@@ -7739,13 +7643,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/fcl\/fcl-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/fcl\/fcl.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/fcl\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/fcl\/index.html",
@@ -7756,13 +7659,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/forth\/forth-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/forth\/forth.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/forth\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/forth\/index.html",
@@ -7773,13 +7675,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/fortran\/fortran-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/fortran\/fortran.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/fortran\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/fortran\/index.html",
@@ -7790,13 +7691,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/gas\/gas-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/gas\/gas.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/gas\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/gas\/index.html",
@@ -7807,13 +7707,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/gfm\/gfm-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/gfm\/gfm.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/gfm\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/gfm\/index.html",
@@ -7824,7 +7723,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/gfm\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/gfm\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7834,13 +7733,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/gherkin\/gherkin-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/gherkin\/gherkin.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/gherkin\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/gherkin\/index.html",
@@ -7851,13 +7749,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/go\/go-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/go\/go.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/go\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/go\/index.html",
@@ -7868,13 +7765,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/groovy\/groovy-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/groovy\/groovy.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/groovy\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/groovy\/index.html",
@@ -7885,13 +7781,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/haml\/haml-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/haml\/haml.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/haml\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/haml\/index.html",
@@ -7902,7 +7797,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/haml\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/haml\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -7912,13 +7807,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/handlebars\/handlebars-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/handlebars\/handlebars.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/handlebars\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/handlebars\/index.html",
@@ -7929,13 +7823,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/haskell-literate\/haskell-literate-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/haskell-literate\/haskell-literate.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/haskell-literate\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/haskell-literate\/index.html",
@@ -7946,13 +7839,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/haskell\/haskell-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/haskell\/haskell.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/haskell\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/haskell\/index.html",
@@ -7963,13 +7855,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/haxe\/haxe-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/haxe\/haxe.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/haxe\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/haxe\/index.html",
@@ -7980,13 +7871,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/htmlembedded\/htmlembedded-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/htmlembedded\/htmlembedded.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/htmlembedded\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/htmlembedded\/index.html",
@@ -7997,13 +7887,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/htmlmixed\/htmlmixed-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/htmlmixed\/htmlmixed.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/htmlmixed\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/htmlmixed\/index.html",
@@ -8014,13 +7903,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/http\/http-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/http\/http.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/http\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/http\/index.html",
@@ -8031,27 +7919,24 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/idl\/idl-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/idl\/idl.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/idl\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/idl\/index.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/mode\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/index.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/mode\/javascript\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/javascript\/index.html",
@@ -8062,13 +7947,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/javascript\/javascript-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/javascript\/javascript.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/javascript\/json-ld.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/javascript\/json-ld.html",
@@ -8079,20 +7963,18 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/javascript\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/javascript\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/javascript\/typescript.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/javascript\/typescript.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/mode\/jinja2\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/jinja2\/index.html",
@@ -8103,13 +7985,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/jinja2\/jinja2-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/jinja2\/jinja2.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/jsx\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/jsx\/index.html",
@@ -8120,7 +8001,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/jsx\/jsx-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/jsx\/jsx.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8130,13 +8011,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/jsx\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/jsx\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/julia\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/julia\/index.html",
@@ -8147,13 +8027,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/julia\/julia-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/julia\/julia.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/livescript\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/livescript\/index.html",
@@ -8164,13 +8043,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/livescript\/livescript-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/livescript\/livescript.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/lua\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/lua\/index.html",
@@ -8181,13 +8059,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/lua\/lua-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/lua\/lua.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/markdown\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/markdown\/index.html",
@@ -8198,7 +8075,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/markdown\/markdown-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/markdown\/markdown.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8208,13 +8085,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/markdown\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/markdown\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/mathematica\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/mathematica\/index.html",
@@ -8225,13 +8101,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/mathematica\/mathematica-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/mathematica\/mathematica.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/mbox\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/mbox\/index.html",
@@ -8242,7 +8117,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/mbox\/mbox-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/mbox\/mbox.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8252,13 +8127,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/meta-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/meta.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/mirc\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/mirc\/index.html",
@@ -8269,13 +8143,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/mirc\/mirc-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/mirc\/mirc.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/mllike\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/mllike\/index.html",
@@ -8286,13 +8159,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/mllike\/mllike-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/mllike\/mllike.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/modelica\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/modelica\/index.html",
@@ -8303,13 +8175,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/modelica\/modelica-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/modelica\/modelica.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/mscgen\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/mscgen\/index.html",
@@ -8320,7 +8191,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/mscgen\/mscgen-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/mscgen\/mscgen.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8330,7 +8201,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/mscgen\/mscgen_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/mscgen\/mscgen_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8340,7 +8211,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/mscgen\/msgenny_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/mscgen\/msgenny_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8350,13 +8221,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/mscgen\/xu_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/mscgen\/xu_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/mumps\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/mumps\/index.html",
@@ -8367,13 +8237,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/mumps\/mumps-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/mumps\/mumps.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/nginx\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/nginx\/index.html",
@@ -8384,13 +8253,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/nginx\/nginx-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/nginx\/nginx.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/nsis\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/nsis\/index.html",
@@ -8401,13 +8269,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/nsis\/nsis-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/nsis\/nsis.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/ntriples\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/ntriples\/index.html",
@@ -8418,13 +8285,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/ntriples\/ntriples-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/ntriples\/ntriples.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/octave\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/octave\/index.html",
@@ -8435,13 +8301,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/octave\/octave-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/octave\/octave.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/oz\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/oz\/index.html",
@@ -8452,13 +8317,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/oz\/oz-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/oz\/oz.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/pascal\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/pascal\/index.html",
@@ -8469,13 +8333,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/pascal\/pascal-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/pascal\/pascal.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/pegjs\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/pegjs\/index.html",
@@ -8486,13 +8349,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/pegjs\/pegjs-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/pegjs\/pegjs.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/perl\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/perl\/index.html",
@@ -8503,13 +8365,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/perl\/perl-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/perl\/perl.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/php\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/php\/index.html",
@@ -8520,7 +8381,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/php\/php-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/php\/php.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8530,13 +8391,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/php\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/php\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/pig\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/pig\/index.html",
@@ -8547,13 +8407,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/pig\/pig-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/pig\/pig.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/powershell\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/powershell\/index.html",
@@ -8564,7 +8423,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/powershell\/powershell-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/powershell\/powershell.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8574,13 +8433,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/powershell\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/powershell\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/properties\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/properties\/index.html",
@@ -8591,13 +8449,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/properties\/properties-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/properties\/properties.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/protobuf\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/protobuf\/index.html",
@@ -8608,13 +8465,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/protobuf\/protobuf-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/protobuf\/protobuf.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/pug\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/pug\/index.html",
@@ -8625,13 +8481,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/pug\/pug-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/pug\/pug.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/puppet\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/puppet\/index.html",
@@ -8642,13 +8497,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/puppet\/puppet-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/puppet\/puppet.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/python\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/python\/index.html",
@@ -8659,7 +8513,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/python\/python-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/python\/python.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8669,13 +8523,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/python\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/python\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/q\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/q\/index.html",
@@ -8686,13 +8539,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/q\/q-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/q\/q.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/r\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/r\/index.html",
@@ -8703,20 +8555,18 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/r\/r-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/r\/r.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/rpm\/changes\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/rpm\/changes\/index.html",
 		"oF": 0
 		},
 	"\/assets\/js\/codemirror\/mode\/rpm\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/rpm\/index.html",
@@ -8727,13 +8577,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/rpm\/rpm-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/rpm\/rpm.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/rst\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/rst\/index.html",
@@ -8744,13 +8593,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/rst\/rst-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/rst\/rst.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/ruby\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/ruby\/index.html",
@@ -8761,7 +8609,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/ruby\/ruby-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/ruby\/ruby.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8771,13 +8619,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/ruby\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/ruby\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/rust\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/rust\/index.html",
@@ -8788,7 +8635,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/rust\/rust-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/rust\/rust.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8798,13 +8645,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/rust\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/rust\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/sas\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/sas\/index.html",
@@ -8815,13 +8661,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/sas\/sas-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/sas\/sas.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/sass\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/sass\/index.html",
@@ -8832,7 +8677,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/sass\/sass-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/sass\/sass.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8842,13 +8687,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/sass\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/sass\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/scheme\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/scheme\/index.html",
@@ -8859,13 +8703,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/scheme\/scheme-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/scheme\/scheme.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/shell\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/shell\/index.html",
@@ -8876,7 +8719,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/shell\/shell-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/shell\/shell.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8886,13 +8729,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/shell\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/shell\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/sieve\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/sieve\/index.html",
@@ -8903,13 +8745,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/sieve\/sieve-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/sieve\/sieve.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/slim\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/slim\/index.html",
@@ -8920,7 +8761,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/slim\/slim-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/slim\/slim.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -8930,13 +8771,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/slim\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/slim\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/smalltalk\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/smalltalk\/index.html",
@@ -8947,13 +8787,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/smalltalk\/smalltalk-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/smalltalk\/smalltalk.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/smarty\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/smarty\/index.html",
@@ -8964,13 +8803,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/smarty\/smarty-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/smarty\/smarty.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/solr\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/solr\/index.html",
@@ -8981,13 +8819,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/solr\/solr-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/solr\/solr.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/soy\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/soy\/index.html",
@@ -8998,7 +8835,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/soy\/soy-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/soy\/soy.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9008,13 +8845,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/soy\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/soy\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/sparql\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/sparql\/index.html",
@@ -9025,13 +8861,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/sparql\/sparql-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/sparql\/sparql.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/spreadsheet\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/spreadsheet\/index.html",
@@ -9042,13 +8877,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/spreadsheet\/spreadsheet-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/spreadsheet\/spreadsheet.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/sql\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/sql\/index.html",
@@ -9059,13 +8893,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/sql\/sql-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/sql\/sql.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/stex\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/stex\/index.html",
@@ -9076,7 +8909,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/stex\/stex-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/stex\/stex.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9086,13 +8919,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/stex\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/stex\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/stylus\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/stylus\/index.html",
@@ -9103,13 +8935,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/stylus\/stylus-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/stylus\/stylus.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/swift\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/swift\/index.html",
@@ -9120,7 +8951,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/swift\/swift-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/swift\/swift.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9130,13 +8961,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/swift\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/swift\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/tcl\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/tcl\/index.html",
@@ -9147,13 +8977,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/tcl\/tcl-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/tcl\/tcl.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/textile\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/textile\/index.html",
@@ -9164,7 +8993,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/textile\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/textile\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9174,13 +9003,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/textile\/textile-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/textile\/textile.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/tiddlywiki\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/tiddlywiki\/index.html",
@@ -9201,13 +9029,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/tiddlywiki\/tiddlywiki-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/tiddlywiki\/tiddlywiki.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/tiki\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/tiki\/index.html",
@@ -9228,13 +9055,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/tiki\/tiki-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/tiki\/tiki.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/toml\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/toml\/index.html",
@@ -9245,13 +9071,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/toml\/toml-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/toml\/toml.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/tornado\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/tornado\/index.html",
@@ -9262,13 +9087,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/tornado\/tornado-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/tornado\/tornado.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/troff\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/troff\/index.html",
@@ -9279,13 +9103,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/troff\/troff-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/troff\/troff.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/ttcn-cfg\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/ttcn-cfg\/index.html",
@@ -9296,13 +9119,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/ttcn-cfg\/ttcn-cfg-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/ttcn-cfg\/ttcn-cfg.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/ttcn\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/ttcn\/index.html",
@@ -9313,13 +9135,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/ttcn\/ttcn-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/ttcn\/ttcn.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/turtle\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/turtle\/index.html",
@@ -9330,13 +9151,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/turtle\/turtle-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/turtle\/turtle.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/twig\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/twig\/index.html",
@@ -9347,13 +9167,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/twig\/twig-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/twig\/twig.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/vb\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/vb\/index.html",
@@ -9364,13 +9183,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/vb\/vb-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/vb\/vb.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/vbscript\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/vbscript\/index.html",
@@ -9381,13 +9199,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/vbscript\/vbscript-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/vbscript\/vbscript.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/velocity\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/velocity\/index.html",
@@ -9398,13 +9215,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/velocity\/velocity-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/velocity\/velocity.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/verilog\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/verilog\/index.html",
@@ -9415,7 +9231,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/verilog\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/verilog\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9425,13 +9241,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/verilog\/verilog-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/verilog\/verilog.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/vhdl\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/vhdl\/index.html",
@@ -9442,13 +9257,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/vhdl\/vhdl-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/vhdl\/vhdl.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/vue\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/vue\/index.html",
@@ -9459,13 +9273,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/vue\/vue-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/vue\/vue.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/webidl\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/webidl\/index.html",
@@ -9476,13 +9289,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/webidl\/webidl-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/webidl\/webidl.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/xml\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/xml\/index.html",
@@ -9493,7 +9305,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/xml\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/xml\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9503,13 +9315,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/xml\/xml-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/xml\/xml.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/xquery\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/xquery\/index.html",
@@ -9520,7 +9331,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/xquery\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/xquery\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9530,13 +9341,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/xquery\/xquery-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/xquery\/xquery.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/yacas\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/yacas\/index.html",
@@ -9547,13 +9357,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/yacas\/yacas-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/yacas\/yacas.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/yaml-frontmatter\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/yaml-frontmatter\/index.html",
@@ -9564,13 +9373,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/yaml-frontmatter\/yaml-frontmatter-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/yaml-frontmatter\/yaml-frontmatter.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/yaml\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/yaml\/index.html",
@@ -9581,13 +9389,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/yaml\/yaml-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/yaml\/yaml.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/mode\/z80\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/mode\/z80\/index.html",
@@ -9598,7 +9405,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/mode\/z80\/z80-min.js",
+		"oAP": "\/assets\/js\/codemirror\/mode\/z80\/z80.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9612,10 +9419,10 @@
 		"oS": 1
 		},
 	"\/assets\/js\/codemirror\/README.md": {
-		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
+		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -9634,7 +9441,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/rollup.config-min.js",
+		"oAP": "\/assets\/js\/codemirror\/rollup.config.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9644,7 +9451,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/codemirror-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/codemirror.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9654,7 +9461,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/Display-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/Display.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9664,7 +9471,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/focus-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/focus.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9674,7 +9481,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/gutters-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/gutters.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9684,7 +9491,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/highlight_worker-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/highlight_worker.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9694,7 +9501,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/line_numbers-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/line_numbers.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9704,7 +9511,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/mode_state-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/mode_state.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9714,7 +9521,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/operations-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/operations.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9724,7 +9531,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/scroll_events-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/scroll_events.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9734,7 +9541,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/scrollbars-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/scrollbars.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9744,7 +9551,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/scrolling-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/scrolling.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9754,7 +9561,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/selection-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/selection.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9764,7 +9571,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/update_display-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/update_display.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9774,7 +9581,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/update_line-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/update_line.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9784,7 +9591,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/update_lines-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/update_lines.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9794,7 +9601,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/display\/view_tracking-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/display\/view_tracking.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9804,7 +9611,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/CodeMirror-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/CodeMirror.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9814,7 +9621,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/commands-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/commands.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9824,7 +9631,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/deleteNearSelection-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/deleteNearSelection.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9834,7 +9641,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/drop_events-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/drop_events.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9844,7 +9651,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/fromTextArea-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/fromTextArea.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9854,7 +9661,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/global_events-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/global_events.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9864,7 +9671,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/key_events-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/key_events.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9874,7 +9681,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/legacy-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/legacy.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9884,7 +9691,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/main-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/main.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9894,7 +9701,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/methods-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/methods.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9904,7 +9711,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/mouse_events-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/mouse_events.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9914,7 +9721,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/options-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/options.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9924,7 +9731,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/edit\/utils-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/edit\/utils.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9934,7 +9741,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/input\/ContentEditableInput-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/input\/ContentEditableInput.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9944,7 +9751,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/input\/indent-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/input\/indent.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9954,7 +9761,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/input\/input-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/input\/input.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9964,7 +9771,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/input\/keymap-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/input\/keymap.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9974,7 +9781,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/input\/keynames-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/input\/keynames.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9984,7 +9791,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/input\/movement-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/input\/movement.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -9994,7 +9801,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/input\/TextareaInput-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/input\/TextareaInput.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10004,7 +9811,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/line\/highlight-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/line\/highlight.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10014,7 +9821,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/line\/line_data-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/line\/line_data.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10024,7 +9831,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/line\/pos-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/line\/pos.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10034,7 +9841,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/line\/saw_special_spans-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/line\/saw_special_spans.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10044,7 +9851,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/line\/spans-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/line\/spans.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10054,7 +9861,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/line\/utils_line-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/line\/utils_line.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10064,7 +9871,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/measurement\/position_measurement-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/measurement\/position_measurement.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10074,7 +9881,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/measurement\/widgets-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/measurement\/widgets.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10084,7 +9891,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/model\/change_measurement-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/model\/change_measurement.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10094,7 +9901,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/model\/changes-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/model\/changes.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10104,7 +9911,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/model\/chunk-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/model\/chunk.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10114,7 +9921,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/model\/Doc-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/model\/Doc.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10124,7 +9931,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/model\/document_data-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/model\/document_data.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10134,7 +9941,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/model\/history-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/model\/history.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10144,7 +9951,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/model\/line_widget-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/model\/line_widget.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10154,7 +9961,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/model\/mark_text-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/model\/mark_text.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10164,7 +9971,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/model\/selection-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/model\/selection.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10174,7 +9981,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/model\/selection_updates-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/model\/selection_updates.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10184,7 +9991,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/modes-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/modes.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10194,7 +10001,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/util\/bidi-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/util\/bidi.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10204,7 +10011,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/util\/browser-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/util\/browser.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10214,7 +10021,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/util\/dom-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/util\/dom.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10224,7 +10031,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/util\/event-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/util\/event.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10234,7 +10041,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/util\/feature_detection-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/util\/feature_detection.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10244,7 +10051,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/util\/misc-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/util\/misc.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10254,7 +10061,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/util\/operation_group-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/util\/operation_group.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10264,7 +10071,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/src\/util\/StringStream-min.js",
+		"oAP": "\/assets\/js\/codemirror\/src\/util\/StringStream.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10274,7 +10081,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/comment_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/comment_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10284,7 +10091,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/contenteditable_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/contenteditable_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10294,7 +10101,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/doc_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/doc_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10304,7 +10111,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/driver-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/driver.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10314,13 +10121,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/emacs_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/emacs_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/codemirror\/test\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/codemirror\/test\/index.html",
@@ -10331,7 +10137,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/lint-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/lint.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10351,7 +10157,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/mode_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/mode_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10361,7 +10167,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/multi_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/multi_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10371,7 +10177,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/phantom_driver-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/phantom_driver.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10381,7 +10187,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/run-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/run.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10391,7 +10197,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/scroll_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/scroll_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10401,7 +10207,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/search_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/search_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10411,7 +10217,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/sql-hint-test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/sql-hint-test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10421,7 +10227,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/sublime_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/sublime_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10431,7 +10237,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10441,7 +10247,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/codemirror\/test\/vim_test-min.js",
+		"oAP": "\/assets\/js\/codemirror\/test\/vim_test.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -10926,102 +10732,202 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/js\/createlister-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/createlister-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/createlister.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/createlister-min.js",
+		"oAP": "\/assets\/js\/createlister.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/dashboard-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/dashboard-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/dashboard.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/dashboard-min.js",
+		"oAP": "\/assets\/js\/dashboard.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/error-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/error-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/error.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/error-min.js",
+		"oAP": "\/assets\/js\/error.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/expert-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/expert-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/expert.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/expert-min.js",
+		"oAP": "\/assets\/js\/expert.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/finalstep-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/finalstep-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/finalstep.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/finalstep-min.js",
+		"oAP": "\/assets\/js\/finalstep.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/home-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/home-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/home.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/home-min.js",
+		"oAP": "\/assets\/js\/home.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/legal-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/legal-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/legal.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/legal-min.js",
+		"oAP": "\/assets\/js\/legal.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/result-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/result-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/result.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/result-min.js",
+		"oAP": "\/assets\/js\/result.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/step1-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/step1-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/step1.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/step1-min.js",
+		"oAP": "\/assets\/js\/step1.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/assets\/js\/subscriber-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/subscriber-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/subscriber.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/subscriber-min.js",
+		"oAP": "\/assets\/js\/subscriber.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -11031,13 +10937,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/article.min-min.js",
+		"oAP": "\/assets\/js\/templates\/article.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/article.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/article.min.js.map",
@@ -11048,13 +10953,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/blog.min-min.js",
+		"oAP": "\/assets\/js\/templates\/blog.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/blog.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/blog.min.js.map",
@@ -11065,13 +10969,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/blogsearch.min-min.js",
+		"oAP": "\/assets\/js\/templates\/blogsearch.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/blogsearch.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/blogsearch.min.js.map",
@@ -11082,13 +10985,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/codemirror.min-min.js",
+		"oAP": "\/assets\/js\/templates\/codemirror.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/codemirror.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/codemirror.min.js.map",
@@ -11099,13 +11001,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/createlister.min-min.js",
+		"oAP": "\/assets\/js\/templates\/createlister.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/createlister.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/createlister.min.js.map",
@@ -11116,13 +11017,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/createsubscriberaccount.min-min.js",
+		"oAP": "\/assets\/js\/templates\/createsubscriberaccount.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/createsubscriberaccount.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/createsubscriberaccount.min.js.map",
@@ -11133,13 +11033,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/dashboard.min-min.js",
+		"oAP": "\/assets\/js\/templates\/dashboard.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/dashboard.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/dashboard.min.js.map",
@@ -11150,13 +11049,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/error.min-min.js",
+		"oAP": "\/assets\/js\/templates\/error.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/error.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/error.min.js.map",
@@ -11167,13 +11065,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/expert.min-min.js",
+		"oAP": "\/assets\/js\/templates\/expert.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/expert.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/expert.min.js.map",
@@ -11184,13 +11081,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/finalstep.min-min.js",
+		"oAP": "\/assets\/js\/templates\/finalstep.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/finalstep.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/finalstep.min.js.map",
@@ -11201,13 +11097,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/home.min-min.js",
+		"oAP": "\/assets\/js\/templates\/home.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/home.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/home.min.js.map",
@@ -11218,13 +11113,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/legal.min-min.js",
+		"oAP": "\/assets\/js\/templates\/legal.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/legal.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/legal.min.js.map",
@@ -11235,13 +11129,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/result.min-min.js",
+		"oAP": "\/assets\/js\/templates\/result.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/result.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/result.min.js.map",
@@ -11252,13 +11145,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/step1.min-min.js",
+		"oAP": "\/assets\/js\/templates\/step1.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/step1.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/step1.min.js.map",
@@ -11269,13 +11161,12 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/subscriber.min-min.js",
+		"oAP": "\/assets\/js\/templates\/subscriber.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/subscriber.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/subscriber.min.js.map",
@@ -11286,24 +11177,33 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/templates\/verifyemail.min-min.js",
+		"oAP": "\/assets\/js\/templates\/verifyemail.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"\/assets\/js\/templates\/verifyemail.min.js.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/templates\/verifyemail.min.js.map",
 		"oF": 0
+		},
+	"\/assets\/js\/verifyemail-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/verifyemail-min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/verifyemail.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/verifyemail-min.js",
+		"oAP": "\/assets\/js\/verifyemail.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -11336,7 +11236,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/article.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/article.css.map",
@@ -11370,7 +11269,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/blog.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/blog.css.map",
@@ -11404,7 +11302,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/blogsearch.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/blogsearch.css.map",
@@ -11438,7 +11335,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/createlister.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/createlister.css.map",
@@ -11472,7 +11368,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/dashboard.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/dashboard.css.map",
@@ -11506,7 +11401,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/error.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/error.css.map",
@@ -11540,7 +11434,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/expert.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/expert.css.map",
@@ -11574,7 +11467,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/finalstep.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/finalstep.css.map",
@@ -11608,7 +11500,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/home.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/home.css.map",
@@ -11642,7 +11533,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/legal.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/legal.css.map",
@@ -11676,7 +11566,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/result.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/result.css.map",
@@ -11710,7 +11599,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/step1.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/step1.css.map",
@@ -11744,7 +11632,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/subscriber.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/subscriber.css.map",
@@ -11778,7 +11665,6 @@
 		"oS": 3
 		},
 	"\/assets\/less\/verifyemail.css.map": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/less\/verifyemail.css.map",
@@ -11802,14 +11688,12 @@
 		"sU": 0
 		},
 	"\/blog.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/blog.html",
 		"oF": 0
 		},
 	"\/blogsearch.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/blogsearch.html",
@@ -11824,59 +11708,52 @@
 		"oS": 1
 		},
 	"\/createlister.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/createlister.html",
 		"oF": 0
 		},
 	"\/dashboard.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dashboard.html",
 		"oF": 0
 		},
 	"\/error.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/error.html",
 		"oF": 0
 		},
 	"\/expert.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/expert.html",
 		"oF": 0
 		},
 	"\/finalstep.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/finalstep.html",
 		"oF": 0
 		},
 	"\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/legal.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/legal.html",
 		"oF": 0
 		},
 	"\/readme.md": {
-		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
+		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -11891,28 +11768,24 @@
 		"uCM": 0
 		},
 	"\/result.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/result.html",
 		"oF": 0
 		},
 	"\/step1.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/step1.html",
 		"oF": 0
 		},
 	"\/subscriber.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/subscriber.html",
 		"oF": 0
 		},
 	"\/verifyemail.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/verifyemail.html",
@@ -12463,10 +12336,6 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
-		"function-paren-newline": {
-			"active": 0,
-			"optionString": "'multiline'"
-			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -12531,9 +12400,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-between-class-members": {
+		"lines-around-directive": {
 			"active": 0,
-			"optionString": "'always', {exceptAfterSingleLine: false}"
+			"optionString": "{'before': 'always', 'after': 'always'}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -12563,10 +12432,6 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
-		"multiline-comment-style": {
-			"active": 0,
-			"optionString": "'starred-block'"
-			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -12576,6 +12441,14 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -13679,8 +13552,7 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1,
-		"transpilerStyle": 1
+		"syntaxCheckerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -13713,7 +13585,6 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -13729,7 +13600,7 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathFilenamePattern": "*.min.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
@@ -13755,8 +13626,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -13788,13 +13658,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
-		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -13803,8 +13673,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -13824,8 +13693,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"outputStyle": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -13853,8 +13721,7 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"railsCompatible": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,

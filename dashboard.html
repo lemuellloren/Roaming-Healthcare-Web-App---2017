@@ -1137,24 +1137,6 @@
 
                 <form action="#" class="uk-form uk-form-stacked">
                   <div class="uk-form-row">
-                    <div id="ad-calendar-slider" class="ad-calendar uk-slidenav-position" data-uk-slider="{infinite: false}">
-                      <div class="uk-slider-container">
-                        <ul class="uk-slider uk-grid-width-medium-1-1">
-                          <li>
-                            <p class="ad-calendar-date">October 2017</p>
-                            <p class="ad-calendar-count">510</p>
-                          </li>
-                          <li>
-                            <p class="ad-calendar-date">September 2017</p>
-                            <p class="ad-calendar-count">10</p>
-                          </li>
-                        </ul>
-                      </div>
-                      <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
-                      <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
-                    </div>
-                  </div>
-                  <div class="uk-form-row">
                     <label for="ad-img-large" class="uk-form-label">Image Ad (942x117px)</label>
                     <div class="uk-form-controls">
                       <div class="img-placeholder">
@@ -1174,16 +1156,42 @@
                       </div>
                     </div>
                   </div>
-                  <div class="uk-form-row">
-                    <label for="ad-target-url" class="uk-form-label">Ad Target URL</label>
-                    <div class="uk-form-controls">
-                      <input type="text" name="ad-target-url" id="ad-target-url" placeholder="Enter URL">
+                  <div class="uk-form-row uk-grid">
+                    <div class="uk-width-1-2">
+                      <div class="uk-form-row">
+                        <label for="ad-target-url" class="uk-form-label">Ad Target URL</label>
+                        <div class="uk-form-controls">
+                          <input type="text" name="ad-target-url" id="ad-target-url" placeholder="Enter URL">
+                        </div>
+                      </div>
+                      <div class="uk-form-row">
+                        <label for="ad-img-alt" class="uk-form-label">Image Alt Text</label>
+                        <div class="uk-form-controls">
+                          <input type="text" name="ad-img-alt" id="ad-img-alt" placeholder="Alt Text">
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="uk-form-row">
-                    <label for="ad-img-alt" class="uk-form-label">Image Alt Text</label>
-                    <div class="uk-form-controls">
-                      <input type="text" name="ad-img-alt" id="ad-img-alt" placeholder="Alt Text">
+                    <div class="uk-width-1-2">
+                      <div id="ad-calendar-slider" class="ad-calendar uk-slidenav-position" data-uk-slider="{center: true}">
+                        <div class="uk-slider-container">
+                          <ul class="uk-slider">
+                            <li class="uk-width-1-1">
+                              <p class="ad-calendar-date">This Week</p>
+                              <p class="ad-calendar-count">2</p>
+                            </li>
+                            <li class="uk-width-1-1">
+                              <p class="ad-calendar-date">This Year</p>
+                              <p class="ad-calendar-count">510</p>
+                            </li>
+                            <li class="uk-width-1-1">
+                              <p class="ad-calendar-date">This Month</p>
+                              <p class="ad-calendar-count">5</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
+                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
+                      </div>
                     </div>
                   </div>
                   <div class="uk-form-row">
