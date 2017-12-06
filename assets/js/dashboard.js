@@ -14,8 +14,6 @@
 
 (function($) {
 
-	console.log('test');
-
 	/* page functions go here */
 	$('li.tabs a').click(function() {
 		if($(this).attr('class') == 'tab-2'){
@@ -28,10 +26,9 @@
 	});
 
 	//allows only one listing layout
-	$('.layout').change(function() {
+	$('input[name="layout"]').on('change', function() {
+		$('input[name="layout"]').not(this).prop('checked', false); 
 		console.log('test');
-		// $('input.layout').not(this).prop('checked', false); 
-		
 	});
 
 	//upload photo account, post feature img
