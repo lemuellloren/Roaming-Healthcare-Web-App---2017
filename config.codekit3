@@ -2321,7 +2321,7 @@
 	"\/assets\/bower_components\/uikit\/js\/components\/htmleditor.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/js\/components\/htmleditor.js",
 		"oF": 0,
 		"sC": 3,
@@ -2339,7 +2339,7 @@
 	"\/assets\/bower_components\/uikit\/js\/components\/lightbox.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/js\/components\/lightbox.js",
 		"oF": 0,
 		"sC": 3,
@@ -2447,7 +2447,7 @@
 	"\/assets\/bower_components\/uikit\/js\/components\/slider.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/js\/components\/slider.js",
 		"oF": 0,
 		"sC": 3,
@@ -2501,7 +2501,7 @@
 	"\/assets\/bower_components\/uikit\/js\/components\/slideshow.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/js\/components\/slideshow.js",
 		"oF": 0,
 		"sC": 3,
@@ -2971,7 +2971,7 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/less\/components\/dotnav.less",
 		"oF": 0,
 		"oS": 0,
@@ -3192,7 +3192,7 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/less\/components\/slideshow.less",
 		"oF": 0,
 		"oS": 0,
@@ -5278,7 +5278,7 @@
 		},
 	"\/assets\/images\/featured-list\/p1.png": {
 		"ft": 32768,
-		"iS": 86381,
+		"iS": 380748,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-list\/p1.png",
 		"oF": 0,
@@ -5289,7 +5289,7 @@
 		},
 	"\/assets\/images\/featured-list\/p2.png": {
 		"ft": 32768,
-		"iS": 91878,
+		"iS": 503189,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-list\/p2.png",
 		"oF": 0,
@@ -5300,7 +5300,7 @@
 		},
 	"\/assets\/images\/featured-list\/p3.png": {
 		"ft": 32768,
-		"iS": 113309,
+		"iS": 6177123,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-list\/p3.png",
 		"oF": 0,
@@ -5380,6 +5380,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/assets\/images\/logos\/logo_white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/logos\/logo_white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/assets\/images\/logos\/logotype_colour.svg": {
 		"ft": 2097152,
@@ -10411,8 +10421,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/js\/templates\/dashboard.min.min.js",
 		"oF": 0,
-		"sC": 3,
-		"tS": 1
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/templates\/dashboard.min.js.map": {
 		"ft": 8192,

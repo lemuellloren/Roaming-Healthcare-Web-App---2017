@@ -45,7 +45,19 @@
 	//close modal
 	$('.back').click(function(){
 		$(".uk-modal-close").trigger('click');
-	})
+	});
+
+	// manually initialize sliders inside the tab content
+	$('.uk-tab').on('change.uk.tab', function(e, active, prev){
+		if( $(active).children('.tab-4').length ){
+			setTimeout(function(){
+				var slider = UIkit.slider('#ad-calendar-slider', {
+					infinite: false
+				});
+				slider.init();
+			}, 500);
+		}
+	});
  
 })(jQuery);
 

@@ -10157,8 +10157,17 @@ footer .main-footer {
 footer .main-footer .copyright {
   text-align: center;
 }
+footer .main-footer .copyright table {
+  margin: 0 auto;
+}
 footer .main-footer .copyright img {
-  width: 220px;
+  width: 50px;
+  height: 36.7px;
+}
+footer .main-footer .copyright h2 {
+  color: #FFF;
+  font-size: 18px;
+  text-align: left;
 }
 footer .main-footer .copyright p {
   color: #FFF;
@@ -10166,12 +10175,8 @@ footer .main-footer .copyright p {
   font-weight: 300;
   margin: 0;
   font-family: 'Roboto';
-}
-@media only screen and (min-width: 768px) {
-  footer .main-footer .copyright p {
-    text-indent: 13px;
-    margin-top: -10px;
-  }
+  margin-top: -20px;
+  text-align: left;
 }
 footer .main-footer .url {
   text-align: center;
@@ -11168,6 +11173,9 @@ html[dir="rtl"] .uk-slider > * {
 #step1-onboarding-section .uk-container {
   margin: 0 auto;
 }
+#step1-onboarding-section .uk-container figure {
+  text-align: center;
+}
 #step1-onboarding-section .verification-account {
   text-align: center;
   padding-bottom: 20px;
@@ -11779,11 +11787,6 @@ html[dir="rtl"] .uk-slider > * {
   font-size: 30px;
   font-weight: 300;
 }
-@media only screen and (min-width: 768px) {
-  #step1-onboarding-section .basic-info-container {
-    padding: 50px 0 0 0;
-  }
-}
 #step1-onboarding-section .basic-info-container .upload-photo-logo {
   text-align: center;
   width: 100px;
@@ -11810,6 +11813,9 @@ html[dir="rtl"] .uk-slider > * {
 }
 #step1-onboarding-section .basic-info-container .upload-photo-logo span:hover {
   background-color: #C45F00;
+}
+#step1-onboarding-section .basic-info-container form {
+  padding-top: 20px;
 }
 #step1-onboarding-section .basic-info-container form input,
 #step1-onboarding-section .basic-info-container form select,

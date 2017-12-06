@@ -10158,8 +10158,17 @@ footer .main-footer {
 footer .main-footer .copyright {
   text-align: center;
 }
+footer .main-footer .copyright table {
+  margin: 0 auto;
+}
 footer .main-footer .copyright img {
-  width: 220px;
+  width: 50px;
+  height: 36.7px;
+}
+footer .main-footer .copyright h2 {
+  color: #FFF;
+  font-size: 18px;
+  text-align: left;
 }
 footer .main-footer .copyright p {
   color: #FFF;
@@ -10167,12 +10176,8 @@ footer .main-footer .copyright p {
   font-weight: 300;
   margin: 0;
   font-family: 'Roboto';
-}
-@media only screen and (min-width: 768px) {
-  footer .main-footer .copyright p {
-    text-indent: 13px;
-    margin-top: -10px;
-  }
+  margin-top: -20px;
+  text-align: left;
 }
 footer .main-footer .url {
   text-align: center;
@@ -11446,6 +11451,63 @@ html[dir="rtl"] .uk-slider > * {
 }
 .dashboard .ad-manager-container .img-placeholder .upload-icon:hover {
   background-color: #C45F00;
+}
+.dashboard .ad-manager-container .ad-calendar {
+  position: relative;
+  width: 200px;
+  max-width: 100%;
+  text-align: center;
+  background-color: #e4e4e4;
+}
+.dashboard .ad-manager-container .ad-calendar-date {
+  font-size: 16px;
+}
+.dashboard .ad-manager-container .ad-calendar-count {
+  margin-bottom: 0;
+  line-height: 1;
+  color: #FE7B00;
+  font-size: 48px;
+}
+.dashboard .ad-manager-container .ad-calendar-count:after {
+  content: "clicks";
+  display: block;
+  font-size: 16px;
+  color: #444444;
+}
+.dashboard .ad-manager-container .ad-calendar-prev-disabled,
+.dashboard .ad-manager-container .ad-calendar-next-disabled {
+  color: #BBBBBB;
+}
+.dashboard .ad-manager-container .ad-calendar-prev:before,
+.dashboard .ad-manager-container .ad-calendar-next:before {
+  position: absolute;
+  top: 20px;
+}
+.dashboard .ad-manager-container .ad-calendar-prev:before {
+  content: "\2039";
+  left: 10px;
+}
+.dashboard .ad-manager-container .ad-calendar-next:before {
+  content: "\203A";
+  right: 10px;
+}
+.dashboard .ad-manager-container .ad-calendar li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dashboard .ad-manager-container .ad-calendar .uk-slidenav {
+  width: auto;
+  height: auto;
+  margin-top: 0;
+  top: 20px;
+  line-height: 16px;
+  font-size: 30px;
+}
+.dashboard .ad-manager-container .ad-calendar .uk-slidenav-previous {
+  left: 10px;
+}
+.dashboard .ad-manager-container .ad-calendar .uk-slidenav-next {
+  right: 10px;
 }
 .dashboard .uk-form-label {
   display: block;
