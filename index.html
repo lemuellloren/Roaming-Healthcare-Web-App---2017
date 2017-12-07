@@ -319,10 +319,10 @@
                                                         <div class="feat-lister-btn-container">
                                                             <ul>
                                                                 <li>
-                                                                    <button class="feat-listers-sms-btn">Send SMS</button>
+                                                                    <button class="feat-listers-sms-btn" data-uk-modal="{target:'#sms-feat1', center:'true'}">Send SMS</button>
                                                                 </li>
                                                                 <li>
-                                                                    <button class="feat-listers-info-btn">More Info</button>
+                                                                    <button class="feat-listers-info-btn" type="button" onclick="location.href='expert.html'">More Info</button>
                                                                 </li>
                                                             </ul>
 
@@ -358,10 +358,10 @@
                                                         <div class="feat-lister-btn-container">
                                                             <ul>
                                                                 <li>
-                                                                    <button class="feat-listers-sms-btn">Send SMS</button>
+                                                                    <button class="feat-listers-sms-btn" data-uk-modal="{target:'#sms-feat2', center:'true'}">Send SMS</button>
                                                                 </li>
                                                                 <li>
-                                                                    <button class="feat-listers-info-btn">More Info</button>
+                                                                    <button class="feat-listers-info-btn" type="button" onclick="location.href='expert.html'">More Info</button>
                                                                 </li>
                                                             </ul>
 
@@ -397,10 +397,10 @@
                                                         <div class="feat-lister-btn-container">
                                                             <ul>
                                                                 <li>
-                                                                    <button class="feat-listers-sms-btn">Send SMS</button>
+                                                                    <button class="feat-listers-sms-btn" data-uk-modal="{target:'#sms-feat3', center:'true'}">Send SMS</button>
                                                                 </li>
                                                                 <li>
-                                                                    <button class="feat-listers-info-btn">More Info</button>
+                                                                    <button class="feat-listers-info-btn" type="button" onclick="location.href='expert.html'">More Info</button>
                                                                 </li>
                                                             </ul>
 
@@ -430,7 +430,73 @@
 
             </div>
         </div>
+        <!-- SEND SMS MODAL AREA -->
+        <!-- This is the modal of sms layout 1 -->
+        <div id="sms-feat1" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <a class="uk-modal-close uk-close" autofocus></a>
+                <div class="sms-div">
+                    <h3>Send Instant SMSssssss</h3>
+                    <div class="divider-title"></div>
+                    <form class="uk-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="text" placeholder="Complete Address" required>
+                        <input type="tel" placeholder="Mobile Number" required>
+                        <textarea name="message" id="message-area" cols="30" rows="10" placeholder="Message"></textarea>
+                    </form>
+                    <div class="sms-btn-div">
+                        <button class="sms-btn">Send SMS now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- This is the modal of sms layout 1 -->
+
+        <!-- This is the modal of sms layout 2 -->
+        <div id="sms-feat2" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <a class="uk-modal-close uk-close" autofocus></a>
+                <div class="sms-div">
+                    <h3>Send Instant SMS</h3>
+                    <div class="divider-title"></div>
+                    <form class="uk-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="text" placeholder="Complete Address" required>
+                        <input type="tel" placeholder="Mobile Number" required>
+                        <textarea name="message" id="message-area" cols="30" rows="10" placeholder="Message"></textarea>
+                    </form>
+                    <div class="sms-btn-div">
+                        <button class="sms-btn">Send SMS now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- This is the modal of sms layout 2 -->
+
+        <!-- This is the modal of sms layout 3 -->
+        <div id="sms-feat3" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <a class="uk-modal-close uk-close" autofocus></a>
+                <div class="sms-div">
+                    <h3>Send Instant SMS</h3>
+                    <div class="divider-title"></div>
+                    <form class="uk-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="text" placeholder="Complete Address" required>
+                        <input type="tel" placeholder="Mobile Number" required>
+                        <textarea name="message" id="message-area" cols="30" rows="10" placeholder="Message"></textarea>
+                    </form>
+                    <div class="sms-btn-div">
+                        <button class="sms-btn">Send SMS now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- This is the modal of sms layout 3 -->
     </section>
+
+
+
     <!-- END FEATURED LISTERS SECTION AREA-->
 
 
@@ -596,7 +662,7 @@ background-position: 50% 0;">
                     </p>
 
                     <div class="cta-btn">
-                        <button class="cta-join-btn">Join Now</button>
+                        <button class="cta-join-btn" type="button" onclick="location.href='createlister.html'">Join Now</button>
                     </div>
                 </div>
             </div>
@@ -609,7 +675,9 @@ background-position: 50% 0;">
             <div class="adver-container">
                 <div class="uk-hidden-medium uk-hidden-large">
                     <div class="adver-img">
-                        <img src="assets/images/mobile-img.png" alt="Featured Image">
+                        <a href="https://www.example.com/" target="_blank" rel="noreferrer noopener">
+                            <img src="assets/images/mobile-img.png" alt="Featured Image">
+                        </a>
                     </div>
                 </div>
                 <div class="ads-lg uk-hidden-small">

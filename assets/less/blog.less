@@ -79,11 +79,18 @@
     }
     .uk-dotnav-contrast>.uk-active>* {
         background-color: @darkgray;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     }
     .uk-dotnav-contrast>*>* {
         background-color: @gray;
         width: 10px;
         height: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+    .uk-dotnav {
+        >* {
+            padding-left: 6px;
+        }
     }
     .date-category {
         position: relative;
@@ -96,9 +103,14 @@
             font-size: 12px;
             text-align: left;
             color: @blue;
+            .soft-transition();
             a {
                 text-decoration: none;
+                &:hover {
+                    .orange-link();
+                }
             }
+           
         }
     }
     .mobile-blog-slide {

@@ -12,7 +12,7 @@
 
 /* FEATURED SERVICES SECTION  AREA STYLES */
 
-#subscriberContainer{
+#subscriberContainer {
 
 	padding-bottom: 50px;
 	max-width: 85%;
@@ -448,4 +448,116 @@
 	.bottom-buttons{
 		margin-top: 50px;
 	}
+	//modal css
+	#msg-expert {
+		.uk-modal-dialog {
+			width: 280px;
+			height: auto;
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+		}
+		.sms-div {
+			padding-top: 25px;
+		}
+		.uk-close {
+			font-size: @default-font-size + 8px;
+			text-align: center;
+			color: @gray;
+		}
+		h3 {
+			font-family: @main-font;
+			font-size: @default-font-size + 8px;
+			font-weight: 300;
+			text-align: center;
+			text-transform: initial;
+		}
+		.divider-title {
+			.line-title();
+		}
+		form {
+			margin: 0 auto;
+			text-align: center;
+			padding-top: 25px;
+			input, textarea {
+				.contact-field();
+				width: 230px;
+				height: 40px;
+				border-radius: 3px;
+				border: solid 1px @gray;
+				font-family: @secondary-font !important;
+	
+				&::placeholder {
+					color: @lighergray;
+				}
+			}
+			textarea {
+				height: 110px;
+			}
+		}
+		.sms-btn-div {
+			margin: 0 auto;
+			text-align: center;
+			padding: 15px 0 0 0;
+		}
+		.sms-btn {
+			.btn-orange();
+			width: 120.1px;
+			height: 36.6px;
+		}
+	}
+
+	#sms-expert {
+    .uk-modal-dialog {
+        width: 280px;
+       height: auto;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+    }
+    .sms-div {
+        padding-top: 25px;
+    }
+    .uk-close {
+        font-size: @default-font-size + 8px;
+        text-align: center;
+        color: @gray;
+    }
+    h3 {
+        font-family: @main-font;
+        font-size: @default-font-size + 8px;
+        font-weight: 300;
+        text-align: center;
+        text-transform: initial;
+    }
+    .divider-title {
+        .line-title();
+    }
+    form {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 25px;
+        input, textarea {
+            .contact-field();
+            width: 230px;
+            height: 40px;
+            border-radius: 3px;
+            border: solid 1px @gray;
+            font-family: @secondary-font !important;
+
+            &::placeholder {
+                color: @lighergray;
+            }
+        }
+        textarea {
+            height: 110px;
+        }
+    }
+    .sms-btn-div {
+        margin: 0 auto;
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .sms-btn {
+        .btn-orange();
+        width: 120.1px;
+        height: 36.6px;
+    }
+}
 }

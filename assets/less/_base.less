@@ -266,6 +266,7 @@ h5 {
     position: relative;
     overflow: hidden;
     transition: all 0.4s ease-in-out 0.1s;
+    cursor: pointer;    
     &::before {
         content: '';
         color: @white;
@@ -306,6 +307,7 @@ h5 {
     overflow: hidden;
     font-family: @secondary-font;
     transition: all 0.4s ease-in-out 0.1s;
+    cursor: pointer;    
     &::before {
         content: '';
         color: @white;
@@ -345,6 +347,7 @@ h5 {
     overflow: hidden;
     transition: all 0.4s ease-in-out 0.1s;
     font-family: @secondary-font;
+    cursor: pointer;    
     &::before {
         content: '';
         background-color: @hvr-orange;
@@ -384,6 +387,7 @@ h5 {
     overflow: hidden;
     transition: all 0.4s ease-in-out 0.1s;
     font-family: @secondary-font;
+    cursor: pointer;    
     &::before {
         content: '';
         background-color: @hvr-blue;
@@ -498,6 +502,7 @@ h5 {
 
 /* Site Menu, Site Footer, etc. */
 
+
 /* ABOUT SECTION AREA STYLES */
 
 
@@ -514,9 +519,9 @@ h5 {
     background-color: @white;
     border-radius: 3px;
     box-shadow: 0 2px 4px 0 rgba(0,
-        0,
-        0,
-        0.2);
+    0,
+    0,
+    0.2);
     position: relative;
     z-index: 1;
     transform: translateY(-50%);
@@ -744,6 +749,171 @@ h5 {
         .feat-listers-info-btn {
             .btn-white();
         }
+    } //msg modal css
+    #sms-feat1 {
+        .uk-modal-dialog {
+            width: 280px;
+            height: auto;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+        }
+        .sms-div {
+            padding-top: 25px;
+        }
+        .uk-close {
+            font-size: @default-font-size + 8px;
+            text-align: center;
+            color: @gray;
+        }
+        h3 {
+            font-family: @main-font;
+            font-size: @default-font-size + 8px;
+            font-weight: 300;
+            text-align: center;
+            text-transform: initial;
+        }
+        .divider-title {
+            .line-title();
+        }
+        form {
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 25px;
+            input,
+            textarea {
+                .contact-field();
+                width: 230px;
+                height: 40px;
+                border-radius: 3px;
+                border: solid 1px @gray;
+                font-family: @secondary-font !important;
+                &::placeholder {
+                    color: @lighergray;
+                }
+            }
+            textarea {
+                height: 110px;
+            }
+        }
+        .sms-btn-div {
+            margin: 0 auto;
+            text-align: center;
+            padding: 15px 0 0 0;
+        }
+        .sms-btn {
+            .btn-orange();
+            width: 120.1px;
+            height: 36.6px;
+        }
+    } //msg modal css
+    #sms-feat2 {
+        .uk-modal-dialog {
+            width: 280px;
+            height: auto;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+        }
+        .sms-div {
+            padding-top: 25px;
+        }
+        .uk-close {
+            font-size: @default-font-size + 8px;
+            text-align: center;
+            color: @gray;
+        }
+        h3 {
+            font-family: @main-font;
+            font-size: @default-font-size + 8px;
+            font-weight: 300;
+            text-align: center;
+            text-transform: initial;
+        }
+        .divider-title {
+            .line-title();
+        }
+        form {
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 25px;
+            input,
+            textarea {
+                .contact-field();
+                width: 230px;
+                height: 40px;
+                border-radius: 3px;
+                border: solid 1px @gray;
+                font-family: @secondary-font !important;
+                &::placeholder {
+                    color: @lighergray;
+                }
+            }
+            textarea {
+                height: 110px;
+            }
+        }
+        .sms-btn-div {
+            margin: 0 auto;
+            text-align: center;
+            padding: 15px 0 0 0;
+        }
+        .sms-btn {
+            .btn-orange();
+            width: 120.1px;
+            height: 36.6px;
+        }
+    } //msg modal css
+    #sms-feat3 {
+        .uk-modal-dialog {
+            width: 280px;
+            height: auto;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+        }
+        .sms-div {
+            padding-top: 25px;
+        }
+        .uk-close {
+            font-size: @default-font-size + 8px;
+            text-align: center;
+            color: @gray;
+        }
+        h3 {
+            font-family: @main-font;
+            font-size: @default-font-size + 8px;
+            font-weight: 300;
+            text-align: center;
+            text-transform: initial;
+        }
+        .divider-title {
+            .line-title();
+        }
+        form {
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 25px;
+            input,
+            textarea {
+                .contact-field();
+                width: 230px;
+                height: 40px;
+                border-radius: 3px;
+                border: solid 1px @gray;
+                font-family: @secondary-font !important;
+                &::placeholder {
+                    color: @lighergray;
+                }
+            }
+            textarea {
+                height: 110px;
+            }
+        }
+        .sms-btn-div {
+            margin: 0 auto;
+            text-align: center;
+            padding: 15px 0 0 0;
+        }
+        .sms-btn {
+            .btn-orange();
+            width: 120.1px;
+            height: 36.6px;
+        }
     }
 }
 
@@ -757,8 +927,7 @@ h5 {
         .section-space();
     }
     height: auto;
-
-    .uk-form-select{
+    .uk-form-select {
         width: auto;
         height: 40px;
         border-radius: 3px;
@@ -767,21 +936,20 @@ h5 {
         padding-top: 5px;
         position: relative;
         text-align: left;
-        @media @width-767max{
+        @media @width-767max {
             width: 100%;
-            select{
+            select {
                 width: 100% !important;
             }
         }
-        i{
-            @media @width-767max{
+        i {
+            @media @width-767max {
                 position: absolute;
                 right: 10px;
                 top: 12px;
             }
         }
     }
-
     h3 {
         text-align: center;
         font-family: @main-font;
@@ -1024,7 +1192,6 @@ h5 {
     .ads-lg {
         padding: 0;
     }
-
 }
 
 
@@ -1211,7 +1378,7 @@ footer {
         padding: 0 30px 0 30px;
         form {
             margin-bottom: 35px;
-            .field { 
+            .field {
                 width: 100%;
                 height: auto;
                 input {
@@ -1228,7 +1395,7 @@ footer {
                         color: @lighergray;
                     }
                 }
-            } 
+            }
             .submit-btn {
                 .btn-white();
                 background-color: @gray;
@@ -1239,7 +1406,7 @@ footer {
         padding: 0 30px 40px 30px;
         @media @width-1366 {
             padding: 0;
-        } 
+        }
         p {
             font-size: @default-font-size - 2;
             font-weight: @font-light;

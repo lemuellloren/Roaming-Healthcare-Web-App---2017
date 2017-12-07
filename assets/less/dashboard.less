@@ -69,12 +69,22 @@
 		.img-placeholder {
 			position: relative;
 			display: inline-block;
+			@icon-gutter: 10px;
 			
 			.upload-icon {
 				.upload-span-button();
 				position: absolute;
-				top: 10px;
-				right: 10px;
+				top: @icon-gutter;
+				right: @icon-gutter;
+			}
+			
+			&-small-mobile {
+				text-align: right;
+				.upload-icon {
+					position: static;
+					margin-right: @icon-gutter;
+					margin-bottom: @icon-gutter;
+				}
 			}
 		}
 		.ad-calendar {
@@ -82,9 +92,13 @@
 			position: relative;
 			width: 200px;
 			max-width: 100%;
-			margin: auto;
+			margin-left: auto;
+			margin-right: auto;
 			text-align: center;
 			background-color: #e4e4e4;
+			@media @width-767max {
+				margin-top: 15px;
+			}
 
 			&-date {
 				font-size: @default-font-size;
@@ -96,7 +110,7 @@
 				font-size: 48px;
 
 				&:after {
-					content: "clicks";
+					content: "views";
 					display: block;
 					font-size: @default-font-size;
 					color: @darkgray;
@@ -124,12 +138,14 @@
 				padding-bottom: @gutter;
 			}
 			.uk-slidenav {
+				display: block;
 				width: auto;
 				height: auto;
 				margin-top: 0;
 				top: @gutter;
 				line-height: 16px;
 				font-size: 30px;
+				color: #fff;
 
 				&-previous {
 					left: @gutter/2;

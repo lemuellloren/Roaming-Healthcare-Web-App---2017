@@ -78,13 +78,6 @@
       <figure>
         <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
         <div class="upload-photo">
-          <!-- upload photo -->
-          <div class="upload-icon-container">
-            <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
-            <span class="uk-icon-camera upload-icon"></span>
-          </div>
-          <img id="upload-img" src="assets/images/profile-img.jpg" alt="Your Image Here">
-          <!-- upload photo -->
           <form class="uk-form" id="accountForm">
             <input type="text" name="name" placeholder="Full Name" required>
             <input type="email" name="email" placeholder="Email Address" required>
@@ -1161,7 +1154,7 @@
                   <div class="uk-form-row">
                     <label for="ad-img-large" class="uk-form-label">Image Ad (942x117px)</label>
                     <div class="uk-form-controls">
-                      <div class="img-placeholder">
+                      <div class="img-placeholder img-placeholder-small-mobile">
                         <input type="file" accept="image/*" style="display:none" class="upload-file">
                         <span class="uk-icon-camera upload-icon"></span>
                         <img src="./assets/images/desktop-img.png" alt="Image Ad" class="ad-img-large">
@@ -1178,41 +1171,43 @@
                       </div>
                     </div>
                   </div>
-                  <div class="uk-form-row uk-grid">
-                    <div class="uk-width-1-2">
-                      <div class="uk-form-row">
-                        <label for="ad-target-url" class="uk-form-label">Ad Target URL</label>
-                        <div class="uk-form-controls">
-                          <input type="text" name="ad-target-url" id="ad-target-url" placeholder="Enter URL">
+                  <div class="uk-form-row">
+                    <div class="uk-grid">
+                      <div class="uk-width-1-1 uk-width-medium-1-2">
+                        <div class="uk-form-row">
+                          <label for="ad-target-url" class="uk-form-label">Ad Target URL</label>
+                          <div class="uk-form-controls">
+                            <input type="text" name="ad-target-url" id="ad-target-url" placeholder="Enter URL">
+                          </div>
+                        </div>
+                        <div class="uk-form-row">
+                          <label for="ad-img-alt" class="uk-form-label">Image Alt Text</label>
+                          <div class="uk-form-controls">
+                            <input type="text" name="ad-img-alt" id="ad-img-alt" placeholder="Alt Text">
+                          </div>
                         </div>
                       </div>
-                      <div class="uk-form-row">
-                        <label for="ad-img-alt" class="uk-form-label">Image Alt Text</label>
-                        <div class="uk-form-controls">
-                          <input type="text" name="ad-img-alt" id="ad-img-alt" placeholder="Alt Text">
+                      <div class="uk-width-1-1 uk-width-medium-1-2">
+                        <div id="ad-calendar-slider" class="ad-calendar uk-slidenav-position" data-uk-slider="{center: true}">
+                          <div class="uk-slider-container">
+                            <ul class="uk-slider">
+                              <li class="uk-width-1-1">
+                                <p class="ad-calendar-date">This Week</p>
+                                <p class="ad-calendar-count">2</p>
+                              </li>
+                              <li class="uk-width-1-1">
+                                <p class="ad-calendar-date">This Year</p>
+                                <p class="ad-calendar-count">510</p>
+                              </li>
+                              <li class="uk-width-1-1">
+                                <p class="ad-calendar-date">This Month</p>
+                                <p class="ad-calendar-count">5</p>
+                              </li>
+                            </ul>
+                          </div>
+                          <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
+                          <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
                         </div>
-                      </div>
-                    </div>
-                    <div class="uk-width-1-2">
-                      <div id="ad-calendar-slider" class="ad-calendar uk-slidenav-position" data-uk-slider="{center: true}">
-                        <div class="uk-slider-container">
-                          <ul class="uk-slider">
-                            <li class="uk-width-1-1">
-                              <p class="ad-calendar-date">This Week</p>
-                              <p class="ad-calendar-count">2</p>
-                            </li>
-                            <li class="uk-width-1-1">
-                              <p class="ad-calendar-date">This Year</p>
-                              <p class="ad-calendar-count">510</p>
-                            </li>
-                            <li class="uk-width-1-1">
-                              <p class="ad-calendar-date">This Month</p>
-                              <p class="ad-calendar-count">5</p>
-                            </li>
-                          </ul>
-                        </div>
-                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
-                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
                       </div>
                     </div>
                   </div>
@@ -1433,7 +1428,6 @@
                       </div>
                     </div>
                     <div class="uk-cover-background layout-feature-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6)), url(assets/images/featured/feat-3.jpg);min-height: 100%;background-size: cover;background-position: 50% 0; margin: -19px -25px 0 -25px;">
-                      <!-- <img class="uk-invisible" src="assets/images/listing/1x1.jpg" alt="Profile Background"> -->
                       <div class="upload-icon-container">
                         <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
                         <span class="uk-icon-camera upload-icon""></span>
@@ -1504,7 +1498,6 @@
                       </div>
                       <div class="uk-width-4-10">
                         <div class="lg-cover uk-cover-background layout-feature-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6)), url(assets/images/featured/feat-3.jpg);height: 320px;background-size: cover;background-position: 50% 0; margin: -19px -25px 0 -25px;">
-                          <!-- <img class="uk-invisible" src="assets/images/listing/1x1.jpg" alt="Profile Background"> -->
                           <div class="upload-icon-container">
                             <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
                             <span class="uk-icon-camera upload-icon""></span>

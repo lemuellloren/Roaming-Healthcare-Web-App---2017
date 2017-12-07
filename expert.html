@@ -69,8 +69,8 @@
         </div>
 
         <div class="action-buttons">
-          <button class="sms-btn">Send SMS</button>
-          <button class="msg-btn">Message</button>
+          <button class="sms-btn" data-uk-modal="{target:'#sms-expert', center:'true'}">Send SMS</button>
+          <button class="msg-btn" data-uk-modal="{target:'#msg-expert', center:'true'}">Message</button>
         </div>
       </div>
 
@@ -540,9 +540,51 @@
       </div>
     </div>
     <div class="action-buttons bottom-buttons">
-      <button class="sms-btn">Send SMS</button>
-      <button class="msg-btn">Message</button>
+        <button class="sms-btn" data-uk-modal="{target:'#sms-expert', center:'true'}">Send SMS</button>
+        <button class="msg-btn" data-uk-modal="{target:'#msg-expert', center:'true'}">Message</button>
     </div>
+
+     <!-- This is the modal of msg  -->
+     <div id="msg-expert" class="uk-modal">
+        <div class="uk-modal-dialog">
+            <a class="uk-modal-close uk-close" autofocus></a>
+            <div class="sms-div">
+                <h3>Send Message</h3>
+                <div class="divider-title"></div>
+                <form class="uk-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" placeholder="Complete Address" required>
+                    <input type="tel" placeholder="Mobile Number" required>
+                    <textarea name="message" id="message-area" cols="30" rows="10" placeholder="Message"></textarea>
+                </form>
+                <div class="sms-btn-div">
+                    <button class="sms-btn">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- This is the modal of msg -->
+
+       <!-- This is the modal of sms -->
+       <div id="sms-expert" class="uk-modal">
+          <div class="uk-modal-dialog">
+              <a class="uk-modal-close uk-close" autofocus></a>
+              <div class="sms-div">
+                  <h3>Send Instant SMS</h3>
+                  <div class="divider-title"></div>
+                  <form class="uk-form">
+                      <input type="text" placeholder="Your Name" required>
+                      <input type="text" placeholder="Complete Address" required>
+                      <input type="tel" placeholder="Mobile Number" required>
+                      <textarea name="message" id="message-area" cols="30" rows="10" placeholder="Message"></textarea>
+                  </form>
+                  <div class="sms-btn-div">
+                      <button class="sms-btn">Send SMS now</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- This is the modal of sms -->
 
   </section>
 
@@ -708,29 +750,33 @@
           </p>
 
           <div class="cta-btn">
-            <button class="cta-join-btn">Join Now</button>
+            <button class="cta-join-btn" type="button" onclick="location.href='createlister.html'">Join Now</button>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- END SUBSCRIBER CALL TO ACTION SECTION AREA-->
-  <!-- ADS SECTION AREA-->
-  <section id="adver-section">
-    <div class="uk-container">
-      <div class="adver-container">
-        <div class="uk-hidden-medium uk-hidden-large">
-          <div class="adver-img">
-            <img src="assets/images/mobile-img.png" alt="Featured Image">
+   <!-- ADS SECTION AREA-->
+   <section id="adver-section">
+      <div class="uk-container">
+          <div class="adver-container">
+              <div class="uk-hidden-medium uk-hidden-large">
+                  <div class="adver-img">
+                      <a href="https://www.example.com/" target="_blank" rel="noreferrer noopener">
+                          <img src="assets/images/mobile-img.png" alt="Featured Image">
+                      </a>
+                  </div>
+              </div>
+              <div class="ads-lg uk-hidden-small">
+                  <div class="adver-img">
+                      <a href="https://www.example.com/" target="_blank" rel="noreferrer noopener">
+                          <img src="assets/images/desktop-img.png" alt="Featured Image">
+                      </a>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="ads-lg uk-hidden-small">
-          <div class="adver-img">
-            <img src="assets/images/desktop-img.png" alt="Featured Image">
-          </div>
-        </div>
       </div>
-    </div>
   </section>
 
   <!-- END ADS SECTION AREA-->
