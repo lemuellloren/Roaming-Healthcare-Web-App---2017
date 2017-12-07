@@ -80,9 +80,6 @@
                         <div class="biling-address">
                             <h3>Billing Address</h3>
                             <div class="divider-title"></div>
-                            <!-- <div class="billing-btn-container">
-                                <button class="billing-btn">Add Billing Address</button>
-                            </div> -->
                             <form class="uk-form" id="billingAddressForm">
                                 <div class="uk-grid">
                                   <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-text-right padding-right">
@@ -139,7 +136,6 @@
                                             $
                                             <span>0</span>
                                         </p>
-                                        <!-- <button class="choose-btn-orange">Choose</button> -->
                                         <i class="uk-icon-check">
                                             <span> Current plan</span>
                                         </i>
@@ -177,7 +173,6 @@
                                             <span>9.99</span>
                                         </p>
                                         <button class="choose-btn-blue">Choose</button>
-                                        <!-- <i class="uk-icon-check current-blue"><span> Current plan</span></i> -->
                                     </div>
                                 </div>
                             </div>
@@ -255,7 +250,9 @@
                                 <span class="uk-icon-question-circle" title="Help"></span>
                                 <input type="text" placeholder="Display Name (e.g. Dr. Jon Sn)" required>
                             </div>
+
                             <p>Business Information</p>
+
                             <div class="uk-grid">
                                 <div class="uk-width-medium-1-2">
                                     <input type="text" placeholder="Business Name" required>
@@ -272,63 +269,66 @@
                                        </select>
                                    </div>
                                </div>
-                           </div>
+                            </div>
 
-                           <div class="map-container">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d212126.66857326083!2d150.8357076!3d-33.8257507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b218afaa2dbf%3A0xb4e18d4555a9017d!2sSydney+Children&#39;s+Hospital!5e0!3m2!1sen!2sph!4v1511162738692"
-                            width="100%" height="488" frameborder="0" style="border:0" allowfullscreen></iframe>
-                            <div class="uk-overlay-panel" id="toggle-cover" data-uk-toggle="{target:'#toggle-cover'}"></div>
-                        </div>
-                        <p>Contact Information</p>
+                            <div class="map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d212126.66857326083!2d150.8357076!3d-33.8257507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b218afaa2dbf%3A0xb4e18d4555a9017d!2sSydney+Children&#39;s+Hospital!5e0!3m2!1sen!2sph!4v1511162738692"
+                                width="100%" height="488" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-                        <div class="uk-grid">
-                            <div class="uk-width-medium-1-2">
-                                <div class="help-box">
-                                    <span class="uk-icon-question-circle" title="Help"></span>
-                                    <input type="email" placeholder="Email Address" required>
+                                <div class="uk-overlay-panel" id="toggle-cover" data-uk-toggle="{target:'#toggle-cover'}"></div>
+                            </div>
+
+                            <p>Contact Information</p>
+
+                            <div class="uk-grid">
+                                <div class="uk-width-medium-1-2">
+                                    <div class="help-box">
+                                        <span class="uk-icon-question-circle" title="Help"></span>
+                                        <input type="email" placeholder="Email Address" required>
+                                    </div>
+                                </div>
+                                <div class="uk-width-medium-1-2">
+                                    <input type="url" placeholder="Website Url" required>
                                 </div>
                             </div>
-                            <div class="uk-width-medium-1-2">
-                                <input type="url" placeholder="Website Url" required>
-                            </div>
-                        </div>
-                        <input type="tel" placeholder="Contact Number" required>
 
-                        <div class="basic-info-fields">
+                            <input type="tel" placeholder="Contact Number" required>
 
-                            <p>Other Information</p>
-                            <div class="registration-s">
-                                <p>Registration(s)
-                                    <span class="uk-icon-question-circle" title="Help"></span>
-                                </p>
-                            </div>
+                            <div class="basic-info-fields">
 
-                            <div class="other-information">
-                              <table class="uk-table">
-                                <tr>
-                                  <th>Registration Title</th>
-                                  <th>Rego. Number</th>
-                                  <th>Actions</th>
-                              </tr>
-                              <tr>
-                                  <td class="header">Massage Therapist</td>
-                                  <td>MT1234567890</td>
-                                  <td class="actions" width="100">
-                                    <a href="#edit-reg" data-uk-modal="{center:true}"><i class="uk-icon-pencil"></i></a>
-                                    <a href="#delete-reg" data-uk-modal="{center:true}"><i class="uk-icon-trash"></i></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
+                                <p>Other Information</p>
+                                <div class="registration-s">
+                                    <p>Registration(s)
+                                        <span class="uk-icon-question-circle" title="Help"></span>
+                                    </p>
+                                </div>
 
-                    <div class="input-fields-wrap">
-                      <a class="add-field-button" href="#add-reg" data-uk-modal="{center:true}">+ Add registration...</a>
-                  </div>
-                  <input name="language" type="text" placeholder="Languages (separated by comma)">
+                                <div class="other-information">
+                                    <table class="uk-table">
+                                        <tr>
+                                            <th>Registration Title</th>
+                                            <th>Rego. Number</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="header">Massage Therapist</td>
+                                            <td>MT1234567890</td>
+                                            <td class="actions" width="100">
+                                                <a href="#edit-reg" data-uk-modal="{center:true}"><i class="uk-icon-pencil"></i></a>
+                                                <a href="#delete-reg" data-uk-modal="{center:true}"><i class="uk-icon-trash"></i></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
 
-                  <button type="submit" class="save-changes save-info">Save Changes</button>
+                                <div class="input-fields-wrap">
+                                    <a class="add-field-button" href="#add-reg" data-uk-modal="{center:true}">+ Add registration...</a>
+                                </div>
 
-              </form>
+                                <input name="language" type="text" placeholder="Languages (separated by comma)">
+
+                                <button type="submit" class="save-changes save-info">Save Changes</button>
+                        </form>
 
               <div id="edit-reg" class="uk-modal">
                 <div class="uk-modal-dialog">
@@ -374,82 +374,81 @@
 </div>
 
 <form id="about" class="uk-form">
-
   <div class="about-container">
-    <h3>About</h3>
-    <div class="divider-title"></div>
-    <div class="about-area">
-      <textarea name="language" id="business-area" cols="30" rows="10" placeholder="Tell us about your business"></textarea>
-  </div>
+        <h3>About</h3>
 
-  <button type="submit" class="save-changes save-info">Save Changes</button>
+        <div class="divider-title"></div>
 
-</div>
+        <div class="about-area">
+            <textarea name="language" id="business-area" cols="30" rows="10" placeholder="Tell us about your business"></textarea>
+        </div>
+
+        <button type="submit" class="save-changes save-info">Save Changes</button>
+    </div>
 </form>
 
 <div class="services">
 
-  <h3>Services</h3>
-  <div class="divider-title"></div>
+    <h3>Services</h3>
+    <div class="divider-title"></div>
 
-  <div class="add-service-container">
-    <a class="add-service" href="#add-service" data-uk-modal="{center:true}">Add Service</a>
-</div>
+    <div class="add-service-container">
+        <a class="add-service" href="#add-service" data-uk-modal="{center:true}">Add Service</a>
+    </div>
 
-<!--slider area desktop-->
-<div class="services-content uk-hidden-small services-desktop">
-    <div class="uk-slidenav-position" id="services-slider-desktop" data-uk-slider="{infinite: false}">
+    <!--slider area desktop-->
+    <div class="services-content uk-hidden-small services-desktop">
+        <div class="uk-slidenav-position" id="services-slider-desktop" data-uk-slider="{infinite: false}">
 
-      <div class="uk-slider-container">
-        <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
-          <li class="uk-active">
-            <div class="uk-panel service">
-              <div class="shadow">
-               <h5 class="uk-panel-title">Swedish Massage</h5>
-               <div class="panel-content">
-                <p>This is the description of the service</p>
-                <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+            <div class="uk-slider-container">
+                <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
+                    <li class="uk-active">
+                        <div class="uk-panel service">
+                            <div class="shadow">
+                                <h5 class="uk-panel-title">Swedish Massage</h5>
+                                <div class="panel-content">
+                                    <p>This is the description of the service</p>
+                                    <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel service">
+                            <div class="shadow">
+                                <h5 class="uk-panel-title">Shiatsu Massage</h5>
+                                <div class="panel-content">
+                                    <p>This is the description of the service</p>
+                                    <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel service">
+                            <div class="shadow">
+                                <h5 class="uk-panel-title">Thai Massage</h5>
+                                <div class="panel-content">
+                                    <p>This is the description of the service</p>
+                                    <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="service-list-nav">
+                <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="previous">
+                    <span class="uk-icon-chevron-left"></span>
+                </button>
+                <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="next">
+                    <span class="uk-icon-chevron-right"></span>
+                </button>
             </div>
         </div>
     </div>
-</li>
-<li>
-  <div class="uk-panel service">
-    <div class="shadow">
-     <h5 class="uk-panel-title">Shiatsu Massage</h5>
-     <div class="panel-content">
-      <p>This is the description of the service</p>
-      <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
-  </div>
-</div>
-</div>
-</li>
-<li>
-    <div class="uk-panel service">
-      <div class="shadow">
-       <h5 class="uk-panel-title">Thai Massage</h5>
-       <div class="panel-content">
-        <p>This is the description of the service</p>
-        <a href="#edit-service" data-uk-modal="{center:true}">Edit</a>
-    </div>
-</div>
-</div>
-</li>
-</ul>
-</div>
-
-<div class="service-list-nav">
-  <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="previous">
-    <span class="uk-icon-chevron-left"></span>
-</button>
-<button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="next">
-    <span class="uk-icon-chevron-right"></span>
-</button>
-
-</div>
-</div>
-</div>
-<!--slider area desktop-->
+    <!--slider area desktop-->
 
 <!--slider area mobile-->
 <div class="services-content uk-visible-small services-mobile">
@@ -785,29 +784,31 @@
     <div class="uk-container">
         <h3>LISTING LAYOUT</h3>
         <div class="divider-title"></div>
-        <div class="uk-grid uk-grid-collapse">
-            <div class="uk-width-1-1 uk-width-medium-1-2">
-                <!--layout 1-->
-                <div class="layout-container-1">
-                    <div class="checkbox-container">
-                        <form action="" class="uk-form">
+
+        <form action="dashboard.html" method="post"> 
+            <div class="uk-grid uk-grid-collapse">
+                <div class="uk-width-1-1 uk-width-medium-1-2">
+                    <!--layout 1-->
+                    <div class="layout-container-1">
+                        <div class="checkbox-container">
                             <label class="check-container">Layout 1
-                                <input type="checkbox">
+                                <input type="radio" name="layout" value="1">
                                 <span class="checkmark"></span>
                             </label>
-                        </form>
-                    </div>
-                    <div class="uk-panel">
-                        <figure class="uk-overlay">
-                            <img class="profile-img-blur" src="assets/images/listing/1x1.jpg" alt="Profile Background">
-                            <figcaption class="uk-overlay-panel">
-                                <img class="profile-img" src="assets/images/listing/1x1.jpg" alt="Profile Image">
-                                <p class="info-name">Grace Rogers</p>
-                                <p class="mile-away">
-                                    <span class="uk-icon-map-marker"></span> 0.3 mi</p>
+                        </div>
 
+                        <div class="uk-panel">
+                            <figure class="uk-overlay">
+                                <img class="profile-img-blur" src="assets/images/listing/1x1.jpg" alt="Profile Background">
+                                <figcaption class="uk-overlay-panel">
+                                    <img class="profile-img" src="assets/images/listing/1x1.jpg" alt="Profile Image">
+                                    <p class="info-name">Grace Rogers</p>
+                                    <p class="mile-away">
+                                        <span class="uk-icon-map-marker"></span> 0.3 mi
+                                    </p>
                                 </figcaption>
                             </figure>
+
                             <div class="profile-content">
                                 <h3 class="uk-panel-title">
                                     Tootsy Dental Practice
@@ -824,71 +825,78 @@
 
                                 <div class="website-link">
                                     <a href="http://example.com/" class="website-com">
-                                        <span class="uk-icon-globe"></span> website.com</a>
-                                    </div>
-                                    <div class="msg-container">
-                                        <button class="msg-btn">Message</button>
-                                    </div>
+                                        <span class="uk-icon-globe"></span> website.com
+                                    </a>
+                                </div>
+                                <div class="msg-container">
+                                    <button class="msg-btn">Message</button>
                                 </div>
                             </div>
                         </div>
-                        <!--layout 1-->
                     </div>
-                    <div class="uk-width-1-1 uk-width-medium-1-2">
-                        <div class="layout-container-2">
-                            <div class="checkbox-container">
-                                <form action="" class="uk-form">
-                                    <label class="check-container">Layout 2
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </form>
-                            </div>
-                            <div class="uk-panel">
-                                <ul>
-                                    <li>
-                                        <img class="profile-img" src="assets/images/listing/1x1.jpg" alt="Profile Image">
-                                    </li>
-                                    <li>
-                                        <p class="info-name">Grace Rogers</p>
-                                        <p class="mile-away">
-                                            <span class="uk-icon-map-marker"></span> 0.3 mi</p>
-                                        </li>
-                                    </ul>
-                                    <div class="line"></div>
-                                    <div class="profile-content">
-                                        <h3 class="uk-panel-title">
-                                            Tootsy Dental Practice
-                                        </h3>
-                                        <p class="profile-address">
-                                            937 Sachs, Woodlake, MI
-                                        </p>
-                                        <div class="dial-container2">
-                                            <a href="tel:+6494461709" class="contact-number2">
-                                                <span class="uk-icon-phone"></span>
-                                                &nbsp;(02) 9072 7359
-                                            </a>
-                                        </div>
+                    <!--layout 1-->
+                </div>
 
-                                        <div class="website-link-2">
-                                            <a href="http://example.com/" class="website-com">
-                                                <span class="uk-icon-globe"></span> website.com</a>
-                                            </div>
-                                            <div class="msg-cirle-container">
-                                                <button class="msg-btn-circle">Message</button>
-                                            </div>
-                                        </div>
-                                    </div>
+                <div class="uk-width-1-1 uk-width-medium-1-2">
+                    <div class="layout-container-2">
+                        <div class="checkbox-container">
+                            <label class="check-container">Layout 2
+                                <input type="radio" name="layout" value="2">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="uk-panel">
+                            <ul>
+                                <li>
+                                    <img class="profile-img" src="assets/images/listing/1x1.jpg" alt="Profile Image">
+                                </li>
+                                <li>
+                                    <p class="info-name">Grace Rogers</p>
+                                    <p class="mile-away">
+                                        <span class="uk-icon-map-marker"></span> 0.3 mi
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <div class="line"></div>
+
+                            <div class="profile-content">
+                                <h3 class="uk-panel-title">
+                                    Tootsy Dental Practice
+                                </h3>
+                                <p class="profile-address">
+                                    937 Sachs, Woodlake, MI
+                                </p>
+                                <div class="dial-container2">
+                                    <a href="tel:+6494461709" class="contact-number2">
+                                        <span class="uk-icon-phone"></span>
+                                        &nbsp;(02) 9072 7359
+                                    </a>
+                                </div>
+
+                                <div class="website-link-2">
+                                    <a href="http://example.com/" class="website-com">
+                                        <span class="uk-icon-globe"></span> website.com
+                                    </a>
+                                </div>
+
+                                <div class="msg-cirle-container">
+                                    <button class="msg-btn-circle">Message</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="publish-btn-container">
-                            <button class="publish-btn" type="button" onclick="location.href='dashboard.html'">Publish Listing</button>
-                        </div>
                     </div>
-                </section>
-                <!--layouts-->
-                <!-- END CREATE LISTER ACCOUNT AREA -->
+                </div>
+            </div>
+
+            <div class="publish-btn-container">
+                <button class="publish-btn" type="submit">Publish Listing</button>
+            </div>
+        </form>
+    </div>
+</section>
+<!--layouts-->
+<!-- END CREATE LISTER ACCOUNT AREA -->
 
 
                 <!-- SITE MENU AREA-->
