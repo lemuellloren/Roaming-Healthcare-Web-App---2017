@@ -96,9 +96,14 @@
             font-size: 12px;
             text-align: left;
             color: @blue;
+            .soft-transition();
             a {
                 text-decoration: none;
+                &:hover {
+                    .orange-link();
+                }
             }
+           
         }
     }
     .mobile-blog-slide {
