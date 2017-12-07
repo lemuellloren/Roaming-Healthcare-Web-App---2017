@@ -41,6 +41,12 @@
 		$(".uk-modal-close").trigger('click');
 	});
 
+	// change value of ad views
+	$('.ad-calendar-select').on('change', function(e){
+		var val = $(this).val();
+		$(this).closest('.ad-calendar').find('.ad-calendar-count').text(val);
+	});
+
 	// manually initialize sliders inside the tab content
 	$('.uk-tab').on('change.uk.tab', function(e, active, prev){
 		if( $(active).children('.tab-4').length ){
@@ -59,6 +65,7 @@
 			}, 500);
 		}
 	});
+	
 
 })(jQuery);
 
