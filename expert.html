@@ -69,8 +69,8 @@
         </div>
 
         <div class="action-buttons">
-          <button class="sms-btn">Send SMS</button>
-          <button class="msg-btn">Message</button>
+          <button class="sms-btn" data-uk-modal="{target:'#sms-expert', center:'true'}">Send SMS</button>
+          <button class="msg-btn" data-uk-modal="{target:'#msg-expert', center:'true'}">Message</button>
         </div>
       </div>
 
@@ -540,9 +540,51 @@
       </div>
     </div>
     <div class="action-buttons bottom-buttons">
-      <button class="sms-btn">Send SMS</button>
-      <button class="msg-btn">Message</button>
+        <button class="sms-btn" data-uk-modal="{target:'#sms-expert', center:'true'}">Send SMS</button>
+        <button class="msg-btn" data-uk-modal="{target:'#msg-expert', center:'true'}">Message</button>
     </div>
+
+     <!-- This is the modal of msg  -->
+     <div id="msg-expert" class="uk-modal">
+        <div class="uk-modal-dialog">
+            <a class="uk-modal-close uk-close" autofocus></a>
+            <div class="sms-div">
+                <h3>Send Message</h3>
+                <div class="divider-title"></div>
+                <form class="uk-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" placeholder="Complete Address" required>
+                    <input type="tel" placeholder="Mobile Number" required>
+                    <textarea name="message" id="message-area" cols="30" rows="10" placeholder="Message"></textarea>
+                </form>
+                <div class="sms-btn-div">
+                    <button class="sms-btn">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- This is the modal of msg -->
+
+       <!-- This is the modal of sms -->
+       <div id="sms-expert" class="uk-modal">
+          <div class="uk-modal-dialog">
+              <a class="uk-modal-close uk-close" autofocus></a>
+              <div class="sms-div">
+                  <h3>Send Instant SMS</h3>
+                  <div class="divider-title"></div>
+                  <form class="uk-form">
+                      <input type="text" placeholder="Your Name" required>
+                      <input type="text" placeholder="Complete Address" required>
+                      <input type="tel" placeholder="Mobile Number" required>
+                      <textarea name="message" id="message-area" cols="30" rows="10" placeholder="Message"></textarea>
+                  </form>
+                  <div class="sms-btn-div">
+                      <button class="sms-btn">Send SMS now</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- This is the modal of sms -->
 
   </section>
 
