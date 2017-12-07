@@ -78,12 +78,14 @@
 				right: @icon-gutter;
 			}
 			
-			&-small-mobile {
-				text-align: right;
-				.upload-icon {
-					position: static;
-					margin-right: @icon-gutter;
-					margin-bottom: @icon-gutter;
+			@media @width-767max {	
+				&-small-mobile {
+					text-align: right;
+					.upload-icon {
+						position: static;
+						margin-right: @icon-gutter;
+						margin-bottom: @icon-gutter;
+					}
 				}
 			}
 		}
