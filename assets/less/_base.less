@@ -339,39 +339,29 @@ h5 {
     height: 50px;
     border-radius: 3px;
     border: 1px solid @orange;
-    background-color: @orange;
     font-size: 14px;
     text-align: center;
     color: @white;
     position: relative;
     overflow: hidden;
-    transition: all 0.4s ease-in-out 0.1s;
+    // transition: all 0.4s ease-in-out 0.1s;
+    .soft-transition();
     font-family: @secondary-font;
-    cursor: pointer;    
-    &::before {
-        content: '';
-        background-color: @hvr-orange;
-        width: 0%;
-        height: 0%;
-        border-radius: 50%;
-        color: @white;
-        opacity: 1;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        .soft-transition();
-    }
+    cursor: pointer;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0% 0%;
+    background-color: @orange;
+    background-image: radial-gradient(@hvr-orange, @hvr-orange, @orange);
     &:hover {
-        background-color: @hvr-orange;
-        border: 1px solid @hvr-orange;
-        &::before {
-            width: 150%;
-            height: 150%;
-            top: -25%;
-            left: -25%;
-            opacity: 0;
-        }
-    }
+      background-size: 150% 150%;
+      color: @white;
+      &:focus {
+          text-decoration: none;
+          color: @white;
+      }
+  }
+
 }
 
 .btn-blue() {
@@ -519,9 +509,9 @@ h5 {
     background-color: @white;
     border-radius: 3px;
     box-shadow: 0 2px 4px 0 rgba(0,
-    0,
-    0,
-    0.2);
+        0,
+        0,
+        0.2);
     position: relative;
     z-index: 1;
     transform: translateY(-50%);
