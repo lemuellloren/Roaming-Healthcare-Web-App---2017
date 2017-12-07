@@ -358,6 +358,8 @@
                 animation = 'none';
             }
 
+            $this.triggers = this.find('[data-uk-slideshow-item]');
+
             current = UI.$(current);
             next    = UI.$(next);
 
