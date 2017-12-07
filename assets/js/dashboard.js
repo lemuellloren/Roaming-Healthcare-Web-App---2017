@@ -52,13 +52,20 @@
 		if( $(active).children('.tab-4').length ){
 			setTimeout(function(){
 				var slider = UIkit.slider('#ad-calendar-slider', {
-					infinite: false
+					center: true
 				});
 				slider.init();
 			}, 500);
+		}else if( $(active).children('.tab-2').length ){
+			setTimeout(function(){
+				var services = UIkit.slider('#services-slider-desktop, #services-slider-mobile, #docs-slider-desktop, #docs-slider-mobile', {
+					infinite: false
+				});
+				services.init();
+			}, 500);
 		}
 	});
- 
+
 })(jQuery);
 
 

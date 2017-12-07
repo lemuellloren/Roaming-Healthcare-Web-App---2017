@@ -82,15 +82,16 @@
 			position: relative;
 			width: 200px;
 			max-width: 100%;
+			margin: auto;
 		    text-align: center;
 		    background-color: #e4e4e4;
 
-		    &-date {
+			&-date {
 				font-size: @default-font-size;
-		    }
-		    &-count {
-		    	margin-bottom: 0;
-		    	line-height: 1;
+			}
+			&-count {
+				margin-bottom: 0;
+				line-height: 1;
 				color: @orange;
 				font-size: 48px;
 
@@ -100,43 +101,43 @@
 					font-size: @default-font-size;
 					color: @darkgray;
 				}
-		    }
-		    &-prev, &-next {
-		    	&-disabled {
-		    		color: @lighergray;
-		    	}
-		    	&:before {
+			}
+			&-prev, &-next {
+				&-disabled {
+					color: @lighergray;
+				}
+				&:before {
 					position: absolute;
 					top: @gutter;
-		    	}
-		    }
-		    &-prev:before {
-		    	content: "\2039";
-		    	left: @gutter/2;
-		    }
-		    &-next:before {
-		    	content: "\203A";
-		    	right: @gutter/2;
-		    }
-		    li {
-		    	padding-top: @gutter;
-		    	padding-bottom: @gutter;
-		    }
-		    .uk-slidenav {
-		    	width: auto;
-		    	height: auto;
-		    	margin-top: 0;
-		    	top: @gutter;
-		    	line-height: 16px;
-		    	font-size: 30px;
+				}
+			}
+			&-prev:before {
+				content: "\2039";
+				left: @gutter/2;
+			}
+			&-next:before {
+				content: "\203A";
+				right: @gutter/2;
+			}
+			li {
+				padding-top: @gutter;
+				padding-bottom: @gutter;
+			}
+			.uk-slidenav {
+				width: auto;
+				height: auto;
+				margin-top: 0;
+				top: @gutter;
+				line-height: 16px;
+				font-size: 30px;
 
-		    	&-previous {
-		    		left: @gutter/2;
-		    	}
-		    	&-next {
-		    		right: @gutter/2;
-		    	}
-		    }
+				&-previous {
+					left: @gutter/2;
+				}
+				&-next {
+					right: @gutter/2;
+				}
+			}
 		}
 	}
 	.uk-form-label {
@@ -527,6 +528,7 @@
 				padding-top: 5px;
 				position: relative;
 				text-align: left;
+				margin-bottom: 10px;
 				i{
 					position: absolute;
 					right: 10px;
@@ -799,6 +801,7 @@
 					li{
 						padding: 0px;
 						.service{
+							margin-bottom: 20px;
 							@media @width-960{
 								padding: 0 10px;
 							}
@@ -1334,7 +1337,8 @@
 		width: 100%;
 		.uk-panel {
 			max-width: 280px;
-			height: 455px;
+			// height: 455px;
+			height: auto;
 			background-color: @white;
 			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 			margin: 0 auto;
