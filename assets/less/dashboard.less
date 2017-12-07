@@ -96,12 +96,21 @@
 			max-width: 100%;
 			margin-left: auto;
 			margin-right: auto;
+			padding-top: @gutter;
+			padding-bottom: @gutter;
 			text-align: center;
 			background-color: #e4e4e4;
 			@media @width-767max {
 				margin-top: 15px;
 			}
 
+			&-head {
+				&:after {
+					content: "\25BE";
+					display: inline-block;
+					margin-left: 10px;
+				}
+			}
 			&-date {
 				font-size: @default-font-size;
 			}
