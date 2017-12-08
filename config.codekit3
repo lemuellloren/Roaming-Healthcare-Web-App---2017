@@ -7,7 +7,11 @@
 		"uuidString": "6E6A60E7-0179-4FCB-858B-D757DAEC3F52"
 		}
 	],
+<<<<<<< HEAD
 "creatorBuild": "26097",
+=======
+"creatorBuild": "25900",
+>>>>>>> 17d47a8f6e8b74b3834dbaaa786d957737f37dfc
 "files": {
 	"\/.git-ftp-ignore": {
 		"cB": 0,
@@ -4099,7 +4103,7 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/bower_components\/uikit\/less\/uikit.less",
 		"oF": 0,
 		"oS": 1,
@@ -5620,7 +5624,7 @@
 		},
 	"\/assets\/images\/logos\/white-logo.png": {
 		"ft": 32768,
-		"iS": 13919,
+		"iS": 2847,
 		"oA": 0,
 		"oAP": "\/assets\/images\/logos\/white-logo.png",
 		"oF": 0,

@@ -78,12 +78,14 @@
 				right: @icon-gutter;
 			}
 			
-			&-small-mobile {
-				text-align: right;
-				.upload-icon {
-					position: static;
-					margin-right: @icon-gutter;
-					margin-bottom: @icon-gutter;
+			@media @width-767max {	
+				&-small-mobile {
+					text-align: right;
+					.upload-icon {
+						position: static;
+						margin-right: @icon-gutter;
+						margin-bottom: @icon-gutter;
+					}
 				}
 			}
 		}
@@ -94,6 +96,8 @@
 			max-width: 100%;
 			margin-left: auto;
 			margin-right: auto;
+			padding-top: @gutter;
+			padding-bottom: @gutter;
 			text-align: center;
 			background-color: #e4e4e4;
 			@media @width-767max {
@@ -117,6 +121,10 @@
 				}
 			}
 			&-prev, &-next {
+				display: inline-block;
+				font-size: 24px;
+				cursor: pointer;
+
 				&-disabled {
 					color: @lighergray;
 				}

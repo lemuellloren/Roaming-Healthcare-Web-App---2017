@@ -41,6 +41,62 @@
 		$(".uk-modal-close").trigger('click');
 	});
 
+	// change value of ad views
+	$('.ad-calendar-nav').on('click', function(e){
+		var ito = $(this),
+			$all = $('.ad-calendar-nav'),
+			$current = ito.siblings( '.ad-calendar-current' ),
+			$count = ito.closest('.ad-calendar').find('.ad-calendar-count'),
+			/*
+			 *	Determines the direction of the date
+			 *	- only possible values are:
+			 *		next
+			 *		prev
+			 */
+			nav = ito.data( 'calendarnav' ),
+
+			/*
+			 *	Determines the type of span of time
+			 *	- only possible values are:
+			 *		week
+			 *		month
+			 *		year
+			 */
+			type = ito.data( 'calendartype' ),
+			/*
+			 *	The current value of type
+			 *	- example
+			 *		if {type} is "week", then possible values are the numerical values of the weeks of the year
+			 *		if {type} is "month", then possible values are 1 up to 12
+			 */
+			current = $current.data( 'calendarcurrent' );
+
+		//--- lets first disable the clicky navs :)
+		$all.css('pointer-events', 'none');
+
+		//--- with these values, you are now set to discovering the wonderful world of ajax :)
+		$.ajax({
+			url: '',
+			data: { direction: nav, type: type, current: current },
+			dataType: 'json',
+			method: 'post',
+			success: function( data ){
+				//--- replace the text inside .ad-calendar-current
+				$current.text( /* data here */ );
+
+				//--- replace the data's current value
+				$current.data( 'calendarcurrent', /* data here  */ );
+
+				//--- replace the value for the number of views within the new time span
+				$count.text( /* data here */ );
+			},
+			complete: function(){
+				//--- since we are finished with our query, lets reenable the clicky navs :)
+				$all.css('pointer-events', 'auto');
+			}
+		});
+	});
+
 	// manually initialize sliders inside the tab content
 	$('.uk-tab').on('change.uk.tab', function(e, active, prev){
 		if( $(active).children('.tab-4').length ){
@@ -59,6 +115,7 @@
 			}, 500);
 		}
 	});
+	
 
 })(jQuery);
 
