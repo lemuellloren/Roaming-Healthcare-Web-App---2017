@@ -289,11 +289,14 @@
         <h3>Basic Info</h3>
         <div class="divider-title"></div>
         <div class="upload-photo-logo">
-          <img id="upload-img" src="assets/images/no-logo.png" alt="Your Image Here">
-          <div class="upload-icon-container">
-            <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
-            <span class="uk-icon-camera upload-icon"></span>
+          <div class="upload-photo-angkol">
+            <img id="upload-img" src="https://via.placeholder.com/600x600" alt="Your Image Here">
+            <div class="upload-icon-container">
+              <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+              <span class="uk-icon-camera upload-icon"></span>
+            </div>
           </div>
+          <p>Ideal image size is 600x600px - larger images will be automatically cropped and resized</p>
         </div>
         <form class="uk-form">
           <div class="help-box">
@@ -1153,39 +1156,30 @@
                     <div class="uk-grid">
                       <div class="uk-width-1-1 uk-width-medium-1-3">
                         <div class="ad-calendar">
-                          <div class="uk-form-select" data-uk-form-select>
-                            <span class="ad-calendar-head">Week</span>
-                            <select class="ad-calendar-select">
-                              <option value="10">Week 1</option>
-                              <option value="15">Week 2</option>
-                              <option value="20">Week 3</option>
-                            </select>
+                          <div class="ad-calendar-head">
+                            <span class="ad-calendar-current" data-calendarcurrent="49">Week 49</span>
+                            <span class="ad-calendar-nav ad-calendar-prev" data-calendarnav="prev" data-calendartype="week"></span>
+                            <span class="ad-calendar-nav ad-calendar-next" data-calendarnav="next" data-calendartype="week"></span>
                           </div>
                           <p class="ad-calendar-count">10</p>
                         </div>
                       </div>
                       <div class="uk-width-1-1 uk-width-medium-1-3">
                         <div class="ad-calendar">
-                          <div class="uk-form-select" data-uk-form-select>
-                            <span class="ad-calendar-head">Month</span>
-                            <select class="ad-calendar-select">
-                              <option value="100">December</option>
-                              <option value="150">November</option>
-                              <option value="200">October</option>
-                            </select>
+                          <div class="ad-calendar-head">
+                            <span class="ad-calendar-current" data-calendarcurrent="12">December</span>
+                            <span class="ad-calendar-nav ad-calendar-prev" data-calendarnav="prev" data-calendartype="month"></span>
+                            <span class="ad-calendar-nav ad-calendar-next" data-calendarnav="next" data-calendartype="month"></span>
                           </div>
                           <p class="ad-calendar-count">100</p>
                         </div>
                       </div>
                       <div class="uk-width-1-1 uk-width-medium-1-3">
                         <div class="ad-calendar">
-                          <div class="uk-form-select" data-uk-form-select>
-                            <span class="ad-calendar-head">Year</span>
-                            <select class="ad-calendar-select">
-                              <option value="1000">2017</option>
-                              <option value="1500">2016</option>
-                              <option value="2099">2015</option>
-                            </select>
+                          <div class="ad-calendar-head">
+                            <span class="ad-calendar-current" data-calendarcurrent="2017">2017</span>
+                            <span class="ad-calendar-nav ad-calendar-prev" data-calendarnav="prev" data-calendartype="year"></span>
+                            <span class="ad-calendar-nav ad-calendar-next" data-calendarnav="next" data-calendartype="year"></span>
                           </div>
                           <p class="ad-calendar-count">1000</p>
                         </div>
@@ -1531,10 +1525,6 @@
                 </div>
                 <div class="uk-width-4-10">
                   <div class="lg-cover uk-cover-background layout-feature-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.6)), url(assets/images/featured/feat-3.jpg);height: 320px;background-size: cover;background-position: 50% 0; margin: -19px -25px 0 -25px;">
-                    <div class="upload-icon-container">
-                      <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
-                      <span class="uk-icon-camera upload-icon""></span>
-                    </div>
                   </div>
                 </div>
               </div>

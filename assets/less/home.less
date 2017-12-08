@@ -88,7 +88,8 @@
 				.drop-shadow();
 				color: @lighergray;
 				width: 260px;
-				height: 50px;
+				font-size: @default-font-size;height: 50px;
+
 				padding-left: 50px!important;
 				@media @width-768 {
 					width: 200px;
@@ -109,7 +110,7 @@
 			.find-btn {
 				.btn-orange();
 				.drop-shadow();
-				cursor: pointer;
+				font-size: @default-font-size + 4px;
 			}
 		}
 		.btn-find-con {
@@ -173,9 +174,11 @@
 			.soft-transition();
 		}
 		.feat-content-hvr {
-			background-color: rgba(255, 255, 255, 0.9);
+			background-color: rgba(255, 255, 255, 0.32);
 			border: 2px solid @blue;
 			height: 100%;
+			display: flex;
+			align-items: center;
 			.feat-title-hvr {
 				border: 0 !important;
 				padding: 0 !important;
@@ -194,20 +197,7 @@
 				color: @darkgray;
 			}
 			.feat-content-area {
-				margin: 15px;
-				@media @width-768 {
-					text-align: center;
-					margin: 0 auto;
-					padding: 50px 20px 50px 20px;
-				}
-			}
-			.feat-services-btn {
-				text-align: center;
-				.feat-search-brn {	
-					.btn-orange();
-					width: 109.1px;
-					height: 36.6px;
-				}
+				padding: 15px;
 			}
 		}
 	}

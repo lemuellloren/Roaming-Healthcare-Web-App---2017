@@ -104,13 +104,6 @@
 				margin-top: 15px;
 			}
 
-			&-head {
-				&:after {
-					content: "\25BE";
-					display: inline-block;
-					margin-left: 10px;
-				}
-			}
 			&-date {
 				font-size: @default-font-size;
 			}
@@ -128,6 +121,10 @@
 				}
 			}
 			&-prev, &-next {
+				display: inline-block;
+				font-size: 24px;
+				cursor: pointer;
+
 				&-disabled {
 					color: @lighergray;
 				}
@@ -614,10 +611,11 @@
 			}
 			.upload-photo-logo{
 				text-align: center;
-				width: 100px;
-				height: 100px;
-				position: relative;
 				margin: 0 auto 30px auto;
+				.upload-photo-angkol {
+					position: relative;
+					display: inline-block;
+				}
 				.upload-icon-container {
 					top: 5px;
 					position: absolute;
@@ -918,6 +916,7 @@
 					.service-list-arrow {
 						.btn-white();
 						width: 37px;
+						height: 41px;
 						outline: none;
 					}
 					.uk-slidenav.uk-slidenav-previous,
@@ -1008,6 +1007,7 @@
 				.service-list-arrow {
 					.btn-white();
 					width: 37px;
+					height: 41px;
 					outline: none;
 				}
 				.uk-slidenav.uk-slidenav-previous,
@@ -1122,7 +1122,7 @@
 			.blog-call-readmore {
 				.btn-orange();
 				text-decoration: none;
-				padding: 8px;
+				padding: 8px 20px 8px 20px;				
 			}
 			.readmore-link {
 				position: relative;
