@@ -27,8 +27,8 @@
 <body>
     <!-- SUBSCRIBER HERO BANNER AREA-->
     <section id="subscriber-banner-section">
-        <div class="subscriber-banner-container">
-            <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true}">>
+        <div class="subscriber-banner-container"  data-uk-slideshow>
+            <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true}">
                 <ul class="uk-slideshow">
                     <li class="uk-active">
                         <figure>
@@ -41,13 +41,13 @@
                                         At vero eos et accusamus et iusto odio
                                     </p>
                                     <div class="btn-container">
-                                        <button class="btn-join">Join Now</button>
+                                        <button class="btn-join" type="button" onclick="location.href='createlister.html'">Join Now</button>
                                     </div>
                                 </div>
                             </div>
                         </figure>
                     </li>
-                    <li class="uk-active">
+                    <li>
                         <figure>
                             <div class="subscriber-background" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/images/searchbanner/search-banner-bg4.jpg);background-size: cover;background-position: 50% 0;">
                                 <div class="content-div uk-container">
@@ -58,13 +58,13 @@
                                         At vero eos et accusamus et iusto odio
                                     </p>
                                     <div class="btn-container">
-                                        <button class="btn-join">Join Now</button>
+                                        <button class="btn-join" type="button" onclick="location.href='createlister.html'">Join Now</button>
                                     </div>
                                 </div>
                             </div>
                         </figure>
                     </li>
-                    <li class="uk-active">
+                    <li>
                         <figure>
                             <div class="subscriber-background" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/images/searchbanner/search-banner-bg3.jpg);background-size: cover;background-position: 50% 0;">
                                 <div class="content-div uk-container">
@@ -75,7 +75,7 @@
                                         At vero eos et accusamus et iusto odio
                                     </p>
                                     <div class="btn-container">
-                                        <button class="btn-join">Join Now</button>
+                                        <button class="btn-join" type="button" onclick="location.href='createlister.html'">Join Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -290,10 +290,10 @@
     <!-- TESTIMONIAL SECTION AREA-->
     <section id="testimonial-section">
         <div class="uk-container">
-            <div class="testimonials-container">
-                <div class="uk-slidenav-position" data-uk-slideshow>
-                    <ul class="uk-slideshow" data-uk-slideshow="{autoplay:true}">
-                        <li>
+            <div class="testimonials-container"  data-uk-slideshow>
+                <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true}">
+                    <ul class="uk-slideshow">
+                        <li class="uk-active">
                             <figure>
                                 <div class="testimonial-div">
                                     <div class="testimonial-img">
@@ -371,7 +371,7 @@
                     </ul>
                 </div>
                 <div class="list-btn-div">
-                    <button type="button" class="list-btn">List Your Services</button>
+                    <button class="list-btn" type="button" onclick="location.href='createlister.html'">List Your Services</button>
                 </div>
             </div>
         </div>
