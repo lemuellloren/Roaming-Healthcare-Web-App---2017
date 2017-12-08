@@ -289,11 +289,14 @@
         <h3>Basic Info</h3>
         <div class="divider-title"></div>
         <div class="upload-photo-logo">
-          <img id="upload-img" src="assets/images/no-logo.png" alt="Your Image Here">
-          <div class="upload-icon-container">
-            <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
-            <span class="uk-icon-camera upload-icon"></span>
+          <div class="upload-photo-angkol">
+            <img id="upload-img" src="https://via.placeholder.com/600x600" alt="Your Image Here">
+            <div class="upload-icon-container">
+              <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+              <span class="uk-icon-camera upload-icon"></span>
+            </div>
           </div>
+          <p>Ideal image size is 600x600px - larger images will be automatically cropped and resized</p>
         </div>
         <form class="uk-form">
           <div class="help-box">
