@@ -95,18 +95,12 @@
 				$all.css('pointer-events', 'auto');
 			}
 		});
+	
 	});
 
 	// manually initialize sliders inside the tab content
 	$('.uk-tab').on('change.uk.tab', function(e, active, prev){
-		if( $(active).children('.tab-4').length ){
-			setTimeout(function(){
-				var slider = UIkit.slider('#ad-calendar-slider', {
-					center: true
-				});
-				slider.init();
-			}, 500);
-		}else if( $(active).children('.tab-2').length ){
+		if( $(active).children('.tab-2').length ){
 			setTimeout(function(){
 				var services = UIkit.slider('#services-slider-desktop, #services-slider-mobile, #docs-slider-desktop, #docs-slider-mobile', {
 					infinite: false
