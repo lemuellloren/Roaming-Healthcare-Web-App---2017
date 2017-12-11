@@ -1324,6 +1324,10 @@ footer {
     }
     .footer-navigation {
         padding: 0 30px 0 30px;
+        @media @width-768 {
+            display: inline-block;
+            text-align: left;
+        }
         @media @width-1366 {
             padding: 0;
         }
@@ -1346,6 +1350,11 @@ footer {
                 }
             }
         }
+    }
+    .footer-div {
+       @media @width-768 {
+        text-align: center;
+       }
     }
     .footer-contact {
         padding: 0 30px 0 30px;
