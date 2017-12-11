@@ -33,7 +33,7 @@
 
     <!-- BANNER AREA -->
     <section id="gradient-banner" style="background-image: linear-gradient(43deg, #fe7b00, #3382c4); width: auto;
-    height: 500px;">
+    height: 355px;">
 </section>
 <!-- END BANNER AREA -->
 
@@ -62,21 +62,6 @@
                     <figure>
                         <div>
                             <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
-                            <div class="upload-photo">
-                                <!-- upload photo -->
-                                <div class="upload-icon-container">
-                                    <input type="file" id="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
-                                    <span id="upload-icon" class="uk-icon-camera"></span>
-                                </div>
-                                <img id="upload-img" src="http://placehold.jp/150x150.png" alt="Your Image Here">
-                                <!-- upload photo -->
-                                <form class="uk-form">
-                                    <input type="text" placeholder="Full Name" required>
-                                    <input type="email" placeholder="Email Address" required>
-                                </form>
-                            </div>
-
-                        </div>
                         <div class="biling-address">
                             <h3>Billing Address</h3>
                             <div class="divider-title"></div>
@@ -244,7 +229,16 @@
                         <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
                         <h3>Basic Info</h3>
                         <div class="divider-title"></div>
-
+                        <div class="upload-photo-logo">
+                            <div class="upload-photo-angkol">
+                              <img id="upload-img" src="https://via.placeholder.com/500x500" alt="Your Image Here">
+                              <div class="upload-icon-container">
+                                <input type="file" class="upload-file" name="image" accept="image/*" capture style="display:none" onchange="readURL(this);">
+                                <span class="uk-icon-camera upload-icon"></span>
+                              </div>
+                            </div>
+                            <p>Ideal image size is 500x500px - larger images will be automatically cropped and resized</p>
+                          </div>
                         <form class="uk-form">
                             <div class="help-box">
                                 <span class="uk-icon-question-circle" title="Help"></span>
