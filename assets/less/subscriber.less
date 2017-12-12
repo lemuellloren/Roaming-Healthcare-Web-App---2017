@@ -82,6 +82,8 @@
 }
 
 
+
+
 /* END SUBSCRIBER HERO BANEER SECTION  AREA STYLES */
 
 
@@ -170,6 +172,8 @@
 }
 
 
+
+
 /* END FEATURED SERVICES SECTION  AREA STYLES */
 
 
@@ -254,6 +258,8 @@
         }
     }
 }
+
+
 
 
 /* END TESTIMONIALS SECTION  AREA STYLES */
@@ -398,6 +404,8 @@
 }
 
 
+
+
 /* END PLAN SECTION  AREA STYLES */
 
 #partners-section {
@@ -429,15 +437,26 @@
         color: @darkgray;
         opacity: 0.1;
     }
+    .partner-title {
+        padding: 0 0 40px 0;
+        @media @width-768 {
+            padding: 0;
+        }
+    }
     .partner-logo-div {
         li {
+            padding: 0 !important;
             @media @width-768 {
                 padding-left: 35px;
                 padding-right: 35px;
             }
         }
-        figure {
-            margin: 0;
-        }
+    }
+    figure {
+        margin: 0 auto;
+        text-align: center;
+    }
+    img {
+        height: 80px;
     }
 }
