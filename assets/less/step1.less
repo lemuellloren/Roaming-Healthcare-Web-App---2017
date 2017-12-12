@@ -7,6 +7,8 @@
 @import '../bower_components/uikit/less/components/slidenav.less';
 @import '../bower_components/uikit/less/components/form-select.less';
 
+
+
 /* #hero, #about, #contact, etc. */
 
 
@@ -21,6 +23,8 @@
         margin-bottom: -110px;
     }
 }
+
+
 
 
 /* END VERIFY EMAIL BANNER SYTLES AREA  */
@@ -62,6 +66,37 @@
             cursor: pointer;
             @media @width-768 {
                 width: 200px;
+            }
+        }
+    }
+    .upload-photo {
+        margin-top: -15px;
+        text-align: center;
+        @media @width-768 {
+            display: inline-flex;
+            padding-top: 40px;
+        }
+        #accountForm {
+            padding: 25px 0 0 0;
+            text-align: left;
+            border-bottom: 1px dotted #444;
+            @media @width-768 {
+                padding-top: 0;
+                text-align: center;
+                border: 0px;
+            }
+            input {
+                .contact-field();
+                width: 100%;
+                height: 40px;
+                border-radius: 3px;
+                border: solid 1px @gray;
+                @media @width-768 {
+                    width: 80%;
+                }
+                &::placeholder {
+                    color: @lighergray !important;
+                }
             }
         }
     } // uk tabs custom css
@@ -228,8 +263,7 @@
             color: @blue;
             text-transform: initial;
             padding-top: 60px;
-        }
-        // .billing-btn-container {
+        } // .billing-btn-container {
         //     text-align: center;
         //     padding: 30px 0 0 0;
         //     .billing-btn {
@@ -237,7 +271,7 @@
         //         height: 30px;
         //     }
         // }
-        form#billingAddressForm{
+        form#billingAddressForm {
             padding-top: 25px;
             text-align: center;
 
@@ -254,7 +288,7 @@
                     color: @lighergray !important;
                 }
             }
-            button{
+            button {
                 .btn-orange();
                 width: auto;
                 height: auto;
@@ -262,17 +296,17 @@
                 margin-top: 20px;
             }
         }
-        .uk-grid{
+        .uk-grid {
             margin: 0px;
-            div{
+            div {
                 padding: 0px;
             }
         }
-        @media @width-768{
-            .padding-left{
+        @media @width-768 {
+            .padding-left {
                 padding-left: 15px !important;
             }
-            .padding-right{
+            .padding-right {
                 padding-right: 15px !important;
             }
         }
@@ -389,7 +423,7 @@
         }
     } //Basic info css
     .basic-info-container {
-        .uk-form-select{
+        .uk-form-select {
             width: 100%;
             height: 40px;
             border-radius: 3px;
@@ -399,13 +433,13 @@
             position: relative;
             text-align: left;
             margin-bottom: 10px;
-            i{
+            i {
                 position: absolute;
                 right: 10px;
                 top: 12px;
             }
         }
-        .upload-photo-logo{
+        .upload-photo-logo {
             text-align: center;
             margin: 0 auto 30px auto;
             .upload-photo-angkol {
@@ -490,34 +524,34 @@
                 }
             }
         }
-        .basic-info-fields{
+        .basic-info-fields {
             padding: 15px 0 35px 0;
-            @media @width-768{
+            @media @width-768 {
                 padding: 15px 0 60px 0;
             }
             border-bottom: 1px dotted #444444;
-            .other-information{
+            .other-information {
                 overflow-x: scroll;
                 margin-bottom: 15px;
-                table{
+                table {
                     margin: 0;
                     border: 1px solid @lightergray;
-                    th{
+                    th {
                         text-align: center;
                         font-weight: normal;
                         font-size: @default-font-size - 4;
                         font-family: @secondary-font;
                         border: 1px solid @lightergray;
                     }
-                    td{
+                    td {
                         border: 1px solid @lightergray;
                         text-align: center;
                         font-size: @default-font-size - 4;
                         font-family: @secondary-font;
                         font-weight: normal;
-                        i{
+                        i {
                             padding: 0 3px;
-                            &:before{
+                            &:before {
                                 font-size: @default-font-size + 2;
                                 color: @orange;
                             }
@@ -525,7 +559,7 @@
                     }
                 }
             }
-            button.save-changes{
+            button.save-changes {
                 .btn-orange();
                 width: auto;
                 height: auto;
@@ -555,7 +589,7 @@
         .language-div {
             padding-bottom: 20px;
         }
-                
+
         .num-list {
             padding-left: 15px;
         }
@@ -576,7 +610,7 @@
                 &:focus {
                     outline: none;
                 }
-                &:hover{
+                &:hover {
                     text-decoration: none;
                 }
             }
@@ -637,77 +671,76 @@
                 width: auto;
                 padding: 6px 13px;
                 font-weight: normal;
-                &:hover{
+                &:hover {
                     text-decoration: none;
                 }
             }
         }
-        .documents{
+        .documents {
             padding: 35px 0;
-            .uk-slider{
-                li{
+            .uk-slider {
+                li {
                     padding: 0px;
-                    .document{
+                    .document {
                         margin-bottom: 25px;
-                        @media @width-960{
+                        @media @width-960 {
                             padding: 0 10px;
                         }
-                        .shadow{
+                        .shadow {
                             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
                             margin: 3px;
-                            figure.image{
+                            figure.image {
                                 overflow: hidden;
                                 height: 130px;
                                 margin: 0;
                                 width: 100%;
-                                img{
+                                img {
                                     object-fit: cover;
                                     height: 155px;
                                     width: 100%;
                                 }
                             }
-                            .uk-overlay{
-                                .uk-overlay-panel{
-                                    background: rgba(254,123,0,0.8);
+                            .uk-overlay {
+                                .uk-overlay-panel {
+                                    background: rgba(254, 123, 0, 0.8);
                                     font-family: @secondary-font;
                                     font-size: @default-font-size - 2;
                                     font-weight: normal;
-                                    @media @width-768m{
+                                    @media @width-768m {
                                         opacity: 1;
                                     }
-                                    span{
+                                    span {
                                         padding-right: 10px;
                                     }
                                 }
                             }
-                            div.docu-desc{
+                            div.docu-desc {
                                 padding: 13px 13px 20px 13px;
-                                p{
+                                p {
                                     margin: 0px;
                                     font-family: @secondary-font;
                                     font-weight: normal;
                                     font-size: @default-font-size;
                                     padding-bottom: 15px;
                                 }
-                                a{
+                                a {
                                     .btn-orange();
                                     width: auto;
                                     height: auto;
                                     padding: 6px 20px;
-                                    &:hover{
+                                    &:hover {
                                         text-decoration: none;
                                     }
                                 }
                             }
                         }
                     }
-
                 }
             }
             .service-list-arrow {
                 .btn-white();
                 width: 37px;
-                height: 41px; 
+                height: 41px;
                 outline: none;
             }
             .uk-slidenav.uk-slidenav-previous,
@@ -730,7 +763,7 @@
                     margin-right: 20px;
                 }
             }
-            .upload-docu{
+            .upload-docu {
                 text-align: center;
                 width: 145px;
                 height: 145px;
@@ -762,13 +795,13 @@
             }
         }
     }
-    .about-container{
+    .about-container {
         padding: 35px 0;
-        @media @width-768{
+        @media @width-768 {
             padding: 60px 0;
         }
         border-bottom: 1px dotted @darkgray;
-        button.save-changes{
+        button.save-changes {
             .btn-orange();
             width: auto;
             height: auto;
@@ -776,57 +809,57 @@
             margin-top: 20px;
         }
     }
-    .services{
+    .services {
         padding: 35px 0 85px 0;
-        @media @width-768{
+        @media @width-768 {
             padding: 60px 0 105px 0;
         }
         border-bottom: 1px dotted #444;
-        .add-service-container{
+        .add-service-container {
             padding: 10px 0 20px 0;
             margin-top: 20px;
-            a.add-service{
+            a.add-service {
                 .btn-orange();
                 width: auto;
                 height: auto;
                 padding: 6px 22px;
-                &:hover{
+                &:hover {
                     text-decoration: none;
                 }
             }
         }
-        .services-content{
-            li{
+        .services-content {
+            li {
                 padding: 0px;
-                .service{
-                    @media @width-960{
+                .service {
+                    @media @width-960 {
                         padding: 0 10px;
                     }
-                    .shadow{
+                    .shadow {
                         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
                         margin: 2px;
-                        .panel-content{
+                        .panel-content {
                             padding-bottom: 20px;
                         }
-                        h5{
+                        h5 {
                             background: #444;
                             color: @white;
                             font-weight: 300;
                             padding: 5px 10px;
                             text-align: center;
                         }
-                        p{
+                        p {
                             font-size: 16px;
                             padding: 0 10px 0 10px;
                             font-weight: normal;
                             font-family: @secondary-font;
                         }
-                        a{
+                        a {
                             .btn-orange();
                             width: auto;
                             height: auto;
                             padding: 6px 20px;
-                            &:hover{
+                            &:hover {
                                 text-decoration: none;
                             }
                         }
@@ -855,7 +888,7 @@
                 position: relative;
                 top: 15px;
                 float: right;
-                @media @width-768{
+                @media @width-768 {
                     top: 20px;
                 }
                 @media @width-960 {
@@ -864,16 +897,16 @@
             }
         }
     }
-    .uk-modal{
-        .uk-close{
+    .uk-modal {
+        .uk-close {
             font-size: @default-font-size + 8;
             .soft-transition();
         }
-        h3{
+        h3 {
             margin-top: 25px !important;
         }
-        form{
-            input{
+        form {
+            input {
                 .contact-field();
                 width: 100%;
                 height: 40px;
@@ -889,40 +922,41 @@
                 font-family: @secondary-font;
                 font-weight: normal;
             }
-            button, a.upload-button{
+            button,
+            a.upload-button {
                 .btn-orange();
                 width: auto;
                 height: auto;
                 padding: 10px 28px;
                 margin: 20px 0;
-                i{
+                i {
                     padding-right: 5px;
                 }
-                &:hover{
+                &:hover {
                     text-decoration: none;
                 }
             }
         }
-        .confirm-content{
+        .confirm-content {
             font-family: @secondary-font;
             font-size: @default-font-size;
             font-weight: normal;
         }
-        .footer-modal{
+        .footer-modal {
             text-align: center;
             padding: 25px 0 15px 0;
         }
-        .modal-button{
+        .modal-button {
             display: inline-block;
             width: auto !important;
             height: auto !important;
             vertical-align: top;
         }
-        .confirm{
+        .confirm {
             .btn-white();
             padding: 10px 20px;
         }
-        .back{
+        .back {
             .btn-orange();
             padding: 8px 39px;
             margin-left: 15px;
@@ -1242,6 +1276,8 @@
         padding-top: 20px;
     }
 }
+
+
 
 
 /* END VERIFY EMAIL SYTLES AREA */

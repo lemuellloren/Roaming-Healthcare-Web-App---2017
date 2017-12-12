@@ -6,16 +6,13 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Roaming Healthcare</title>
     <meta name="description" content="">
-
     <!-- OPENGRAPH META -->
     <meta property="og:url" content="https://mysite.com/mypage">
     <meta property="og:title" content="My Page Title">
     <meta property="og:description" content="">
     <meta property="og:image" content="http://mysite.com/assets/logo.jpg">
-
     <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
@@ -23,20 +20,16 @@
     <link rel="manifest" href="assets/images/favicons/manifest.json">
     <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#fe7b00">
     <meta name="theme-color" content="#ffffff">
-
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="assets/css/templates/step1.css">
-
 </head>
 
 <body>
-
     <!-- BANNER AREA -->
     <section id="gradient-banner" style="background-image: linear-gradient(43deg, #fe7b00, #3382c4); width: auto;
     height: 355px;">
     </section>
     <!-- END BANNER AREA -->
-
     <!-- CREATE LISTER ACCOUNT AREA -->
     <section id="step1-onboarding-section">
         <div class="uk-container">
@@ -54,7 +47,6 @@
                     </a>
                 </li>
             </ul>
-
             <!-- This is the  content items -->
             <div class="steps-content-area">
                 <ul id="tab-content" class="uk-switcher">
@@ -62,6 +54,12 @@
                         <figure>
                             <div>
                                 <div class="uk-alert uk-alert-warning">Your account is not yet verified.</div>
+                                <div class="upload-photo">
+                                    <form class="uk-form" id="accountForm">
+                                        <input type="text" name="name" placeholder="Full Name" required>
+                                        <input type="email" name="email" placeholder="Email Address" required>
+                                    </form>
+                                </div>
                                 <div class="biling-address">
                                     <h3>Billing Address</h3>
                                     <div class="divider-title"></div>
@@ -114,7 +112,6 @@
                                                     <p>
                                                         Link to Website
                                                     </p>
-
                                                 </div>
                                                 <div class="choose-btn-container">
                                                     <p class="price-here-orange">
@@ -150,7 +147,6 @@
                                                     <p>
                                                         View More Modal
                                                     </p>
-
                                                 </div>
                                                 <div class="choose-btn-container">
                                                     <p class="price-here-blue">
@@ -181,7 +177,6 @@
                                                     <p>
                                                         Blog Articles
                                                     </p>
-
                                                 </div>
                                                 <div class="choose-btn-container">
                                                     <p class="price-here-blue">
@@ -244,9 +239,7 @@
                                         <span class="uk-icon-question-circle" title="Help"></span>
                                         <input type="text" placeholder="Display Name (e.g. Dr. Jon Sn)" required>
                                     </div>
-
                                     <p>Business Information</p>
-
                                     <div class="uk-grid">
                                         <div class="uk-width-medium-1-2">
                                             <input type="text" placeholder="Business Name" required>
@@ -264,16 +257,11 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="map-container">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d212126.66857326083!2d150.8357076!3d-33.8257507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b218afaa2dbf%3A0xb4e18d4555a9017d!2sSydney+Children&#39;s+Hospital!5e0!3m2!1sen!2sph!4v1511162738692"
-                                            width="100%" height="488" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d212126.66857326083!2d150.8357076!3d-33.8257507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b218afaa2dbf%3A0xb4e18d4555a9017d!2sSydney+Children&#39;s+Hospital!5e0!3m2!1sen!2sph!4v1511162738692" width="100%" height="488" frameborder="0" style="border:0" allowfullscreen></iframe>
                                         <div class="uk-overlay-panel" id="toggle-cover" data-uk-toggle="{target:'#toggle-cover'}"></div>
                                     </div>
-
                                     <p>Contact Information</p>
-
                                     <div class="uk-grid">
                                         <div class="uk-width-medium-1-2">
                                             <div class="help-box">
@@ -285,11 +273,8 @@
                                             <input type="url" placeholder="Website Url" required>
                                         </div>
                                     </div>
-
                                     <input type="tel" placeholder="Contact Number" required>
-
                                     <div class="basic-info-fields">
-
                                         <p>Other Information</p>
                                         <div class="registration-s">
                                             <p>Registration(s)
@@ -298,9 +283,7 @@
                                         </div>
                                         <div class="language-div">
                                             <input name="language" type="text" placeholder="Languages (separated by comma)">
-
                                             <button type="submit" class="save-changes save-info">Save Changes</button>
-
                                         </div>
                                         <div class="other-information">
                                             <table class="uk-table">
@@ -323,12 +306,10 @@
                                                 </tr>
                                             </table>
                                         </div>
-
                                         <div class="input-fields-wrap">
                                             <a class="add-field-button" href="#add-reg" data-uk-modal="{center:true}">+ Add registration...</a>
                                         </div>
                                 </form>
-
                                 <div id="edit-reg" class="uk-modal">
                                     <div class="uk-modal-dialog">
                                         <a class="uk-modal-close uk-close" autofocus></a>
@@ -341,7 +322,6 @@
                                         </form>
                                     </div>
                                 </div>
-
                                 <div id="add-reg" class="uk-modal">
                                     <div class="uk-modal-dialog">
                                         <a class="uk-modal-close uk-close" autofocus></a>
@@ -354,7 +334,6 @@
                                         </form>
                                     </div>
                                 </div>
-
                                 <div id="delete-reg" class="uk-modal">
                                     <div class="uk-modal-dialog">
                                         <a class="uk-modal-close uk-close" autofocus></a>
@@ -369,36 +348,26 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 </div>
-
                                 <form id="about" class="uk-form">
                                     <div class="about-container">
                                         <h3>About</h3>
-
                                         <div class="divider-title"></div>
-
                                         <div class="about-area">
                                             <textarea name="language" id="business-area" cols="30" rows="10" placeholder="Tell us about your business"></textarea>
                                         </div>
-
                                         <button type="submit" class="save-changes save-info">Save Changes</button>
                                     </div>
                                 </form>
-
                                 <div class="services">
-
                                     <h3>Services</h3>
                                     <div class="divider-title"></div>
-
                                     <div class="add-service-container">
                                         <a class="add-service" href="#add-service" data-uk-modal="{center:true}">Add Service</a>
                                     </div>
-
                                     <!--slider area desktop-->
                                     <div class="services-content uk-hidden-small services-desktop">
                                         <div class="uk-slidenav-position" id="services-slider-desktop" data-uk-slider="{infinite: false}">
-
                                             <div class="uk-slider-container">
                                                 <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
                                                     <li class="uk-active">
@@ -436,7 +405,6 @@
                                                     </li>
                                                 </ul>
                                             </div>
-
                                             <div class="service-list-nav">
                                                 <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="previous">
                                                     <span class="uk-icon-chevron-left"></span>
@@ -448,11 +416,9 @@
                                         </div>
                                     </div>
                                     <!--slider area desktop-->
-
                                     <!--slider area mobile-->
                                     <div class="services-content uk-visible-small services-mobile">
                                         <div class="uk-slidenav-position" id="services-slider-mobile" data-uk-slider="{infinite: false}">
-
                                             <div class="uk-slider-container">
                                                 <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
                                                     <li>
@@ -494,10 +460,8 @@
                                                                 </div>
                                                             </div>
                                                         </li>
-
                                                 </ul>
                                             </div>
-
                                             <div class="service-list-nav">
                                                 <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="previous">
                                                     <span class="uk-icon-chevron-left"></span>
@@ -505,12 +469,10 @@
                                                 <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="next">
                                                     <span class="uk-icon-chevron-right"></span>
                                                 </button>
-
                                             </div>
                                         </div>
                                     </div>
                                     <!--slider area mobile-->
-
                                     <div id="add-service" class="uk-modal">
                                         <div class="uk-modal-dialog">
                                             <a class="uk-modal-close uk-close" autofocus></a>
@@ -523,7 +485,6 @@
                                             </form>
                                         </div>
                                     </div>
-
                                     <div id="edit-service" class="uk-modal">
                                         <div class="uk-modal-dialog">
                                             <a class="uk-modal-close uk-close" autofocus></a>
@@ -536,22 +497,16 @@
                                             </form>
                                         </div>
                                     </div>
-
                                 </div>
-
                                 <div class="documents">
-
                                     <h3>Documents</h3>
                                     <div class="divider-title"></div>
-
                                     <div class="docs-box">
                                         <a class="docs-btn" href="#add-docs" data-uk-modal="{center:true}">Add Document</a>
                                     </div>
-
                                     <!--slider area desktop-->
                                     <div class="services-content uk-hidden-small services-desktop">
                                         <div class="uk-slidenav-position" id="docs-slider-desktop" data-uk-slider="{infinite: false}">
-
                                             <div class="uk-slider-container">
                                                 <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
                                                     <li>
@@ -613,7 +568,6 @@
                                                     </li>
                                                 </ul>
                                             </div>
-
                                             <div class="service-list-nav">
                                                 <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="previous">
                                                     <span class="uk-icon-chevron-left"></span>
@@ -621,16 +575,13 @@
                                                 <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="next">
                                                     <span class="uk-icon-chevron-right"></span>
                                                 </button>
-
                                             </div>
                                         </div>
                                     </div>
                                     <!--slider area desktop-->
-
                                     <!--slider area mobile-->
                                     <div class="documents-content uk-visible-small services-mobile">
                                         <div class="uk-slidenav-position" id="docs-slider-mobile" data-uk-slider="{infinite: false}">
-
                                             <div class="uk-slider-container">
                                                 <ul class="uk-slider uk-grid-small uk-grid-width-medium-1-2">
                                                     <li>
@@ -707,7 +658,6 @@
                                                     </li>
                                                 </ul>
                                             </div>
-
                                             <div class="service-list-nav">
                                                 <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="previous">
                                                     <span class="uk-icon-chevron-left"></span>
@@ -715,12 +665,10 @@
                                                 <button class="service-list-arrow uk-slidenav-contrast" data-uk-slider-item="next">
                                                     <span class="uk-icon-chevron-right"></span>
                                                 </button>
-
                                             </div>
                                         </div>
                                     </div>
                                     <!--slider area mobile-->
-
                                     <div id="add-docs" class="uk-modal">
                                         <div class="uk-modal-dialog">
                                             <a class="uk-modal-close uk-close" autofocus></a>
@@ -739,7 +687,6 @@
                                             </form>
                                         </div>
                                     </div>
-
                                     <div id="edit-docs" class="uk-modal">
                                         <div class="uk-modal-dialog">
                                             <a class="uk-modal-close uk-close" autofocus></a>
@@ -758,7 +705,6 @@
                                             </form>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </figure>
@@ -767,7 +713,6 @@
                 </div>
             </div>
     </section>
-
     <!--Proceed to Create Listing-->
     <section id="proceed-btn-section">
         <div class="uk-container">
@@ -777,13 +722,11 @@
         </div>
     </section>
     <!--Proceed to Create Listing-->
-
     <!--layouts-->
     <section id="listing-section" class="listing-layout">
         <div class="uk-container">
             <h3>LISTING LAYOUT</h3>
             <div class="divider-title"></div>
-
             <form action="dashboard.html" method="post">
                 <div class="uk-grid uk-grid-collapse">
                     <div class="uk-width-1-1 uk-width-medium-1-2">
@@ -796,9 +739,7 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="uk-width-medium-1-2 uk-hidden-small"></div>
-
                     <div class="uk-width-1-1 uk-width-medium-1-2">
                         <!--layout 1-->
                         <div class="layout-container-1">
@@ -808,7 +749,6 @@
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
-
                             <div class="uk-panel">
                                 <figure class="uk-overlay">
                                     <img class="profile-img-blur" src="assets/images/listing/1x1.jpg" alt="Profile Background">
@@ -820,7 +760,6 @@
                                         </p>
                                     </figcaption>
                                 </figure>
-
                                 <div class="profile-content">
                                     <h3 class="uk-panel-title">
                                         Tootsy Dental Practice
@@ -834,7 +773,6 @@
                                             &nbsp;(02) 9072 7359
                                         </a>
                                     </div>
-
                                     <div class="website-link">
                                         <a href="http://example.com/" class="website-com">
                                             <span class="uk-icon-globe"></span> website.com
@@ -848,7 +786,6 @@
                         </div>
                         <!--layout 1-->
                     </div>
-
                     <div class="uk-width-1-1 uk-width-medium-1-2">
                         <div class="layout-container-2">
                             <div class="checkbox-container">
@@ -869,9 +806,7 @@
                                         </p>
                                     </li>
                                 </ul>
-
                                 <div class="line"></div>
-
                                 <div class="profile-content">
                                     <h3 class="uk-panel-title">
                                         Tootsy Dental Practice
@@ -885,13 +820,11 @@
                                             &nbsp;(02) 9072 7359
                                         </a>
                                     </div>
-
                                     <div class="website-link-2">
                                         <a href="http://example.com/" class="website-com">
                                             <span class="uk-icon-globe"></span> website.com
                                         </a>
                                     </div>
-
                                     <div class="msg-cirle-container">
                                         <button class="msg-btn-circle">Message</button>
                                     </div>
@@ -900,7 +833,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="publish-btn-container">
                     <button class="publish-btn" type="submit">Publish Listing</button>
                 </div>
@@ -909,8 +841,6 @@
     </section>
     <!--layouts-->
     <!-- END CREATE LISTER ACCOUNT AREA -->
-
-
     <!-- SITE MENU AREA-->
     <nav>
         <!--MOBILE SITE MENU -->
@@ -976,7 +906,6 @@
         </div>
         <!-- END DESKTOP SITE MENU -->
     </nav>
-
     <!-- LOG IN MODAL AREA -->
     <!-- This is the modal -->
     <div id="login-modal" class="uk-modal">
@@ -985,7 +914,6 @@
             <div class="login-continer">
                 <h3>Subscriber Log-in</h3>
                 <div class="divider-title"></div>
-
                 <form class="log-in-form uk-form">
                     <input type="text" placeholder="Email Address" required>
                     <input type="password" placeholder="Password" required>
@@ -1003,13 +931,11 @@
             </div>
         </div>
     </div>
-
     <!-- LOG IN MODAL AREA -->
     <!-- END SITE MENU AREA-->
     <!--  SCRIPT -->
     <script src="assets/js/templates/step1.min.js"></script>
     <!--  SCRIPT -->
-
 </body>
 
 </html>
