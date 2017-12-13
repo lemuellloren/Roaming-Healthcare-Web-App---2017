@@ -5566,6 +5566,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/logohere.png": {
+		"ft": 32768,
+		"iS": 6139,
+		"oA": 0,
+		"oAP": "\/assets\/images\/logohere.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/logos\/logo.png": {
 		"ft": 32768,
 		"iS": 16621,
